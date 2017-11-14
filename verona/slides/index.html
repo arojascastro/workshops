@@ -78,272 +78,312 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <h2>Sesión 1</h2>
                     <p>¿Qué vamos a aprender hoy?</p>
                     <ul>
-                        <li>1. Edición académica digital: teorías y modalidades</li>
-                        <li>2. Sintaxis del lenguaje de marcado XML</li>
-                        <li>3. Estructura básica de un documento TEI</li>
+                        <li>1. Introducción a la edición académica digital</li>
+                        <li>2. El lenguaje de marcado XML</li>
+                        <li>3. La codificación TEI</li>
                         <li>4. Funcionamiento del editor Oxygen</li>
                     </ul>
                 </section>
-                <!-- 1. Edición académica digital: -->
+                <!-- 1. Edición académica digital -->
                 <section>
                     <section>
-                        <h3>1. Edición académica digital:<br /> teorías y modalidades</h3>
-                    </section>
-                    <!-- slide con párrafo -->
-                    <section>
-                        <h3>Título</h3>
-                        <p>Párrafo</p>
-                    </section>
-                    <!-- slide con cita -->
-                    <section>
-                        <h3>Título</h3>
-                        <blockquote>Cita</blockquote>
-                    </section>
-                    <!-- slide con código -->
-                    <section>
-                        <h3>Título</h3>
-                        <pre>
-<code>
-        <head>
-              <num>119</num>
-            </head>
-            <lg rend="center">
-              <lg>
-                <l n="1" xml:id="l119.1">¡Qué de invidiosos montes levantados,</l>
-                <l n="2" xml:id="l119.2">    de nieves impedidos,</l>
-                <l n="3" xml:id="l119.3">me contienden tus dulces ojos bellos!</l>
-                <l n="4" xml:id="l119.4">¡Qué de ríos del hielo tan atados,</l>
-                <l n="5" xml:id="l119.5">    del agua tan crecidos,</l>
-                <l n="6" xml:id="l119.6">me defienden el ya volver a vellos!</l>
-                <l n="7" xml:id="l119.7">    ¡Y qué, burlando dellos,</l>
-                <l n="8" xml:id="l119.8">    el noble pensamiento</l>
-                <l n="9" xml:id="l119.9">por verte viste plumas, pisa el viento!</l>
-              </lg>
-              <lg>
-                <l n="10" xml:id="l119.10">Ni a las tinieblas de la noche obscura</l>
-                <l n="11" xml:id="l119.11">    ni a los hielos perdona,</l>
-                <l n="12" xml:id="l119.12">y a la mayor dificultad engaña;</l>
-                <l n="13" xml:id="l119.13">no hay guardas hoy de llave tan segura</l>
-                <l n="14" xml:id="l119.14">    que nieguen tu persona,</l>
-                <l n="15" xml:id="l119.15">que no desmienta con discreta maña,</l>
-                <l n="16" xml:id="l119.16">    ni emprenderá hazaña</l>
-                <l n="17" xml:id="l119.17">    tu esposo cuando lidie,</l>
-                <l n="18" xml:id="l119.18">que no la registre él, y yo no invidie.</l>
-              </lg>
-              <lg>
-                <l n="19" xml:id="l119.19">Allá vueles, lisonja de mis penas,</l>
-                <l n="20" xml:id="l119.20">    que con igual licencia</l>
-                <l n="21" xml:id="l119.21">penetras el abismo, el cielo escalas;</l>
-                <l n="22" xml:id="l119.22">y mientras yo te aguardo en las cadenas</l>
-                <l n="23" xml:id="l119.23">    desta rabiosa ausencia,</l>
-                <l n="24" xml:id="l119.24">al viento agravien tus ligeras alas.</l>
-                <l n="25" xml:id="l119.25">    Ya veo que te calas</l>
-                <l n="26" xml:id="l119.26">    donde bordada tela</l>
-                <l n="27" xml:id="l119.27">un lecho abriga y mil dulzuras cela.</l>
-              </lg>
-</code>
-</pre>
-                    </section>
-                    <!-- slide con lista 1 -->
-                    <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
-                        <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
-                    </section>
-                    <!-- slide con lista 2 -->
-                    <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
-                        <ul>
-                            <li>Item 1<!-- lista 2 --><ul>
-                                    <li>a</li>
-                                    <li>b</li>
-                                </ul></li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
+                        <h3>1. Introducción a la edición académica digital</h3>
                     </section>
                 </section>
                 <!-- 2. Sintaxis del lenguaje de marcado XML -->
                 <section>
                     <section>
-                        <h3>2. Sintaxis del lenguaje de marcado XML</h3>
+                        <h3>2. El lenguaje de marcado XML</h3>
                     </section>
-                    <!-- slide con párrafo -->
-                    <section>
-                        <h3>Título</h3>
-                        <p>Párrafo</p>
+                    <section>   
+                        <h3>¿Por qué utilizamos lenguaje de marcado?</h3>
+                        <ul>
+                            <li>Porque nos ayuda a explicitar las propiedades de los textos y comunicarlas a nosotros mismos,  a otras personas y a los ordenadores.</li>
+                            <li>Porque nos permite enriquecer los textos añadiendo anotaciones múltiples, de tal modo que a partir de un solo archivo se pueden generar distintos documentos.</li>
+                            <li>Porque favorece la reutilización de la información y permite transformar el documento en otros formatos y contextos y para otros destinatarios.</li>
+                        </ul>
                     </section>
-                    <!-- slide con cita -->
                     <section>
-                        <h3>Título</h3>
-                        <blockquote>Cita</blockquote>
+                        <p>¿Qué lenguajes de marcado conoces? <br />¿Algunos nombres?</p>
                     </section>
-                    <!-- slide con código -->
                     <section>
-                        <h3>Título</h3>
-                        <pre>
+                        <h3>Dos tipos de lenguaje de marcado</h3>
+                        <ul>
+                            <li><strong>Presentacional</strong>: visualiza el aspecto de un texto --> <br /><em>Edición digital y análisis cuantitativo...</em></li>
+                            <li><strong>Descriptivo</strong>: representa el contenido de un texto --> <br />
+                               <code><title>Edición digital y análisis cuantitativo...</title></code>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>El lenguaje de marcado descriptivo</h3>
+                        <ul>
+                            <li>Separa el contenido de un texto de su aspecto a fin de facilitar la reutilización de la información.</li>
+                            <li>Permite realizar cambios sobre el aspecto en una colección de textos.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>No hay modelado neutral</h3>
+                        <ul>
+                            <li>Etiquetar un texto con lenguaje de marcado es un acto interpretativo.</li>
+                            <li>El proceso se conoce como <em>modelado</em> y conlleva una serie de acciones como análisis, selección y representación.</li>
+                            <li>Todos somos hijos de nuestra época, cargamos con una experiencia editorial concreta, disponemos de recursos limitados y tenemos intereses muy específicos.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>No hay modelado neutral</h3>
+                        <ul>
+                            <li>¿Qué propiedades textuales te interesan?</li>
+                            <li>¿Qué relaciones puedes establecer entre dichas propiedades textuales?</li>
+                            <li>¿Cuáles son sus atributos?</li>
+                            <li>Y sobre todo: ¿cómo quieres procesar la información?</li>
+                        </ul>
+                    </section>
+                     <section>
+                        <img src="img/levels_text.jpeg" width="500"/>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                    </section>
+                    <section>   
+                        <h3>Hello, XML!</h3>
+                        <ul>
+                            <li>XML es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
+                            <li>Se distingue de HTML en tres aspectos:
+                                <ul>
+                                    <li>XML es extensible</li>
+                                    <li>XML debe estar bien formado</li>
+                                    <li>XML puede validarse con un esquema</li>
+                                </ul>
+                            </li>
+                            <li>XML requiere el uso de textos en Unicode (ISO 10646).</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>¿Qué aspecto tiene un documento XML?</h3>
+<!--<pre>
 <code>
-        <lg>
-            <l>Estas, que me dictó, rimas sonoras,</l>
-            <l>culta sí, aunque bucólica, Talía,</l>
-            <l>oh excelso conde, en las purpúreas horas</l>
-            <l>que es rosas la alba y rosicler el día,</l>
-            <l n="5">ahora que de luz tu Niebla doras,</l>
-            <l>escucha, al son de la zampoña mía,</l>
-            <l>si ya los muros no te ven, de Huelva,</l>
-            <l>peinar el viento, fatigar la selva.</l>
-         </lg>
+    <edicion>
+      <encabezado>Información sobre el documento</encabezado>
+      <cuerpo>
+        <paratextos>Comentario de texto</paratextos>
+        <texto tipo="cancion">Estrofas del poema</texto>
+        <apendice n="1">Notas</apendice>
+        <apendice n="2">Bibliografía</apendice>
+      </cuerpo>
+    </edicion>
 </code>
-</pre>
+</pre>-->
                     </section>
-                    <!-- slide con lista 1 -->
                     <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
+                        <h3>Sintaxis del XML</h3>
                         <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>Un documento XML debe contener al menos un elemento.</li>
+                            <li>Elemento XML = etiqueta de inicio + contenido (opcional) + etiqueta de cierre</li>
+                            <li>El contenido del elemento puede ser una cadena de caracteres Unicode o bien otros elementos.</li>
+                            <li>Un elemento puede contener uno o más atributos; los atributos consisten en un nombre y un valor determinado.</li>
+                            <li>Un documento XML también puede contener instrucciones de procesamiento, comentarios y referencias a entidades (entity references).</li>
                         </ul>
                     </section>
-                    <!-- slide con lista 2 -->
                     <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
+                        <h3>Un documento XML está bien formado cuando...</h3>
                         <ul>
-                            <li>Item 1<!-- lista 2 --><ul>
-                                    <li>a</li>
-                                    <li>b</li>
-                                </ul></li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>solo hay un único elemento raíz;</li>
+                            <li>todos elementos se anidan unos en otros formando una estructura arbórea contenida en el elemento raíz;</li>
+                            <li>todos nombres de los elementos y atributos están escritos correctamente;</li>
+                            <li>todos los elementos contienen una etiqueta de apertura y de cierre;</li>
+                            <li>los valores de los atributos están entrecomillados.</li>
                         </ul>
                     </section>
+                    <section>
+                        <img src="img/xml_tree.jpg" width="600"/>
+                    </section>
+                    <section>
+                        <h3>La declaración XML</h3>
+                        <p>Se sitúa al inicio del documento y sirve para...</p>
+                        <ul>
+                            <li>especificar que se trata de un documento XML;</li>
+                            <li>especificar la versión XML utilizada;</li>
+                            <li>especificar qué codificación de caracteres se está empleando.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>La declaración XML</h3>
+                        <!--<pre>
+<code>
+    <?xml version="1.0" encoding="UTF-8"?>
+        <edicion>
+          <encabezado>Información sobre el documento</encabezado>
+          <cuerpo>
+            <paratextos>Comentario de texto</paratextos>
+            <texto tipo="cancion">Estrofas del poema</texto>
+            <apendice n="1">Notas</apendice>
+            <apendice n="2">Bibliografía</apendice>
+          </cuerpo>
+        </edicion>
+</code>
+</pre>-->
+                    </section>
+                    <section>
+                        <h3>Algunas particularidades...</h3>
+                        <ul>
+                            <li>Algunos caracteres especiales como corchete angular y ampersand no pueden representarse como tal sino utilizando entidades.</li>
+                            <li>Las entidades se delimitan con ampersand y ;</li>
+                            <li>Podemos añadir comentarios, pero para que no se interpreten como XML deben estar delimitados por <!-- --></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                    </section>
+                   
                 </section>
-                <!-- 3. Estructura básica de un documento TEI -->
+                <!-- 3. La codificación TEI -->
                 <section>
                     <section>
-                        <h3>3. Estructura básica de un documento TEI</h3>
+                        <h3>3. La codificación TEI</h3>
                     </section>
-                    <!-- slide con párrafo -->
                     <section>
-                        <h3>Título</h3>
-                        <p>Párrafo</p>
-                    </section>
-                    <!-- slide con cita -->
-                    <section>
-                        <h3>Título</h3>
-                        <blockquote>Cita</blockquote>
-                    </section>
-                    <!-- slide con código -->
-                    <section>
-                        <h3>Título</h3>
-                        <pre>
-<code>
-        <lg>
-            <l>Estas, que me dictó, rimas sonoras,</l>
-            <l>culta sí, aunque bucólica, Talía,</l>
-            <l>oh excelso conde, en las purpúreas horas</l>
-            <l>que es rosas la alba y rosicler el día,</l>
-            <l n="5">ahora que de luz tu Niebla doras,</l>
-            <l>escucha, al son de la zampoña mía,</l>
-            <l>si ya los muros no te ven, de Huelva,</l>
-            <l>peinar el viento, fatigar la selva.</l>
-         </lg>
-</code>
-</pre>
-                    </section>
-                    <!-- slide con lista 1 -->
-                    <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
+                        <h3>¿Qué es?</h3>
+                        <img src="img/tei_logo.png" width="200"/>
                         <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>La Text Encoding Initiative (TEI) es un modelo abstracto con el que representara textos académicos en format digital cuyos orígenes se remontan a 1994.</li>
+                            <li>Las <em>Guidelines</em> de la TEI es una publicación que consta de 23 capíulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y atributos.</li>
                         </ul>
                     </section>
-                    <!-- slide con lista 2 -->
                     <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
+                        <img src="img/guidelines.png" width="800"/>
+                    </section>
+                    <section>
+                        <h3>Componentes principales de un documento TEI</h3>
                         <ul>
-                            <li>Item 1<!-- lista 2 --><ul>
-                                    <li>a</li>
-                                    <li>b</li>
-                                </ul></li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>Un documento TEI contiene un elemento <strong>TEI</strong> con datos y metadatos.</li>
+                            <li>Los metadatos se hallan en el elemento <strong>teiHeader</strong>.</li>
+                            <li>Los datos (en nuestro caso el texto poético) se hallan en el elemento <strong>text</strong>.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Estructura básica de un documento TEI</h3>
+<pre>
+    <code>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0">
+          <teiHeader>
+              <fileDesc>
+                 <titleStmt>
+                    <title>Título de la edición</title>
+                 </titleStmt>
+                 <publicationStmt>
+                    <p>Información sobre la publicación</p>
+                 </publicationStmt>
+                 <sourceDesc>
+                    <p>Información sobre la fuente de la que deriva el texto.</p>
+                 </sourceDesc>
+              </fileDesc>
+          </teiHeader>
+          <text>
+              <body>
+                 <p>El poema va aquí</p>
+              </body>
+          </text>
+        </TEI>
+    </code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Componentes principales del <strong>teiHeader</strong></h3>
+                        <ul>
+                            <li><strong>fileDesc</strong>:
+                                <ul>
+                                    <li>titleStmt</li>
+                                    <li>editionStmt</li>
+                                    <li>publicationStmt</li>
+                                    <li>sourceDesc</li>
+                                </ul>
+                            </li>
+                            <li><strong>profileDesc</strong>:
+                                <ul>
+                                    <li>particDesc</li>
+                                    <li>settingDesc</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Estructura básica del <strong>teiHeader</strong></h3>
+<pre>
+    <code>
+       <teiHeader>
+
+            <fileDesc>
+                <titleStmt>Información sobre el título, el autor y el editor de la edición digital</titleStmt>
+                <editionStmt>Información sobre la edición digital</editionStmt>
+                <publicationStmt>Información sobre quién es responsable de la publicación</publicationStmt>
+                <sourceDesc>Información sobre las fuentes de las qu deriva el texto</sourceDesc>
+            </fileDesc>
+
+            <profileDesc>
+                <particDesc>Información sobre las personas implicadas o bien mencionadas en la edición.</particDesc>
+                <settingDesc>Información sobre los lugares implicados o bien mencionados en la edición.</settingDesc>
+            </profileDesc>
+
+       </teiHeader> 
+    </code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Componentes principales de <strong>text</strong></h3>
+                        <ul>
+                            <li>El texto se puede dividir en tres partes: 
+                                <ul>
+                                    <li>front (preliminares)</li>
+                                    <li>body (cuerpo de texto)</li>
+                                    <li>back (apéndices)</li>
+                                </ul>
+                            </li>
+                            <li>Cada una de estas tres partes se pueden dividir en elementos <strong>div</strong>, por ejemplo, para contener capítulos, partes o secciones.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Componentes principales de <strong>text</strong></h3>
+<pre>
+    <code>
+          <text>
+              <body>
+                 <!-- por hacer -->
+              </body>
+          </text>
+        </TEI>
+    </code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Componentes principales de <strong>div</strong></h3>
+                        <ul>
+                            <li>Por hacer</li>
+                            <li>Por hacer</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>¿Cuándo debería codificar mis textos con TEI?</h3>
+                        <ul>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </section>
                 </section>
-                <!-- 4. Funcionamiento del editor Oxygen -->
-                <section>
+
+                <!-- 4. Funcionamiento del editor Oxygen y primer ejercicio -->
+                <!--<section>
                     <section>
-                        <h3>4. Funcionamiento del editor Oxygen</h3>
+                        <h3>4. Funcionamiento del editor Oxygen y primer ejercicio</h3>
                     </section>
-                    <!-- slide con párrafo -->
-                    <section>
-                        <h3>Título</h3>
-                        <p>Párrafo</p>
-                    </section>
-                    <!-- slide con cita -->
-                    <section>
-                        <h3>Título</h3>
-                        <blockquote>Cita</blockquote>
-                    </section>
-                    <!-- slide con código -->
-                    <section>
-                        <h3>Título</h3>
-                        <pre>
-<code>
-        <lg>
-            <l>Estas, que me dictó, rimas sonoras,</l>
-            <l>culta sí, aunque bucólica, Talía,</l>
-            <l>oh excelso conde, en las purpúreas horas</l>
-            <l>que es rosas la alba y rosicler el día,</l>
-            <l n="5">ahora que de luz tu Niebla doras,</l>
-            <l>escucha, al son de la zampoña mía,</l>
-            <l>si ya los muros no te ven, de Huelva,</l>
-            <l>peinar el viento, fatigar la selva.</l>
-         </lg>
-</code>
-</pre>
-                    </section>
-                    <!-- slide con lista 1 -->
-                    <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
-                        <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
-                    </section>
-                    <!-- slide con lista 2 -->
-                    <section>
-                        <h3>Título</h3>
-                        <!-- lista 1-->
-                        <ul>
-                            <li>Item 1<!-- lista 2 --><ul>
-                                    <li>a</li>
-                                    <li>b</li>
-                                </ul></li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
-                    </section>
-                </section>
+                </section>-->
                 <!-- conclusiones -->
-                <section>
+
+                <!--<section>
                     <h2>Conclusiones... preguntas... ¿debate?</h2>
                     <img src="img/homer.png" width="500" />
-                </section>
+                </section>-->
+            
             </div>
         </div>
         <script src="../reveal/lib/js/head.min.js"></script>
