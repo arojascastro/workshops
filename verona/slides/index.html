@@ -31,10 +31,6 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
               font-size: 0.8em;
               line-height: 1em;
               color: #82CAFF;
-            }
-            .highlight{
-              font-weight: bold;
-              color: orange;
             }</style>
     </head>
     <body>
@@ -58,7 +54,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                 <section>
                     <h2>Sesiones</h2>
                     <ul>
-                        <li>29/11/2017: Introducción a la edición digital de textos poéticos</li>
+                        <li>29/11/2017: Introducción a la edición académica digital</li>
                         <li>30/11/2017: Ejercicios prácticos de codificación TEI</li>
                         <li>06/12/2017: Ejercicios prácticos de transformación XSLT</li>
                         <li>07/12/2017: Introducción a Stylo (clasificación y palabras distintivas)</li>
@@ -79,7 +75,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <p>¿Qué vamos a aprender hoy?</p>
                     <ul>
                         <li>1. Introducción a la edición académica digital</li>
-                        <li>2. El lenguaje de marcado XML</li>
+                        <li>2. El lenguaje de marcado</li>
                         <li>3. La codificación TEI</li>
                         <li>4. Funcionamiento del editor Oxygen</li>
                     </ul>
@@ -89,20 +85,55 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>1. Introducción a la edición académica digital</h3>
                     </section>
-                </section>
-                <!-- 2. Sintaxis del lenguaje de marcado XML -->
-                <section>
                     <section>
-                        <h3>2. El lenguaje de marcado XML</h3>
-                    </section>
-                    <section>
-                        <h3>¿Por qué utilizamos lenguaje de marcado?</h3>
+                        <h3>¿Qué nos permite la codificación de textos digitales?</h3>
                         <ul>
-                            <li>Porque nos ayuda a explicitar las propiedades de los textos y comunicarlas a nosotros mismos, a otras personas y a los ordenadores.</li>
-                            <li>Porque nos permite enriquecer los textos añadiendo anotaciones múltiples, de tal modo que a partir de un solo archivo se pueden generar distintos documentos.</li>
-                            <li>Porque favorece la reutilización de la información y permite transformar el documento en otros formatos y contextos y para otros destinatarios.</li>
+                            <li>Publicar en internet y llegar a más destinatarios.</li>
+                            <li>Representar distinciones semánticas muy sutiles.</li>
+                            <li>Obtener múltiples documentos (output) a partir de una sola fuente (input):<ul>
+                                    <li>diferentes medios (web, móvil, PDF)</li>
+                                    <li>modalidades de edición (paleográfica, modernizada, con aparato)</li>
+                                    <li>filtros (índices, tablas de contenidos)</li>
+                                </ul>
+                            </li>
                         </ul>
                     </section>
+                    <section>
+                        <h3>¿Qué nos permite la codificación de textos digitales?</h3>
+                        <ul>
+                            <li>Favorecer el intercambio de datos y las búsquedas federadas.</li>
+                            <li>Potenciar la reutilización de los datos y los textos con otros propósitos.</li>
+                            <li>Fortalecer el mantenimiento y la preservación de los textos a largo plazo a través de copias distribuidas.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>La publicación electrónica</h3>
+                        <ul>
+                            <li>Audiencia mayor</li>
+                            <li>No tiene las restricciones del papel en cuanto a la escala.</li>
+                            <li>Incorpora contenido multimedia y hiperenlaces.</li>
+                            <li>Incrementa la velocidad con que actualizamos los contenidos.</li>
+                            <li>Modifica nuestra forma de trabajar y de entender los textos (precisión y cuantificación).</li>
+                            <li>Desplaza el coste desde la publicación (impresión en papel) a la creación y mantenimiento de los recursos.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                    </section>
+                </section>
+                <!-- 2. El lenguaje de marcado -->
+                <section>
+                    <section>
+                        <h3>2. El lenguaje de marcado</h3>
+                    </section>
+                    <!--<section>
+                        <h3>¿Por qué utilizamos lenguaje de marcado?</h3>
+                        <ul>
+                            <li>Ayuda a explicitar las propiedades de los textos y comunicarlas a nosotros mismos, a otras personas y a los ordenadores.</li>
+                            <li>Permite enriquecer los textos añadiendo anotaciones múltiples, de tal modo que a partir de un solo archivo se pueden generar distintos documentos.</li>
+                            <li>Favorece la reutilización de la información y permite transformar el documento en otros formatos y contextos y para otros destinatarios.</li>
+                        </ul>
+                    </section>-->
                     <section>
                         <p>¿Qué lenguajes de marcado conoces? <br />¿Algunos nombres?</p>
                     </section>
@@ -111,7 +142,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <ul>
                             <li><strong>Presentacional</strong>: visualiza el aspecto de un texto --> <br /><em>Edición digital y análisis cuantitativo...</em></li>
                             <li><strong>Descriptivo</strong>: representa el contenido de un texto --> <br />
-                                <code><title>Edición digital y análisis cuantitativo...</title></code>
+                                <pre><code><title>Edición digital y análisis cuantitativo...</title></code></pre>
                             </li>
                         </ul>
                     </section>
@@ -123,24 +154,27 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         </ul>
                     </section>
                     <section>
-                        <h3>No hay modelado neutral</h3>
+                        <h3>Estructurar y modelar</h3>
+                        <p>Cuando hacemos explícita la estructura de un documento decimos que lo estamos <em>modelado</em>.</p>
+                        <p>El proceso conlleva una serie de acciones como análisis, selección y representación.</p>
+                    </section>
+                    <section>
+                        <h3>Estructurar y modelar</h3>
+                        <p>¿Qué ganamos al crear un modelo y aplicarlo a un documento?</p>
                         <ul>
-                            <li>Etiquetar un texto con lenguaje de marcado es un acto interpretativo.</li>
-                            <li>El proceso se conoce como <em>modelado</em> y conlleva una serie de acciones como análisis, selección y representación.</li>
-                            <li>Todos somos hijos de nuestra época, cargamos con una experiencia editorial concreta, disponemos de recursos limitados y tenemos intereses muy específicos.</li>
+                            <li>podemos comparar el documento con otros similares.</li>
+                            <li>podemos corroborar si el modelo funciona, es decir, si se trata de una abstracción adecuada y, por tanto, útil para realizar análisis posteriores.</li>
                         </ul>
                     </section>
                     <section>
                         <h3>No hay modelado neutral</h3>
-                        <ul>
-                            <li>¿Qué propiedades textuales te interesan?</li>
-                            <li>¿Qué relaciones puedes establecer entre dichas propiedades textuales?</li>
-                            <li>¿Cuáles son sus atributos?</li>
-                            <li>Y sobre todo: ¿cómo quieres procesar la información?</li>
-                        </ul>
-                    </section>
-                    <section>
                         <img src="img/levels_text.jpeg" width="500" />
+                        <p>¿Qué propiedades textuales te interesan? ¿Qué relaciones puedes establecer entre dichas propiedades textuales? ¿Cuáles son sus atributos?</p>
+                    </section>
+                    <section>
+                        <h3>No hay modelado neutral</h3>
+                        <p>Etiquetar un texto con lenguaje de marcado es un acto interpretativo.</p>
+                        <p>Todos somos hijos de nuestra época, cargamos con una experiencia editorial concreta, disponemos de recursos limitados y tenemos intereses muy específicos.</p>
                     </section>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
@@ -160,7 +194,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>¿Qué aspecto tiene un documento XML?</h3>
-                        <!--<pre>
+                     <pre>
 <code>
     <edicion>
       <encabezado>Información sobre el documento</encabezado>
@@ -172,7 +206,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
       </cuerpo>
     </edicion>
 </code>
-</pre>-->
+</pre>
                     </section>
                     <section>
                         <h3>Sintaxis del XML</h3>
@@ -208,7 +242,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>La declaración XML</h3>
-                        <!--<pre>
+                     <pre>
 <code>
     <?xml version="1.0" encoding="UTF-8"?>
         <edicion>
@@ -221,14 +255,15 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
           </cuerpo>
         </edicion>
 </code>
-</pre>-->
+</pre>
                     </section>
                     <section>
                         <h3>Algunas particularidades...</h3>
                         <ul>
                             <li>Algunos caracteres especiales como corchete angular y ampersand no pueden representarse como tal sino utilizando entidades.</li>
-                            <li>Las entidades se delimitan con ampersand y ;</li>
-                            <li>Podemos añadir comentarios, pero para que no se interpreten como XML deben estar delimitados por <!-- --></li>
+                            <li>Las entidades se delimitan con &amp; y ;</li>
+                            <li>Podemos añadir comentarios, pero para que no se interpreten como XML deben estar delimitados por <pre><code><!--   (esto es un comentario y no será interpretado como
+XML)   --></code></pre></li>
                         </ul>
                     </section>
                     <section>
@@ -245,13 +280,18 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>¿Qué es?</h3>
                         <img src="img/tei_logo.png" width="200" />
                         <ul>
-                            <li>La Text Encoding Initiative (TEI) es un modelo abstracto con el que representara textos académicos en format digital cuyos orígenes se remontan a 1994.</li>
-                            <li>Las <em>Guidelines</em> de la TEI es una publicación que consta de 23 capíulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y
+                            <li>La Text Encoding Initiative (TEI) es un modelo abstracto con el que es posible representar textos académicos en formato digital cuyos orígenes se remontan a 1987.</li>
+                            <li>Las <em>Guidelines</em> de la TEI es una publicación que consta de 23 capítulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y
                                 atributos.</li>
                         </ul>
                     </section>
                     <section>
                         <img src="img/guidelines.png" width="800" />
+                        <p>La primera versión es de 1994 (actualmente utilizamos la quinta versión o P5).</p>
+                        <p>Las <em>Guidelines</em> son modulares y adaptables a cada proyecto.</p>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
                     </section>
                     <!-- Dos partes del documento XML/TEI -->
                     <section>
@@ -303,7 +343,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <ul>
                             <li>Permiten la identificación, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</li>
                             <li>Enriquecen con información adicional los recursos electrónicos.</li>
-                            <li>Pueden describir una colección de objetos, un recurso aisaldo o bien un componente dentro de una colección más grande.</li>
+                            <li>Pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</li>
                         </ul>
                     </section>
                     <section>
@@ -385,6 +425,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
     </code>
 </pre>
                     </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                    </section>
                     <!-- TEXT -->
                     <section>
                         <h3>Componentes principales de <strong>text</strong></h3>
@@ -431,6 +474,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                             <li>Necesitas <strong>procesar y transformar</strong> tu documento XML en distintos documentos XML o HTML.</li>
                             <li>Quieres <strong>utilizar herramientas</strong> que requieren un documento TEI como fuente.</li>
                         </ul>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
                     </section>
                 </section>
                 <!-- 4. Funcionamiento del editor Oxygen y primer ejercicio -->
