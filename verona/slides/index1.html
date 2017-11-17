@@ -6,7 +6,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="../reveal/css/reveal.css" />
         <link rel="stylesheet" href="../reveal/css/theme/simple.css" />
-        <script>
+        <script type="application/javascript">
 var link = document.createElement( 'link' );
 link.rel = 'stylesheet';
 link.type = 'text/css';
@@ -95,10 +95,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>2. El lenguaje de marcado XML</h3>
                     </section>
-                    <section>   
+                    <section>
                         <h3>¿Por qué utilizamos lenguaje de marcado?</h3>
                         <ul>
-                            <li>Porque nos ayuda a explicitar las propiedades de los textos y comunicarlas a nosotros mismos,  a otras personas y a los ordenadores.</li>
+                            <li>Porque nos ayuda a explicitar las propiedades de los textos y comunicarlas a nosotros mismos, a otras personas y a los ordenadores.</li>
                             <li>Porque nos permite enriquecer los textos añadiendo anotaciones múltiples, de tal modo que a partir de un solo archivo se pueden generar distintos documentos.</li>
                             <li>Porque favorece la reutilización de la información y permite transformar el documento en otros formatos y contextos y para otros destinatarios.</li>
                         </ul>
@@ -111,7 +111,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <ul>
                             <li><strong>Presentacional</strong>: visualiza el aspecto de un texto --> <br /><em>Edición digital y análisis cuantitativo...</em></li>
                             <li><strong>Descriptivo</strong>: representa el contenido de un texto --> <br />
-                               <code><title>Edición digital y análisis cuantitativo...</title></code>
+                                <code><title>Edición digital y análisis cuantitativo...</title></code>
                             </li>
                         </ul>
                     </section>
@@ -139,18 +139,17 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                             <li>Y sobre todo: ¿cómo quieres procesar la información?</li>
                         </ul>
                     </section>
-                     <section>
-                        <img src="img/levels_text.jpeg" width="500"/>
+                    <section>
+                        <img src="img/levels_text.jpeg" width="500" />
                     </section>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
                     </section>
-                    <section>   
+                    <section>
                         <h3>Hello, XML!</h3>
                         <ul>
                             <li>XML es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
-                            <li>Se distingue de HTML en tres aspectos:
-                                <ul>
+                            <li>Se distingue de HTML en tres aspectos: <ul>
                                     <li>XML es extensible</li>
                                     <li>XML debe estar bien formado</li>
                                     <li>XML puede validarse con un esquema</li>
@@ -161,7 +160,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>¿Qué aspecto tiene un documento XML?</h3>
-<!--<pre>
+                        <!--<pre>
 <code>
     <edicion>
       <encabezado>Información sobre el documento</encabezado>
@@ -196,7 +195,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         </ul>
                     </section>
                     <section>
-                        <img src="img/xml_tree.jpg" width="600"/>
+                        <img src="img/xml_tree.jpg" width="600" />
                     </section>
                     <section>
                         <h3>La declaración XML</h3>
@@ -235,24 +234,26 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
                     </section>
-                   
                 </section>
                 <!-- 3. La codificación TEI -->
                 <section>
                     <section>
                         <h3>3. La codificación TEI</h3>
                     </section>
+                    <!-- ¿Qué es? -->
                     <section>
                         <h3>¿Qué es?</h3>
-                        <img src="img/tei_logo.png" width="200"/>
+                        <img src="img/tei_logo.png" width="200" />
                         <ul>
                             <li>La Text Encoding Initiative (TEI) es un modelo abstracto con el que representara textos académicos en format digital cuyos orígenes se remontan a 1994.</li>
-                            <li>Las <em>Guidelines</em> de la TEI es una publicación que consta de 23 capíulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y atributos.</li>
+                            <li>Las <em>Guidelines</em> de la TEI es una publicación que consta de 23 capíulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y
+                                atributos.</li>
                         </ul>
                     </section>
                     <section>
-                        <img src="img/guidelines.png" width="800"/>
+                        <img src="img/guidelines.png" width="800" />
                     </section>
+                    <!-- Dos partes del documento XML/TEI -->
                     <section>
                         <h3>Componentes principales de un documento TEI</h3>
                         <ul>
@@ -263,7 +264,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>Estructura básica de un documento TEI</h3>
-<pre>
+                        <pre>
     <code>
         <TEI xmlns="http://www.tei-c.org/ns/1.0">
           <teiHeader>
@@ -288,28 +289,88 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
     </code>
 </pre>
                     </section>
+                    <!-- METADATOS -->
                     <section>
-                        <h3>Componentes principales del <strong>teiHeader</strong></h3>
+                        <h3>¿Qué entendemos por "metadatos"?</h3>
                         <ul>
-                            <li><strong>fileDesc</strong>:
-                                <ul>
-                                    <li>titleStmt</li>
-                                    <li>editionStmt</li>
-                                    <li>publicationStmt</li>
-                                    <li>sourceDesc</li>
-                                </ul>
-                            </li>
-                            <li><strong>profileDesc</strong>:
-                                <ul>
-                                    <li>particDesc</li>
-                                    <li>settingDesc</li>
-                                </ul>
-                            </li>
+                            <li>A menudo se definen como "datos sobre los datos".</li>
+                            <li>Los metadatos son datos sobre los datos, el contexto o la estructura de los recursos electrónicos.</li>
+                            <li>Equivalen (más o menos) a la página de créditos de un libro impreso.</li>
                         </ul>
                     </section>
                     <section>
+                        <h3>¿Por qué son importantes los "metadatos"?</h3>
+                        <ul>
+                            <li>Permiten la identificación, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</li>
+                            <li>Enriquecen con información adicional los recursos electrónicos.</li>
+                            <li>Pueden describir una colección de objetos, un recurso aisaldo o bien un componente dentro de una colección más grande.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>¿Quién suele utilizar "metadatos"?</h3>
+                        <ul>
+                            <li>Los bibliotecarios utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se publican.</li>
+                            <li>Los investigadores utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido de acuerdo a
+                                determinados metadatos.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Algunos estándares de metadatos</h3>
+                        <ul>
+                            <li>DCMI = Dublin Core Metadata Initiative</li>
+                            <li>RDF = Resource Description Framework</li>
+                            <li>EAD = Encoded Archival Description</li>
+                            <li>METS = Metadata Encoding and Transcription Standards</li>
+                            <li>OAIS = Open Archival Information</li>
+                            <li>OAI-PMH = Open Archives Initiative-Protocol for Metadata Harvesting</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Los metadatos en TEI</h3>
+                        <ul>
+                            <li>TEI proporciona un vocabulario más rico que EAD y DCMI y menos abstracto que otros estándares como RDF.</li>
+                            <li>Según TEI, los metadatos que describen un recurso deben formar parte del mismo recurso y aparecer en el encabezado, es decir, la primera parte del documento TEI
+                                    (<strong>teiHeader</strong>).</li>
+                            <li>El encabezado TEI puede contener varios párrafos de prosa libre o bien una serie de elementos que contienen otros elementos.</li>
+                        </ul>
+                    </section>
+                    <!-- teiHeader -->
+                    <section>
+                        <h3>Componentes principales del <strong>teiHeader</strong></h3>
+                        <ul>
+                            <li><strong>fileDesc</strong> (file description) contiene una descripción bibliográfica completa sobre el recurso electrónico.</li>
+                            <li><strong>encodingDesc</strong> (encoding description) documenta la relación entre el texto electrónico y la fuente de la deriva (por ejemplo, intervenciones
+                                editoriales).</li>
+                            <li><strong>profileDesc</strong> (text-profile description) proporciona una descripción detallada de los elementos no bibliográficos del texto (por ejemplo, idioma,
+                                contexto de producción, personas mencionadas, palabras clave, etc.)</li>
+                            <li><strong>revisionDesc</strong> (revision description) contiene un resumen del historial de cambios del archivo electrónico.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>¡Solo el <strong>fileDesc</strong> es obligatorio!</p>
+                        <p>El resto de elementos son opcionales.</p>
+                    </section>
+                    <section>
+                        <h3>Componentes principales del <strong>fileDesc</strong></h3>
+                        <p>Algunos son obligatorios:</p>
+                        <ul>
+                            <li><strong>titleStmt</strong> proporciona un título al recurso y declara quién es el responsable de la edición.</li>
+                            <li><strong>sourceDesc</strong> documenta la fuente de la que deriva el texto electrónico.</li>
+                            <li><strong>publicationStmt</strong> registra el modo en que el texto se publica o distribuye.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Componentes principales del <strong>fileDesc</strong></h3>
+                        <p>Otros son opcionales:</p>
+                        <ul>
+                            <li><strong>editionStmt</strong> documenta el número de la edición (1a, 2a, etc.)</li>
+                            <li><strong>seriesStmt</strong> registra si el recurso forma parte de una serie de publicaciones.</li>
+                            <li><strong>extent</strong> contiene información sobre el tamaño del recursos (bytes, discos, etc.).</li>
+                            <li><strong>notesStmt</strong> proporciona información adicional en forma de nota.</li>
+                        </ul></section>
+                    <section>
                         <h3>Estructura básica del <strong>teiHeader</strong></h3>
-<pre>
+                        <pre>
     <code>
        <teiHeader>
 
@@ -320,57 +381,58 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                 <sourceDesc>Información sobre las fuentes de las qu deriva el texto</sourceDesc>
             </fileDesc>
 
-            <profileDesc>
-                <particDesc>Información sobre las personas implicadas o bien mencionadas en la edición.</particDesc>
-                <settingDesc>Información sobre los lugares implicados o bien mencionados en la edición.</settingDesc>
-            </profileDesc>
-
        </teiHeader> 
     </code>
 </pre>
                     </section>
+                    <!-- TEXT -->
                     <section>
                         <h3>Componentes principales de <strong>text</strong></h3>
                         <ul>
-                            <li>El texto se puede dividir en tres partes: 
-                                <ul>
-                                    <li>front (preliminares)</li>
-                                    <li>body (cuerpo de texto)</li>
-                                    <li>back (apéndices)</li>
+                            <li>El texto se puede dividir en tres partes: <ul>
+                                    <li><strong>front</strong> (preliminares) contiene material preliminar (resúmenes, portadas, dedicatorias, comentarios, prólogos) que se encuentral al inicio de un
+                                        documento, antes del texto principal.</li>
+                                    <li><strong>body</strong> (cuerpo de texto) contiene el texto principal (por ejemplo, el poema)</li>
+                                    <li><strong>back</strong> (anexo) contiene material suplementario situado tras el texto principal.</li>
                                 </ul>
                             </li>
-                            <li>Cada una de estas tres partes se pueden dividir en elementos <strong>div</strong>, por ejemplo, para contener capítulos, partes o secciones.</li>
+                            <li>Cada una de estas tres partes se pueden dividir con elementos <strong>div</strong>, por ejemplo, para contener capítulos, partes o secciones.</li>
                         </ul>
                     </section>
                     <section>
                         <h3>Componentes principales de <strong>text</strong></h3>
-<pre>
-    <code>
+                        <pre>
+<code>
           <text>
-              <body>
-                 <!-- por hacer -->
-              </body>
+                <front>Contiene información preliminar como una Introducción al poema.</front>
+                <tei:body>
+                    <div>Contiene la primera parte del poema.</div>
+                    <div>Contiene la segunda parte del poema.</div>
+                    <div>Contiene la tercera parte del poema.</div>
+                </tei:body>
+                <back>Contiene anexos como glosarios o bibliografía.</back>
           </text>
-        </TEI>
     </code>
 </pre>
                     </section>
                     <section>
-                        <h3>Componentes principales de <strong>div</strong></h3>
-                        <ul>
-                            <li>Por hacer</li>
-                            <li>Por hacer</li>
-                        </ul>
+                        <h3>¿Cuándo debería codificar mis textos con TEI?</h3>
+                        <p>Antes de empezar a codificar con TEI, conviene <strong>analizar</strong> en detalle los textos y <strong>definir</strong> los objetivos.</p>
+                        <p>Codificar con TEI no es díficil pero sí <strong>requiere tiempo</strong>, esfuerzo y, sobre todo, mano de obra (aunque el etiquetado puede automatizarse en parte).</p>
+                        <p>Si solo quieres publicar textos en internet y no te preocupa la preservación o el procesamiento de los archivos, utiliza HTML para representar el contenido; es mucho más
+                            simple y directo (pero también limitado).</p>
                     </section>
                     <section>
                         <h3>¿Cuándo debería codificar mis textos con TEI?</h3>
+                        <p>Utiliza la codificación TEI si...</p>
                         <ul>
-                            <li></li>
-                            <li></li>
+                            <li>Necesitas un <strong>vocabulario rico y variado</strong> para describir propiedades textuales o metadatos.</li>
+                            <li>Necesitas <strong>validar</strong> tus documentos con un esquema a fin de controlar el vocabulario y la sintaxis.</li>
+                            <li>Necesitas <strong>procesar y transformar</strong> tu documento XML en distintos documentos XML o HTML.</li>
+                            <li>Quieres <strong>utilizar herramientas</strong> que requieren un documento TEI como fuente.</li>
                         </ul>
                     </section>
                 </section>
-
                 <!-- 4. Funcionamiento del editor Oxygen y primer ejercicio -->
                 <!--<section>
                     <section>
@@ -378,12 +440,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                 </section>-->
                 <!-- conclusiones -->
-
                 <!--<section>
                     <h2>Conclusiones... preguntas... ¿debate?</h2>
                     <img src="img/homer.png" width="500" />
                 </section>-->
-            
             </div>
         </div>
         <script src="../reveal/lib/js/head.min.js"></script>
