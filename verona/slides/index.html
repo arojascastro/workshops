@@ -77,7 +77,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <li>1. Introducción a la edición académica digital</li>
                         <li>2. El lenguaje de marcado</li>
                         <li>3. La codificación TEI</li>
-                        <li>4. Funcionamiento del editor Oxygen</li>
+                        <li>4. Editar con Oxygen</li>
                     </ul>
                 </section>
                 <!-- 1. Edición académica digital -->
@@ -86,39 +86,72 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>1. Introducción a la edición académica digital</h3>
                     </section>
                     <section>
-                        <h3>¿Qué nos permite la codificación de textos digitales?</h3>
-                        <ul>
-                            <li>Publicar en internet y llegar a más destinatarios.</li>
-                            <li>Representar distinciones semánticas muy sutiles.</li>
-                            <li>Obtener múltiples documentos (output) a partir de una sola fuente (input):<ul>
-                                    <li>diferentes medios (web, móvil, PDF)</li>
-                                    <li>modalidades de edición (paleográfica, modernizada, con aparato)</li>
-                                    <li>filtros (índices, tablas de contenidos)</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>¿Qué nos permite la codificación de textos digitales?</h3>
-                        <ul>
-                            <li>Favorecer el intercambio de datos y las búsquedas federadas.</li>
-                            <li>Potenciar la reutilización de los datos y los textos con otros propósitos.</li>
-                            <li>Fortalecer el mantenimiento y la preservación de los textos a largo plazo a través de copias distribuidas.</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>La publicación electrónica</h3>
+                        <h3>El medio electrónico</h3>
                         <ul>
                             <li>Audiencia mayor</li>
                             <li>No tiene las restricciones del papel en cuanto a la escala.</li>
+                            <li>Las publicaciones son interactivas.</li>
                             <li>Incorpora contenido multimedia y hiperenlaces.</li>
                             <li>Incrementa la velocidad con que actualizamos los contenidos.</li>
-                            <li>Modifica nuestra forma de trabajar y de entender los textos (precisión y cuantificación).</li>
                             <li>Desplaza el coste desde la publicación (impresión en papel) a la creación y mantenimiento de los recursos.</li>
                         </ul>
                     </section>
                     <section>
+                        <h3>Características del texto digital</h3>
+                        <ul>
+                            <li>1. Intercambio de datos y búsquedas federadas.</li>
+                            <li>2. Reutilización de datos y textos con otros propósitos.</li>
+                            <li>3. Mantenimiento y preservación de los textos a largo plazo a través de copias distribuidas.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Características texto digital</h3>
+                        <ul>
+                            <li>4. A partir de una sola fuente (<em>input</em>), se pueden generar múltiples documentos (<em>output</em>):<ul>
+                                <li>diferentes medios (web, móvil, PDF)</li>
+                                <li>modalidades de edición (paleográfica, modernizada, con aparato de variantes)</li>
+                                <li>filtros (índices, tablas de contenidos)</li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Tareas del editor académico</h3>
+                        <ul>
+                            <li>Buscar</li>                            
+                            <li>Cotejar</li>
+                            <li>Transcribir</li>
+                            <li>Modernizar</li>
+                            <li>Corregir</li>
+                            <li>Anotar</li>
+                            <li>Explicar</li>
+                            <li>Difundir</li>
+                        </ul>
+                    </section>
+<section>
+                    <h3>El editor como intermediario</h3>
+                    <p>En la era digital, el/la editor/a sigue siendo necesario porque los textos pueden contener errores y porque deben explicarse teniendo el contexto de producción.</p>
+    <p>Las teorías editoriales tradicionales (edición crítica, filología de autor, crítica génetica, etc.) siguen siendo útiles para establecer textos.</p>
+                    <p>Nuevas tareas: modelar, codificar, transformar y publicar.</p>
+                </section>
+                    <section>
+                        <h3>Modelar</h3>
+                        <p>Cuando hacemos explícita la estructura de un documento decimos que lo estamos <em>modelado</em>.</p>
+                        <p>El proceso conlleva una serie de acciones como análisis, selección y representación.</p>
+                    </section>
+                    <section>
+                        <h3>No hay modelado neutral</h3>
+                        <img src="img/levels_text.jpeg" width="500" />
+                        <p>¿Qué propiedades textuales te interesan? ¿Qué relaciones puedes establecer entre dichas propiedades textuales? ¿Cuáles son sus atributos?</p>
+                    </section>
+                    <section>
+                        <h3>No hay modelado neutral</h3>
+                        <p>Etiquetar un texto con lenguaje de marcado es un acto interpretativo.</p>
+                        <p>Todos somos hijos de nuestra época, cargamos con una experiencia editorial concreta, disponemos de recursos limitados y tenemos intereses muy específicos.</p>
+                    </section>
+                    <section>
                         <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
                     </section>
                 </section>
                 <!-- 2. El lenguaje de marcado -->
@@ -140,8 +173,8 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>Dos tipos de lenguaje de marcado</h3>
                         <ul>
-                            <li><strong>Presentacional</strong>: visualiza el aspecto de un texto --> <br /><em>Edición digital y análisis cuantitativo...</em></li>
-                            <li><strong>Descriptivo</strong>: representa el contenido de un texto --> <br />
+                            <li><strong>Presentacional</strong>: visualiza el aspecto de un texto:<br /><em>Edición digital y análisis cuantitativo...</em></li>
+                            <li><strong>Descriptivo</strong>: representa el contenido de un texto:<br />
                                 <pre><code><title>Edición digital y análisis cuantitativo...</title></code></pre>
                             </li>
                         </ul>
@@ -149,44 +182,18 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>El lenguaje de marcado descriptivo</h3>
                         <ul>
-                            <li>Separa el contenido de un texto de su aspecto a fin de facilitar la reutilización de la información.</li>
-                            <li>Permite realizar cambios sobre el aspecto en una colección de textos.</li>
+                            <li>Separa el <strong>contenido</strong> de un texto de su <strong>aspecto</strong> a fin de facilitar la reutilización de la información.</li>
+                            <li>Permite realizar <strong>cambios</strong> sobre el aspecto en una colección de textos.</li>
                         </ul>
-                    </section>
-                    <section>
-                        <h3>Estructurar y modelar</h3>
-                        <p>Cuando hacemos explícita la estructura de un documento decimos que lo estamos <em>modelado</em>.</p>
-                        <p>El proceso conlleva una serie de acciones como análisis, selección y representación.</p>
-                    </section>
-                    <section>
-                        <h3>Estructurar y modelar</h3>
-                        <p>¿Qué ganamos al crear un modelo y aplicarlo a un documento?</p>
-                        <ul>
-                            <li>podemos comparar el documento con otros similares.</li>
-                            <li>podemos corroborar si el modelo funciona, es decir, si se trata de una abstracción adecuada y, por tanto, útil para realizar análisis posteriores.</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>No hay modelado neutral</h3>
-                        <img src="img/levels_text.jpeg" width="500" />
-                        <p>¿Qué propiedades textuales te interesan? ¿Qué relaciones puedes establecer entre dichas propiedades textuales? ¿Cuáles son sus atributos?</p>
-                    </section>
-                    <section>
-                        <h3>No hay modelado neutral</h3>
-                        <p>Etiquetar un texto con lenguaje de marcado es un acto interpretativo.</p>
-                        <p>Todos somos hijos de nuestra época, cargamos con una experiencia editorial concreta, disponemos de recursos limitados y tenemos intereses muy específicos.</p>
-                    </section>
-                    <section>
-                        <p>¿Preguntas? ¿Dudas?</p>
                     </section>
                     <section>
                         <h3>Hello, XML!</h3>
                         <ul>
-                            <li>XML es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
+                            <li><strong>XML</strong> es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
                             <li>Se distingue de HTML en tres aspectos: <ul>
-                                    <li>XML es extensible</li>
-                                    <li>XML debe estar bien formado</li>
-                                    <li>XML puede validarse con un esquema</li>
+                                <li>XML es <strong>extensible</strong></li>
+                                <li>XML debe estar <strong>bien formado</strong></li>
+                                <li>XML puede validarse con un <strong>esquema</strong></li>
                                 </ul>
                             </li>
                             <li>XML requiere el uso de textos en Unicode (ISO 10646).</li>
@@ -211,21 +218,21 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>Sintaxis del XML</h3>
                         <ul>
-                            <li>Un documento XML debe contener al menos un elemento.</li>
-                            <li>Elemento XML = etiqueta de inicio + contenido (opcional) + etiqueta de cierre</li>
-                            <li>El contenido del elemento puede ser una cadena de caracteres Unicode o bien otros elementos.</li>
-                            <li>Un elemento puede contener uno o más atributos; los atributos consisten en un nombre y un valor determinado.</li>
-                            <li>Un documento XML también puede contener instrucciones de procesamiento, comentarios y referencias a entidades (entity references).</li>
+                            <li>Un documento XML debe contener al menos <strong>un elemento</strong>.</li>
+                            <li>Elemento XML = <strong>etiqueta de inicio</strong> + contenido (opcional) + <strong>etiqueta de cierre</strong></li>
+                            <li>El <strong>contenido</strong> del elemento puede ser una cadena de caracteres Unicode o bien otros elementos.</li>
+                            <li>Un elemento puede contener uno o más <strong>atributos</strong>; los atributos consisten en un nombre y un valor determinado.</li>
+                            <li>Un documento XML también puede contener <strong>otros componentes</strong> como instrucciones de procesamiento, comentarios y referencias a entidades (<em>entity references</em>).</li>
                         </ul>
                     </section>
                     <section>
                         <h3>Un documento XML está bien formado cuando...</h3>
                         <ul>
-                            <li>solo hay un único elemento raíz;</li>
-                            <li>todos elementos se anidan unos en otros formando una estructura arbórea contenida en el elemento raíz;</li>
-                            <li>todos nombres de los elementos y atributos están escritos correctamente;</li>
-                            <li>todos los elementos contienen una etiqueta de apertura y de cierre;</li>
-                            <li>los valores de los atributos están entrecomillados.</li>
+                            <li>solo hay un único <strong>elemento raíz</strong>;</li>
+                            <li>todos elementos se anidan unos en otros formando una <strong>estructura arbórea</strong> contenida en el elemento raíz;</li>
+                            <li>todos nombres de los elementos y atributos <strong>están escritos correctamente</strong> (XML distingue entre mayúscula y minúscula);</li>
+                            <li>todos los elementos contienen una <strong>etiqueta de apertura y de cierre</strong>;</li>
+                            <li>los valores de los atributos están <strong>entrecomillados</strong>.</li>
                         </ul>
                     </section>
                     <section>
@@ -235,9 +242,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>La declaración XML</h3>
                         <p>Se sitúa al inicio del documento y sirve para...</p>
                         <ul>
-                            <li>especificar que se trata de un documento XML;</li>
-                            <li>especificar la versión XML utilizada;</li>
-                            <li>especificar qué codificación de caracteres se está empleando.</li>
+                            <li>especificar que se trata de un <strong>documento XML</strong>;</li>
+                            <li>especificar la <strong>versión</strong> XML utilizada;</li>
+                            <li>especificar qué <strong>codificación de caracteres</strong> se está empleando.</li>
                         </ul>
                     </section>
                     <section>
@@ -260,9 +267,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>Algunas particularidades...</h3>
                         <ul>
-                            <li>Algunos caracteres especiales como corchete angular y ampersand no pueden representarse como tal sino utilizando entidades.</li>
-                            <li>Las entidades se delimitan con &amp; y ;</li>
-                            <li>Podemos añadir comentarios, pero para que no se interpreten como XML deben estar delimitados por <pre><code><!--   (esto es un comentario y no será interpretado como
+                            <li>Los <strong>caracteres especiales</strong> como &#60; y &amp;  no pueden representarse como tal sino utilizando entidades.</li>
+                            <li>Las <strong>entidades</strong> se delimitan con &amp; y ;</li>
+                            <li>Podemos añadir <strong>comentarios</strong>, pero para que no se interpreten como XML deben estar delimitados por <pre><code><!--   (esto es un comentario y no será interpretado como
 XML)   --></code></pre></li>
                         </ul>
                     </section>
@@ -280,15 +287,15 @@ XML)   --></code></pre></li>
                         <h3>¿Qué es?</h3>
                         <img src="img/tei_logo.png" width="200" />
                         <ul>
-                            <li>La Text Encoding Initiative (TEI) es un modelo abstracto con el que es posible representar textos académicos en formato digital cuyos orígenes se remontan a 1987.</li>
-                            <li>Las <em>Guidelines</em> de la TEI es una publicación que consta de 23 capítulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y
+                            <li>La <strong>Text Encoding Initiative</strong> (TEI) es un modelo abstracto con el que es posible representar textos académicos en formato digital cuyos orígenes se remontan a 1987.</li>
+                            <li>Las <strong><em>Guidelines</em></strong> de la TEI es una publicación que consta de 23 capítulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y
                                 atributos.</li>
                         </ul>
                     </section>
                     <section>
                         <img src="img/guidelines.png" width="800" />
-                        <p>La primera versión es de 1994 (actualmente utilizamos la quinta versión o P5).</p>
-                        <p>Las <em>Guidelines</em> son modulares y adaptables a cada proyecto.</p>
+                        <p>La primera versión es de 1994; actualmente utilizamos la quinta versión o <strong>P5</strong>.</p>
+                        <p>Las <em>Guidelines</em> son <strong>modulares y adaptables</strong> a cada proyecto.</p>
                     </section>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
@@ -333,7 +340,7 @@ XML)   --></code></pre></li>
                     <section>
                         <h3>¿Qué entendemos por "metadatos"?</h3>
                         <ul>
-                            <li>A menudo se definen como "datos sobre los datos".</li>
+                            <li>A menudo se definen como <strong>"datos sobre los datos"</strong>.</li>
                             <li>Los metadatos son datos sobre los datos, el contexto o la estructura de los recursos electrónicos.</li>
                             <li>Equivalen (más o menos) a la página de créditos de un libro impreso.</li>
                         </ul>
@@ -341,21 +348,21 @@ XML)   --></code></pre></li>
                     <section>
                         <h3>¿Por qué son importantes los "metadatos"?</h3>
                         <ul>
-                            <li>Permiten la identificación, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</li>
-                            <li>Enriquecen con información adicional los recursos electrónicos.</li>
-                            <li>Pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</li>
+                            <li>Permiten la <strong>identificación</strong>, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</li>
+                            <li><strong>Enriquecen</strong> con información adicional los recursos electrónicos.</li>
+                            <li><strong>Granularidad</strong>: pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</li>
                         </ul>
                     </section>
                     <section>
                         <h3>¿Quién suele utilizar "metadatos"?</h3>
                         <ul>
-                            <li>Los bibliotecarios utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se publican.</li>
-                            <li>Los investigadores utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido de acuerdo a
+                            <li>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se publican.</li>
+                            <li>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido de acuerdo a
                                 determinados metadatos.</li>
                         </ul>
                     </section>
                     <section>
-                        <h3>Algunos estándares de metadatos</h3>
+                        <h3>Algunos <strong>estándares</strong> de metadatos</h3>
                         <ul>
                             <li>DCMI = Dublin Core Metadata Initiative</li>
                             <li>RDF = Resource Description Framework</li>
@@ -368,10 +375,10 @@ XML)   --></code></pre></li>
                     <section>
                         <h3>Los metadatos en TEI</h3>
                         <ul>
-                            <li>TEI proporciona un vocabulario más rico que EAD y DCMI y menos abstracto que otros estándares como RDF.</li>
-                            <li>Según TEI, los metadatos que describen un recurso deben formar parte del mismo recurso y aparecer en el encabezado, es decir, la primera parte del documento TEI
+                            <li><strong>TEI</strong> proporciona un vocabulario más rico que EAD y DCMI y menos abstracto que otros estándares como RDF.</li>
+                            <li>Según TEI, los metadatos que describen un recurso deben formar parte del mismo recurso y aparecer en el <strong>encabezado</strong>, es decir, la primera parte del documento TEI
                                     (<strong>teiHeader</strong>).</li>
-                            <li>El encabezado TEI puede contener varios párrafos de prosa libre o bien una serie de elementos que contienen otros elementos.</li>
+                            <li>El encabezado TEI puede contener varios párrafos de <strong>prosa libre</strong> o bien una serie de elementos que contienen otros elementos.</li>
                         </ul>
                     </section>
                     <!-- teiHeader -->
@@ -462,7 +469,7 @@ XML)   --></code></pre></li>
                         <h3>¿Cuándo debería codificar mis textos con TEI?</h3>
                         <p>Antes de empezar a codificar con TEI, conviene <strong>analizar</strong> en detalle los textos y <strong>definir</strong> los objetivos.</p>
                         <p>Codificar con TEI no es díficil pero sí <strong>requiere tiempo</strong>, esfuerzo y, sobre todo, mano de obra (aunque el etiquetado puede automatizarse en parte).</p>
-                        <p>Si solo quieres publicar textos en internet y no te preocupa la preservación o el procesamiento de los archivos, utiliza HTML para representar el contenido; es mucho más
+                        <p>Si solo quieres publicar textos en internet y no te preocupa la preservación o el procesamiento de los archivos, <strong>utiliza HTML para representar el contenido</strong>; es mucho más
                             simple y directo (pero también limitado).</p>
                     </section>
                     <section>
@@ -478,18 +485,41 @@ XML)   --></code></pre></li>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
                     </section>
-                </section>
-                <!-- 4. Funcionamiento del editor Oxygen y primer ejercicio -->
-                <!--<section>
                     <section>
-                        <h3>4. Funcionamiento del editor Oxygen y primer ejercicio</h3>
+                        <p>¿Cuál de estos proyectos utiliza la codificación XML-TEI?</p>
+                        <img src="img/gongora.png" width="800" />
                     </section>
-                </section>-->
+                </section>
+                <!-- 4. Editar con Oxygen -->
+               <section>
+                   <section>
+                       <h3>4. Editar con Oxygen</h3>
+                   </section>
+                   <section>
+                       <h3>Ejercicio 1</h3>
+                       <p>Correción de un documento XML</p>
+                   </section>
+                   <section>
+                       <h3>Ejercicio 2</h3>
+                       <p>Crear un documento XML/TEI con Oxygen</p>
+                   </section>
+                </section>
                 <!-- conclusiones -->
-                <!--<section>
-                    <h2>Conclusiones... preguntas... ¿debate?</h2>
-                    <img src="img/homer.png" width="500" />
-                </section>-->
+                <section>
+                    <h3>Conclusiones... preguntas... ¿debate?</h3>
+                    <img src="img/homer2.jpg" width="200" />
+                </section>
+                <!-- sesión 1 -->
+                <section>
+                    <h2>Sesión 2</h2>
+                    <p>¿Qué vamos a aprender hoy?</p>
+                    <ul>
+                        <li>1. </li>
+                        <li>2. </li>
+                        <li>3. </li>
+                        <li>4. </li>
+                    </ul>
+                </section>
             </div>
         </div>
         <script src="../reveal/lib/js/head.min.js"></script>
