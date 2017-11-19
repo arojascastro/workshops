@@ -108,17 +108,17 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>Características texto digital</h3>
                         <ul>
                             <li>4. A partir de una sola fuente (<em>input</em>), se pueden generar múltiples documentos (<em>output</em>):<ul>
-                                <li>diferentes medios (web, móvil, PDF)</li>
-                                <li>modalidades de edición (paleográfica, modernizada, con aparato de variantes)</li>
-                                <li>filtros (índices, tablas de contenidos)</li>
-                            </ul>
+                                    <li>diferentes medios (web, móvil, PDF)</li>
+                                    <li>modalidades de edición (paleográfica, modernizada, con aparato de variantes)</li>
+                                    <li>filtros (índices, tablas de contenidos)</li>
+                                </ul>
                             </li>
                         </ul>
                     </section>
                     <section>
                         <h3>Tareas del editor académico</h3>
                         <ul>
-                            <li>Buscar</li>                            
+                            <li>Buscar</li>
                             <li>Cotejar</li>
                             <li>Transcribir</li>
                             <li>Modernizar</li>
@@ -128,12 +128,12 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                             <li>Difundir</li>
                         </ul>
                     </section>
-<section>
-                    <h3>El editor como intermediario</h3>
-                    <p>En la era digital, el/la editor/a sigue siendo necesario porque los textos pueden contener errores y porque deben explicarse teniendo el contexto de producción.</p>
-    <p>Las teorías editoriales tradicionales (edición crítica, filología de autor, crítica génetica, etc.) siguen siendo útiles para establecer textos.</p>
-                    <p>Nuevas tareas: modelar, codificar, transformar y publicar.</p>
-                </section>
+                    <section>
+                        <h3>El editor como intermediario</h3>
+                        <p>En la era digital, el/la editor/a sigue siendo necesario porque los textos pueden contener errores y porque deben explicarse teniendo el contexto de producción.</p>
+                        <p>Las teorías editoriales tradicionales (edición crítica, filología de autor, crítica génetica, etc.) siguen siendo útiles para establecer textos.</p>
+                        <p>Nuevas tareas: modelar, codificar, transformar y publicar.</p>
+                    </section>
                     <section>
                         <h3>Modelar</h3>
                         <p>Cuando hacemos explícita la estructura de un documento decimos que lo estamos <em>modelado</em>.</p>
@@ -191,9 +191,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <ul>
                             <li><strong>XML</strong> es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
                             <li>Se distingue de HTML en tres aspectos: <ul>
-                                <li>XML es <strong>extensible</strong></li>
-                                <li>XML debe estar <strong>bien formado</strong></li>
-                                <li>XML puede validarse con un <strong>esquema</strong></li>
+                                    <li>XML es <strong>extensible</strong></li>
+                                    <li>XML debe estar <strong>bien formado</strong></li>
+                                    <li>XML puede validarse con un <strong>esquema</strong></li>
                                 </ul>
                             </li>
                             <li>XML requiere el uso de textos en Unicode (ISO 10646).</li>
@@ -201,7 +201,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>¿Qué aspecto tiene un documento XML?</h3>
-                     <pre>
+                        <pre>
 <code>
     <edicion>
       <encabezado>Información sobre el documento</encabezado>
@@ -222,7 +222,8 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                             <li>Elemento XML = <strong>etiqueta de inicio</strong> + contenido (opcional) + <strong>etiqueta de cierre</strong></li>
                             <li>El <strong>contenido</strong> del elemento puede ser una cadena de caracteres Unicode o bien otros elementos.</li>
                             <li>Un elemento puede contener uno o más <strong>atributos</strong>; los atributos consisten en un nombre y un valor determinado.</li>
-                            <li>Un documento XML también puede contener <strong>otros componentes</strong> como instrucciones de procesamiento, comentarios y referencias a entidades (<em>entity references</em>).</li>
+                            <li>Un documento XML también puede contener <strong>otros componentes</strong> como instrucciones de procesamiento, comentarios y referencias a entidades (<em>entity
+                                    references</em>).</li>
                         </ul>
                     </section>
                     <section>
@@ -249,9 +250,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>La declaración XML</h3>
-                     <pre>
+                        <pre>
 <code>
-    <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>    
         <edicion>
           <encabezado>Información sobre el documento</encabezado>
           <cuerpo>
@@ -267,9 +268,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>Algunas particularidades...</h3>
                         <ul>
-                            <li>Los <strong>caracteres especiales</strong> como &#60; y &amp;  no pueden representarse como tal sino utilizando entidades.</li>
+                            <li>Los <strong>caracteres especiales</strong> como &#60; y &amp; no pueden representarse como tal sino utilizando entidades.</li>
                             <li>Las <strong>entidades</strong> se delimitan con &amp; y ;</li>
-                            <li>Podemos añadir <strong>comentarios</strong>, pero para que no se interpreten como XML deben estar delimitados por <pre><code><!--   (esto es un comentario y no será interpretado como
+                            <li>Podemos añadir <strong>comentarios</strong>, pero para que no se interpreten como XML deben estar delimitados por
+                                <pre><code><!--   (esto es un comentario y no será interpretado como
 XML)   --></code></pre></li>
                         </ul>
                     </section>
@@ -287,9 +289,10 @@ XML)   --></code></pre></li>
                         <h3>¿Qué es?</h3>
                         <img src="img/tei_logo.png" width="200" />
                         <ul>
-                            <li>La <strong>Text Encoding Initiative</strong> (TEI) es un modelo abstracto con el que es posible representar textos académicos en formato digital cuyos orígenes se remontan a 1987.</li>
-                            <li>Las <strong><em>Guidelines</em></strong> de la TEI es una publicación que consta de 23 capítulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de elementos y
-                                atributos.</li>
+                            <li>La <strong>Text Encoding Initiative</strong> (TEI) es un modelo abstracto con el que es posible representar textos académicos en formato digital cuyos orígenes se
+                                remontan a 1987.</li>
+                            <li>Las <strong><em>Guidelines</em></strong> de la TEI es una publicación que consta de 23 capítulos; cada capítulo cubre un <em>módulo</em>, es decir, un grupo de
+                                elementos y atributos.</li>
                         </ul>
                     </section>
                     <section>
@@ -356,9 +359,10 @@ XML)   --></code></pre></li>
                     <section>
                         <h3>¿Quién suele utilizar "metadatos"?</h3>
                         <ul>
-                            <li>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se publican.</li>
-                            <li>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido de acuerdo a
-                                determinados metadatos.</li>
+                            <li>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se
+                                publican.</li>
+                            <li>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido
+                                de acuerdo a determinados metadatos.</li>
                         </ul>
                     </section>
                     <section>
@@ -376,8 +380,8 @@ XML)   --></code></pre></li>
                         <h3>Los metadatos en TEI</h3>
                         <ul>
                             <li><strong>TEI</strong> proporciona un vocabulario más rico que EAD y DCMI y menos abstracto que otros estándares como RDF.</li>
-                            <li>Según TEI, los metadatos que describen un recurso deben formar parte del mismo recurso y aparecer en el <strong>encabezado</strong>, es decir, la primera parte del documento TEI
-                                    (<strong>teiHeader</strong>).</li>
+                            <li>Según TEI, los metadatos que describen un recurso deben formar parte del mismo recurso y aparecer en el <strong>encabezado</strong>, es decir, la primera parte del
+                                documento TEI (<strong>teiHeader</strong>).</li>
                             <li>El encabezado TEI puede contener varios párrafos de <strong>prosa libre</strong> o bien una serie de elementos que contienen otros elementos.</li>
                         </ul>
                     </section>
@@ -469,8 +473,8 @@ XML)   --></code></pre></li>
                         <h3>¿Cuándo debería codificar mis textos con TEI?</h3>
                         <p>Antes de empezar a codificar con TEI, conviene <strong>analizar</strong> en detalle los textos y <strong>definir</strong> los objetivos.</p>
                         <p>Codificar con TEI no es díficil pero sí <strong>requiere tiempo</strong>, esfuerzo y, sobre todo, mano de obra (aunque el etiquetado puede automatizarse en parte).</p>
-                        <p>Si solo quieres publicar textos en internet y no te preocupa la preservación o el procesamiento de los archivos, <strong>utiliza HTML para representar el contenido</strong>; es mucho más
-                            simple y directo (pero también limitado).</p>
+                        <p>Si solo quieres publicar textos en internet y no te preocupa la preservación o el procesamiento de los archivos, <strong>utiliza HTML para representar el contenido</strong>;
+                            es mucho más simple y directo (pero también limitado).</p>
                     </section>
                     <section>
                         <h3>¿Cuándo debería codificar mis textos con TEI?</h3>
@@ -491,18 +495,18 @@ XML)   --></code></pre></li>
                     </section>
                 </section>
                 <!-- 4. Editar con Oxygen y conocer las Guidelines -->
-               <section>
-                   <section>
-                       <h3>4. Editar con Oxygen y conocer las <em>Guidelines</em></h3>
-                   </section>
-                   <section>
-                       <h3>Ejercicio 1</h3>
-                       <p>Correción de un documento XML</p>
-                   </section>
-                   <section>
-                       <h3>Ejercicio 2</h3>
-                       <p>Explora las <em>Guidelines</em></p>
-                   </section>
+                <section>
+                    <section>
+                        <h3>4. Editar con Oxygen y conocer las <em>Guidelines</em></h3>
+                    </section>
+                    <section>
+                        <h3>Ejercicio 1</h3>
+                        <p>Correción de un documento XML</p>
+                    </section>
+                    <section>
+                        <h3>Ejercicio 2</h3>
+                        <p>Explora las <em>Guidelines</em></p>
+                    </section>
                 </section>
                 <!-- conclusiones -->
                 <section>
@@ -516,7 +520,7 @@ XML)   --></code></pre></li>
                     <ul>
                         <li>1. El encabezado TEI en detalle</li>
                         <li>2. El texto poético</li>
-                        <li>3. El texto académico</li>
+                        <li>3. El comentario de texto</li>
                         <li>4. La anotación del poema</li>
                         <li>5. El aparato de variantes</li>
                         <li>6. Validación con esquemas</li>
@@ -559,16 +563,20 @@ XML)   --></code></pre></li>
                         <h3>1. El encabezado TEI en detalle</h3>
                     </section>
                     <section>
-                    <p>El <strong>teiHeader</strong> es el lugar del archivo XML en el que se recogen los metadatos, es decir, toda aquella información que permite identificar un documento digital y declarar cuál es la fuente de la que deriva el texto. En esta parte del archivo, además, se pueden registrar otro tipo de información suplementaria como los criterios editoriales, el tipo de texto o datos relativos a la creación de la obra desde un punto de vista intelectual.</p>
+                        <p>El <strong>teiHeader</strong> es el lugar del archivo XML en el que se recogen los metadatos, es decir, toda aquella información que permite identificar un documento digital
+                            y declarar cuál es la fuente de la que deriva el texto. En esta parte del archivo, además, se pueden registrar otro tipo de información suplementaria como los criterios
+                            editoriales, el tipo de texto o datos relativos a la creación de la obra desde un punto de vista intelectual.</p>
                     </section>
                     <section>
                         <h3>Descripción del archivo</h3>
-                        <p>El elemento <strong>fileDesc</strong> contiene una serie de elementos con información bibliográfica sobre el archivo electrónico necesaria para su citación y catalogación. </p>
+                        <p>El elemento <strong>fileDesc</strong> contiene una serie de elementos con información bibliográfica sobre el archivo electrónico necesaria para su citación y catalogación.
+                        </p>
                     </section>
                     <section>
                         <h3>Título</h3>
-                        <p>Se inicia con el elemento <strong>titleStmt</strong> en donde se sitúa el título de la edición digital, el autor del texto codificado, el editor y la agencia que financia el proyecto:</p>
-<pre>
+                        <p>Se inicia con el elemento <strong>titleStmt</strong> en donde se sitúa el título de la edición digital, el autor del texto codificado, el editor y la agencia que financia el
+                            proyecto:</p>
+                        <pre>
 <code>
 <titleStmt>
     <title>Soledades. Edición digital anotada</title>
@@ -595,8 +603,9 @@ XML)   --></code></pre></li>
                     </section>
                     <section>
                         <h3>Publicación</h3>
-                        <p>Con <strong>publicationStmt</strong> se proporciona información sobre qué sujeto, institución o grupo publica el archivo electrónico y bajo qué licencia se puede acceder a él y utilizar:</p>
-<pre>
+                        <p>Con <strong>publicationStmt</strong> se proporciona información sobre qué sujeto, institución o grupo publica el archivo electrónico y bajo qué licencia se puede acceder a
+                            él y utilizar:</p>
+                        <pre>
 <code>
 <publicationStmt>
     <publisher>Cologne Center for eHumanities (CCeH)</publisher>
@@ -610,13 +619,14 @@ XML)   --></code></pre></li>
                     </section>
                     <section>
                         <h3>Descripción de las fuentes</h3>
-                        <p>El último elemento que contiene el <strong>fileDesc</strong> corresponde al <strong>sourceDesc</strong>. Se trata de un elemento obligatorio y en el caso de una edición crítica digital es el más importante porque se utiliza para registrar las fuentes de las que deriva el archivo electrónico.</p>
+                        <p>El último elemento que contiene el <strong>fileDesc</strong> corresponde al <strong>sourceDesc</strong>. Se trata de un elemento obligatorio y en el caso de una edición
+                            crítica digital es el más importante porque se utiliza para registrar las fuentes de las que deriva el archivo electrónico.</p>
                         <p>El elemento <strong>sourceDesc</strong> puede contener simplemente un elemento <strong>bibl</strong> con la referencia bibliográfica o bien una lista identificada con
-<strong>listWit</strong> con descripciones de manuscritos e impresos representados utiliznado el elemento <strong>witness</strong>. 
-                        </p>
+                                <strong>listWit</strong> con descripciones de manuscritos e impresos representados utiliznado el elemento <strong>witness</strong>. </p>
                     </section>
-<section>
-<pre>
+                    <section>
+                        <h3>Descripción de las fuentes</h3>
+                        <pre>
 <code>
 <witness xml:id="Ch">
     <msDesc subtype="basetext" type="manuscript">
@@ -633,13 +643,11 @@ XML)   --></code></pre></li>
 </witness>
 </code>
 </pre>
-
                     </section>
                     <section>
                         <h3>Ejercicio 1.<br /> Completa la información del <strong>teiHeader</strong> del archivo "edicion.xml" situado en la carpeta "ejercicios".</h3>
                     </section>
                 </section>
-
                 <!-- 2. El texto poético -->
                 <section>
                     <section>
@@ -647,26 +655,187 @@ XML)   --></code></pre></li>
                     </section>
                     <section>
                         <h3>Títulos y partes</h3>
-                        <p></p>
+                        <p>El texto de las <em>Soledades</em> se sitúa en el elemento <strong>body</strong>, que contiene un elemento <strong>head</strong> (el título de la obra) y tres elementos
+                                <strong>div</strong> correspondientes a las tres partes del poema: Dedicatoria, <em>Soledad primera</em> y <em>Soledad segunda</em></p>
+                    </section>
+                    <section>
+                        <h3>Títulos y partes</h3>
+                        <pre>
+<code>
+<tei:body> 
+    <tei:head type="main">Soledades</tei:head>
+    <div n="0" type="part" xml:id="p-0">
+        [Dedicatoria]
+    </div>
+    <div n="1" type="part" xml:id="p-1">
+        [Texto de la Soledad primera]
+     </div>
+    <div n="2" type="part" xml:id="p-2">
+        [Texto de la Soledad segunda]
+    </div>
+</tei:body>
+</code>
+</pre>
                     </section>
                     <section>
                         <h3>Estrofas y versos</h3>
-                        <p></p>
+                        <p>El manuscrito Chacón no introduce líneas en blanco para separar las estrofas, pero esto no quiere decir que no haya grupos de versos de extensión variada; de hecho, se
+                            pueden identificar grupos mediante el sangrado.</p>
+                        <p>La TEI recomienda el uso <strong>lg</strong> (grupo de versos) para representar grupo de versos que funcionan como una unidad formal, por ejemplo, una estrofa, pero también
+                            un refrán, un estribillo, etc.</p>
+                    </section>
+                    <section>
+                        <h3>Estrofas y versos</h3>
+                        <p>Los versos se codifican con la etiqueta <strong>l</strong> (en inglés, <em>line</em>).</p>
+                        <p>La TEI define este elemento desde el punto de vista métrico y no tipográfico</p>
+                        <p>Tres atributos son muy importantes:</p>
+                        <ul>
+                            <li><em>@xml:id</em>: identifica el elemento con un código único (por ejemplo, <em>v-00001</em>.</li>
+                            <li><em>@n</em>: sirve para numerar un elemento.</li>
+                            <li><em>@rend</em>: contiene información sobre cómo aparece el elemento en el documento original.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Estrofas y versos</h3>
+                        <pre>
+<code>
+<lg xml:id="est_0001">
+         <l xml:id="v-00001" rend="indent">Qve de inuidiosos montes leuantados</l>
+         <l xml:id="v-00002">De nieues impedidos</l>
+         <l xml:id="v-00003">Me contienden tus dulces ojos bellos!</l>
+         <l xml:id="v-00004">Que de rios, del yelo tan atados,</l>
+         <l n="5" xml:id="v-00005">De’l agua tan crecidos</l>
+         <l xml:id="v-00006">Me defienden el ia boluer á vellos!</l>
+         <l xml:id="v-00007">I que burlando de’llos</l>
+         <l xml:id="v-00008">El noble pensamiento,</l>
+         <l xml:id="v-00009">Por verte viste plumas, pisa el viento!</l>
+</lg>
+</code>
+</pre>
                     </section>
                     <section>
                         <h3>Saltos de página</h3>
-                            <p></p>
-                      </section>
+                        <p>Es posible representar la estructura del documento, es decir, la paginación o foliación original.</p>
+                        <p>El elemento TEI con el que se identifican los saltos de páginas es <strong>pb</strong> (en inglés, <em>page break</em>) y se trata de uno de los pocos elementos vacíos
+                            permitidos. Es decir, este elemento no contiene texto.</p>
+                        <p>El elemento <strong>pb</strong> se sitúa siempre al inicio de una página.</p>
+                    </section>
+                    <section>
+                        <h3>Saltos de página</h3>
+                        <p>El elemento <strong>pb</strong> puede contener atributos <em>@ed</em> (con el que se referencia la edición que se sigue), <em>@n</em> (para registrar el número de página o
+                            folio) y <em>@facs</em> (contiene un enlace a un archivo de imagen).</p>
+                        <pre>
+<code>
+<pb ed="#Ch" facs="193.jpg" n="193"></pb>
+</code>
+</pre>
+                    </section>
                     <section>
                         <h3>Transcripción paleográfica y modernización</h3>
-                        <p></p>
+                        <p>Es posible editar un texto con <strong>doble presentación</strong>: por un lado, la <strong>transcripción paleográfica</strong>, que conserva la mayoría de rasgos
+                            característicos de la ortotipografía de un documento (en el caso de Góngora, el manuscrito Chacón); por el otro, una <strong>modernización</strong> de la ortografía, los
+                            signos de puntuación y otros aspectos tipográficos del texto del siglo XVII.</p>
+                    </section>
+                    <section>
+                        <h3>Transcripción paleográfica y modernización</h3>
+                        <p>El elemento definido por la TEI para agrupar codificaciones alternativas se llama <strong>choice</strong>. Esta etiqueta contiene una pareja de elementos:</p>
+                        <ul>
+                            <li><strong>orig</strong>: contiene el texto original tal y como aparece en el documento.</li>
+                            <li><strong>reg</strong>: contiene la regularización propuesta por la editora.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Transcripción paleográfica y modernización</h3>
+                        <pre>
+<code>
+<l xml:id="v-0026">
+    <choice>
+        <orig></orig>
+        <reg>¡</reg>
+    </choice><choice>
+        <orig>Ô</orig>
+        <reg>oh</reg>
+    </choice>
+    <choice>
+        <orig>DVQVE</orig>
+        <reg>duque</reg>
+    </choice> esclarecido!<choice>
+        <orig></orig>
+        <reg>,</reg>
+    </choice>					
+</l>
+</code>
+</pre>
+                        <p>Si el contenido de <strong>orig</strong> o <strong>reg</strong> está vacío podemos insertar el elemento y dejarlo así, o bien no insertarlo y solo presentar una de las
+                            alternativas.</p>
                     </section>
                     <section>
                         <h3>Abreviaturas y expansiones</h3>
-                        <p></p>
+                        <p>Para representar abreviaturas y expansiones también se utiliza el elemento <strong>choice</strong>.</p>
+                        <p>Ahora bien, los elementos que se anidan en <strong>choice</strong> ahora son:</p>
+                        <ul>
+                            <li><strong>abbr</strong>: contiene una abreviatura tal y como aparece en el documento.</li>
+                            <li><strong>expan</strong>: contiene una expansión propuesta por la editora.</li>
+                        </ul>
                     </section>
                     <section>
-                        <h3>Ejercicio 2.<br /> </h3>
+                        <h3>Abreviaturas y expansiones</h3>
+                        <pre>
+<code>
+<l xml:id="v-1287">
+    <choice>
+        <orig>O</orig>
+        <reg>o</reg>
+    </choice> filos <choice>
+        <abbr>pongã</abbr>
+        <expan>pongan</expan>
+    </choice> de homicida hierro
+</l>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Ejercicio 2.<br /> Codifica el texto poético</h3>
+                    </section>
+                </section>
+                <!-- 3. El comentario de texto -->
+                <section>
+                    <section>
+                        <h3>3. El comentario de texto</h3>
+                    </section>
+                    <section>
+                        <h3>Un texto en prosa situado en los preliminares</h3>
+                        <p>Para diferenciar el comentario del poema, es conveniente utilizar el elemento <strong>front</strong>.</p>
+                        <p>Los textos en prosa se componen de una serie de párrafos que se codifican con el elemento <strong>p</strong>.</p>
+                    </section>
+                    <section>
+                        <h3>Los párrafos</h3>
+                        <p>Dentro de <strong>p</strong>, se pueden encontrar otros elementos que conviene identificar:</p>
+                        <ul>
+                            <li><strong>title</strong>: contiene títulos de obras.</li>
+                            <li><strong>hi</strong>: marca una palabra o frase gráficamente diferente del resto del texto que la circunda, por causas sobre las que no se hace ninguna declaracion.</li>
+                            <li><strong>mentioned</strong>: marca palabras o locuciones mencionadas, no usadas.</li>
+                            <li><strong>quote</strong>: contiene una frase o pasaje atribuido por el narrador o autor a un agente externo al texto</li>
+                            <li><strong>foreign</strong>: identidica una palabra o frase perteneciente a otra lengua distinta de la del resto del texto en que se incluye.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Los párrafos</h3>
+                        <pre>
+<code>
+<p>Desde Salcedo Coronel («Escribió don Luis esta Canción hallándose ausente de alguna dama casada a quien servía»), las interpretaciones biográficas han desfigurado el verdadero sentido de
+la composición. Despreocupándose de toda verosimilitud cronológica (cfr. R. Jammes, pág. 312, n. 51 [372]), Artigas vio aquí «el canto del cisne» de un supuesto amor juvenil (pág. 49), y
+la crítica posterior ha dado casi siempre por segura la existencia de unos esposos de carne y hueso amigos o conocidos del poeta. Está claro que el modelo principal «es Tasso, y
+precisamente el Tasso epitalámico» (D. Alonso, <title>Góngora y el «Polifemo»</title>, II, pág. 203); sin embargo, no creo que ello nos obligue a pensar que «esta canción es, en realidad,
+un epitalamio» (<hi rend="italic">ibid</hi>., pág. 201). Don Luis no partió necesariamente de un hecho real, sino de una serie de 'hechos' y motivos literarios con los que «comienza ... a
+definirse el clima poético que será el del <title>Polifemo</title>» (R. Jammes, pág. 356 [424]). Tampoco me parece exacto el tema propuesto por R. P. Calcraft: «the passion of jealousy and its
+resolution in the mind of a lover who has lost the object of his affections» («The lover as Icarus», pág. 11). La canción ha merecido excelentes comentarios de Juan Ferraté y, más recientemente, 
+Giulia Poggi (recogidos ambos en la bibliografía); observaciones menos valiosas pueden leerse en <title>La fragua de las «Soledades»</title>, págs. 59-102.</p>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Ejercicio 3.<br /> Codifica el comentario de texto</h3>
                     </section>
                 </section>
             </div>
