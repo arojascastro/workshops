@@ -398,7 +398,10 @@
             <l><choice>
                   <orig>QVE</orig>
                   <reg>Que</reg>
-               </choice> de inuidiosos montes <choice>
+               </choice> de <choice>
+                  <orig>inuidiosos</orig>
+                  <reg>invidiosos</reg>
+               </choice> montes <choice>
                   <orig>leuantados</orig>
                   <reg>levantados</reg>
                </choice></l>
