@@ -490,7 +490,7 @@ XML)   --></code></pre></li>
                         <img src="img/gongora.png" width="800" />
                     </section>
                 </section>
-                <!-- 4. Editar con Oxygen -->
+                <!-- 4. Editar con Oxygen y conocer las Guidelines -->
                <section>
                    <section>
                        <h3>4. Editar con Oxygen y conocer las <em>Guidelines</em></h3>
@@ -509,16 +509,165 @@ XML)   --></code></pre></li>
                     <h3>Conclusiones... preguntas... ¿debate?</h3>
                     <img src="img/homer2.jpg" width="200" />
                 </section>
-                <!-- sesión 1 -->
+                <!-- sesión 2 -->
                 <section>
                     <h2>Sesión 2</h2>
                     <p>¿Qué vamos a aprender hoy?</p>
                     <ul>
-                        <li>1. </li>
-                        <li>2. </li>
-                        <li>3. </li>
-                        <li>4. </li>
+                        <li>1. El encabezado TEI en detalle</li>
+                        <li>2. El texto poético</li>
+                        <li>3. El texto académico</li>
+                        <li>4. La anotación del poema</li>
+                        <li>5. El aparato de variantes</li>
+                        <li>6. Validación con esquemas</li>
                     </ul>
+                </section>
+                <!-- materiales -->
+                <section>
+                    <section>
+                        <h3>0. Materiales y fuentes</h3>
+                    </section>
+                    <section>
+                        <h3>Edición digital de las <em>Soledades</em> de Luis de Góngora (2017)</h3>
+                        <ul>
+                            <li>Cotejo manual de 16 manuscritos y 5 impresos.</li>
+                            <li>Codificación TEI de dos archivos (<em>input</em>): edición anotada y edición con aparato de variantes.</li>
+                            <li>La edición anotada se publica como web estática (HTML) utilizando Bootstrap.</li>
+                            <li>La edición con aparato de variantes se publica con EVT2.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3><em>Canciones y otros poemas en arte mayor</em> de Luis de Góngora (1990)</h3>
+                        <ul>
+                            <li>Edición crítica, notas y comentarios de José María Micó</li>
+                            <li>Cotejo manual de 17 manuscritos y 10 impresos.</li>
+                            <li>Hay versión en línea publicada por Todo Góngora, pero sin notas ni aparato de variante (2011).</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="img/poema6_print.png" width="400" />
+                        <p>Tres niveles de texto.</p>
+                    </section>
+                    <section>
+                        <img src="img/comentario_print.png" width="400" />
+                        <p>Texto en prosa con abudantes citas, referencias y menciones.</p>
+                    </section>
+                </section>
+                <!-- encabezado TEI en detalle -->
+                <section>
+                    <section>
+                        <h3>1. El encabezado TEI en detalle</h3>
+                    </section>
+                    <section>
+                    <p>El <strong>teiHeader</strong> es el lugar del archivo XML en el que se recogen los metadatos, es decir, toda aquella información que permite identificar un documento digital y declarar cuál es la fuente de la que deriva el texto. En esta parte del archivo, además, se pueden registrar otro tipo de información suplementaria como los criterios editoriales, el tipo de texto o datos relativos a la creación de la obra desde un punto de vista intelectual.</p>
+                    </section>
+                    <section>
+                        <h3>Descripción del archivo</h3>
+                        <p>El elemento <strong>fileDesc</strong> contiene una serie de elementos con información bibliográfica sobre el archivo electrónico necesaria para su citación y catalogación. </p>
+                    </section>
+                    <section>
+                        <h3>Título</h3>
+                        <p>Se inicia con el elemento <strong>titleStmt</strong> en donde se sitúa el título de la edición digital, el autor del texto codificado, el editor y la agencia que financia el proyecto:</p>
+<pre>
+<code>
+<titleStmt>
+    <title>Soledades. Edición digital anotada</title>
+    <author>Luis de Góngora</author>
+    <respStmt>
+        <resp>Edición, codificación y diseño gráfico de </resp>
+        <persName ref="http://antoniorojascastro.com">Antonio Rojas Castro</persName>
+    </respStmt>
+    <funder>Ministerio de Economía y Competitividad. Todo Góngora II [I+D+I FFI2010-17349]</funder>
+</titleStmt>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Edición</h3>
+                        <p>Con el elemento <strong>edition</strong>, contenido en <strong>editionStmt</strong>, es posible registrar el número de la edición:</p>
+                        <pre>
+<code>
+<editionStmt>
+	<edition n="2"><date when="2017-09">Septiembre de 2017</date></edition>
+</editionStmt>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Publicación</h3>
+                        <p>Con <strong>publicationStmt</strong> se proporciona información sobre qué sujeto, institución o grupo publica el archivo electrónico y bajo qué licencia se puede acceder a él y utilizar:</p>
+<pre>
+<code>
+<publicationStmt>
+    <publisher>Cologne Center for eHumanities (CCeH)</publisher>
+    <pubPlace>Köln</pubPlace>
+    <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.es">Publicado bajo una licencia Creative Commons Atribución-NoComercial 3.0</licence>
+    </availability>
+</publicationStmt>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>Descripción de las fuentes</h3>
+                        <p>El último elemento que contiene el <strong>fileDesc</strong> corresponde al <strong>sourceDesc</strong>. Se trata de un elemento obligatorio y en el caso de una edición crítica digital es el más importante porque se utiliza para registrar las fuentes de las que deriva el archivo electrónico.</p>
+                        <p>El elemento <strong>sourceDesc</strong> puede contener simplemente un elemento <strong>bibl</strong> con la referencia bibliográfica o bien una lista identificada con
+<strong>listWit</strong> con descripciones de manuscritos e impresos representados utiliznado el elemento <strong>witness</strong>. 
+                        </p>
+                    </section>
+<section>
+<pre>
+<code>
+<witness xml:id="Ch">
+    <msDesc subtype="basetext" type="manuscript">
+        <msIdentifier>
+            <country>España</country>
+            <settlement>Madrid</settlement>
+            <repository>Biblioteca Nacional de España</repository>
+            <collection>Fondo reservado</collection>
+            <idno type="cataloguenumber">Res/45, 1</idno>
+            <msName>Obras de don Luis de Góngora reconocidas y comunicadas con él por don Antonio Chacón Ponce de León, señor de Polvoranca</msName>
+            <msName>Manuscrito Chacón</msName>
+        </msIdentifier>
+    </msDesc>
+</witness>
+</code>
+</pre>
+
+                    </section>
+                    <section>
+                        <h3>Ejercicio 1.<br /> Completa la información del <strong>teiHeader</strong> del archivo "edicion.xml" situado en la carpeta "ejercicios".</h3>
+                    </section>
+                </section>
+
+                <!-- 2. El texto poético -->
+                <section>
+                    <section>
+                        <h3>2. El texto poético</h3>
+                    </section>
+                    <section>
+                        <h3>Títulos y partes</h3>
+                        <p></p>
+                    </section>
+                    <section>
+                        <h3>Estrofas y versos</h3>
+                        <p></p>
+                    </section>
+                    <section>
+                        <h3>Saltos de página</h3>
+                            <p></p>
+                      </section>
+                    <section>
+                        <h3>Transcripción paleográfica y modernización</h3>
+                        <p></p>
+                    </section>
+                    <section>
+                        <h3>Abreviaturas y expansiones</h3>
+                        <p></p>
+                    </section>
+                    <section>
+                        <h3>Ejercicio 2.<br /> </h3>
+                    </section>
                 </section>
             </div>
         </div>
