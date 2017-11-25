@@ -1,0 +1,183 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" lang="es">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+      <title>[Inserta aquí el título de tu edición]</title>
+      <meta name="DC. CREATOR.AUT" content="Luis de Góngora"></meta>
+      <meta name="DC.TITLE" content="Soledades. Nueva edición digital: inicio"></meta>
+      <meta name="DC.CREATOR" content="Luis de Góngora"></meta>
+      <meta name="DC.CONTRIBUTOR" content="Antonio Rojas Castro"></meta>
+      <meta name="DC.TYPE" content="Text"></meta>
+      <meta name="DC.SUBJECT" content="Poesía Soledades Siglo de Oro Edición digital Luis de Góngora"></meta>
+      <meta name="DC.FORMAT" content="text/html"></meta>
+      <meta name="DC.LANGUAGE" content="es"></meta>
+      <meta name="DC.DATE.CREATED" content="1613"></meta>
+      <meta name="DC.RIGHTS" content="Creative Commons By 4.0"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><style>
+          /* Remove the navbar's default margin-bottom and rounded borders */
+          .navbar{
+            margin-bottom: 0;
+            border-radius: 0;
+          }
+          
+          /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+          .row.content{
+            height: 450px;
+          }
+          
+          /* Set gray background color and 100% height */
+          .sidenav{
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 1200px;
+          }
+          
+          /* Set black background color, white text and some padding */
+          footer{
+            background-color: #555;
+            color: white;
+            padding: 15px;
+          }
+
+          .estrofa{
+          padding-top: 20px;
+          }
+          
+          /* On small screens, set height to 'auto' for sidenav and grid */
+          @media screen and (max-width : 767px){
+            .sidenav{
+              height: auto;
+              padding: 15px;
+            }
+            .row.content{
+              height: auto;
+            }
+
+          }
+          </style></head>
+   <body>
+      <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+            <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">[Inserta aquí el título de tu edición]</a></div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Edición<span class="caret"></span></a><ul class="dropdown-menu">
+                        <li><a href="edicion/paleografica.html">Transcripción paleográfica</a></li>
+                        <li><a href="edicion/modernizada.html">Edición modernizada con notas</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Testimonios<span class="caret"></span></a><ul class="dropdown-menu">
+                        <li><a href="testimonios/A.html">A</a></li>
+                        <li><a href="testimonios/B.html">B</a></li>
+                        <li><a href="testimonios/Ch.html">Ch</a></li>
+                        <li><a href="testimonios/E.html">E</a></li>
+                        <li><a href="testimonios/F.html">F</a></li>
+                        <li><a href="testimonios/H.html">H</a></li>
+                        <li><a href="testimonios/I.html">I</a></li>
+                        <li><a href="testimonios/J.html">J</a></li>
+                        <li><a href="testimonios/K.html">K</a></li>
+                        <li><a href="testimonios/M.html">M</a></li>
+                        <li><a href="testimonios/N.html">N</a></li>
+                        <li><a href="testimonios/T.html">T</a></li>
+                        <li><a href="testimonios/Flo.html">Flo</a></li>
+                        <li><a href="testimonios/Vi.html">Vi</a></li>
+                        <li><a href="testimonios/Sa.html">Sa</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Criterios editoriales</a></li>
+                  <li><a href="bibliografia.html">Bibliografía</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container-fluid text-center">
+         <div class="row content">
+            <div class="col-sm-2 sidenav"></div>
+            <div class="col-sm-6 text-left">
+               
+               
+               <p class="estrofa">
+                  <span class="verso">
+                     
+                     ¡Que
+                      de 
+                     
+                     invidiosos
+                      montes 
+                     
+                     levantados
+                     </span><br></br>
+                  <span class="verso">De nieues impedidos</span><br></br>
+                  <span class="verso">Me contienden tus dulces ojos bellos!</span><br></br>
+                  <span class="verso">Que de rios, del yelo tan atados,</span><br></br>
+                  <span class="verso">De’l agua tan crecidos</span><br></br>
+                  <span class="verso">Me defienden el ia boluer á vellos!</span><br></br>
+                  <span class="verso">I que burlando de’llos</span><br></br>
+                  <span class="verso">El noble pensamiento,</span><br></br>
+                  <span class="verso">Por verte viste plumas, pisa el viento!</span><br></br>
+                  
+               </p>
+               
+               
+               <p class="estrofa">
+                  <span class="verso">Ni á las tinieblas de la noche obscura,</span><br></br>
+                  <span class="verso">Ni á los yelos perdona,</span><br></br>
+                  <span class="verso">I á la maior difficultad engaña.</span><br></br>
+                  <span class="verso">No ai guardas oi de llaue tan segura,</span><br></br>
+                  <span class="verso">Que nieguen tu persona,</span><br></br>
+                  <span class="verso"> Que no desmienta con discreta maña,</span><br></br>
+                  <span class="verso">Ni emprenderà hazaña</span><br></br>
+                  <span class="verso">Tu esposo quando lidie,</span><br></br>
+                  <span class="verso">Que no la registre el, i yo inuidie.</span><br></br>
+                  
+               </p>
+               
+               
+               <p class="estrofa">
+                  <span class="verso">Alla bueles lisonja de mis penas,</span><br></br>
+                  <span class="verso">Que con igual licencia</span><br></br>
+                  <span class="verso">Penetras el abysmo, el cielo escalas;</span><br></br>
+                  <span class="verso">I mientras yo te aguardo en las cadenas</span><br></br>
+                  <span class="verso">De’sta rabiosa ausencia,</span><br></br>
+                  <span class="verso">Al viento agrauien tus ligeras alas:</span><br></br>
+                  <span class="verso">Ia veo que te calas</span><br></br>
+                  <span class="verso">Donde bordada tela</span><br></br>
+                  <span class="verso">Vn lecho abriga, i mil dulçuras cela.</span><br></br>
+                  
+               </p>
+               
+               
+               <p class="estrofa">
+                  <span class="verso">Tarde batiste la inuidiosa pluma,</span><br></br>
+                  <span class="verso">Que en sabrosa fatiga</span><br></br>
+                  <span class="verso">Vieras (muerta la voz, suelto el cabello)</span><br></br>
+                  <span class="verso">La blanca hija de la blanca espuma,</span><br></br>
+                  <span class="verso">No se si en braços diga</span><br></br>
+                  <span class="verso">De un fiero Marte, ó de un Adonis bello:</span><br></br>
+                  <span class="verso">Ia anudada á su cuello</span><br></br>
+                  <span class="verso">Podras verla dormida,</span><br></br>
+                  <span class="verso">I á el casi trasladado á nueua vida.</span><br></br>
+                  
+               </p>
+               
+               
+               
+               
+               
+            </div>
+            <div class="col-sm-4 sidenav">
+               <p class="nota"><a href="#v-00002">Nº 1: </a>impedidos: cargados o, más latamente, cubiertos, cultismo de
+                  acepción que Góngora usó con frecuencia y al menos desde 1590 (cfr. canción IV, 36).
+               </p>
+            </div>
+         </div>
+      </div>
+      <footer class="container-fluid text-center">
+         <p>Variantes, notas y comentario de José María Micó</p>
+         <p>Modernización y codificación de [Inserta aquí tu nombre]</p>
+         <p>[Inserta aquí el lugar de publicación], 1<sup>a</sup> edición de [Inserta aquí el mes]
+         </p>
+         <p><img class="iconocc" src="creativecommons.png" alt="icono"></img> Esta edición se publica con una licencia <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Reconocimiento 4.0 Internacional</a></p>
+      </footer>
+   </body>
+</html>

@@ -395,9 +395,9 @@
       <body>
 
          <lg>
-            <l xml:id="v-00001"><choice>
+            <l><choice>
                   <orig>QVE</orig>
-                  <reg>¡Que</reg>
+                  <reg>Que</reg>
                </choice> de <choice>
                   <orig>inuidiosos</orig>
                   <reg>invidiosos</reg>
@@ -405,7 +405,7 @@
                   <orig>leuantados</orig>
                   <reg>levantados</reg>
                </choice></l>
-            <l xml:id="v-00002">De nieues impedidos<note><hi rend="italic">impedidos</hi>: <mentioned rend="italic">cargados</mentioned> o, más latamente, <mentioned rend="italic">cubiertos</mentioned>, cultismo de
+            <l>De nieues impedidos<note><hi rend="italic">impedidos</hi>: <mentioned rend="italic">cargados</mentioned> o, más latamente, <mentioned rend="italic">cubiertos</mentioned>, cultismo de
                   acepción que Góngora usó con frecuencia y al menos desde 1590 (cfr. canción IV, 36).</note></l>
             <l>Me contienden tus dulces ojos bellos!</l>
             <l>Que de rios, del yelo tan atados,</l>
