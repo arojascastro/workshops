@@ -252,7 +252,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>La declaración XML</h3>
                         <pre>
 <code>
-<?xml version="1.0" encoding="UTF-8"?>    
+<!--<?xml version="1.0" encoding="UTF-8"?>    -->
         <edicion>
           <encabezado>Información sobre el documento</encabezado>
           <cuerpo>
@@ -645,6 +645,10 @@ XML)   --></code></pre></li>
 </pre>
                     </section>
                     <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
+                    </section>
+                    <section>
                         <h3>Ejercicio 1.<br /> Completa la información del <strong>teiHeader</strong> del archivo "edicion.xml" situado en la carpeta "ejercicios".</h3>
                     </section>
                 </section>
@@ -795,6 +799,10 @@ XML)   --></code></pre></li>
 </pre>
                     </section>
                     <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
+                    </section>
+                    <section>
                         <h3>Ejercicio 2.<br /> Codifica el texto poético</h3>
                     </section>
                 </section>
@@ -813,9 +821,9 @@ XML)   --></code></pre></li>
                         <p>Dentro de <strong>p</strong>, se pueden encontrar otros elementos que conviene identificar:</p>
                         <ul>
                             <li><strong>title</strong>: contiene títulos de obras.</li>
-                            <li><strong>hi</strong>: marca una palabra o frase gráficamente diferente del resto del texto que la circunda, por causas sobre las que no se hace ninguna declaracion.</li>
+                            <li><strong>hi</strong>: marca una palabra o frase gráficamente diferente del resto del texto que la circunda, por causas sobre las que no se hace ninguna declaración.</li>
                             <li><strong>mentioned</strong>: marca palabras o locuciones mencionadas, no usadas.</li>
-                            <li><strong>quote</strong>: contiene una frase o pasaje atribuido por el narrador o autor a un agente externo al texto</li>
+                            <li><strong>quote</strong>: contiene una frase o pasaje atribuido por el narrador o autor a un agente externo al texto.</li>
                             <li><strong>foreign</strong>: identidica una palabra o frase perteneciente a otra lengua distinta de la del resto del texto en que se incluye.</li>
                         </ul>
                     </section>
@@ -835,8 +843,180 @@ Giulia Poggi (recogidos ambos en la bibliografía); observaciones menos valiosas
 </pre>
                     </section>
                     <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
+                    </section>
+                    <section>
                         <h3>Ejercicio 3.<br /> Codifica el comentario de texto</h3>
                     </section>
+                </section>
+                <!-- 4. La anotación del poema -->
+                <section>
+                    <section>
+                        <h3>4. La anotación del poema</h3>
+                    </section>
+                    <section>
+                        <h3>Las notas</h3>
+                        <p>Con el elemento <strong>note</strong> es posible insertar una nota o aclaración.</p>
+                        <p>Los tres atributos más importantes aceptados en este elemento:</p>
+                        <ul>
+                            <li><em>@type</em>: establece una tipología de notas, por ejemplo, "editorial" o "aclaratoria".</li>
+                            <li><em>@resp</em>: identifica el responsable de la nota.</li>
+                            <li><em>@n</em>: contiene una numeración.</li>
+                        </ul>
+                        <p>El elemento <strong>l</strong> puede contener otros elementos como <strong>p</strong>, <strong>l</strong>, <strong>mentioned</strong>, etc.</p>
+                    </section>
+                    <section>
+                        <h3>Las notas</h3>
+                        <p>En el caso de los textos poéticos, conviene insertar las notas dentro del elemento <strong>l</strong>:</p>
+                        <pre>
+<code>
+<l xml:id="v-0136">
+al cóncavo ajustando de los cielos<note type="editorial">
+    <p>La versión primitiva de este pasaje era:</p>
+  		<lg>
+			<l>al pespuntar de los cielos</l>
+			<l>las agujas que ilustran tu edificio:</l>
+		</lg>
+<p>Los testimonios que la transmiten son Rm y O. El manuscrito Pérez de Ribas también contiene esta versión pero tachada y sustituida por la definitiva. En el segundo verso el manuscrito O transmite un pequeño error de copia: <mentioned rend="italic">su edificio</mentioned>. Puesto que no están en ninguno de los manuscritos cotejados por Alonso, estos versos no se imprimieron en 1936; Jammes, en cambio, sí los imprimió.</p>
+</note>
+</l>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
+                    </section>
+                    <section>
+                        <h3>Ejercicio 4.<br /> Codifica las notas del poema.</h3>
+                    </section>
+                </section>
+                <!-- 5. El aparato de variantes -->
+                <section>
+                    <section>
+                        <h3>5. El aparato de variantes</h3>
+                    </section>
+                    <section>
+                        <h3>El aparato de variantes</h3>
+                        <p>Con el elemento <strong>app</strong> se representa una entrada del aparato crítico, que puede contener:</p>
+                        <ul>
+                            <li><strong>lem</strong>: la lección preferida o correcta;</li>
+                            <li><strong>rdg</strong>: las variantes.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>El aparato de variantes</h3>
+                        <p>El elemento <strong>rdg</strong> acepta algunos atributos importantes como:</p>
+                        <ul>
+                            <li><em>@wit</em>: identifica el testimonino en que se encuentra la variante con un indentificador contenido en el <strong>teiHeader</strong>;</li>
+                            <li><em>@type</em>: establece una tipología de variantes (por ejemplo, omisión, transposición, adición, etc.).</li>
+                            <li><em>@resp</em>: identifica al responsable de la identificación de la variante (solo es útil si hay más de un editor).</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>El aparato de variantes</h3>
+                        <p>La TEI define tres maneras de codificar variantes:</p>
+                        <ul>
+                            <li>método de localización referenciada;</li>
+                            <li>método de adjunción de doble;</li>
+                            <li>método de segmentación paralela.</li>
+                        </ul>
+                        <p>Con el <em>método de segmentación paralela</em> el aparto se inserta directamente en el texto; los otros dos métodos sitúan las variantes en una sección distinta y emplean
+                            enlaces para conectar texto y variantes.</p>
+                    </section>
+                    <section>
+                        <h3>El aparato de variantes</h3>
+                        <pre>
+<code>
+<l rend="indent" xml:id="v-0038">Era del año la estación <app>
+          <lem>florida</lem>
+          <rdg type="error" wit="#I">floria</rdg>
+          <rdg type="error" wit="#Rl">primera</rdg>
+      </app>
+
+</l>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>El aparato de variantes</h3>
+                        <p>Es posible codificar más de una palabra y representar fenómenos como tachones y adiciones (por ejemplo, correcciones realizadas por el copista):</p>
+                        <pre>
+<code>
+<l xml:id="v-0418">
+    <app>
+       <lem>escollo, el metal ella fulminante</lem>
+       <rdg type="error" wit="#Br">escollo, <add place="above">el</add> metal ella fulminante</rdg>
+       <rdg type="error" wit="#Ml">escollo, metal ella fulminante</rdg>
+       <rdg type="error" wit="#S">escollo, el metal ella ful<subst>
+       <del rend="strikethrough">gente</del>
+       <add place="above">minante</add>
+                                </subst>
+        </rdg>
+     </app>
+ </l>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <h3>El aparato de variantes</h3>
+                        <p>Si la variación consiste en una adición, podemos dejar el lema vacío:</p>
+                        <pre>
+<code>
+<l xml:id="v-0183-p">
+    <app>
+         <lem></lem>
+         <rdg type="variante" wit="#Rm #O">por absolverle escrúpulos al vaso),</rdg>
+         <rdg type="variante" wit="#Pr">
+               <del rend="strikethrough">por absolverle escrúpulos al vaso),</del>
+         </rdg>
+    </app>
+</l>
+</code>
+</pre>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
+                    </section>
+                    <section>
+                        <h3>Ejercicio 5.<br /> Codifica el aparato crítico del poema.</h3>
+                    </section>
+                </section>
+                <!-- 6. Validación con esquemas -->
+                <section>
+                    <section>
+                        <h3>6. Validación con esquemas</h3>
+                    </section>
+                    <section>
+                        <h3>Validación con esquemas</h3>
+                        <p>Un documento XML debe estar bien formado (respetar la sintaxis), pero también debería ser conforme a una serie de reglas adicionales; estas reglas se definen en los
+                            esquemas.</p>
+                        <p>Los esquemas están escritos en lenguaje formal (también en XML).</p>
+                        <p>Hay muchos tipos de esquemas; los más populares son RELAXNG o Schematron.</p>
+                    </section>
+                    <section>
+                        <h3>Validación con esquemas</h3>
+                        <p>Los esquemas nos permiten especificar:</p>
+                        <ul>
+                            <li>qué elemento puede ser el elemento-raíz;</li>
+                            <li>qué elemento y atributos pueden haber en un documento XML;</li>
+                            <li>qué valores pueden contenecer ciertos elementos y atributos.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>¿Preguntas? ¿Dudas?</p>
+                        <img src="img/homer.png" width="500" />
+                    </section>
+                    <section>
+                        <h3>Ejercicio 6.<br /> Valida tu documento XML con un esquema.</h3>
+                    </section>
+                </section>
+                <!-- Debate -->
+                <section>
+                    <h3>Conclusiones... preguntas... ¿debate?</h3>
+                    <img src="img/homer2.jpg" width="200" />
                 </section>
             </div>
         </div>

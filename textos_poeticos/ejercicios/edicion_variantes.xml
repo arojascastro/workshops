@@ -236,7 +236,7 @@
                </witness>
 
 
-               <witness xml:id="vi">
+               <witness xml:id="Vi">
                   <msDesc type="print">
                      <msIdentifier>
                         <country>España</country>
@@ -269,7 +269,7 @@
                   </biblStruct>
                </witness>
 
-               <witness xml:id="ho33">
+               <witness xml:id="Ho">
                   <msDesc type="print">
                      <msIdentifier>
                         <country>España</country>
@@ -302,7 +302,7 @@
                   </biblStruct>
                </witness>
 
-               <witness xml:id="sa">
+               <witness xml:id="Sa">
                   <msDesc type="print">
                      <msIdentifier>
                         <country>España</country>
@@ -395,87 +395,83 @@
       <body>
 
          <lg>
-            <l><choice>
-                  <orig>QVE</orig>
-                  <reg>Que</reg>
-               </choice> de <choice>
-                  <orig>inuidiosos</orig>
-                  <reg>invidiosos</reg>
-               </choice> montes <choice>
-                  <orig>leuantados</orig>
-                  <reg>levantados</reg>
-               </choice></l>
-            <l>De nieues impedidos</l>
-            <l>Me contienden tus dulces ojos bellos!</l>
-            <l>Que de rios, del yelo tan atados,</l>
-            <l>De’l agua tan crecidos</l>
-            <l>Me defienden el ia boluer á vellos!</l>
-            <l>I que burlando de’llos</l>
-            <l>El noble pensamiento,</l>
-            <l>Por verte viste plumas, pisa el viento!</l>
+            <l>¡Qué de invidiosos montes levantados,</l>
+            <l>de nieves impedidos,</l>
+            <l>me <app>
+                  <lem>contienden</lem>
+                  <rdg wit="#A #B #E #F #H #I #J #K #T #Flo #Vi #Ho #Sa" type="omisión">contienen</rdg>
+               </app> tus <app>
+                  <lem>dulces ojos bellos</lem>
+                  <rdg wit="#K" type="tranposición">ojos dulces, bellos</rdg>
+               </app>!</l>
+            <l>¡Qué de ríos, del hielo tan atados,</l>
+            <l>del agua tan crecidos,</l>
+            <l>me defienden el ya volver a vellos!</l>
+            <l>¡Y qué, burlando de ellos,</l>
+            <l>el noble pensamiento</l>
+            <l>por verte viste plumas, pisa el viento!</l>
          </lg>
-
          <lg>
-            <l>Ni á las tinieblas de la noche obscura,</l>
-            <l>Ni á los yelos perdona,</l>
-            <l>I á la maior difficultad engaña.</l>
-            <l>No ai guardas oi de llaue tan segura,</l>
-            <l>Que nieguen tu persona,</l>
-            <l> Que no desmienta con discreta maña,</l>
-            <l>Ni emprenderà hazaña</l>
-            <l>Tu esposo quando lidie,</l>
-            <l>Que no la registre el, i yo inuidie.</l>
+            <l>Ni a las tinieblas de la noche obscura</l>
+            <l>ni a los hielos perdona,</l>
+            <l>y a la mayor dificultad engaña;</l>
+            <l>no hay guardas hoy de llave tan segura</l>
+            <l>que nieguen tu persona,</l>
+            <l>que no desmienta con discreta maña;</l>
+            <l>ni emprenderá hazaña</l>
+            <l>tu esposo, cuando lidie,</l>
+            <l>que no la registre él, y yo no invidie.</l>
          </lg>
-
          <lg>
-            <l>Alla bueles lisonja de mis penas,</l>
-            <l>Que con igual licencia</l>
-            <l>Penetras el abysmo, el cielo escalas;</l>
-            <l>I mientras yo te aguardo en las cadenas</l>
-            <l>De’sta rabiosa ausencia,</l>
-            <l>Al viento agrauien tus ligeras alas:</l>
-            <l>Ia veo que te calas</l>
-            <l>Donde bordada tela</l>
-            <l>Vn lecho abriga, i mil dulçuras cela.</l>
+            <l>Allá vueles, lisonja de mis penas,</l>
+            <l>que con igual licencia</l>
+            <l>penetras el abismo, el cielo escalas;</l>
+            <l>y mientras yo te aguardo en las cadenas</l>
+            <l>de esta rabiosa ausencia,</l>
+            <l>al viento agravien tus ligeras alas.</l>
+            <l>Ya veo que te calas</l>
+            <l>donde bordada tela</l>
+            <l>un lecho abriga y mil dulzuras cela.</l>
          </lg>
-
          <lg>
-            <l>Tarde batiste la inuidiosa pluma,</l>
-            <l>Que en sabrosa fatiga</l>
-            <l>Vieras (muerta la voz, suelto el cabello)</l>
-            <l>La blanca hija de la blanca espuma,</l>
-            <l>No se si en braços diga</l>
-            <l>De un fiero Marte, ó de un Adonis bello:</l>
-            <l>Ia anudada á su cuello</l>
-            <l>Podras verla dormida,</l>
-            <l>I á el casi trasladado á nueua vida.</l>
+            <l>Tarde batiste la invidiosa pluma,</l>
+            <l>que en sabrosa fatiga</l>
+            <l>vieras (muerta la voz, suelto el cabello)</l>
+            <l>la blanca hija de la blanca espuma,</l>
+            <l>no sé si en brazos diga</l>
+            <l>de un fiero Marte, o de un Adonis bello;</l>
+            <l>ya anudada a su cuello</l>
+            <l>podrás verla dormida,</l>
+            <l>y a él casi trasladado a nueva vida.</l>
+         </lg>
+         <lg>
+            <l>Desnuda el brazo, el pecho descubierta,</l>
+            <l>entre templada nieve</l>
+            <l>evaporar contempla un fuego helado,</l>
+            <l>y al esposo, en figura casi muerta,</l>
+            <l>que el silencio le bebe</l>
+            <l>del sueño con sudor solicitado.</l>
+            <l>Dormid, que el dios alado,</l>
+            <l>de vuestras almas dueño,</l>
+            <l>con el dedo en la boca os guarda el sueño.</l>
+         </lg>
+         <lg>
+            <l>Dormid, copia gentil de amantes nobles,</l>
+            <l>en los dichosos nudos</l>
+            <l>que a los lazos de amor os dio Himeneo;</l>
+            <l>mientras yo, desterrado, de estos robles</l>
+            <l>y peñascos desnudos</l>
+            <l>la piedad con mis lágrimas granjeo.</l>
+            <l>Coronad el deseo</l>
+            <l>de gloria, en recordando;</l>
+            <l>sea el lecho de batalla campo blando.</l>
+         </lg>
+         <lg>
+            <l>Canción, di al pensamiento</l>
+            <l>que corra la cortina</l>
+            <l>y vuelva al desdichado que camina.</l>
          </lg>
 
-         <!-- Cada estrofa debe codificarse con un elemento <lg>  -->
-         <!-- Los versos se codifican con el elemento <l> -->
-         <!-- Desnuda el braço, el pecho descubierta,
-         Entre templada nieue
-         Euaporar contempla un fuego elado.
-         I al esposo en figura casi muerta,
-         Que el silencio le beue,
-         De’l sueño con sudor solicitado.
-         Dormid, que el Dios alado,
-         De vuestras almas dueño,
-         Con el dedo en la boca os guarda el sueño.
-         
-         Dormid, copia gentil de amantes nobles,
-         En los dichosos nudos,
-         Que á los lazos de amor os dio Hymeneo:
-         Mientras io desterrado, de’stos robles,
-         I peñascos desnudos
-         La piedad con mis lagrimas grangeo.
-         Coronad el desseo
-         De gloria en recordando,
-         Sea el lecho de batalla campo blando.
-         
-         Cancion, di al pensamiento,
-         Que corra la cortina,
-         I buelua al desdichado que camina.-->
       </body>
 
    </text>
