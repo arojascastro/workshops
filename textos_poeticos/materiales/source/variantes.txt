@@ -3,20 +3,19 @@ Texto en Ch A B E F H I J K M N T Flo Vi Ho Sa.
 3 contienden: contienen A B E F H I J K T Flo Vi Ho Sa || dulces ojos bellos: ojos dulces, bellos (K) 
 4 yelo: cielo Vi 
 5 del agua: de la agua E H
-13 hay [ai]: 5. /. N 
-15 que: él add. / || desmienta: desmiente M 
+13 hay [ai]: s. l. N 
+15 que: él add. I || desmienta: desmiente M 
 16 emprenderá: comprehenderá M 
-18 no invidie: la invidie
-TI 19 vueles: vuelas Ho vuelves A J M T Flo 
-22 aguardo en las: guardo las TI 
+18 no invidie: la invidie TI 
+19 vueles: vuelas Ho vuelves A J M T Flo 
+22 aguardo en las: guardo las T 
 22-23 Versos mal separados en F («aguardo / en...»)	
-24 agravien: agravian A T Fio Ho
+24 agravien: agravian A T Flo Ho
 27 mil dulzuras: mis dulzores A B E F H I J K M (N) T Flo Vi Ho Sa mil dulzores N 
 30 voz: luz A T 
-34 ya: y B E F H I J K M N
-TI Fio Vi Ho Sa
+34 ya: y B E F H I J K M N T Flo Vi Ho Sa
 45 os: om. T2 
 47 dichosos: sabrosos B F
 51 mis: mil T2 
 52 el: al M 
-54 lecho: hecho T2 (que separa el verso en dos: «...batallas / campo...») || batalla: batallas A B E F I ] K M (N) T Flo Vi Ho Sa
+54 lecho: hecho T2 (que separa el verso en dos: «...batallas / campo...») || batalla: batallas A B E F I J K M (N) T Flo Vi Ho Sa

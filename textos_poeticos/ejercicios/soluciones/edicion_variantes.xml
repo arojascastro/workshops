@@ -11,28 +11,28 @@
 
          <!-- INFORMACIÓN SOBRE EL TÍTULO -->
          <titleStmt>
-            <title>[Inserta aquí el título de tu edición]</title>
+            <title>"Canción VI" de Luis de Góngora. Edición digital</title>
             <author>Luis de Góngora</author>
             <respStmt>
-               <resp>Variantes, notas y comentario de</resp>
+               <resp>Modernización, variantes, notas y comentario de</resp>
                <persName>José María Micó</persName>
             </respStmt>
             <respStmt>
-               <resp>Modernización y codificación de</resp>
-               <persName>[Inserta aquí tu nombre]</persName>
+               <resp>Codificación de</resp>
+               <persName>Antonio Rojas Castro</persName>
             </respStmt>
          </titleStmt>
 
          <!-- INFORMACIÓN SOBRE LA EDICIÓN-->
          <editionStmt>
-            <edition n="1"><date when="2017-11">[Inserta aquí el mes]</date></edition>
+            <edition n="1"><date when="2017-11">Noviembre de 2017</date></edition>
          </editionStmt>
 
          <!-- INFORMACIÓN SOBRE LA PUBLICACIÓN -->
          <publicationStmt>
-            <distributor>[Inserta aquí el nombre de tu universidad]</distributor>
-            <pubPlace>[Inserta aquí el lugar de publicación]</pubPlace>
-            <date>[Inserta aquí la fecha de publicación]</date>
+            <distributor>Cologne Center for eHumanities</distributor>
+            <pubPlace>Köln</pubPlace>
+            <date when="2017-11">Noviembre de 2017</date>
             <availability status="free">
                <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Reconocimiento 4.0 Internacional</licence>
             </availability>
@@ -42,7 +42,7 @@
          <sourceDesc>
 
             <!-- La edición de José María Micó fue publicada en Madrid por la editorial Espasa-Calpe -->
-            <bibl>[Inserta aquí la referencia bibliográfica de la edición de José María Micó]</bibl>
+            <bibl>Luis de Góngora. <title>Canciones y otros poemas en arte mayor</title>. Ed. José María Micó. Madrid: Espasa-Calpe, 1990.</bibl>
 
             <listWit>
 
@@ -77,12 +77,12 @@
                <witness xml:id="Ch">
                   <msDesc subtype="basetext" type="manuscript">
                      <msIdentifier>
-                        <country>[Inserta aquí el país]</country>
-                        <settlement>[Inserta aquí la ciudad]</settlement>
-                        <repository>[Inserta aquí la biblioteca]</repository>
+                        <country>España</country>
+                        <settlement>Madrid</settlement>
+                        <repository>Biblioteca Nacional de España</repository>
                         <collection>Fondo reservado</collection>
-                        <idno type="cataloguenumber"/>
-                        <msName>[Inserta aquí el título principal del manuscrito]</msName>
+                        <idno type="cataloguenumber">Res. 45, 45 bis y 46</idno>
+                        <msName>Obras de don Luis de Góngora, reconocidas y comunicadas con él por D. Antonio Chacón Ponce de León, Señor de Polvoranca</msName>
                         <msName>Manuscrito Chacón</msName>
                      </msIdentifier>
                   </msDesc>
@@ -351,42 +351,52 @@
       <!-- COMENTARIO DE TEXTO -->
       <front>
 
-         <p>Esta canción es uno de los mejores poemas de Góngora, y quizá no haya en toda su obra otro caso parejo de «imitación de diversos» que posea una originalidad más sorprendente. En efecto,
-            todos sus elementos están inspirados en la poesía italiana y se dan independientemente en los textos de Petrarca, Torquato Tasso y un sinfín de poetas menores: desde el motivo del veloz
-            pensamiento que acorta las distancias entre el amante y la amada (comp. la letrilla «Vuela, pensamiento, y diles» [M 105] y el soneto «Varia imaginación, que en mil intentos» [M 240])
-            hasta la descripción de los goces de los recién casados.</p>
+         <p>Esta canción es uno de los mejores poemas de <persName role="poeta" key="Luis de Góngora">Góngora</persName>, y quizá no haya en toda su obra otro caso parejo de «imitación de diversos»
+            que posea una originalidad más sorprendente. En efecto, todos sus elementos están inspirados en la poesía italiana y se dan independientemente en los textos de <persName role="poeta"
+               key="Petrarca">Petrarca</persName>, <persName role="poeta" key="Torquatto Tasso">Torquato Tasso</persName> y un sinfín de poetas menores: desde el motivo del veloz pensamiento que
+            acorta las distancias entre el amante y la amada (comp. la letrilla «Vuela, pensamiento, y diles» [M 105] y el soneto «Varia imaginación, que en mil intentos» [M 240]) hasta la descripción
+            de los goces de los recién casados.</p>
 
-         <p>Desde Salcedo Coronel («Escribió don Luis esta Canción hallándose ausente de alguna dama casada a quien servía»), las interpretaciones biográficas han desfigurado el verdadero sentido de
-            la composición. Despreocupándose de toda verosimilitud cronológica (cfr. R. Jammes, pág. 312, n. 51 [372]), Artigas vio aquí «el canto del cisne» de un supuesto amor juvenil (pág. 49), y
-            la crítica posterior ha dado casi siempre por segura la existencia de unos esposos de carne y hueso amigos o conocidos del poeta. Está claro que el modelo principal «es Tasso, y
-            precisamente el Tasso epitalámico» (D. Alonso, <title>Góngora y el «Polifemo»</title>, II, pág. 203); sin embargo, no creo que ello nos obligue a pensar que «esta canción es, en realidad,
-            un epitalamio» (<hi rend="italic">ibid</hi>., pág. 201). Don Luis no partió necesariamente de un hecho real, sino de una serie de 'hechos' y motivos literarios con los que «comienza ... a
-            definirse el clima poético que será el del <title>Polifemo</title>» (R. Jammes, pág. 356 [424]). Tampoco me parece exacto el tema propuesto por R. P. Calcraft: «the passion of jealousy and
-            its resolution in the mind of a lover who has lost the object of his affections» («The lover as Icarus», pág. 11). La canción ha merecido excelentes comentarios de Juan Ferraté y, más
-            recientemente, Giulia Poggi (recogidos ambos en la bibliografía); observaciones menos valiosas pueden leerse en <title>La fragua de las «Soledades»</title>, págs. 59-102.</p>
+         <p>Desde <persName role="autoridad" key="Salcedo Coronel">Salcedo Coronel</persName> («Escribió don Luis esta Canción hallándose ausente de alguna dama casada a quien servía»), las
+            interpretaciones biográficas han desfigurado el verdadero sentido de la composición. Despreocupándose de toda verosimilitud cronológica (cfr. <persName role="autoridad" key="Robert Jammes"
+               >R. Jammes</persName>, pág. 312, n. 51 [372]), <persName role="autoridad" key="Artigas">Artigas</persName> vio aquí «el canto del cisne» de un supuesto amor juvenil (pág. 49), y la
+            crítica posterior ha dado casi siempre por segura la existencia de unos esposos de carne y hueso amigos o conocidos del poeta. Está claro que el modelo principal «es Tasso, y precisamente
+            el Tasso epitalámico» (<persName role="autoridad" key="Dámaso
+               Alonso">D. Alonso</persName>, <title>Góngora y el «Polifemo»</title>, II, pág. 203); sin embargo, no creo que
+            ello nos obligue a pensar que «esta canción es, en realidad, un epitalamio» (<foreign>ibid</foreign>., pág. 201). Don Luis no partió necesariamente de un hecho real, sino de una serie de
+            'hechos' y motivos literarios con los que «comienza ... a definirse el clima poético que será el del <title>Polifemo</title>» (<persName role="autoridad" key="Robert Jammes">R.
+               Jammes</persName>, pág. 356 [424]). Tampoco me parece exacto el tema propuesto por <persName role="autoridad" key="R. P. Calcraft">R. P. Calcraft</persName>: «the passion of jealousy
+            and its resolution in the mind of a lover who has lost the object of his affections» («The lover as Icarus», pág. 11). La canción ha merecido excelentes comentarios de <persName
+               role="autoridad" key="Juan Ferraté">Juan Ferraté</persName> y, más recientemente, <persName role="autoridad" key="Giulia
+                  Poggi">Giulia Poggi</persName> (recogidos
+            ambos en la bibliografía); observaciones menos valiosas pueden leerse en <title>La fragua de las «Soledades»</title>, págs. 59-102.</p>
 
-         <p>Juan Ferraté advirtió sagazmente la alternancia de los interlocutores del poeta: la esposa (1-18), el pensamiento (19-42), la pareja de enamorados (43-54) y - añado yo - la propia canción.
-            Pero lo importante es notar el efecto que Góngora buscaba con todo ello: dar una impresión creciente de distanciamiento. En el envío se diluye la falsilla autobiográfica y el poeta se ha
-            convertido en un «desdichado que camina». Uno de los méritos principales de don Luis es superar el convencionalismo expresivo de los doloridos amantes de la tradición petrarquista y
-            aprovechar el tema de la ausencia y la exaltación de la felicidad conyugal característica de los epitalamios para tejer uno de los más emocionantes y reveladores anticipos de las
-            Soledades: también el peregrino, «náufrago y desdeñado, sobre ausente», asiste conmovido a la dicha ajena y recibe el auxilio de su pensamiento (cfr. I, 732-766, y II, 112-171). </p>
+         <p><persName role="autoridad" key="Juan Ferraté">Juan Ferraté</persName> advirtió sagazmente la alternancia de los interlocutores del poeta: la esposa (1-18), el pensamiento (19-42), la
+            pareja de enamorados (43-54) y -añado yo- la propia canción. Pero lo importante es notar el efecto que Góngora buscaba con todo ello: dar una impresión creciente de distanciamiento. En el
+            envío se diluye la falsilla autobiográfica y el poeta se ha convertido en un «desdichado que camina». Uno de los méritos principales de don Luis es superar el convencionalismo expresivo de
+            los doloridos amantes de la tradición petrarquista y aprovechar el tema de la ausencia y la exaltación de la felicidad conyugal característica de los epitalamios para tejer uno de los más
+            emocionantes y reveladores anticipos de las <title>Soledades</title>: también el peregrino, «náufrago y desdeñado, sobre ausente», asiste conmovido a la dicha ajena y recibe el auxilio de
+            su pensamiento (cfr. I, 732-766, y II, 112-171). </p>
 
          <p>El poema es además uno de los mejores ejemplos de la superioridad textual del ms. Chacón. Dejando aparte los errores más claros de los otros testimonios, hay unas cuantas variantes que
-            precisan comentario. En el v. 1, tanto contienen ('retienen') como contienden ('disputan') hacen sentido, pero gráficamente se parecen demasiado y la primera es facilior; la adición de I
-            en el v. 15 procura hacer más explícito el sujeto de desmienta, pero yo no la creo imprescindible; la preferencia de algunos testimonios por el presente de indicativo (19, 24) estropea el
-            sentido y el vehemente deseo expresado en la tercera estancia; Ch es el único que conserva toda la efectividad de la estructura bimembre del v. 27: «un lecho abriga y mil dulzuras cela»
-            (téngase en cuenta que el ms. N fue revisado y cotejado con Ch o alguno de sus modelos: se restituyó el numeral, pero no se advirtió el error en el sustantivo); quizá dulzuras refleje las
-            atenciones conyugales mejor que dulzores, con un matiz afín al de dichosos frente a sabrosos (47): ahí la lectura más 'sensual' incurriría en una repetición (cfr. la «sabrosa fatiga» del
-            v. 29); la semejanza gráfica y el contexto provocaron el error de A y T en el v. 30, donde se habla de la dama del poema («muerta la luz» podía decirse entonces por 'apagada'): el adverbio
-            ya (34) se corresponde con lo dicho antes («Tarde batiste...»); el singular batalla, en fin, se acomoda mejor al uso corriente de la expresión, al motivo de la noche nupcial y a las
-            fuentes italianas del v. 54. El problema está en decidir si algunas de esas variantes - particularmente las diferencias entre Flo y Ch - podrían esconder cambios de redacción o son simples
-            restituciones de la lectura auténtica; yo me inclino por lo segundo.</p>
+            precisan comentario. En el v. 1, tanto <mentioned rend="italic">contienen</mentioned> (<mentioned>retienen</mentioned>) como <mentioned rend="italic">contienden</mentioned>
+               (<mentioned>disputan</mentioned>) hacen sentido, pero gráficamente se parecen demasiado y la primera es <foreign>facilior</foreign>; la adición de I en el v. 15 procura hacer más
+            explícito el sujeto de desmienta, pero yo no la creo imprescindible; la preferencia de algunos testimonios por el presente de indicativo (19, 24) estropea el sentido y el vehemente deseo
+            expresado en la tercera estancia; Ch es el único que conserva toda la efectividad de la estructura bimembre del v. 27: «un lecho abriga y mil dulzuras cela» (téngase en cuenta que el ms. N
+            fue revisado y cotejado con Ch o alguno de sus modelos: se restituyó el numeral, pero no se advirtió el error en el sustantivo); quizá <mentioned rend="italic">dulzuras</mentioned> refleje
+            las atenciones conyugales mejor que <mentioned rend="italic">dulzores</mentioned>, con un matiz afín al de <mentioned rend="italic">dichosos</mentioned> frente a <mentioned rend="italic"
+               >sabrosos</mentioned> (47): ahí la lectura más <mentioned>sensual</mentioned> incurriría en una repetición (cfr. la «sabrosa fatiga» del v. 29); la semejanza gráfica y el contexto
+            provocaron el error de A y T en el v. 30, donde se habla de la dama del poema («muerta la luz» podía decirse entonces por <mentioned>apagada</mentioned>): el adverbio <mentioned
+               rend="italic">ya</mentioned> (34) se corresponde con lo dicho antes («Tarde batiste...»); el singular <mentioned rend="italic">batalla</mentioned>, en fin, se acomoda mejor al uso
+            corriente de la expresión, al motivo de la noche nupcial y a las fuentes italianas del v. 54. El problema está en decidir si algunas de esas variantes -particularmente las diferencias
+            entre Flo y Ch- podrían esconder cambios de redacción o son simples restituciones de la lectura auténtica; yo me inclino por lo segundo.</p>
 
-         <p>Canción A  b  C,  A  b  C:  c  d  D.</p>
+         <p>Canción A b C, A b C: c d D.</p>
 
-         <p>El commiato repite la sirima, y por tanto su primer verso, correspondiente a la chiave de las estancias, queda suelto. Aspiración de la h en el v. 16; efectiva aliteración en el 42. Entre
-            otros procedimientos estilísticos destacan los latinismos e italianismos (2, 3, 6, 46) y galas sintácticas como el ablativo absoluto (30) o el acusativo griego (37); cfr. D. Alonso, La
-            lengua poética de Góngora, en Obras completas, V, págs. 174-186.</p>
+         <p>El <foreign>commiato</foreign> repite la sirima, y por tanto su primer verso, correspondiente a la <foreign>chiave</foreign> de las estancias, queda suelto. Aspiración de la h en el v. 16;
+            efectiva aliteración en el 42. Entre otros procedimientos estilísticos destacan los latinismos e italianismos (2, 3, 6, 46) y galas sintácticas como el ablativo absoluto (30) o el
+            acusativo griego (37); cfr. <persName role="autoridad" key="Dámaso Alonso">D. Alonso</persName>, <title>La lengua poética de Góngora</title>, en <title>Obras completas</title>, V, págs.
+            174-186.</p>
 
 
       </front>
@@ -404,70 +414,129 @@
                   <lem>dulces ojos bellos</lem>
                   <rdg wit="#K" type="tranposición">ojos dulces, bellos</rdg>
                </app>!</l>
-            <l>¡Qué de ríos, del hielo tan atados,</l>
-            <l>del agua tan crecidos,</l>
+            <l>¡Qué de ríos, del <app>
+                  <lem>hielo</lem>
+                  <rdg wit="#Vi" type="substitución">cielo</rdg>
+               </app> tan atados,</l>
+            <l n="5"><app>
+                  <lem>del agua</lem>
+                  <rdg wit="#E #H" type="adición">de la agua</rdg>
+               </app> tan crecidos,</l>
             <l>me defienden el ya volver a vellos!</l>
             <l>¡Y qué, burlando de ellos,</l>
             <l>el noble pensamiento</l>
             <l>por verte viste plumas, pisa el viento!</l>
          </lg>
          <lg>
-            <l>Ni a las tinieblas de la noche obscura</l>
+            <l n="10">Ni a las tinieblas de la noche obscura</l>
             <l>ni a los hielos perdona,</l>
             <l>y a la mayor dificultad engaña;</l>
-            <l>no hay guardas hoy de llave tan segura</l>
+            <l>no <app>
+                  <lem>hay</lem>
+                  <rdg type="omisión" wit="#N"><add place="above">hay</add></rdg>
+               </app> guardas hoy de llave tan segura</l>
             <l>que nieguen tu persona,</l>
-            <l>que no desmienta con discreta maña;</l>
-            <l>ni emprenderá hazaña</l>
+            <l n="15">que <app>
+                  <lem/>
+                  <rdg wit="#I" type="adición"><add>él</add></rdg>
+               </app> no <app>
+                  <lem>desmienta</lem>
+                  <rdg type="substitución" wit="#M">desmiente</rdg>
+               </app> con discreta maña;</l>
+            <l>ni <app>
+                  <lem>emprenderá</lem>
+                  <rdg wit="#M" type="substitución">comprehenderá</rdg>
+               </app> hazaña</l>
             <l>tu esposo, cuando lidie,</l>
-            <l>que no la registre él, y yo no invidie.</l>
+            <l>que no la registre él, y yo <app>
+                  <lem>no invidie</lem>
+                  <rdg wit="#T" type="substitución">la invidie</rdg>
+               </app>.</l>
          </lg>
          <lg>
-            <l>Allá vueles, lisonja de mis penas,</l>
-            <l>que con igual licencia</l>
+            <l>Allá <app>
+                  <lem>vueles,</lem>
+                  <rdg wit="#Ho" type="substitución">vuelas,</rdg>
+                  <rdg wit="#A #J #M #T #Flo" type="adición">vuelves,</rdg>
+               </app> lisonja de mis penas,</l>
+            <l n="20">que con igual licencia</l>
             <l>penetras el abismo, el cielo escalas;</l>
-            <l>y mientras yo te aguardo en las cadenas</l>
+            <l>y mientras yo te <app>
+                  <lem>aguardo en las</lem>
+                  <rdg wit="#T" type="substitución">guardo las</rdg>
+               </app> cadenas</l>
             <l>de esta rabiosa ausencia,</l>
-            <l>al viento agravien tus ligeras alas.</l>
-            <l>Ya veo que te calas</l>
+            <l>al viento <app>
+                  <lem>agravien</lem>
+                  <rdg wit="#A #T #Flo #Ho" type="substitución">agravian</rdg>
+               </app> tus ligeras alas.</l>
+            <l n="25">Ya veo que te calas</l>
             <l>donde bordada tela</l>
-            <l>un lecho abriga y mil dulzuras cela.</l>
+            <l>un lecho abriga y <app>
+                  <lem>mil dulzuras</lem>
+                  <rdg wit="#A #B #E #H #I #J #K #M #T #Flo #Vi #Ho #Sa" type="substitución">mis dulzores</rdg>
+                  <rdg wit="#N" type="substitución">mil dulzores</rdg>
+               </app> cela.</l>
          </lg>
          <lg>
             <l>Tarde batiste la invidiosa pluma,</l>
             <l>que en sabrosa fatiga</l>
-            <l>vieras (muerta la voz, suelto el cabello)</l>
+            <l n="30">vieras (muerta la <app>
+                  <lem>voz</lem>
+                  <rdg wit="#A #T" type="substitución">luz</rdg>
+               </app>, suelto el cabello)</l>
             <l>la blanca hija de la blanca espuma,</l>
             <l>no sé si en brazos diga</l>
             <l>de un fiero Marte, o de un Adonis bello;</l>
-            <l>ya anudada a su cuello</l>
-            <l>podrás verla dormida,</l>
+            <l><app>
+                  <lem>ya</lem>
+                  <rdg wit="#B #E #F #H #I #J #K #M #N #T #Flo #Vi #Ho #Sa" type="omisión">y</rdg>
+               </app> anudada a su cuello</l>
+            <l n="35">podrás verla dormida,</l>
             <l>y a él casi trasladado a nueva vida.</l>
          </lg>
          <lg>
             <l>Desnuda el brazo, el pecho descubierta,</l>
             <l>entre templada nieve</l>
             <l>evaporar contempla un fuego helado,</l>
-            <l>y al esposo, en figura casi muerta,</l>
+            <l n="40">y al esposo, en figura casi muerta,</l>
             <l>que el silencio le bebe</l>
             <l>del sueño con sudor solicitado.</l>
             <l>Dormid, que el dios alado,</l>
             <l>de vuestras almas dueño,</l>
-            <l>con el dedo en la boca os guarda el sueño.</l>
+            <l n="45">con el dedo en la boca <app>
+                  <lem>os</lem>
+                  <rdg wit="#T" type="omisión"/>
+               </app> guarda el sueño.</l>
          </lg>
          <lg>
             <l>Dormid, copia gentil de amantes nobles,</l>
-            <l>en los dichosos nudos</l>
+            <l>en los <app>
+                  <lem>dichosos</lem>
+                  <rdg wit="#B #F">sabrosos</rdg>
+               </app> nudos</l>
             <l>que a los lazos de amor os dio Himeneo;</l>
             <l>mientras yo, desterrado, de estos robles</l>
-            <l>y peñascos desnudos</l>
-            <l>la piedad con mis lágrimas granjeo.</l>
-            <l>Coronad el deseo</l>
+            <l n="50">y peñascos desnudos</l>
+            <l>la piedad con <app>
+                  <lem>mis</lem>
+                  <rdg wit="#T" type="substitución">mil</rdg>
+               </app> lágrimas granjeo.</l>
+            <l>Coronad <app>
+                  <lem>el</lem>
+                  <rdg wit="#M" type="substitución">al</rdg>
+               </app> deseo</l>
             <l>de gloria, en recordando;</l>
-            <l>sea el lecho de batalla campo blando.</l>
+            <l>sea el <app>
+                  <lem>lecho</lem>
+                  <rdg wit="#T" type="substitución">hecho</rdg>
+               </app> de <app>
+                  <lem>batalla</lem>
+                  <rdg wit="#A #B #E #F #I #J #K #M #N #T #Flo #Vi #Ho #Sa">batallas</rdg>
+               </app> campo blando.</l>
          </lg>
          <lg>
-            <l>Canción, di al pensamiento</l>
+            <l n="55">Canción, di al pensamiento</l>
             <l>que corra la cortina</l>
             <l>y vuelva al desdichado que camina.</l>
          </lg>

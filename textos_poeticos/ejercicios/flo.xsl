@@ -57,21 +57,21 @@
             padding-top: 20px;
             padding-left: 50px;
           }
-
+          
           .n{
-          left: -0.1em;
-          position:absolute;
-          }
-
-          .nota{
-          padding-top: 20px;
-          padding-left: 40px;
-          padding-right: 40px;
+            left: -0.1em;
+            position: absolute;
           }
 
 mark{
-background-color:#ccefff;
+background-color:#ffcccc;
 }
+          
+          .nota{
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+          }
           
           /* On small screens, set height to 'auto' for sidenav and grid */
           @media screen and (max-width : 767px){
@@ -191,9 +191,8 @@ background-color:#ccefff;
               <xsl:apply-templates select="//tei:body"/>
             </div>
 
-            <div class="col-sm-6 sidenav">
-              <xsl:apply-templates select="//tei:note" mode="endnote"/>
-            </div>
+            <div class="col-sm-6 sidenav"/>
+
 
           </div>
 
@@ -245,7 +244,7 @@ background-color:#ccefff;
     </span>
     <br xmlns="http://www.w3.org/1999/xhtml"/>
   </xsl:template>
-  
+
   <xsl:template match="tei:l[@n]">
     <span xmlns="http://www.w3.org/1999/xhtml" class="n">
       <xsl:value-of select="@n"/>
@@ -256,41 +255,36 @@ background-color:#ccefff;
     <br xmlns="http://www.w3.org/1999/xhtml"/>
   </xsl:template>
 
-  <xsl:template match="tei:choice">
+  <xsl:template match="tei:app">
     <xsl:apply-templates/>
   </xsl:template>
 
-  <xsl:template match="tei:orig"/>
-
-  <xsl:template match="tei:reg">
-    <mark xmlns="http://www.w3.org/1999/xhtml"><xsl:apply-templates/></mark>
+  <xsl:template match="tei:lem">
+    <xsl:if test="following-sibling::tei:rdg[not(contains(@wit, '#Flo'))]">
+      <xsl:value-of select="."/>
+    </xsl:if>
   </xsl:template>
 
-  <xsl:template match="tei:note"/>
-
-  <xsl:template match="tei:note" mode="endnote">
-    <p class="nota" xmlns="http://www.w3.org/1999/xhtml">
-     
-      <strong><xsl:text>Nº </xsl:text>
-        <xsl:value-of select="translate(parent::tei:l/@xml:id, 'v-000', '')"/>
-        <xsl:text>: </xsl:text></strong>
-      
-      <xsl:apply-templates/>
-    </p>
-
+  <xsl:template match="tei:rdg[contains(@wit, '#Flo')]">
+    <mark xmlns="http://www.w3.org/1999/xhtml"><xsl:value-of select="."/></mark>
   </xsl:template>
 
-  <xsl:template match="tei:foreign | tei:mentioned[@rend='italic'] | tei:hi[@rend = 'italic'] | tei:title">
+  <xsl:template match="tei:rdg[not(contains(@wit, '#Flo'))]"/>
+
+
+  <xsl:template match="tei:foreign | tei:mentioned[@rend = 'italic'] | tei:hi[@rend = 'italic'] | tei:title">
     <em xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
     </em>
   </xsl:template>
 
-  
-  <xsl:template match="tei:mentioned[not(@rend='italic')]">
-    <xsl:text>'</xsl:text><xsl:value-of select="."/><xsl:text>'</xsl:text>
+
+  <xsl:template match="tei:mentioned[not(@rend = 'italic')]">
+    <xsl:text>'</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>'</xsl:text>
   </xsl:template>
-  
+
 
 
 </xsl:stylesheet>
