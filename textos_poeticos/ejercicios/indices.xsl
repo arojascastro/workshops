@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
 
-  <xsl:output method="html"/>
+
+  <xsl:output method="html" indent="yes"/>
 
   <xsl:template match="/">
 
@@ -35,14 +36,14 @@
           
           /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
           .row.content{
-            height: 450px
+            height: 800px;
           }
           
           /* Set gray background color and 100% height */
           .sidenav{
             padding-top: 20px;
             background-color: #f1f1f1;
-            height: 800px;
+            height: 1000px;
           }
           
           /* Set black background color, white text and some padding */
@@ -50,6 +51,10 @@
             background-color: #555;
             color: white;
             padding: 15px;
+          }
+          
+          .estrofa{
+            padding-top: 20px;
           }
           
           /* On small screens, set height to 'auto' for sidenav and grid */
@@ -61,6 +66,7 @@
             .row.content{
               height: auto;
             }
+          
           }</style>
       </head>
 
@@ -145,7 +151,7 @@
                   <a href="#">Criterios editoriales</a>
                 </li>
                 <li>
-                  <a href="indices.html">Índices</a>
+                  <a href="#indices.html">Indices</a>
                 </li>
                 <li>
                   <a href="bibliografia.html">Bibliografía</a>
@@ -155,7 +161,7 @@
           </div>
         </nav>
 
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center" id="poem">
 
           <div class="row content">
 
@@ -166,10 +172,64 @@
             </div>
 
             <div class="col-sm-8 text-left">
-              <xsl:apply-templates select="//tei:front"/>
+
+              <div>
+                <h3>Vocabulario gongorino</h3>
+                <ul>
+                  <xsl:for-each select="//tei:note/tei:term">
+                    <xsl:sort select="./@ana" order="ascending"/>
+                    <li><xsl:value-of select="@ana"/></li>
+                  </xsl:for-each>
+                </ul>
+              </div>
+
+              <div>
+                <h3>Obras mencionadas por el editor</h3>
+                <ul>
+                  <xsl:for-each select="//tei:note/tei:title">
+                    <xsl:sort select="."/>
+                    <xsl:if test="not(. = preceding::tei:note/tei:title)">
+                      <li>
+                        <em>
+                          <xsl:value-of select="normalize-space(.)"/>
+                        </em>
+                      </li>
+                    </xsl:if>
+                  </xsl:for-each>
+                </ul>
+              </div>
+           
+
+            <div>
+              <h3>Autoridades mencionadas por el editor</h3>
+              <ul>
+                <xsl:for-each select="//tei:persName[@role = 'autoridad']">
+                  <xsl:sort select="./@key"/>
+                  <xsl:if test="not(./@key = preceding::tei:persName/@key)">
+                    <li>
+                      <xsl:value-of select="normalize-space(./@key)"/>
+                    </li>
+                  </xsl:if>
+                </xsl:for-each>
+              </ul>
             </div>
 
-            <div class="col-sm-2 sidenav"> <xsl:apply-templates select="//tei:pb"/></div>
+            <div>
+              <h3>Poetas mencionados por el editor</h3>
+              <ul>
+                <xsl:for-each select="//tei:persName[@role = 'poeta']">
+                  <xsl:sort select="./@key"/>
+                  <xsl:if test="not(./@key = preceding::tei:persName/@key)">
+                    <li>
+                      <xsl:value-of select="normalize-space(./@key)"/>
+                    </li>
+                  </xsl:if>
+                </xsl:for-each>
+              </ul>
+            </div>
+            </div>
+
+            <div class="col-sm-2 sidenav"/>
 
           </div>
 
@@ -177,10 +237,14 @@
 
         <footer class="container-fluid text-center">
           <p>
-            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/><xsl:text> </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:persName"/>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:persName"/>
           </p>
           <p>
-            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:resp"/><xsl:text> </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:persName"/>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:resp"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:persName"/>
           </p>
           <p>
             <xsl:value-of select="//tei:publicationStmt/tei:pubPlace"/>
@@ -203,41 +267,6 @@
 
     </html>
 
-  </xsl:template>
-
-  <xsl:template match="//tei:front/tei:head">
-    <h1 xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
-    </h1>
-  </xsl:template>
-
-  <xsl:template match="//tei:front/tei:p">
-    <p xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
-    </p>
-  </xsl:template>
-
-  <xsl:template match="//tei:persName">
-    <mark xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
-    </mark>
-  </xsl:template>
-
-
-  <xsl:template match="tei:foreign | tei:mentioned[@rend='italic'] | tei:hi[@rend = 'italic']">
-    <em xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
-    </em>
-  </xsl:template>
-
-<xsl:template match="tei:title">
-  <strong xmlns="http://www.w3.org/1999/xhtml"><em xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:apply-templates/></em>
-  </strong>
-  </xsl:template>
-
-  <xsl:template match="tei:mentioned[not(@rend='italic')]">
-   <xsl:text>'</xsl:text><xsl:value-of select="."/><xsl:text>'</xsl:text>
   </xsl:template>
 
 

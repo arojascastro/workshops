@@ -5,7 +5,7 @@
 
   <xsl:template match="/">
 
-    <xsl:for-each select="//tei:witness[not(tei:biblStruct)]/tei:msDesc[@type='manuscript']">
+    <xsl:for-each select="//tei:witness[tei:biblStruct]/tei:msDesc[@type='print']">
 
       <xsl:variable name="sigla" select="parent::tei:witness/@xml:id"/>
 
@@ -229,20 +229,6 @@
         <xsl:value-of select="parent::tei:witness/@xml:id"/>
       </h2>
 
-      <!-- substitute xsl:value by xsl:apply-templates when necessary -->
-
-      <!-- <witness xml:id="M">
-                  <msDesc type="manuscript">
-                     <msIdentifier>
-                        <country>España</country>
-                        <settlement>Palma de Mallorca</settlement>
-                        <repository>Biblioteca de don Bartolomé March</repository>
-                        <collection>Fondo antiguo</collection>
-                        <idno type="cataloguenumber">23/3/7</idno>
-                        <msName>Quaderno de varias poesías de don Luis de Góngora</msName>
-                     </msIdentifier>
-                  </msDesc>
-               </witness> -->
 
       <!--   <witness xml:id="Vi">
                   <msDesc type="print">
@@ -303,14 +289,30 @@
         </li>
         <li>
           <xsl:text>Título: </xsl:text>
-          <em><xsl:value-of select="tei:msIdentifier/tei:msName[1]"/></em>
+          <em><xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:title"/></em>
         </li>
-        <xsl:if test="tei:msIdentifier/tei:msName[2]/text()">
-          <li>
-            <xsl:text>Sobrenombre: </xsl:text>
-            <em><xsl:value-of select="tei:msIdentifier/tei:msName[2]"/></em>
-          </li>
-        </xsl:if>
+        <li>
+          <xsl:text>Editor: </xsl:text>
+          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:editor"/>
+        </li>
+        <li>
+          <xsl:text>Lugar de publicación: </xsl:text>
+          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:pubPlace"/>
+        </li>
+        <li>
+          <xsl:text>Fecha de publicación: </xsl:text>
+          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:date"/>
+        </li>
+        <li>
+          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:resp"/>
+          <xsl:text>: </xsl:text><xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:persName |
+following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:orgName"/>
+        </li>
+        <li>
+          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:resp"/>
+          <xsl:text>: </xsl:text><xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:persName"/>
+        </li>
+        
       </ul>
 
     </div>

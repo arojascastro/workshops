@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
 
-  <xsl:output method="html"/>
+  <xsl:output method="html" indent="yes"/>
 
   <xsl:template match="/">
 
@@ -35,14 +35,14 @@
           
           /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
           .row.content{
-            height: 450px
+            height: 1550px;
           }
           
           /* Set gray background color and 100% height */
           .sidenav{
             padding-top: 20px;
             background-color: #f1f1f1;
-            height: 1000px;
+            height: 2600px;
           }
           
           /* Set black background color, white text and some padding */
@@ -51,6 +51,23 @@
             color: white;
             padding: 15px;
           }
+          
+          .estrofa{
+            padding-top: 20px;
+            padding-left: 50px;
+          }
+          
+          .n{
+            left: -0.1em;
+            position:absolute;
+          }
+          
+          .facsimil{
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+          }
+          
           
           /* On small screens, set height to 'auto' for sidenav and grid */
           @media screen and (max-width : 767px){
@@ -61,6 +78,7 @@
             .row.content{
               height: auto;
             }
+          
           }</style>
       </head>
 
@@ -84,10 +102,10 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Edición<span class="caret"/></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="edicion/paleografica.html">Transcripción paleográfica</a>
+                      <a href="paleografica.html">Transcripción paleográfica</a>
                     </li>
                     <li>
-                      <a href="edicion/modernizada.html">Edición modernizada con notas</a>
+                      <a href="modernizada.html">Edición modernizada con notas</a>
                     </li>
                   </ul>
                 </li>
@@ -145,6 +163,9 @@
                   <a href="#">Criterios editoriales</a>
                 </li>
                 <li>
+                  <a href="indices.html">Índices</a>
+                </li>
+                <li>
                   <a href="bibliografia.html">Bibliografía</a>
                 </li>
               </ul>
@@ -162,11 +183,13 @@
               <p><a href="#">Soledad segunda</a></p>-->
             </div>
 
-            <div class="col-sm-8 text-left">
-              <xsl:apply-templates select="//tei:front"/>
+            <div class="col-sm-4 text-left">
+              <xsl:apply-templates select="//tei:body"/>
             </div>
 
-            <div class="col-sm-2 sidenav"/>
+            <div class="col-sm-6 sidenav">
+              <xsl:apply-templates select="//tei:pb" mode="side"/>
+            </div>
 
           </div>
 
@@ -174,10 +197,14 @@
 
         <footer class="container-fluid text-center">
           <p>
-            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/><xsl:text> </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:persName"/>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:persName"/>
           </p>
           <p>
-            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:resp"/><xsl:text> </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:persName"/>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:resp"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:persName"/>
           </p>
           <p>
             <xsl:value-of select="//tei:publicationStmt/tei:pubPlace"/>
@@ -202,42 +229,53 @@
 
   </xsl:template>
 
-  <xsl:template match="//tei:front/tei:head">
-    <h1 xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
-    </h1>
-  </xsl:template>
-
-
-  <xsl:template match="//tei:front/tei:p/tei:hi[@rend = 'italic']">
-    <em xmlns="http://www.w3.org/1999/xhtml">
-     <xsl:apply-templates/>
-    </em>
-  </xsl:template>
-
-  <xsl:template match="//tei:front/tei:p">
-    <p xmlns="http://www.w3.org/1999/xhtml">
+  <xsl:template match="tei:lg">
+    <p class="estrofa" xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
     </p>
   </xsl:template>
 
-  <xsl:template match="//tei:front/tei:list">
-    <div class="list-group" xmlns="http://www.w3.org/1999/xhtml">
+  <xsl:template match="tei:pb"/>
+
+  <xsl:template match="tei:pb" mode="side">
+    <div class="facsimil" xmlns="http://www.w3.org/1999/xhtml">
+      <h3>
+        <xsl:text>Manuscrito Chacón. Folio </xsl:text>
+        <xsl:value-of select="@n"/>
+      </h3>
+      <img src="{@facs}" alt="{@n}" height="600" width="400"/>
       <xsl:apply-templates/>
     </div>
   </xsl:template>
 
-  <xsl:template match="//tei:front/tei:list/tei:item">
-    <a href="{./tei:ref/@target}" class="list-group-item" xmlns="http://www.w3.org/1999/xhtml">
-     <xsl:apply-templates/>
-    </a>
+  <xsl:template match="tei:l[not(@n)]">
+    <span class="verso" xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:apply-templates/>
+    </span>
+    <br xmlns="http://www.w3.org/1999/xhtml"/>
   </xsl:template>
 
-  <xsl:template match="//tei:front/tei:p/tei:ref">
-    <a href="{./@target}" xmlns="http://www.w3.org/1999/xhtml">
-     <xsl:apply-templates/>
-    </a>
+  <xsl:template match="tei:l[@n]">
+    <span xmlns="http://www.w3.org/1999/xhtml" class="n">
+      <xsl:value-of select="@n"/>
+    </span>
+    <span class="verso" xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:apply-templates/>
+    </span>
+    <br xmlns="http://www.w3.org/1999/xhtml"/>
   </xsl:template>
+
+  <xsl:template match="tei:choice">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="tei:reg"/>
+
+  <xsl:template match="tei:orig">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="tei:note"/>
 
 
 </xsl:stylesheet>

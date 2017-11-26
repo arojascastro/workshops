@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
 
+
   <xsl:output method="html" indent="yes"/>
 
   <xsl:template match="/">
@@ -35,14 +36,14 @@
           
           /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
           .row.content{
-            height: 450px;
+            height: 1550px;
           }
           
           /* Set gray background color and 100% height */
           .sidenav{
             padding-top: 20px;
             background-color: #f1f1f1;
-            height: 1200px;
+            height: 2600px;
           }
           
           /* Set black background color, white text and some padding */
@@ -51,9 +52,21 @@
             color: white;
             padding: 15px;
           }
-
+          
           .estrofa{
+            padding-top: 20px;
+            padding-left: 50px;
+          }
+
+          .n{
+          left: -0.1em;
+          position:absolute;
+          }
+
+          .nota{
           padding-top: 20px;
+          padding-left: 40px;
+          padding-right: 40px;
           }
           
           /* On small screens, set height to 'auto' for sidenav and grid */
@@ -65,9 +78,8 @@
             .row.content{
               height: auto;
             }
-
-          }
-          </style>
+          
+          }</style>
       </head>
 
       <body>
@@ -90,10 +102,10 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Edición<span class="caret"/></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="edicion/paleografica.html">Transcripción paleográfica</a>
+                      <a href="paleografica.html">Transcripción paleográfica</a>
                     </li>
                     <li>
-                      <a href="edicion/modernizada.html">Edición modernizada con notas</a>
+                      <a href="modernizada.html">Edición modernizada con notas</a>
                     </li>
                   </ul>
                 </li>
@@ -151,6 +163,9 @@
                   <a href="#">Criterios editoriales</a>
                 </li>
                 <li>
+                  <a href="indices.html">Índices</a>
+                </li>
+                <li>
                   <a href="bibliografia.html">Bibliografía</a>
                 </li>
               </ul>
@@ -158,7 +173,7 @@
           </div>
         </nav>
 
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center" id="poem">
 
           <div class="row content">
 
@@ -168,11 +183,11 @@
               <p><a href="#">Soledad segunda</a></p>-->
             </div>
 
-            <div class="col-sm-6 text-left">
+            <div class="col-sm-4 text-left">
               <xsl:apply-templates select="//tei:body"/>
             </div>
 
-            <div class="col-sm-4 sidenav">
+            <div class="col-sm-6 sidenav">
               <xsl:apply-templates select="//tei:note" mode="endnote"/>
             </div>
 
@@ -220,7 +235,17 @@
     </p>
   </xsl:template>
 
-  <xsl:template match="tei:l">
+  <xsl:template match="tei:l[not(@n)]">
+    <span class="verso" xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:apply-templates/>
+    </span>
+    <br xmlns="http://www.w3.org/1999/xhtml"/>
+  </xsl:template>
+  
+  <xsl:template match="tei:l[@n]">
+    <span xmlns="http://www.w3.org/1999/xhtml" class="n">
+      <xsl:value-of select="@n"/>
+    </span>
     <span class="verso" xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
     </span>
@@ -241,16 +266,27 @@
 
   <xsl:template match="tei:note" mode="endnote">
     <p class="nota" xmlns="http://www.w3.org/1999/xhtml">
-      <a href="#{parent::tei:l/@xml:id}" xmlns="http://www.w3.org/1999/xhtml">
-        <xsl:text>Nº </xsl:text>
-        <xsl:value-of select="count(parent::tei:l/@xml:id)"/>
-        <xsl:text>: </xsl:text>
-      </a>
+     
+      <strong><xsl:text>Nº </xsl:text>
+        <xsl:value-of select="translate(parent::tei:l/@xml:id, 'v-000', '')"/>
+        <xsl:text>: </xsl:text></strong>
+      
       <xsl:apply-templates/>
     </p>
 
   </xsl:template>
 
+  <xsl:template match="tei:foreign | tei:mentioned[@rend='italic'] | tei:hi[@rend = 'italic'] | tei:title">
+    <em xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:apply-templates/>
+    </em>
+  </xsl:template>
+
+  
+  <xsl:template match="tei:mentioned[not(@rend='italic')]">
+    <xsl:text>'</xsl:text><xsl:value-of select="."/><xsl:text>'</xsl:text>
+  </xsl:template>
+  
 
 
 </xsl:stylesheet>

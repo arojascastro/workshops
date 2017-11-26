@@ -350,7 +350,7 @@
 
       <!-- COMENTARIO DE TEXTO -->
       <front>
-         <head>Comentario de texto</head>
+         <head>Presentación</head>
          <p>Esta canción es uno de los mejores poemas de Góngora, y quizá no haya en toda su obra otro caso parejo de «imitación de diversos» que posea una originalidad más sorprendente. En efecto,
             todos sus elementos están inspirados en la poesía italiana y se dan independientemente en los textos de Petrarca, Torquato Tasso y un sinfín de poetas menores: desde el motivo del veloz
             pensamiento que acorta las distancias entre el amante y la amada (comp. la letrilla «Vuela, pensamiento, y diles» [M 105] y el soneto «Varia imaginación, que en mil intentos» [M 240])
@@ -393,7 +393,6 @@
 
       <!-- CANCIÓN VI -->
       <body>
-
          <lg>
             <l xml:id="v-00001"><choice>
                   <orig>QVE</orig>
