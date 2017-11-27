@@ -5,7 +5,7 @@
 
   <xsl:template match="/">
 
-    <xsl:for-each select="//tei:witness[not(tei:biblStruct)]/tei:msDesc[@type='manuscript']">
+    <xsl:for-each select="//tei:witness[not(tei:biblStruct)]/tei:msDesc[@type = 'manuscript']">
 
       <xsl:variable name="sigla" select="parent::tei:witness/@xml:id"/>
 
@@ -18,14 +18,14 @@
               <xsl:value-of select="//tei:titleStmt/tei:title"/>
             </title>
             <meta name="DC. CREATOR.AUT" content="Luis de Góngora"/>
-            <meta name="DC.TITLE" content="Soledades. Nueva edición digital: inicio"/>
+            <meta name="DC.TITLE" content="Canción VI de Luis de Góngora. Edición digital"/>
             <meta name="DC.CREATOR" content="Luis de Góngora"/>
             <meta name="DC.CONTRIBUTOR" content="Antonio Rojas Castro"/>
             <meta name="DC.TYPE" content="Text"/>
-            <meta name="DC.SUBJECT" content="Poesía Soledades Siglo de Oro Edición digital Luis de Góngora"/>
+            <meta name="DC.SUBJECT" content="Poesía Siglo de Oro Edición digital Luis de Góngora"/>
             <meta name="DC.FORMAT" content="text/html"/>
             <meta name="DC.LANGUAGE" content="es"/>
-            <meta name="DC.DATE.CREATED" content="1613"/>
+            <meta name="DC.DATE.CREATED" content="1600"/>
             <meta name="DC.RIGHTS" content="Creative Commons By 4.0"/>
             <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -165,16 +165,10 @@
 
               <div class="row content">
 
-                <div class="col-sm-2 sidenav">
-                  <!--<p><a href="#">Dedicatoria</a></p>
-                  <p><a href="#">Soledad primera</a></p>
-                  <p><a href="#">Soledad segunda</a></p>-->
-                </div>
+                <div class="col-sm-2 sidenav"/>
 
                 <div class="col-sm-8 text-left">
-
                   <xsl:apply-templates select="."/>
-
                 </div>
 
                 <div class="col-sm-2 sidenav"/>
@@ -229,54 +223,6 @@
         <xsl:value-of select="parent::tei:witness/@xml:id"/>
       </h2>
 
-      <!-- substitute xsl:value by xsl:apply-templates when necessary -->
-
-      <!-- <witness xml:id="M">
-                  <msDesc type="manuscript">
-                     <msIdentifier>
-                        <country>España</country>
-                        <settlement>Palma de Mallorca</settlement>
-                        <repository>Biblioteca de don Bartolomé March</repository>
-                        <collection>Fondo antiguo</collection>
-                        <idno type="cataloguenumber">23/3/7</idno>
-                        <msName>Quaderno de varias poesías de don Luis de Góngora</msName>
-                     </msIdentifier>
-                  </msDesc>
-               </witness> -->
-
-      <!--   <witness xml:id="Vi">
-                  <msDesc type="print">
-                     <msIdentifier>
-                        <country>España</country>
-                        <settlement>Madrid</settlement>
-                        <repository>Biblioteca Nacional de España</repository>
-                        <collection>Fondo antiguo</collection>
-                        <idno type="cataloguenumber">R/8641</idno>
-                     </msIdentifier>
-                  </msDesc>
-                  <biblStruct>
-                     <monogr>
-                        <author>Luis de Góngora</author>
-                        <editor>Juan López de Vicuña </editor>
-                        <title type="short" level="m">Obras en verso del Homero español</title>
-                        <imprint>
-                           <pubPlace>
-                              <placeName>Madrid</placeName>
-                           </pubPlace>
-                           <respStmt>
-                              <resp>Impreso por</resp>
-                              <persName role="impresor">Ana de Carasa</persName>
-                           </respStmt>
-                           <respStmt>
-                              <resp>A costa de</resp>
-                              <persName role="librero">Alonso Pérez</persName>
-                           </respStmt>
-                           <date when="1627">1627</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-               </witness> -->
-
       <h3 class="manuscrito_id">
         <xsl:text>Identificación</xsl:text>
       </h3>
@@ -303,18 +249,21 @@
         </li>
         <li>
           <xsl:text>Título: </xsl:text>
-          <em><xsl:value-of select="tei:msIdentifier/tei:msName[1]"/></em>
+          <em>
+            <xsl:value-of select="tei:msIdentifier/tei:msName[1]"/>
+          </em>
         </li>
         <xsl:if test="tei:msIdentifier/tei:msName[2]/text()">
           <li>
             <xsl:text>Sobrenombre: </xsl:text>
-            <em><xsl:value-of select="tei:msIdentifier/tei:msName[2]"/></em>
+            <em>
+              <xsl:value-of select="tei:msIdentifier/tei:msName[2]"/>
+            </em>
           </li>
         </xsl:if>
       </ul>
 
     </div>
-
 
   </xsl:template>
 

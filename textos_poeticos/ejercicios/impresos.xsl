@@ -5,7 +5,7 @@
 
   <xsl:template match="/">
 
-    <xsl:for-each select="//tei:witness[tei:biblStruct]/tei:msDesc[@type='print']">
+    <xsl:for-each select="//tei:witness[tei:biblStruct]/tei:msDesc[@type = 'print']">
 
       <xsl:variable name="sigla" select="parent::tei:witness/@xml:id"/>
 
@@ -18,14 +18,14 @@
               <xsl:value-of select="//tei:titleStmt/tei:title"/>
             </title>
             <meta name="DC. CREATOR.AUT" content="Luis de Góngora"/>
-            <meta name="DC.TITLE" content="Soledades. Nueva edición digital: inicio"/>
+            <meta name="DC.TITLE" content="Canción VI de Luis de Gógnora. Edición digital"/>
             <meta name="DC.CREATOR" content="Luis de Góngora"/>
             <meta name="DC.CONTRIBUTOR" content="Antonio Rojas Castro"/>
             <meta name="DC.TYPE" content="Text"/>
-            <meta name="DC.SUBJECT" content="Poesía Soledades Siglo de Oro Edición digital Luis de Góngora"/>
+            <meta name="DC.SUBJECT" content="Poesía Siglo de Oro Edición digital Luis de Góngora"/>
             <meta name="DC.FORMAT" content="text/html"/>
             <meta name="DC.LANGUAGE" content="es"/>
-            <meta name="DC.DATE.CREATED" content="1613"/>
+            <meta name="DC.DATE.CREATED" content="1600"/>
             <meta name="DC.RIGHTS" content="Creative Commons By 4.0"/>
             <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -165,16 +165,10 @@
 
               <div class="row content">
 
-                <div class="col-sm-2 sidenav">
-                  <!--<p><a href="#">Dedicatoria</a></p>
-                  <p><a href="#">Soledad primera</a></p>
-                  <p><a href="#">Soledad segunda</a></p>-->
-                </div>
+                <div class="col-sm-2 sidenav"/>
 
                 <div class="col-sm-8 text-left">
-
                   <xsl:apply-templates select="."/>
-
                 </div>
 
                 <div class="col-sm-2 sidenav"/>
@@ -183,7 +177,6 @@
 
             </div>
 
-            <!-- replace with xsl:templates when necessary -->
             <footer class="container-fluid text-center">
               <p>
                 <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/>
@@ -221,6 +214,7 @@
 
   </xsl:template>
 
+
   <xsl:template match="//tei:msDesc">
 
     <div xmlns="http://www.w3.org/1999/xhtml" class="manuscrito_container">
@@ -228,40 +222,6 @@
       <h2 class="manuscrito_sigla" xml:id="{parent::tei:witness/@xml:id}">
         <xsl:value-of select="parent::tei:witness/@xml:id"/>
       </h2>
-
-
-      <!--   <witness xml:id="Vi">
-                  <msDesc type="print">
-                     <msIdentifier>
-                        <country>España</country>
-                        <settlement>Madrid</settlement>
-                        <repository>Biblioteca Nacional de España</repository>
-                        <collection>Fondo antiguo</collection>
-                        <idno type="cataloguenumber">R/8641</idno>
-                     </msIdentifier>
-                  </msDesc>
-                  <biblStruct>
-                     <monogr>
-                        <author>Luis de Góngora</author>
-                        <editor>Juan López de Vicuña </editor>
-                        <title type="short" level="m">Obras en verso del Homero español</title>
-                        <imprint>
-                           <pubPlace>
-                              <placeName>Madrid</placeName>
-                           </pubPlace>
-                           <respStmt>
-                              <resp>Impreso por</resp>
-                              <persName role="impresor">Ana de Carasa</persName>
-                           </respStmt>
-                           <respStmt>
-                              <resp>A costa de</resp>
-                              <persName role="librero">Alonso Pérez</persName>
-                           </respStmt>
-                           <date when="1627">1627</date>
-                        </imprint>
-                     </monogr>
-                  </biblStruct>
-               </witness> -->
 
       <h3 class="manuscrito_id">
         <xsl:text>Identificación</xsl:text>
@@ -289,7 +249,9 @@
         </li>
         <li>
           <xsl:text>Título: </xsl:text>
-          <em><xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:title"/></em>
+          <em>
+            <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:title"/>
+          </em>
         </li>
         <li>
           <xsl:text>Editor: </xsl:text>
@@ -305,18 +267,21 @@
         </li>
         <li>
           <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:resp"/>
-          <xsl:text>: </xsl:text><xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:persName |
-following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:orgName"/>
+          <xsl:text>: </xsl:text>
+          <xsl:value-of
+            select="
+              following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:persName |
+              following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:orgName"
+          />
         </li>
         <li>
           <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:resp"/>
-          <xsl:text>: </xsl:text><xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:persName"/>
+          <xsl:text>: </xsl:text>
+          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:persName"/>
         </li>
-        
       </ul>
 
     </div>
-
 
   </xsl:template>
 

@@ -12,14 +12,14 @@
           <xsl:value-of select="//tei:titleStmt/tei:title"/>
         </title>
         <meta name="DC. CREATOR.AUT" content="Luis de Góngora"/>
-        <meta name="DC.TITLE" content="Soledades. Nueva edición digital: inicio"/>
+        <meta name="DC.TITLE" content="Canción VI de Luis de Gógnora. Edición digital"/>
         <meta name="DC.CREATOR" content="Luis de Góngora"/>
         <meta name="DC.CONTRIBUTOR" content="Antonio Rojas Castro"/>
         <meta name="DC.TYPE" content="Text"/>
-        <meta name="DC.SUBJECT" content="Poesía Soledades Siglo de Oro Edición digital Luis de Góngora"/>
+        <meta name="DC.SUBJECT" content="Poesía Siglo de Oro Edición digital Luis de Góngora"/>
         <meta name="DC.FORMAT" content="text/html"/>
         <meta name="DC.LANGUAGE" content="es"/>
-        <meta name="DC.DATE.CREATED" content="1613"/>
+        <meta name="DC.DATE.CREATED" content="1600"/>
         <meta name="DC.RIGHTS" content="Creative Commons By 4.0"/>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -95,49 +95,49 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Testimonios<span class="caret"/></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="testimonios/A.html">A</a>
+                      <a href="A.html">A</a>
                     </li>
                     <li>
-                      <a href="testimonios/B.html">B</a>
+                      <a href="B.html">B</a>
                     </li>
                     <li>
-                      <a href="testimonios/Ch.html">Ch</a>
+                      <a href="Ch.html">Ch</a>
                     </li>
                     <li>
-                      <a href="testimonios/E.html">E</a>
+                      <a href="E.html">E</a>
                     </li>
                     <li>
-                      <a href="testimonios/F.html">F</a>
+                      <a href="F.html">F</a>
                     </li>
                     <li>
-                      <a href="testimonios/H.html">H</a>
+                      <a href="H.html">H</a>
                     </li>
                     <li>
-                      <a href="testimonios/I.html">I</a>
+                      <a href="I.html">I</a>
                     </li>
                     <li>
-                      <a href="testimonios/J.html">J</a>
+                      <a href="J.html">J</a>
                     </li>
                     <li>
-                      <a href="testimonios/K.html">K</a>
+                      <a href="K.html">K</a>
                     </li>
                     <li>
-                      <a href="testimonios/M.html">M</a>
+                      <a href="M.html">M</a>
                     </li>
                     <li>
-                      <a href="testimonios/N.html">N</a>
+                      <a href="N.html">N</a>
                     </li>
                     <li>
-                      <a href="testimonios/T.html">T</a>
+                      <a href="T.html">T</a>
                     </li>
                     <li>
-                      <a href="testimonios/Flo.html">Flo</a>
+                      <a href="Flo.html">Flo</a>
                     </li>
                     <li>
-                      <a href="testimonios/Vi.html">Vi</a>
+                      <a href="Vi.html">Vi</a>
                     </li>
                     <li>
-                      <a href="testimonios/Sa.html">Sa</a>
+                      <a href="Sa.html">Sa</a>
                     </li>
                   </ul>
                 </li>
@@ -159,17 +159,15 @@
 
           <div class="row content">
 
-            <div class="col-sm-2 sidenav">
-              <!--<p><a href="#">Dedicatoria</a></p>
-              <p><a href="#">Soledad primera</a></p>
-              <p><a href="#">Soledad segunda</a></p>-->
-            </div>
+            <div class="col-sm-2 sidenav"/>
 
             <div class="col-sm-8 text-left">
               <xsl:apply-templates select="//tei:front"/>
             </div>
 
-            <div class="col-sm-2 sidenav"> <xsl:apply-templates select="//tei:pb"/></div>
+            <div class="col-sm-2 sidenav">
+              <xsl:apply-templates select="//tei:pb"/>
+            </div>
 
           </div>
 
@@ -177,10 +175,14 @@
 
         <footer class="container-fluid text-center">
           <p>
-            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/><xsl:text> </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:persName"/>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:resp"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[1]/tei:persName"/>
           </p>
           <p>
-            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:resp"/><xsl:text> </xsl:text> <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:persName"/>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:resp"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="//tei:titleStmt/tei:respStmt[2]/tei:persName"/>
           </p>
           <p>
             <xsl:value-of select="//tei:publicationStmt/tei:pubPlace"/>
@@ -224,20 +226,24 @@
   </xsl:template>
 
 
-  <xsl:template match="tei:foreign | tei:mentioned[@rend='italic'] | tei:hi[@rend = 'italic']">
+  <xsl:template match="tei:foreign | tei:mentioned[@rend = 'italic'] | tei:hi[@rend = 'italic']">
     <em xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
     </em>
   </xsl:template>
 
-<xsl:template match="tei:title">
-  <strong xmlns="http://www.w3.org/1999/xhtml"><em xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:apply-templates/></em>
-  </strong>
+  <xsl:template match="tei:title">
+    <strong xmlns="http://www.w3.org/1999/xhtml">
+      <em xmlns="http://www.w3.org/1999/xhtml">
+        <xsl:apply-templates/>
+      </em>
+    </strong>
   </xsl:template>
 
-  <xsl:template match="tei:mentioned[not(@rend='italic')]">
-   <xsl:text>'</xsl:text><xsl:value-of select="."/><xsl:text>'</xsl:text>
+  <xsl:template match="tei:mentioned[not(@rend = 'italic')]">
+    <xsl:text>'</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>'</xsl:text>
   </xsl:template>
 
 

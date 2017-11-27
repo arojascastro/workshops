@@ -13,14 +13,14 @@
           <xsl:value-of select="//tei:titleStmt/tei:title"/>
         </title>
         <meta name="DC. CREATOR.AUT" content="Luis de Góngora"/>
-        <meta name="DC.TITLE" content="Soledades. Nueva edición digital: inicio"/>
+        <meta name="DC.TITLE" content="Canción VI de Luis de Gógnora. Edición digital"/>
         <meta name="DC.CREATOR" content="Luis de Góngora"/>
         <meta name="DC.CONTRIBUTOR" content="Antonio Rojas Castro"/>
         <meta name="DC.TYPE" content="Text"/>
-        <meta name="DC.SUBJECT" content="Poesía Soledades Siglo de Oro Edición digital Luis de Góngora"/>
+        <meta name="DC.SUBJECT" content="Poesía Siglo de Oro Edición digital Luis de Góngora"/>
         <meta name="DC.FORMAT" content="text/html"/>
         <meta name="DC.LANGUAGE" content="es"/>
-        <meta name="DC.DATE.CREATED" content="1613"/>
+        <meta name="DC.DATE.CREATED" content="1600"/>
         <meta name="DC.RIGHTS" content="Creative Commons By 4.0"/>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -101,49 +101,49 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Testimonios<span class="caret"/></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="testimonios/A.html">A</a>
+                      <a href="A.html">A</a>
                     </li>
                     <li>
-                      <a href="testimonios/B.html">B</a>
+                      <a href="B.html">B</a>
                     </li>
                     <li>
-                      <a href="testimonios/Ch.html">Ch</a>
+                      <a href="Ch.html">Ch</a>
                     </li>
                     <li>
-                      <a href="testimonios/E.html">E</a>
+                      <a href="E.html">E</a>
                     </li>
                     <li>
-                      <a href="testimonios/F.html">F</a>
+                      <a href="F.html">F</a>
                     </li>
                     <li>
-                      <a href="testimonios/H.html">H</a>
+                      <a href="H.html">H</a>
                     </li>
                     <li>
-                      <a href="testimonios/I.html">I</a>
+                      <a href="I.html">I</a>
                     </li>
                     <li>
-                      <a href="testimonios/J.html">J</a>
+                      <a href="J.html">J</a>
                     </li>
                     <li>
-                      <a href="testimonios/K.html">K</a>
+                      <a href="K.html">K</a>
                     </li>
                     <li>
-                      <a href="testimonios/M.html">M</a>
+                      <a href="M.html">M</a>
                     </li>
                     <li>
-                      <a href="testimonios/N.html">N</a>
+                      <a href="N.html">N</a>
                     </li>
                     <li>
-                      <a href="testimonios/T.html">T</a>
+                      <a href="T.html">T</a>
                     </li>
                     <li>
-                      <a href="testimonios/Flo.html">Flo</a>
+                      <a href="Flo.html">Flo</a>
                     </li>
                     <li>
-                      <a href="testimonios/Vi.html">Vi</a>
+                      <a href="Vi.html">Vi</a>
                     </li>
                     <li>
-                      <a href="testimonios/Sa.html">Sa</a>
+                      <a href="Sa.html">Sa</a>
                     </li>
                   </ul>
                 </li>
@@ -165,11 +165,7 @@
 
           <div class="row content">
 
-            <div class="col-sm-2 sidenav">
-              <!--<p><a href="#">Dedicatoria</a></p>
-              <p><a href="#">Soledad primera</a></p>
-              <p><a href="#">Soledad segunda</a></p>-->
-            </div>
+            <div class="col-sm-2 sidenav"/>
 
             <div class="col-sm-8 text-left">
 
@@ -178,7 +174,9 @@
                 <ul>
                   <xsl:for-each select="//tei:note/tei:term">
                     <xsl:sort select="./@ana" order="ascending"/>
-                    <li><xsl:value-of select="@ana"/></li>
+                    <li>
+                      <xsl:value-of select="@ana"/>
+                    </li>
                   </xsl:for-each>
                 </ul>
               </div>
@@ -198,35 +196,35 @@
                   </xsl:for-each>
                 </ul>
               </div>
-           
 
-            <div>
-              <h3>Autoridades mencionadas por el editor</h3>
-              <ul>
-                <xsl:for-each select="//tei:persName[@role = 'autoridad']">
-                  <xsl:sort select="./@key"/>
-                  <xsl:if test="not(./@key = preceding::tei:persName/@key)">
-                    <li>
-                      <xsl:value-of select="normalize-space(./@key)"/>
-                    </li>
-                  </xsl:if>
-                </xsl:for-each>
-              </ul>
-            </div>
 
-            <div>
-              <h3>Poetas mencionados por el editor</h3>
-              <ul>
-                <xsl:for-each select="//tei:persName[@role = 'poeta']">
-                  <xsl:sort select="./@key"/>
-                  <xsl:if test="not(./@key = preceding::tei:persName/@key)">
-                    <li>
-                      <xsl:value-of select="normalize-space(./@key)"/>
-                    </li>
-                  </xsl:if>
-                </xsl:for-each>
-              </ul>
-            </div>
+              <div>
+                <h3>Autoridades mencionadas por el editor</h3>
+                <ul>
+                  <xsl:for-each select="//tei:persName[@role = 'autoridad']">
+                    <xsl:sort select="./@key"/>
+                    <xsl:if test="not(./@key = preceding::tei:persName/@key)">
+                      <li>
+                        <xsl:value-of select="normalize-space(./@key)"/>
+                      </li>
+                    </xsl:if>
+                  </xsl:for-each>
+                </ul>
+              </div>
+
+              <div>
+                <h3>Poetas mencionados por el editor</h3>
+                <ul>
+                  <xsl:for-each select="//tei:persName[@role = 'poeta']">
+                    <xsl:sort select="./@key"/>
+                    <xsl:if test="not(./@key = preceding::tei:persName/@key)">
+                      <li>
+                        <xsl:value-of select="normalize-space(./@key)"/>
+                      </li>
+                    </xsl:if>
+                  </xsl:for-each>
+                </ul>
+              </div>
             </div>
 
             <div class="col-sm-2 sidenav"/>

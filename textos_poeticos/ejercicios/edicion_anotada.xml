@@ -356,21 +356,21 @@
                key="Petrarca">Petrarca</persName>, <persName role="poeta" key="Torquatto Tasso">Torquato Tasso</persName> y un sinfín de poetas menores: desde el motivo del veloz pensamiento que
             acorta las distancias entre el amante y la amada (comp. la letrilla «Vuela, pensamiento, y diles» [M 105] y el soneto «Varia imaginación, que en mil intentos» [M 240]) hasta la descripción
             de los goces de los recién casados.</p>
-         
+
          <p>Desde <persName role="autoridad" key="Salcedo Coronel">Salcedo Coronel</persName> («Escribió don Luis esta Canción hallándose ausente de alguna dama casada a quien servía»), las
             interpretaciones biográficas han desfigurado el verdadero sentido de la composición. Despreocupándose de toda verosimilitud cronológica (cfr. <persName role="autoridad" key="Robert Jammes"
                >R. Jammes</persName>, pág. 312, n. 51 [372]), <persName role="autoridad" key="Artigas">Artigas</persName> vio aquí «el canto del cisne» de un supuesto amor juvenil (pág. 49), y la
             crítica posterior ha dado casi siempre por segura la existencia de unos esposos de carne y hueso amigos o conocidos del poeta. Está claro que el modelo principal «es Tasso, y precisamente
             el Tasso epitalámico» (<persName role="autoridad" key="Dámaso
-               Alonso">D. Alonso</persName>, <title>Góngora y el «Polifemo»</title>, II, pág. 203); sin embargo, no creo que ello nos obligue
-            a pensar que «esta canción es, en realidad, un epitalamio» (<foreign>ibid</foreign>., pág. 201). Don Luis no partió necesariamente de un hecho real, sino de una serie de 'hechos' y motivos
-            literarios con los que «comienza ... a definirse el clima poético que será el del <title>Polifemo</title>» (<persName role="autoridad" key="Robert Jammes">R. Jammes</persName>, pág. 356
-            [424]). Tampoco me parece exacto el tema propuesto por <persName role="autoridad" key="R. P. Calcraft">R. P. Calcraft</persName>: «the passion of jealousy and its resolution in the mind of
-            a lover who has lost the object of his affections» («The lover as Icarus», pág. 11). La canción ha merecido excelentes comentarios de <persName role="autoridad" key="Juan Ferraté">Juan
-               Ferraté</persName> y, más recientemente, <persName role="autoridad" key="Giulia
-                  Poggi">Giulia Poggi</persName> (recogidos ambos en la bibliografía); observaciones menos valiosas pueden
-            leerse en <title>La fragua de las «Soledades»</title>, págs. 59-102.</p>
-
+               Alonso">D. Alonso</persName>, <title>Góngora y el «Polifemo»</title>, II, pág. 203); sin embargo, no creo que
+            ello nos obligue a pensar que «esta canción es, en realidad, un epitalamio» (<foreign>ibid</foreign>., pág. 201). Don Luis no partió necesariamente de un hecho real, sino de una serie de
+            'hechos' y motivos literarios con los que «comienza ... a definirse el clima poético que será el del <title>Polifemo</title>» (<persName role="autoridad" key="Robert Jammes">R.
+               Jammes</persName>, pág. 356 [424]). Tampoco me parece exacto el tema propuesto por <persName role="autoridad" key="R. P. Calcraft">R. P. Calcraft</persName>: «the passion of jealousy
+            and its resolution in the mind of a lover who has lost the object of his affections» («The lover as Icarus», pág. 11). La canción ha merecido excelentes comentarios de <persName
+               role="autoridad" key="Juan Ferraté">Juan Ferraté</persName> y, más recientemente, <persName role="autoridad" key="Giulia
+                  Poggi">Giulia Poggi</persName> (recogidos
+            ambos en la bibliografía); observaciones menos valiosas pueden leerse en <title>La fragua de las «Soledades»</title>, págs. 59-102.</p>
+         <!-- FALTA ACABAR DE CODIFICAR. ¡ADELANTE! -->
          <p>Juan Ferraté advirtió sagazmente la alternancia de los interlocutores del poeta: la esposa (1-18), el pensamiento (19-42), la pareja de enamorados (43-54) y - añado yo - la propia canción.
             Pero lo importante es notar el efecto que Góngora buscaba con todo ello: dar una impresión creciente de distanciamiento. En el envío se diluye la falsilla autobiográfica y el poeta se ha
             convertido en un «desdichado que camina». Uno de los méritos principales de don Luis es superar el convencionalismo expresivo de los doloridos amantes de la tradición petrarquista y
@@ -399,7 +399,7 @@
 
       <!-- CANCIÓN VI -->
       <body>
-        <lg>
+         <lg>
             <l xml:id="v-00001"><choice>
                   <orig>QVE</orig>
                   <reg>¡Qué</reg>
@@ -715,7 +715,8 @@
                   / gli occhi tremanti abbassi, / e su l’amato fianco / appoggi il capo stanco. / Versi fiori Imeneo su ’membri lassi, / e lor temprin gli ardori / col ventilar de l’ale i vaghi Amori»
                      (<title>Delle rime et prose</title> II, Ferrara, 1585, pág. 100).</note></l>
          </lg>
-
+         
+         <!-- AQUÍ EMPIEZA TU TRABAJO -->
          <!-- Cada estrofa debe codificarse con un elemento <lg>  -->
          <!-- Los versos se codifican con el elemento <l> -->
          <!-- Desnuda el braço, el pecho descubierta,
