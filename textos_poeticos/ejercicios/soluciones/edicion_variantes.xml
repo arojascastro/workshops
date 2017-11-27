@@ -403,7 +403,7 @@
 
       <!-- CANCIÓN VI -->
       <body>
-
+         <pb ed="#Ch" facs="172v.jpg" n="172v"/>
          <lg>
             <l>¡Qué de invidiosos montes levantados,</l>
             <l>de nieves impedidos,</l>
@@ -481,6 +481,7 @@
          <lg>
             <l>Tarde batiste la invidiosa pluma,</l>
             <l>que en sabrosa fatiga</l>
+            <pb ed="#Ch" facs="173r.jpg" n="173r"/>
             <l n="30">vieras (muerta la <app>
                   <lem>voz</lem>
                   <rdg wit="#A #T" type="substitución">luz</rdg>
