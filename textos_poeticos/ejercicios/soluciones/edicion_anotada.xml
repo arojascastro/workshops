@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../esquemas/edicion_anotada.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
    <!-- ENCABEZADO TEI  -->
@@ -426,8 +427,8 @@ Poggi">Giulia Poggi</persName> (recogidos ambos en la bibliografía); observacio
                <choice>
                   <orig>impedidos</orig>
                   <reg>impedidos,</reg>
-               </choice><note><term ana="impedir">impedidos</term>: <mentioned rend="italic">cargados</mentioned> o, más latamente, <mentioned rend="italic">cubiertos</mentioned>, cultismo de acepción
-                  que Góngora usó con frecuencia y al menos desde 1590 (cfr. canción IV, 36).</note></l>
+               </choice><note><term ana="impedir">impedidos</term>: <mentioned>cargados</mentioned> o, más latamente, <mentioned>cubiertos</mentioned>, cultismo de acepción que Góngora usó con
+                  frecuencia y al menos desde 1590 (cfr. canción IV, 36).</note></l>
             <l xml:id="v-00003"><choice>
                   <orig>Me</orig>
                   <reg>me</reg>

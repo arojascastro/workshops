@@ -412,7 +412,7 @@
                   <rdg wit="#A #B #E #F #H #I #J #K #T #Flo #Vi #Ho #Sa" type="omisión">contienen</rdg>
                </app> tus <app>
                   <lem>dulces ojos bellos</lem>
-                  <rdg wit="#K" type="tranposición">ojos dulces, bellos</rdg>
+                  <rdg wit="#K" type="transposición">ojos dulces, bellos</rdg>
                </app>!</l>
             <l>¡Qué de ríos, del <app>
                   <lem>hielo</lem>
@@ -438,7 +438,7 @@
             <l>que nieguen tu persona,</l>
             <l n="15">que <app>
                   <lem/>
-                  <rdg wit="#I" type="adición"><add>él</add></rdg>
+                  <rdg wit="#I" type="adición"><add place="desconocido">él</add></rdg>
                </app> no <app>
                   <lem>desmienta</lem>
                   <rdg type="substitución" wit="#M">desmiente</rdg>
@@ -514,7 +514,7 @@
             <l>Dormid, copia gentil de amantes nobles,</l>
             <l>en los <app>
                   <lem>dichosos</lem>
-                  <rdg wit="#B #F">sabrosos</rdg>
+                  <rdg wit="#B #F" type="substitución">sabrosos</rdg>
                </app> nudos</l>
             <l>que a los lazos de amor os dio Himeneo;</l>
             <l>mientras yo, desterrado, de estos robles</l>
@@ -533,7 +533,7 @@
                   <rdg wit="#T" type="substitución">hecho</rdg>
                </app> de <app>
                   <lem>batalla</lem>
-                  <rdg wit="#A #B #E #F #I #J #K #M #N #T #Flo #Vi #Ho #Sa">batallas</rdg>
+                  <rdg wit="#A #B #E #F #I #J #K #M #N #T #Flo #Vi #Ho #Sa" type="adición">batallas</rdg>
                </app> campo blando.</l>
          </lg>
          <lg>

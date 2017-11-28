@@ -5,9 +5,9 @@
 
   <xsl:template match="/">
 
-    <xsl:for-each select="//tei:witness[tei:biblStruct]/tei:msDesc[@type = 'print']">
+    <xsl:for-each select="//tei:witness[tei:biblStruct]">
 
-      <xsl:variable name="sigla" select="parent::tei:witness/@xml:id"/>
+      <xsl:variable name="sigla" select="@xml:id"/>
 
       <xsl:result-document href="{concat($sigla, '.html')}">
 
@@ -215,74 +215,99 @@
   </xsl:template>
 
 
-  <xsl:template match="//tei:msDesc">
+  <xsl:template match="//tei:MsIdentifier">
 
     <div xmlns="http://www.w3.org/1999/xhtml" class="manuscrito_container">
 
-      <h2 class="manuscrito_sigla" xml:id="{parent::tei:witness/@xml:id}">
-        <xsl:value-of select="parent::tei:witness/@xml:id"/>
+      <h2 class="manuscrito_sigla" xml:id="{ancestor::tei:witness/@xml:id}">
+        <xsl:value-of select="ancestor::tei:witness/@xml:id"/>
       </h2>
 
       <h3 class="manuscrito_id">
         <xsl:text>Identificación</xsl:text>
       </h3>
+
       <ul>
+
         <li>
           <xsl:text>País: </xsl:text>
-          <xsl:apply-templates select="tei:msIdentifier/tei:country"/>
+          <xsl:value-of select="//tei:country"/>
         </li>
         <li>
           <xsl:text>Ciudad: </xsl:text>
-          <xsl:value-of select="tei:msIdentifier/tei:settlement"/>
+          <xsl:value-of select="//tei:settlement"/>
         </li>
         <li>
           <xsl:text>Repositorio: </xsl:text>
-          <xsl:value-of select="tei:msIdentifier/tei:repository"/>
+          <xsl:value-of select="//tei:repository"/>
         </li>
         <li>
           <xsl:text>Colección: </xsl:text>
-          <xsl:value-of select="tei:msIdentifier/tei:collection"/>
+          <xsl:value-of select="//tei:collection"/>
         </li>
         <li>
           <xsl:text>Signatura: </xsl:text>
-          <xsl:value-of select="tei:msIdentifier/tei:idno"/>
+          <xsl:value-of select="//tei:idno"/>
         </li>
-        <li>
-          <xsl:text>Título: </xsl:text>
-          <em>
-            <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:title"/>
-          </em>
-        </li>
-        <li>
-          <xsl:text>Editor: </xsl:text>
-          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:editor"/>
-        </li>
-        <li>
-          <xsl:text>Lugar de publicación: </xsl:text>
-          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:pubPlace"/>
-        </li>
-        <li>
-          <xsl:text>Fecha de publicación: </xsl:text>
-          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:date"/>
-        </li>
-        <li>
-          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:resp"/>
-          <xsl:text>: </xsl:text>
-          <xsl:value-of
-            select="
-              following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:persName |
-              following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[1]/tei:orgName"
-          />
-        </li>
-        <li>
-          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:resp"/>
-          <xsl:text>: </xsl:text>
-          <xsl:value-of select="following-sibling::tei:biblStruct/tei:monogr/tei:imprint/tei:respStmt[2]/tei:persName"/>
-        </li>
+
       </ul>
 
     </div>
 
   </xsl:template>
+
+  <xsl:template match="//tei:biblStruct">
+
+    <div xmlns="http://www.w3.org/1999/xhtml" class="impreso_container">
+
+      <h2 class="manuscrito_sigla" xml:id="{@xml:id}">
+        <xsl:value-of select="@xml:id"/>
+      </h2>
+
+      <h3 class="manuscrito_id">
+        <xsl:text>Información bibliográfica</xsl:text>
+      </h3>
+
+      <ul>
+
+        <li>
+          <xsl:text>Título: </xsl:text>
+          <em>
+            <xsl:value-of select="//tei:monogr/tei:title"/>
+          </em>
+        </li>
+        <li>
+          <xsl:text>Editor: </xsl:text>
+          <xsl:value-of select="//tei:monogr/tei:editor"/>
+        </li>
+        <li>
+          <xsl:text>Lugar de publicación: </xsl:text>
+          <xsl:value-of select="//tei:monogr/tei:imprint/tei:pubPlace"/>
+        </li>
+        <li>
+          <xsl:text>Fecha de publicación: </xsl:text>
+          <xsl:value-of select="//tei:monogr/tei:imprint/tei:date"/>
+        </li>
+        <li>
+          <xsl:value-of select="//tei:monogr/tei:imprint/tei:respStmt[1]/tei:resp"/>
+          <xsl:text>: </xsl:text>
+          <xsl:value-of select="
+              //
+              tei:monogr/tei:imprint/tei:respStmt[1]/tei:persName |
+              //tei:monogr/tei:imprint/tei:respStmt[1]/tei:orgName"/>
+        </li>
+        <li>
+          <xsl:value-of select="//tei:monogr/tei:imprint/tei:respStmt[2]/tei:resp"/>
+          <xsl:text>: </xsl:text>
+          <xsl:value-of select="//tei:monogr/tei:imprint/tei:respStmt[2]/tei:persName"/>
+        </li>
+      </ul>
+
+    </div>
+
+
+  </xsl:template>
+
+
 
 </xsl:stylesheet>

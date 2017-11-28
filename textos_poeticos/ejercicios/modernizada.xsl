@@ -277,7 +277,7 @@
     </p>
   </xsl:template>
 
-  <xsl:template match="tei:foreign | tei:mentioned[@rend = 'italic'] | tei:hi[@rend = 'italic'] | tei:title">
+  <xsl:template match="tei:foreign | tei:mentioned[@rend = 'italic'] | tei:hi[@rend = 'italic'] | tei:title | tei:term">
     <em xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
     </em>
