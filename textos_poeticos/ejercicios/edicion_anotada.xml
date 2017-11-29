@@ -399,6 +399,7 @@
 
       <!-- CANCIÓN VI -->
       <body>
+
          <lg>
             <l xml:id="v-00001"><choice>
                   <orig>QVE</orig>
@@ -426,7 +427,7 @@
             <l xml:id="v-00003"><choice>
                   <orig>Me</orig>
                   <reg>me</reg>
-               </choice> contienden tus dulces ojos bellos!<note><hi rend="italic">me contienden</hi>: <mentioned>me disputan</mentioned>; en la mayoría de los testimonios, me contienen, <mentioned>me
+               </choice> contienden tus dulces ojos bellos!<note><term ana="contender">me contienden</term>: <mentioned>me disputan</mentioned>; en la mayoría de los testimonios, me contienen, <mentioned>me
                      retienen</mentioned>, «me ocultan tus dulces y bellos ojos» (SC).</note></l>
             <l xml:id="v-00004"><choice>
                   <orig>Que</orig>

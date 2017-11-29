@@ -42,6 +42,8 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <hr />
                     <small>Antonio Rojas Castro</small>
                     <br />
+                    <small>Cologne Center for eHumanities</small>
+                    <br />
                     <br />
                     <small>Università di Verona<br />29-30 de noviembre y 6-7 de diciembre de 2017</small>
                     <br />
@@ -55,8 +57,8 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <h2>Sesiones</h2>
                     <ul>
                         <li>29/11/2017: Introducción a la edición académica digital</li>
-                        <li>30/11/2017: Ejercicios prácticos de codificación TEI</li>
-                        <li>06/12/2017: Ejercicios prácticos de transformación XSLT</li>
+                        <li>30/11/2017: Ejercicios de codificación TEI</li>
+                        <li>06/12/2017: Ejercicios de transformación XSLT</li>
                         <li>07/12/2017: Introducción a Stylo (clasificación y palabras distintivas)</li>
                     </ul>
                 </section>
@@ -78,6 +80,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <li>1.2 El lenguaje de marcado</li>
                         <li>1.3 La codificación TEI</li>
                         <li>1.4 Editar con Oxygen y conocer las <em>Guidelines</em></li>
+                        <li>1.5 Materiales y fuentes</li>
                     </ul>
                 </section>
                 <!-- 1. Edición académica digital -->
@@ -88,10 +91,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>El medio electrónico</h3>
                         <ul>
-                            <li>Audiencia mayor</li>
+                            <li>Audiencia mayor.</li>
                             <li>No tiene las restricciones del papel en cuanto a la escala.</li>
                             <li>Las publicaciones son interactivas.</li>
-                            <li>Incorpora contenido multimedia y hiperenlaces.</li>
+                            <li>Incorpora contenido multimedia y enlaces.</li>
                             <li>Incrementa la velocidad con que actualizamos los contenidos.</li>
                             <li>Desplaza el coste desde la publicación (impresión en papel) a la creación y mantenimiento de los recursos.</li>
                         </ul>
@@ -130,13 +133,14 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     </section>
                     <section>
                         <h3>El editor como intermediario</h3>
-                        <p>En la era digital, el/la editor/a sigue siendo necesario porque los textos pueden contener errores y porque deben explicarse teniendo el contexto de producción.</p>
+                        <p>En la era digital, el/la editor/a sigue siendo necesario/a porque los textos pueden contener errores y porque deben explicarse teniendo el contexto de producción.</p>
                         <p>Las teorías editoriales tradicionales (edición crítica, filología de autor, crítica génetica, etc.) siguen siendo útiles para establecer textos.</p>
                         <p>Nuevas tareas: modelar, codificar, transformar y publicar.</p>
                     </section>
                     <section>
                         <h3>Modelar</h3>
-                        <p>Cuando hacemos explícita la estructura de un documento decimos que lo estamos <em>modelado</em>.</p>
+                        <p>Proceso consistente en hacer explícita la estructura y los componentes principales de un objeto analógico (por ejemplo, un documento, una escultura, etc.).</p>
+                        <p>Entre el objeto analógico y el "modelo" hay una relación de semejanza (pero no de identidad).</p>
                         <p>El proceso conlleva una serie de acciones como análisis, selección y representación.</p>
                     </section>
                     <section>
@@ -159,14 +163,6 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>1.2. El lenguaje de marcado</h3>
                     </section>
-                    <!--<section>
-                        <h3>¿Por qué utilizamos lenguaje de marcado?</h3>
-                        <ul>
-                            <li>Ayuda a explicitar las propiedades de los textos y comunicarlas a nosotros mismos, a otras personas y a los ordenadores.</li>
-                            <li>Permite enriquecer los textos añadiendo anotaciones múltiples, de tal modo que a partir de un solo archivo se pueden generar distintos documentos.</li>
-                            <li>Favorece la reutilización de la información y permite transformar el documento en otros formatos y contextos y para otros destinatarios.</li>
-                        </ul>
-                    </section>-->
                     <section>
                         <p>¿Qué lenguajes de marcado conoces? <br />¿Algunos nombres?</p>
                     </section>
@@ -189,7 +185,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                     <section>
                         <h3>Hello, XML!</h3>
                         <ul>
-                            <li><strong>XML</strong> es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
+                            <li><strong>XML</strong> (1998) es un lenguaje de marcado descriptivo que sirve para estructurar datos en forma de documento.</li>
                             <li>Se distingue de HTML en tres aspectos: <ul>
                                     <li>XML es <strong>extensible</strong></li>
                                     <li>XML debe estar <strong>bien formado</strong></li>
@@ -197,7 +193,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                                 </ul>
                             </li>
                             <li>XML requiere el uso de textos en Unicode (ISO 10646), es decir, UTF-8 o UTF-16.</li>
-                            <li>Es una versión más simple del lenguaje SGML publicada en 1998.</li>
+                            <li>Es una versión más simple del lenguaje SGML.</li>
                         </ul>
                     </section>
                     <section>
@@ -222,7 +218,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                             <li>Un documento XML debe contener al menos <strong>un elemento</strong>.</li>
                             <li>Elemento XML = <strong>etiqueta de inicio</strong> + contenido (opcional) + <strong>etiqueta de cierre</strong></li>
                             <li>El <strong>contenido</strong> del elemento puede ser una cadena de caracteres Unicode o bien otros elementos.</li>
-                            <li>Un elemento puede contener uno o más <strong>atributos</strong>; los atributos consisten en un nombre y un valor determinado.</li>
+                            <li>Un elemento puede contener uno o más <strong>atributos</strong>; los atributos consisten en un nombre y un valor determinado (entre comillas).</li>
                             <li>Un documento XML también puede contener <strong>otros componentes</strong> como instrucciones de procesamiento, comentarios y referencias a entidades (<em>entity
                                     references</em>).</li>
                         </ul>
@@ -231,10 +227,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>Un documento XML está bien formado cuando...</h3>
                         <ul>
                             <li>solo hay un único <strong>elemento raíz</strong>;</li>
-                            <li>todos elementos se anidan unos en otros formando una <strong>estructura arbórea</strong> contenida en el elemento raíz;</li>
-                            <li>todos nombres de los elementos y atributos <strong>están escritos correctamente</strong> (XML distingue entre mayúscula y minúscula);</li>
+                            <li>todos los elementos se anidan unos en otros formando una <strong>estructura arbórea</strong> contenida en el elemento raíz;</li>
+                            <li>todos los nombres de los elementos y atributos <strong>están escritos correctamente</strong> (XML distingue entre mayúscula y minúscula);</li>
                             <li>todos los elementos contienen una <strong>etiqueta de apertura y de cierre</strong>;</li>
-                            <li>los valores de los atributos están <strong>entrecomillados</strong>.</li>
+                            <li>y los valores de los atributos están <strong>entrecomillados</strong>.</li>
                         </ul>
                     </section>
                     <section>
@@ -253,7 +249,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>La declaración XML</h3>
                         <pre>
 <code>
-<!--<?xml version="1.0" encoding="UTF-8"?>    -->
+<?xml version="1.0" encoding="UTF-8"?>
         <edicion>
           <encabezado>Información sobre el documento</encabezado>
           <cuerpo>
@@ -298,7 +294,7 @@ XML)   --></code></pre></li>
                     </section>
                     <section>
                         <img src="img/guidelines.png" width="800" />
-                        <p>La primera versión es de 1994; actualmente utilizamos la quinta versión o <strong>P5</strong>.</p>
+                        <p>La primera versión es de 1994; actualmente utilizamos la quinta versión (<strong>P5</strong>).</p>
                         <p>Las <em>Guidelines</em> son <strong>modulares y adaptables</strong> a cada proyecto.</p>
                     </section>
                     <section>
@@ -343,31 +339,30 @@ XML)   --></code></pre></li>
                     <!-- METADATOS -->
                     <section>
                         <h3>¿Qué entendemos por "metadatos"?</h3>
-                        <ul>
-                            <li>A menudo se definen como <strong>"datos sobre los datos"</strong>.</li>
-                            <li>Los metadatos son datos sobre los datos, el contexto o la estructura de los recursos electrónicos.</li>
-                            <li>Equivalen (más o menos) a la página de créditos de un libro impreso.</li>
-                        </ul>
+                        <p>A menudo se definen como <strong>"datos sobre los datos"</strong>.</p>
+                            <p>Describen el contenido, el contexto de producción, la historia del archivo o bien la estructura de los recursos electrónicos.</p>
+                            <p>Equivalen (más o menos) a la página de créditos de un libro impreso.</p>
+                        
                     </section>
                     <section>
                         <h3>¿Por qué son importantes los "metadatos"?</h3>
-                        <ul>
-                            <li>Permiten la <strong>identificación</strong>, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</li>
-                            <li><strong>Enriquecen</strong> con información adicional los recursos electrónicos.</li>
-                            <li><strong>Granularidad</strong>: pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</li>
-                        </ul>
+                       
+                            <p>Permiten la <strong>identificación</strong>, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</p>
+                            <p><strong>Enriquecen</strong> con información adicional los recursos electrónicos.</p>
+                            <p><strong>Granularidad</strong>: pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</p>
+                   
                     </section>
                     <section>
                         <h3>¿Quién suele utilizar "metadatos"?</h3>
-                        <ul>
-                            <li>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se
-                                publican.</li>
-                            <li>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido
-                                de acuerdo a determinados metadatos.</li>
-                        </ul>
+                        
+                            <p>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se
+                                publican.</p>
+                            <p>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido
+                                de acuerdo a determinados metadatos.</p>
+                       
                     </section>
                     <section>
-                        <h3>Algunos <strong>estándares</strong> de metadatos</h3>
+                        <h3><strong>Estándares</strong> de metadatos</h3>
                         <ul>
                             <li>DCMI = Dublin Core Metadata Initiative</li>
                             <li>RDF = Resource Description Framework</li>
@@ -376,6 +371,10 @@ XML)   --></code></pre></li>
                             <li>OAIS = Open Archival Information</li>
                             <li>OAI-PMH = Open Archives Initiative-Protocol for Metadata Harvesting</li>
                         </ul>
+                    </section>
+                    <section>
+                        <h3><strong>Estándares</strong> de metadatos</h3>
+                        <p>¿Por qué no hay solo un estándar <br />para describir todos los recursos digitales?</p>
                     </section>
                     <section>
                         <h3>Los metadatos en TEI</h3>
@@ -393,6 +392,12 @@ XML)   --></code></pre></li>
                             <li><strong>fileDesc</strong> (file description) contiene una descripción bibliográfica completa sobre el recurso electrónico.</li>
                             <li><strong>encodingDesc</strong> (encoding description) documenta la relación entre el texto electrónico y la fuente de la deriva (por ejemplo, intervenciones
                                 editoriales).</li>
+                            
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Componentes principales del <strong>teiHeader</strong></h3>
+                        <ul>
                             <li><strong>profileDesc</strong> (text-profile description) proporciona una descripción detallada de los elementos no bibliográficos del texto (por ejemplo, idioma,
                                 contexto de producción, personas mencionadas, palabras clave, etc.)</li>
                             <li><strong>revisionDesc</strong> (revision description) contiene un resumen del historial de cambios del archivo electrónico.</li>
@@ -400,7 +405,7 @@ XML)   --></code></pre></li>
                     </section>
                     <section>
                         <p>¡Solo el <strong>fileDesc</strong> es obligatorio!</p>
-                        <p>El resto de elementos son opcionales.</p>
+                        <p>El resto de elementos son opcionales ;-)</p>
                     </section>
                     <section>
                         <h3>Componentes principales del <strong>fileDesc</strong></h3>
@@ -445,7 +450,7 @@ XML)   --></code></pre></li>
                         <h3>Componentes principales de <strong>text</strong></h3>
                         <ul>
                             <li>El texto se puede dividir en tres partes: <ul>
-                                    <li><strong>front</strong> (preliminares) contiene material preliminar (resúmenes, portadas, dedicatorias, comentarios, prólogos) que se encuentral al inicio de un
+                                    <li><strong>front</strong> (preliminares) contiene material preliminar (resúmenes, portadas, dedicatorias, comentarios, prólogos) que se encuentran al inicio de un
                                         documento, antes del texto principal.</li>
                                     <li><strong>body</strong> (cuerpo de texto) contiene el texto principal (por ejemplo, el poema)</li>
                                     <li><strong>back</strong> (anexo) contiene material suplementario situado tras el texto principal.</li>
@@ -493,12 +498,13 @@ XML)   --></code></pre></li>
                     <section>
                         <p>¿Cuál de estos proyectos utiliza la codificación XML-TEI?</p>
                         <img src="img/gongora.png" width="800" />
+                        <p>Todo Góngora Vs. Polémique Gongorine</p>
                     </section>
                 </section>
                 <!-- 4. Editar con Oxygen y conocer las Guidelines -->
                 <section>
                     <section>
-                        <h3>1.4. Editar con Oxygen y conocer las <em>Guidelines</em></h3>
+                        <h3>1.4 Editar con Oxygen y conocer las <em>Guidelines</em></h3>
                     </section>
                     <section>
                         <h3>Ejercicio 1</h3>
@@ -507,6 +513,47 @@ XML)   --></code></pre></li>
                     <section>
                         <h3>Ejercicio 2</h3>
                         <p>Explora las <em>Guidelines</em></p>
+                    </section>
+                </section>
+                <!-- Materiales y fuentes -->
+                <section>
+                    <section>
+                        <h3>1.5 Materiales y fuentes</h3>
+                    </section>
+                    <section>
+                    	<h3>1.5 Materiales y fuentes</h3>
+                        <p>Edición digital de las <em>Soledades</em> de Luis de Góngora (2017)</p>
+                        <ul>
+                            <li>Cotejo manual de 16 manuscritos y 5 impresos.</li>
+                            <li>Codificación TEI de dos archivos (<em>input</em>): edición anotada y edición con aparato de variantes.</li>
+                            <li>La edición anotada se publica como web estática (HTML) utilizando Bootstrap.</li>
+                            <li>La edición con aparato de variantes se publica con EVT2.</li>
+                        </ul>
+                    </section>
+                    <section>
+                    	<h3>1.5 Materiales y fuentes</h3>
+                        <p><em>Canciones y otros poemas en arte mayor</em> de Luis de Góngora (1990)</p>
+                        <ul>
+                            <li>Edición crítica, notas y comentarios de José María Micó</li>
+                            <li>Cotejo manual de 17 manuscritos y 10 impresos.</li>
+                            <li>Hay versión en línea publicada por Todo Góngora, pero sin notas ni aparato de variante (2011).</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="img/poema6_print.png" width="450" />
+                        <p>Tres niveles de texto.</p>
+                    </section>
+                    <section>
+                        <img src="img/comentario_print.png" width="450" />
+                        <p>Texto en prosa con abudantes citas, referencias y menciones.</p>
+                    </section>
+                    <section>
+                        <img src="img/bootstrap.png" width="700" />
+                        <p>Página web estática (HTML)</p>
+                    </section>
+                    <section>
+                        <img src="img/evt2.png" width="700" />
+                        <p>EVT2</p>
                     </section>
                 </section>
                 <!-- conclusiones -->
@@ -519,7 +566,6 @@ XML)   --></code></pre></li>
                     <h2>Sesión 2</h2>
                     <p>¿Qué vamos a aprender hoy?</p>
                     <ul>
-                        <li>2.0 Materiales y fuentes</li>
                         <li>2.1 El encabezado TEI en detalle</li>
                         <li>2.2 El texto poético</li>
                         <li>2.3 El comentario de texto</li>
@@ -527,37 +573,6 @@ XML)   --></code></pre></li>
                         <li>2.5 El aparato de variantes</li>
                         <li>2.6 Validación con esquemas</li>
                     </ul>
-                </section>
-                <!-- materiales -->
-                <section>
-                    <section>
-                        <h3>2.0 Materiales y fuentes</h3>
-                    </section>
-                    <section>
-                        <h3>Edición digital de las <em>Soledades</em> de Luis de Góngora (2017)</h3>
-                        <ul>
-                            <li>Cotejo manual de 16 manuscritos y 5 impresos.</li>
-                            <li>Codificación TEI de dos archivos (<em>input</em>): edición anotada y edición con aparato de variantes.</li>
-                            <li>La edición anotada se publica como web estática (HTML) utilizando Bootstrap.</li>
-                            <li>La edición con aparato de variantes se publica con EVT2.</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3><em>Canciones y otros poemas en arte mayor</em> de Luis de Góngora (1990)</h3>
-                        <ul>
-                            <li>Edición crítica, notas y comentarios de José María Micó</li>
-                            <li>Cotejo manual de 17 manuscritos y 10 impresos.</li>
-                            <li>Hay versión en línea publicada por Todo Góngora, pero sin notas ni aparato de variante (2011).</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <img src="img/poema6_print.png" width="400" />
-                        <p>Tres niveles de texto.</p>
-                    </section>
-                    <section>
-                        <img src="img/comentario_print.png" width="400" />
-                        <p>Texto en prosa con abudantes citas, referencias y menciones.</p>
-                    </section>
                 </section>
                 <!-- encabezado TEI en detalle -->
                 <section>

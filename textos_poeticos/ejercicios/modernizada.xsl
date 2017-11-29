@@ -229,6 +229,18 @@
 
   </xsl:template>
 
+  <xsl:template match="tei:head[1]">
+    <h2 xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:value-of select="."/>
+    </h2>
+  </xsl:template>
+  
+  <xsl:template match="tei:head[2]">
+    <h3 xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:value-of select="."/>
+    </h3>
+  </xsl:template>
+
   <xsl:template match="tei:lg">
     <p class="estrofa" xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>

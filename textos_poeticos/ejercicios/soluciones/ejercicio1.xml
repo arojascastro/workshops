@@ -5,13 +5,19 @@
     <codificador>Añade tu nombre aquí</codificador>
   </encabezado>
   <texto>
-    <segmento>algo de texto</segment>
-    <segmento> <palabra>más</palabra> <palabra>texto</palabra> </segmento>
-    <segmeno> <palabra>más <palabra></palabra> texto</palabra></segmento>
-    <segmento tipo="texto'>algo de texto</segmento>
-    <segmento tipo='texto'>algo de texto</segmento>
-    <segmento tipo=texto>algo de texto</segmento>
-    <segmento tipo="texto"> algo de texto <segmento/>
-    <segmento tipo="texto">algo de texto</Segmento>
+    <segmento>algo de texto</segmento>
+    <segmento>
+      <palabra>más</palabra>
+      <palabra>texto</palabra>
+    </segmento>
+    <segmento>
+      <palabra>más</palabra>
+      <palabra>texto</palabra>
+    </segmento>
+    <segmento tipo="texto">algo de texto</segmento>
+    <segmento tipo="texto">algo de texto</segmento>
+    <segmento tipo="texto">algo de texto</segmento>
+    <segmento tipo="texto"> algo de texto </segmento>
+    <segmento tipo="texto">algo de texto</segmento>
   </texto>
 </documento>

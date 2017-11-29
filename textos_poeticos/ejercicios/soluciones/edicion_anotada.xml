@@ -405,6 +405,8 @@ Poggi">Giulia Poggi</persName> (recogidos ambos en la bibliografía); observacio
       <!-- CANCIÓN VI -->
       <body>
          <pb ed="#Ch" facs="172v.jpg" n="172v"/>
+         <head type="main">Canción VI</head>
+         <head type="sub">1600</head>
          <lg>
             <l xml:id="v-00001"><choice>
                   <orig>QVE</orig>
@@ -432,7 +434,7 @@ Poggi">Giulia Poggi</persName> (recogidos ambos en la bibliografía); observacio
             <l xml:id="v-00003"><choice>
                   <orig>Me</orig>
                   <reg>me</reg>
-               </choice> contienden tus dulces ojos bellos!<note><hi rend="italic">me contienden</hi>: <mentioned>me disputan</mentioned>; en la mayoría de los testimonios, me contienen, <mentioned>me
+               </choice> contienden tus dulces ojos bellos!<note><term ana="contender">me contienden</term>: <mentioned>me disputan</mentioned>; en la mayoría de los testimonios, me contienen, <mentioned>me
                      retienen</mentioned>, «me ocultan tus dulces y bellos ojos» (SC).</note></l>
             <l xml:id="v-00004"><choice>
                   <orig>Que</orig>
@@ -479,7 +481,7 @@ Poggi">Giulia Poggi</persName> (recogidos ambos en la bibliografía); observacio
                </choice> burlando <choice>
                   <orig>de’llos</orig>
                   <reg>de ellos,</reg>
-               </choice><note><term ana="qué">qué</term>: <mentioned>cómo, de qué manera</mentioned>.</note></l>
+               </choice><note><hi rend="italic">qué</hi>: <mentioned>cómo, de qué manera</mentioned>.</note></l>
             <l xml:id="v-00008"><choice>
                   <orig>El</orig>
                   <reg>el</reg>
@@ -803,7 +805,7 @@ Poggi">Giulia Poggi</persName> (recogidos ambos en la bibliografía); observacio
                </choice> los lazos de amor os dio <choice>
                   <orig>Hymeneo:</orig>
                   <reg>Himeneo;</reg>
-               </choice><note><term ana="os">os</term>: «dativo ético» (A. Carreira, <title>Antología</title>, pág. 120). <term ana="Himeneo">Himeneo</term>: dios de las bodas (vid. Pellicer,
+               </choice><note><hi rend="italic">os</hi>: «dativo ético» (A. Carreira, <title>Antología</title>, pág. 120). <term ana="Himeneo">Himeneo</term>: dios de las bodas (vid. Pellicer,
                      <title>Lecciones solemnes</title>, cols. 495-497). Comp. la entrada de los novios en las <title>Soledades</title>, I, 761-763: «El lazo de ambos cuellos / entre un lascivo
                   enjambre iba de amores / Himeneo añudando».</note></l>
             <l xml:id="v-00049">Mientras <choice>

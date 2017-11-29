@@ -59,7 +59,7 @@
           
           .n{
             left: -0.1em;
-            position:absolute;
+            position: absolute;
           }
           
           .facsimil{
@@ -266,6 +266,18 @@
   </xsl:template>
 
   <xsl:template match="tei:reg"/>
+
+  <xsl:template match="tei:head[1]">
+    <h2 xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:value-of select="."/>
+    </h2>
+  </xsl:template>
+
+  <xsl:template match="tei:head[2]">
+    <h3 xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:value-of select="."/>
+    </h3>
+  </xsl:template>
 
   <xsl:template match="tei:orig">
     <xsl:apply-templates/>
