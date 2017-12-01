@@ -249,7 +249,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
                         <h3>La declaración XML</h3>
                         <pre>
 <code>
-<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
         <edicion>
           <encabezado>Información sobre el documento</encabezado>
           <cuerpo>
@@ -340,26 +340,21 @@ XML)   --></code></pre></li>
                     <section>
                         <h3>¿Qué entendemos por "metadatos"?</h3>
                         <p>A menudo se definen como <strong>"datos sobre los datos"</strong>.</p>
-                            <p>Describen el contenido, el contexto de producción, la historia del archivo o bien la estructura de los recursos electrónicos.</p>
-                            <p>Equivalen (más o menos) a la página de créditos de un libro impreso.</p>
-                        
+                        <p>Describen el contenido, el contexto de producción, la historia del archivo o bien la estructura de los recursos electrónicos.</p>
+                        <p>Equivalen (más o menos) a la página de créditos de un libro impreso.</p>
                     </section>
                     <section>
                         <h3>¿Por qué son importantes los "metadatos"?</h3>
-                       
-                            <p>Permiten la <strong>identificación</strong>, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</p>
-                            <p><strong>Enriquecen</strong> con información adicional los recursos electrónicos.</p>
-                            <p><strong>Granularidad</strong>: pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</p>
-                   
+                        <p>Permiten la <strong>identificación</strong>, la recuperación, el uso, la gestión y la preservación de nuestros recursos electrónicos.</p>
+                        <p><strong>Enriquecen</strong> con información adicional los recursos electrónicos.</p>
+                        <p><strong>Granularidad</strong>: pueden describir una colección de objetos, un recurso aislado o bien un componente dentro de una colección más grande.</p>
                     </section>
                     <section>
                         <h3>¿Quién suele utilizar "metadatos"?</h3>
-                        
-                            <p>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se
-                                publican.</p>
-                            <p>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido
-                                de acuerdo a determinados metadatos.</p>
-                       
+                        <p>Los <strong>bibliotecarios</strong> utilizan metadatos (casi siempre en formato MARC) para identificar recursos de manera estable y para declarar la licencia con que se
+                            publican.</p>
+                        <p>Los <strong>investigadores</strong> utilizan metadatos para identificar la fuente de la que derivan los recursos y para crear aplicaciones webs que filtren el contenido de
+                            acuerdo a determinados metadatos.</p>
                     </section>
                     <section>
                         <h3><strong>Estándares</strong> de metadatos</h3>
@@ -392,7 +387,7 @@ XML)   --></code></pre></li>
                             <li><strong>fileDesc</strong> (file description) contiene una descripción bibliográfica completa sobre el recurso electrónico.</li>
                             <li><strong>encodingDesc</strong> (encoding description) documenta la relación entre el texto electrónico y la fuente de la deriva (por ejemplo, intervenciones
                                 editoriales).</li>
-                            
+
                         </ul>
                     </section>
                     <section>
@@ -521,7 +516,7 @@ XML)   --></code></pre></li>
                         <h3>1.5 Materiales y fuentes</h3>
                     </section>
                     <section>
-                    	<h3>1.5 Materiales y fuentes</h3>
+                        <h3>1.5 Materiales y fuentes</h3>
                         <p>Edición digital de las <em>Soledades</em> de Luis de Góngora (2017)</p>
                         <ul>
                             <li>Cotejo manual de 16 manuscritos y 5 impresos.</li>
@@ -531,7 +526,7 @@ XML)   --></code></pre></li>
                         </ul>
                     </section>
                     <section>
-                    	<h3>1.5 Materiales y fuentes</h3>
+                        <h3>1.5 Materiales y fuentes</h3>
                         <p><em>Canciones y otros poemas en arte mayor</em> de Luis de Góngora (1990)</p>
                         <ul>
                             <li>Edición crítica, notas y comentarios de José María Micó</li>
@@ -588,6 +583,16 @@ XML)   --></code></pre></li>
                         <h3>Descripción del archivo</h3>
                         <p>El elemento <strong>fileDesc</strong> contiene una serie de elementos con información bibliográfica sobre el archivo electrónico necesaria para su citación y catalogación.
                         </p>
+                    </section>
+                    <section>
+                        <h3>2.1 El encabezado TEI en detalle</h3>
+                        <p>Elementos del <strong>fileDesc</strong></p>
+                        <ul>
+                            <li>titleStmt</li>
+                            <li>editionStmt</li>
+                            <li>publicationStmt</li>
+                            <li>sourceDesc</li>
+                        </ul>
                     </section>
                     <section>
                         <h3>Título</h3>
@@ -666,7 +671,7 @@ XML)   --></code></pre></li>
                         <img src="img/homer.png" width="500" />
                     </section>
                     <section>
-                        <h3>Ejercicio 1.<br /> Completa la información del <strong>teiHeader</strong> del archivo "edicion.xml" situado en la carpeta "ejercicios".</h3>
+                        <h3>Ejercicio 1.<br /> Completa la información del <strong>teiHeader</strong> del archivo "edicion_anotada.xml" situado en la carpeta "ejercicios".</h3>
                     </section>
                 </section>
                 <!-- 2. El texto poético -->
@@ -1088,8 +1093,7 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
-                        <p>El procesador XSLT lee cada uno de los elementos; si alguno contiene dos puntos (:), identifica el prefijo con el <em>namespace</em> que se encuentra en la
-                            declaración.</p>
+                        <p>El procesador XSLT lee cada uno de los elementos; si alguno contiene dos puntos (:), identifica el prefijo con el <em>namespace</em> que se encuentra en la declaración.</p>
                         <p>El <em>namespace</em> de XSLT es <strong>xsl</strong>.</p>
                         <pre>
                         <code>
