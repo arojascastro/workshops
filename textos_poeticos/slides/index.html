@@ -1199,6 +1199,9 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <p>¿Preguntas? ¿Dudas?</p>
                         <img src="img/homer.png" width="500" />
                     </section>
+                    <section>
+                        <h3>Ejercicio 1.<br /> Crea tu primera página HTML</h3>
+                    </section>
                 </section>
                 <!-- xsl:for-each -->
                 <section>
@@ -1230,28 +1233,17 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <h3>3.4 La instrucción <strong>xsl:for-each</strong></h3>
                         <pre>
 <code>
-<xsl:for-each select="//tei:listPerson/tei:person">
-<xsl:variable name="id-verse-person" select="//tei:l[.//tei:persName[@ref = concat('#', current()/@xml:id)]]/@xml:id"></xsl:variable>
-            <h3>
-              <xsl:value-of select="tei:persName"></xsl:value-of>
-              <xsl:text> (</xsl:text>
-              <xsl:value-of select="count($id-verse-person)"></xsl:value-of>
-              <xsl:text>)</xsl:text>
-            </h3>
-            <p>
-              <xsl:value-of select="tei:occupation"></xsl:value-of>
-            </p>
-
-            <ul>
-              <xsl:for-each select="$id-verse-person">
-                <li>
-                  <a href="{.}">
-                    <xsl:value-of select="."></xsl:value-of>
-                  </a>
-                </li>
-              </xsl:for-each>
-            </ul>
-</xsl:for-each>
+<div>
+<h3>Vocabulario gongorino</h3>
+    <ul>
+    <xsl:for-each select="//tei:note/tei:term">
+        <xsl:sort select="./@ana" order="ascending"></xsl:sort>
+           <li>
+              <xsl:value-of select="@ana"></xsl:value-of>
+           </li>
+     </xsl:for-each>
+    </ul>
+</div>
 </code>
 </pre>
                     </section>
@@ -1323,6 +1315,9 @@ al cóncavo ajustando de los cielos<note type="editorial">
 </pre>
                     </section>
                     <section>
+                        <h3>Ejercicio 2.<br /> Modifica el contenido de una instrucción <strong>xsl:template</strong></h3>
+                    </section>
+                    <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
                         <h4>¿Cuándo utilizar <strong>xsl:template</strong>, <strong>xsl:value-of</strong> o <strong>xsl:for-each</strong>?</h4>
                         <p>Utiliza <strong>xsl:template</strong> si elemento seleccionado puede contener otros elementos que deben ser procesados.</p>
@@ -1341,18 +1336,54 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                 </section>
                 <section>
-                    <section>
-                        <h3>Ejercicio 1.<br /> Transforma un documento XML en la página de inicio de tu web.</h3>
-                    </section>
-                    <section>
-                        <h3>Ejercicio 2.<br /> Transforma un documento XML para obtener una página HTML con una descripción de los testimonios.</h3>
-                    </section>
-                    <section>
-                        <h3>Ejercicio 3.<br /> Transforma un documento XML en en una página HTML con la transcripción paleográfica y las imágenes de Chacón.</h3>
-                    </section>
-                    <section>
-                        <h3>Ejercicio 4.<br /> Transforma un documento XML en una página HTML con el texto modernizado y las notas.</h3>
-                    </section>
+                    <h3>Si hay tiempo...</h3>
+                    <p>Hay bastantes más elementos XSLT... esto es solo una pequeña introducción.</p>
+                    <p>Las instrucciones que contienen <strong>if</strong> y <strong>choose</strong> son muy útiles porque nos permiten procesar elemen determinadas condiciones.</p>
+                    <pre>
+<code>
+<xsl:template match="tei:lem">
+    <xsl:if test="following-sibling::tei:rdg[not(contains(@wit, '#Sa'))]">
+      <xsl:value-of select="."></xsl:value-of>
+    </xsl:if>
+  </xsl:template>
+</code>
+</pre>
+                </section>
+                <section>
+                    <h3>Si hay tiempo...</h3>
+                    <p>Para eliminar un elemento solo hay que seleccionarlo con <strong>xsl:template</strong> y dejar el contenido vacío.</p>
+                    <p>De esta manera es muy fácil convertir archivos TEI en archivos de texto plano útiles para procesarlos con herramientas como Stylo.</p>
+                </section>
+                <section>
+                    <h3>Si hay tiempo...</h3>
+                    <pre>
+<code>
+
+    <xsl:template match="teiHeader"></xsl:template>
+
+    <xsl:template match="head"></xsl:template>
+
+    <xsl:template match="epigraph"></xsl:template>
+
+    <xsl:template match="p"></xsl:template>
+
+    <xsl:template match="argument"></xsl:template>
+
+    <xsl:template match="lg">
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+
+    <xsl:template match="l">
+        <xsl:value-of select="."></xsl:value-of>
+    </xsl:template>
+
+</code>
+</pre>
+                </section>
+                <section>
+                    <h3>Si hay tiempo...</h3>
+                    <img src="img/evt2.png" width="700" />
+                    <p>EVT2</p>
                 </section>
             </div>
         </div>
