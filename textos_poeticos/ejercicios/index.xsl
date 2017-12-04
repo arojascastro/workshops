@@ -14,7 +14,7 @@
         <meta name="DC. CREATOR.AUT" content="Luis de Góngora"/>
         <meta name="DC.TITLE" content="Canción VI de Luis de Gógnora. Edición digital"/>
         <meta name="DC.CREATOR" content="Luis de Góngora"/>
-        <meta name="DC.CONTRIBUTOR" content="Antonio Rojas Castro"/>
+        <meta name="DC.CONTRIBUTOR" content="{//tei:titleStmt/tei:respStmt[2]/tei:persName}"/>
         <meta name="DC.TYPE" content="Text"/>
         <meta name="DC.SUBJECT" content="Poesía Siglo de Oro Edición digital Luis de Góngora"/>
         <meta name="DC.FORMAT" content="text/html"/>
@@ -35,14 +35,14 @@
           
           /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
           .row.content{
-            height: 450px
+            height: 650px
           }
           
           /* Set gray background color and 100% height */
           .sidenav{
             padding-top: 20px;
             background-color: #f1f1f1;
-            height: 800px;
+            height: 1000px;
           }
           
           /* Set black background color, white text and some padding */
@@ -165,10 +165,8 @@
               <xsl:apply-templates select="//tei:front"/>
             </div>
 
-            <div class="col-sm-2 sidenav">
-              <xsl:apply-templates select="//tei:pb"/>
-            </div>
-
+            <div class="col-sm-2 sidenav"/>
+            
           </div>
 
         </div>
@@ -194,7 +192,7 @@
           </p>
           <p>
             <img class="iconocc" src="creativecommons.png" alt="icono"/>
-            <xsl:text> Esta edición se publica con una licencia </xsl:text>
+            <xsl:text>Esta edición se publica con una licencia </xsl:text>
             <a href="{//tei:licence/@target}">
               <xsl:value-of select="//tei:licence"/>
             </a>
@@ -224,7 +222,6 @@
       <xsl:apply-templates/>
     </mark>
   </xsl:template>
-
 
   <xsl:template match="tei:foreign | tei:mentioned[@rend = 'italic'] | tei:hi[@rend = 'italic']">
     <em xmlns="http://www.w3.org/1999/xhtml">
