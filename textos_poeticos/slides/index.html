@@ -1412,8 +1412,17 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
-                        <p>Debido a la tecnología digital, el corpus utilizado en un proyecto puede ser (casi) tan grande como el archivo y el tamaño de éste –al menos en época contemporánea– se
-                            acerca al de toda la literatura publicada.</p>
+                        <p>Debido a la tecnología digital, <strong>el corpus utilizado en un proyecto puede ser (casi) tan grande como el archivo</strong> y el tamaño de éste –al menos en época
+                            contemporánea– se acerca al de toda la literatura publicada.</p>
+                    </section>
+                    <section>
+                        <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
+                        <h4>Limitaciones</h4>
+                        <ul>
+                            <li>Transcripción de textos anteriores al siglo XIX</li>
+                            <li>Derechos de autor (70-90 años después de la muerte del autor)</li>
+                            <li>Variación ortográfica</li>
+                        </ul>
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
@@ -1425,8 +1434,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
-                        <p>La gran innovación que trae consigo la crítica computacional es una redefinición de la literatura fundamentada en los rasgos susceptibles de ser abstraídos con facilidad
-                            como las categorías gramaticales o la frecuencia de palabras, y por tanto, de ser procesados por el ordenador.</p>
+                        <p>La gran innovación que trae consigo la crítica computacional es <strong>una redefinición de la literatura fundamentada en los rasgos susceptibles de ser abstraídos</strong>
+                            con facilidad como las categorías gramaticales o la frecuencia de palabras, y por tanto, de ser procesados por el ordenador.</p>
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
@@ -1434,16 +1443,91 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                 </section>
                 <section>
-                    <h3>4.2 Descripción del corpus de fábulas mitológicas</h3>
+                    <section>
+                        <h3>4.2 Introducción a Stylo</h3>
+                        <p>Es una herramienta desarrollada en 2015 por Maciej Eder, Jan Rybicki y Mike Kestemont.</p>
+                        <p>Publicación en abierto y de manera gratuita.</p>
+                        <p>Desarrollada en R, un lenguaje de programación concebido para realizar cálculos estadísticos.</p>
+                        <p>Acepta textos en formato HTML, TXT o TEI.</p>
+                    </section>
+                    <section>
+                        <h3>4.2 Introducción a Stylo</h3>
+                        <p>Facilita la realización de varios análisis propios de la estilometría:</p>
+                        <ul>
+                            <li>Atribución de autoría</li>
+                            <li>Clasificación de textos</li>
+                            <li>Análisis de obras colaborativas</li>
+                            <li>Análisis contrastivos</li>
+                        </ul>
+                    </section>
                 </section>
                 <section>
-                    <h3>4.3 La función <strong>stylo()</strong></h3>
+                    <section>
+                        <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
+                    </section>
+                    <section>
+                        <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
+                        <ul>
+                            <li>25 fábulas mitológicas escritas en español</li>
+                            <li>14 poetas del Siglo de Oro</li>
+                            <li>Corpus de 150.746 palabras</li>
+                            <li>Período temporal: 1553-1664</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
+                        <p><img src="img/versos.png" width="700" /></p>
+                        <p>Promedio de 1.022 versos</p>
+                    </section>
+                    <section>
+                        <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
+                        <p><img src="img/tokens.png" width="500" /></p>
+                        <p>Promedio de 6030 palabras</p>
+                    </section>
+                    <section>
+                        <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
+                        <p><img src="img/metro.png" width="700" /></p>
+                        <p>15 de los 25 textos están escritos octava</p>
+                    </section>
                 </section>
                 <section>
-                    <h3>4.4 Descripción del corpus de poemas gongorinos</h3>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
+                    </section>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
+                        <p>Sirve para evaluar y visualizar la similitud existente entre los textos del corpus.</p>
+                        <ul>
+                            <li>1. Crea una lista de palabras más frecuentes de todo el corpus</li>
+                            <li>2. Crea una lista de palabras más frecuentes de los textos individuales</li>
+                            <li>3. Selecciona un rango de frecuencias para llevar a cabo el análisis</li>
+                            <li>4. Compara los resultados de cada texto aplicando métodos estadísticos</li>
+                            <li>5. Produce una representación gráfica de la similitud en forma de diagrama</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
+                        <p>Dos opciones importantes:</p>
+                        <ul>
+                            <li><strong>Análisis de grupos</strong> (<em>cluster analysis</em>): lleva a cabo un análisis de grupos y produce una representación jerárquica en forma de
+                                dendrograma.</li>
+                            <li><strong>Árbol consensuado</strong> (<em>consensus tree</em>): produce un diagrama resultado de la "combinación" de múltiples análisis de grupos.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
+                        <p><img src="img/consensus_tree.png" width="500" /></p>
+                    </section>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
+                        <h4>Ejercicio 1. Crea un árbol consensuado de las fábulas mitológicas</h4>
+                    </section>
                 </section>
                 <section>
-                    <h3>4.5 La función <strong>oppose()</strong></h3>
+                    <h3>4.5 Descripción del corpus de poemas gongorinos</h3>
+                </section>
+                <section>
+                    <h3>4.6 La función <strong>oppose()</strong></h3>
                 </section>
             </div>
         </div>
