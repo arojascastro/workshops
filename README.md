@@ -23,7 +23,7 @@ En esta sesión se llevarán a cabo tres ejercicios de codificación con el obje
 ### Sesión 3 
 *Ejercicios prácticos de transformación XSLT: edición anotada, edición crítica y edición de corpus* 
 
-En esta sesión se introducirán las hojas de estilo XSLT y se llevarán a cabo tres ejercicios para transformar la codificación de la canción de Luis de Góngora en una página web HTML. Los participantes aprenderán el funcionamiento básico de las instrucciones <xsl:value-of>, <xsl:for-each> y <xsl:template>.
+En esta sesión se introducirán las hojas de estilo XSLT y se llevarán a cabo tres ejercicios para transformar la codificación de la canción de Luis de Góngora en una página web HTML. Los participantes aprenderán el funcionamiento básico de las instrucciones *<xsl:value-of>*, *<xsl:for-each>* y *<xsl:template>*.
  
 ### Sesión 4
 *Introducción al análisis textual con métodos informáticos: uso de Stylo para analizar corpus textuales*
