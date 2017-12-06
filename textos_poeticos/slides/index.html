@@ -1062,24 +1062,24 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
                         <p>XSLT significa <strong>Extensible Stylesheet Language</strong>.</p>
-                        <p>Es un lenguaje utilizado para transformar información contenida en documentos XML en formato HTML, PDF o TXT.</p>
-                        <p>Se puede utilizar para presentar documentos XML, pero en la práctica sirve principalmente para modificar, eliminar o añadir información.</p>
+                        <p>Es un lenguaje utilizado para <strong>transformar información</strong> contenida en documentos XML en formato HTML, PDF o TXT.</p>
+                        <p>Se puede utilizar para presentar documentos XML, pero en la práctica sirve principalmente para <strong>modificar, eliminar o añadir</strong> información.</p>
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
-                        <p>Con XSLT se utiliza el lenguaje XPath para seleccionar partes de un documento XML a fin de procesarlo o realizar cálculos.</p>
-                        <p>XSLT y XPath se conviertieron en lenguajes recomendados por el W3C en 1999.</p>
-                        <p>Actualmente, la versión más extendida es XSLT 2.0 (ya hay una tercera versión, pero poco utilizada aún).</p>
+                        <p>Con <strong>XSLT</strong> se utiliza el lenguaje <strong>XPath</strong> para seleccionar partes de un documento XML a fin de procesarlo o realizar cálculos.</p>
+                        <p>XSLT y XPath se conviertieron en lenguajes recomendados por el <strong>W3C</strong> en 1999.</p>
+                        <p>Actualmente, la versión más extendida es <strong>XSLT 2.0</strong> (ya hay una tercera versión, pero poco utilizada aún).</p>
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
                         <p>Para poder transformar un documento XML con XSLT, se necesitan tres cosas:</p>
                         <ul>
-                            <li>uno o varios documentos XML (<em>input</em>);</li>
-                            <li>uno o varios documentos XSLT;</li>
-                            <li>un procesador XSLT (por ejemplo, el que tenemos en Oxygen).</li>
+                            <li>uno o varios documentos <strong>XML</strong> (<em>input</em>);</li>
+                            <li>uno o varios documentos <strong>XSLT</strong>;</li>
+                            <li>un <strong>procesador</strong> XSLT (por ejemplo, el que tenemos en Oxygen).</li>
                         </ul>
-                        <p>El resultado de este proceso (por ejemplo, una página HTML) se suele llamar <em>output</em>.</p>
+                        <p>El <strong>resultado</strong> de este proceso (por ejemplo, una página HTML) se suele llamar <em>output</em>.</p>
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
@@ -1089,11 +1089,11 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <h3>3.1 ¿Qué es XSLT?</h3>
                         <p>Un hoja XSLT contiene elementos que proceden de distintos lenguajes de marcado.</p>
                         <p>Para distinguir los vocabularios, es necesario utilizar <em>namespaces</em>.</p>
-                        <p>La declaración <em>namespace</em> asocia un prefijo con una URI (por lo común, una URL como "https://www.w3.org/1999/XSL/Transform").</p>
+                        <p>La declaración <em>namespace</em> asocia un prefijo con una <strong>URI</strong> (por lo común, una URL como "https://www.w3.org/1999/XSL/Transform").</p>
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
-                        <p>El procesador XSLT lee cada uno de los elementos; si alguno contiene dos puntos (:), identifica el prefijo con el <em>namespace</em> que se encuentra en la declaración.</p>
+                        <p>El procesador XSLT lee cada uno de los elementos; si alguno contiene <strong>dos puntos</strong> (:), identifica el prefijo con el <em>namespace</em> que se encuentra en la <strong>declaración</strong>.</p>
                         <p>El <em>namespace</em> de XSLT es <strong>xsl</strong>.</p>
                         <pre>
                         <code>
@@ -1103,15 +1103,15 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
-                        <p>El elemento raíz de un documento XSLT es <strong>xsl:stylesheet</strong>.</p>
-                        <p>Dentro de este elemento, hay una serie de instrucciones que seleccionan una parte específica del documento XML y la procesan de una manera determinada.</p>
+                        <p>El <strong>elemento raíz</strong> de un documento XSLT es <strong>xsl:stylesheet</strong>.</p>
+                        <p>Dentro de este elemento, hay una serie de <strong>instrucciones</strong> que seleccionan una parte específica del documento XML y la procesan de una manera determinada.</p>
                         <p>Las instrucciones (en inglés, <em>template</em>) son una serie de reglas que definen cómo una parte del <em>input</em> debe procesarse a fin de obtener el <em>output</em>
                             deseado.</p>
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
                         <p>Las instrucciones se declaran mediante el elemento <strong>xsl:template</strong>.</p>
-                        <p>Este elemento contiene un atributo <em>@match</em> que indica qué parte del documento XML <em>input</em> debe procesarse con el contenido de la instrucción.</p>
+                        <p>Este elemento contiene un <strong>atributo</strong> <em>@match</em> que indica qué parte del documento XML <em>input</em> debe procesarse con el contenido de la instrucción.</p>
                     </section>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
@@ -1125,16 +1125,16 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.2 Anatomía de un documento HTML</h3>
-                        <p>Para transformar un documento XML en un documento HTML necesitamos crear un archivo HTML que contenga un elemento <strong>html</strong>.</p>
-                        <p>Como un documento XML, nuestro documento HTML debe contener un encabezado (<strong>head</strong>) con metadatos y el texto en sí (<strong>body</strong>).</p>
+                        <p>Para transformar XML en formato <strong>HTML</strong> necesitamos crear un archivo HTML que contenga un elemento <strong>html</strong>.</p>
+                        <p>Como un documento XML, nuestro documento HTML debe contener un <strong>encabezado</strong> (<strong>head</strong>) con metadatos y el <strong>texto</strong> en sí (<strong>body</strong>).</p>
                     </section>
                     <section>
                         <h3>3.2 Anatomía de un documento HTML</h3>
                         <p>Normalmente, el elemento <strong>body</strong> suele contener:</p>
                         <ul>
-                            <li>el menú de navegación (se suele utilizar el elemento <strong>nav</strong>);</li>
-                            <li>una o varias divisiones, en donde se suele poner texto o imágenes (cada parte se marca con un <strong>div</strong>);</li>
-                            <li>y un pie con información sobre la web (elemento <strong>footer</strong>).</li>
+                            <li>el <strong>menú</strong> de navegación (se suele utilizar el elemento <strong>nav</strong>);</li>
+                            <li>una o varias <strong>divisiones</strong>, en donde se suele poner texto o imágenes (cada parte se marca con un <strong>div</strong>);</li>
+                            <li>y un <strong>pie</strong> con información sobre la web (elemento <strong>footer</strong>).</li>
                         </ul>
                     </section>
                 </section>
@@ -1145,8 +1145,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.3 La instrucción <strong>xsl:value-of</strong></h3>
-                        <p>La instrucción <strong>xsl:value-of</strong> se utiliza para recuperar el valor de un elemento específico.</p>
-                        <p>Para ello, es necesario utilizar el atributo <em>@select</em>.</p>
+                        <p>La instrucción <strong>xsl:value-of</strong> se utiliza para <strong>recuperar el contenido o valor</strong> de un elemento específico.</p>
+                        <p>Para ello, es necesario utilizar el <strong>atributo</strong> <em>@select</em>.</p>
                         <p>El procesador incluye en el documento HTML la información contenida en el elemento seleccionado.</p>
                         <p>El contenido del atributo <em>@select</em> debe ser una expresión XPath.</p>
                     </section>
@@ -1200,7 +1200,7 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <img src="img/homer.png" width="500" />
                     </section>
                     <section>
-                        <h3>Ejercicio 1.<br /> Crea tu primera página HTML</h3>
+                        <h3>Ejercicio 1.<br /> Crea tu primera <strong>página HTML</strong></h3>
                     </section>
                 </section>
                 <!-- xsl:for-each -->
@@ -1210,22 +1210,22 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.4 La instrucción <strong>xsl:for-each</strong></h3>
-                        <p>Para transformar un elemento de manera reiterativa y secuencial, hay que usar la instrucción <strong>xsl:for-each</strong>.</p>
-                        <p>Esta instrucción también tiene un atributo <em>@select</em> con el que se identifica el elemento que se debe procesar más de una vez.</p>
-                        <p>Dentro de la instrucción <strong>xsl:for-each</strong>, se pueden poner otras instrucciones que se ejecutarán en cada repetición.</p>
+                        <p>Para transformar un elemento de manera <strong>reiterativa y secuencial</strong>, hay que usar la instrucción <strong>xsl:for-each</strong>.</p>
+                        <p>Esta instrucción también tiene un <strong>atributo</strong> <em>@select</em> con el que se identifica el elemento que se debe procesar más de una vez.</p>
+                        <p>Dentro de la instrucción <strong>xsl:for-each</strong>, se pueden poner <strong>otras instrucciones</strong> que se ejecutarán en cada repetición.</p>
                     </section>
                     <section>
                         <h3>3.4 La instrucción <strong>xsl:for-each</strong></h3>
-                        <p>Para identificar el elemento que se quiere procesar, conviene saber la diferencia entre dos expresiones XPath:</p>
+                        <p>Para identificar el elemento que se quiere procesar, conviene saber la diferencia entre dos expresiones <strong>XPath</strong>:</p>
                         <ul>
-                            <li><em>Ruta absoluta</em>: empieza con / y apunta hacia el elemento con que empieza el documento XML.</li>
-                            <li><em>Ruta relativa</em>: se evalúa a partir del contexto en que aparece la instrucción, es decir, a partir del nodo contextual.</li>
+                            <li><em>Ruta absoluta</em>: empieza con una <strong> barra lateral ( / )</strong> y apunta hacia el elemento con que empieza el documento XML.</li>
+                            <li><em>Ruta relativa</em>: se evalúa a partir del <strong>contexto</strong> en que aparece la instrucción, es decir, a partir del nodo contextual.</li>
                         </ul>
                     </section>
                     <section>
                         <h3>3.4 La instrucción <strong>xsl:for-each</strong></h3>
                         <p>Se puede generar automáticamente el valor de los atributos utilizando el <em>attribute value template</em>.</p>
-                        <p>Simplemente, en un atributo introduce dos paréntsis curvos ({}) una expresión XPath para seleccionar el valor del elemento o atributo contenido en el documento
+                        <p>Simplemente, en un atributo introduce dos <strong>paréntesis curvos</strong> <strong>({ ... })</strong> una expresión XPath para seleccionar el valor del elemento o atributo contenido en el documento
                             XML.</p><p>Por ejemplo:</p>
                         <pre><code><h1 class="{//tei:sourceDesc/@xml:id}"></h1></code></pre>
                     </section>
@@ -1259,12 +1259,12 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
-                        <p>Cuando un procesador XSLT lee un documento XML, produce una representación del XML en forma de árbol (o jerarquía de elementos).</p>
+                        <p>Cuando un procesador XSLT lee un documento XML, produce una representación del XML en forma de <strong>árbol</strong> (o jerarquía de elementos).</p>
                         <p>Al inicio del elemento XML se halla el <em>elemento raíz</em> (en inglés, <em>root element</em>) que contiene todos los elementos.</p>
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
-                        <p>La relación entre los elementos de un documento XML se describe en términos familares:</p>
+                        <p>La relación entre los elementos de un documento XML se describe en <strong>términos familares</strong>:</p>
                         <ul>
                             <li><em>Hijos</em>: son elementos directos contenidos por un elemento.</li>
                             <li><em>Descendientes</em>: son todos los elementos contenidos por un elemento.</li>
@@ -1274,17 +1274,17 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
-                        <p>Procesar un documento XML como si fuera un árbol es útil porque nos podemos concentrar en una parte del documento (o rama del árbol) de manera específica.</p>
-                        <p>Para seleccionar un solo elemento utiliza tantos <strong>xsl:template</strong> como necesites.</p>
+                        <p>Procesar un documento XML como si fuera un árbol es útil porque nos podemos <strong>concentrar</strong> en una parte del documento (o rama del árbol) de manera específica.</p>
+                        <p>Para <strong>seleccionar</strong> un solo elemento utiliza tantos <strong>xsl:template</strong> como necesites.</p>
                         <p>Dentro puedes situar la instrucción <strong>xsl:apply-templates</strong> si quieres procesar todos los <em>templates</em> contenidos en la hoja XSLT.</p>
                         <p>O bien instrucciones como <strong>xsl:value-of</strong> o <strong>xsl:for-each</strong>.</p>
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
-                        <p>La instrucción <strong>xsl:apply-templates</strong> tiene un atributo <em>@select</em> que indica al procesador qué elemento hay que procesar.</p>
+                        <p>La instrucción <strong>xsl:apply-templates</strong> tiene un <strong>atributo</strong> <em>@select</em> que indica al procesador qué elemento hay que procesar.</p>
                         <p>Si bien el lugar en donde se sitúa la instrucción <strong>xsl:template</strong> es irrelevante, no ocurre lo mismo con <strong>xsl:apply-templates</strong> porque el
                                 <em>output</em> se situará allí mismo.</p>
-                        <p>Si el procesador no encuentra un <strong>xsl:template</strong> para un determinado elemento, simplemente recupera el valor y lo pasa al <em>output</em>.</p>
+                        <p>Si el procesador <strong>no</strong> encuentra un <strong>xsl:template</strong> para un determinado elemento, simplemente recupera el valor y lo pasa al <em>output</em>.</p>
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
@@ -1321,14 +1321,14 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
                         <h4>¿Cuándo utilizar <strong>xsl:template</strong>, <strong>xsl:value-of</strong> o <strong>xsl:for-each</strong>?</h4>
                         <p>Utiliza <strong>xsl:template</strong> si elemento seleccionado puede contener otros elementos que deben ser procesados.</p>
-                        <p>Utiliza <strong>xsl:template</strong> si quieres crear una hoja XSLT modular porque las instrucciones son fáciles de mantener y actualizar.</p>
+                        <p>Utiliza <strong>xsl:template</strong> si quieres crear una hoja XSLT modular porque las instrucciones son <strong>fáciles de mantener y actualizar</strong>.</p>
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
                         <h4>¿Cuándo utilizar <strong>xsl:template</strong>, <strong>xsl:value-of</strong> o <strong>xsl:for-each</strong>?</h4>
-                        <p>Utiliza <strong>xsl:value-of</strong> si sabes que el elemento seleccionado no contiene otros elementos y solo quieres "pasar" el valor al <em>output</em>.</p>
-                        <p>Utiliza <strong>xsl:value-of</strong> si tienes muchos elementos que procesar y necesitas optimizar la transformación.</p>
-                        <p>Utiliza <strong>xsl:value-of</strong> si quieres cambiar la estructura de un documento.</p>
+                        <p>Utiliza <strong>xsl:value-of</strong> si sabes que el elemento seleccionado <strong>no contiene</strong> otros elementos y solo quieres "pasar" el valor al <em>output</em>.</p>
+                        <p>Utiliza <strong>xsl:value-of</strong> si tienes muchos elementos que procesar y necesitas <strong>optimizar</strong> la transformación.</p>
+                        <p>Utiliza <strong>xsl:value-of</strong> si quieres <strong>cambiar la estructura</strong> de un documento.</p>
                     </section>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
@@ -1337,8 +1337,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                 </section>
                 <section>
                     <h3>Si hay tiempo...</h3>
-                    <p>Hay bastantes más elementos XSLT... esto es solo una pequeña introducción.</p>
-                    <p>Las instrucciones que contienen <strong>if</strong> y <strong>choose</strong> son muy útiles porque nos permiten procesar elemen determinadas condiciones.</p>
+                    <p>Hay bastantes más elementos XSLT... esto es solo una pequeña <strong>introducción</strong>.</p>
+                    <p>Las instrucciones que contienen <strong>if</strong> y <strong>choose</strong> son muy útiles porque nos permiten procesar elemen determinadas <strong>condiciones</strong>.</p>
                     <pre>
 <code>
 <xsl:template match="tei:lem">
@@ -1351,8 +1351,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                 </section>
                 <section>
                     <h3>Si hay tiempo...</h3>
-                    <p>Para eliminar un elemento solo hay que seleccionarlo con <strong>xsl:template</strong> y dejar el contenido vacío.</p>
-                    <p>De esta manera es muy fácil convertir archivos TEI en archivos de texto plano útiles para procesarlos con herramientas como Stylo.</p>
+                    <p>Para eliminar un elemento solo hay que seleccionarlo con <strong>xsl:template</strong> y dejar el contenido <strong>vacío</strong>.</p>
+                    <p>De esta manera es muy fácil convertir archivos TEI en archivos de <strong>texto plano</strong> útiles para procesarlos con herramientas como Stylo.</p>
                 </section>
                 <section>
                     <h3>Si hay tiempo...</h3>
@@ -1403,7 +1403,7 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
-                        <p>La digitalización de textos ha incrementado la escala del objeto de estudio literario.</p>
+                        <p>La digitalización de textos ha incrementado la <strong>escala</strong> del objeto de estudio literario.</p>
                         <ul>
                             <li><strong>La literatura</strong>: la totalida de textos publicados</li>
                             <li><strong>Archivo</strong>: el segmento de textos literarios publicados que se conservan</li>
@@ -1427,9 +1427,9 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
                         <ul>
-                            <li><strong>Partes del discurso (POS)</strong>: análisis de categorías gramaticales y sintácticas (por ejemplo, con TXM).</li>
-                            <li><strong>Topic modeling</strong>: identificación de temas y motivos (por ejemplo, con Mallet).</li>
-                            <li><strong>Stilometría</strong>: atribución de autoría y clasificación de textos a partir de las palabras más frecuentes (por ejemplo, con Voyant, AntConc o Stylo).</li>
+                            <li><strong>Partes del discurso (POS)</strong>: análisis de <strong>categorías gramaticales</strong> y sintácticas (por ejemplo, con TXM).</li>
+                            <li><strong>Topic modeling</strong>: identificación de <strong>temas</strong> y motivos (por ejemplo, con Mallet).</li>
+                            <li><strong>Stilometría</strong>: <strong>atribución</strong> de autoría y <strong>clasificación</strong> de textos a partir de las palabras más frecuentes (por ejemplo, con Voyant, AntConc o Stylo).</li>
                         </ul>
                     </section>
                     <section>
@@ -1445,9 +1445,9 @@ al cóncavo ajustando de los cielos<note type="editorial">
                 <section>
                     <section>
                         <h3>4.2 Introducción a Stylo</h3>
-                        <p>Es una herramienta desarrollada en 2015 por Maciej Eder, Jan Rybicki y Mike Kestemont.</p>
-                        <p>Publicación en abierto y de manera gratuita.</p>
-                        <p>Desarrollada en R, un lenguaje de programación concebido para realizar cálculos estadísticos.</p>
+                        <p>Es una herramienta desarrollada en <strong>2015</strong> por Maciej Eder, Jan Rybicki y Mike Kestemont.</p>
+                        <p>Publicación en <strong>abierto</strong> y de manera gratuita.</p>
+                        <p>Desarrollada en <strong>R</strong>, un lenguaje de programación concebido para realizar cálculos estadísticos.</p>
                         <p>Acepta textos en formato HTML, TXT o TEI.</p>
                     </section>
                     <section>
