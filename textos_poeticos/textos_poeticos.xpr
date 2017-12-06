@@ -4,7 +4,7 @@
         <filters directoryPatterns="" filePatterns="cancion_vi.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
     </meta>
-    <projectTree name="cancion_vi.xpr">
+    <projectTree name="textos_poeticos.xpr">
         <folder path="."/>
     </projectTree>
 </project>
