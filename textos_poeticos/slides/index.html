@@ -1093,7 +1093,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
-                        <p>El procesador XSLT lee cada uno de los elementos; si alguno contiene <strong>dos puntos</strong> (:), identifica el prefijo con el <em>namespace</em> que se encuentra en la <strong>declaración</strong>.</p>
+                        <p>El procesador XSLT lee cada uno de los elementos; si alguno contiene <strong>dos puntos</strong> (:), identifica el prefijo con el <em>namespace</em> que se encuentra en la
+                                <strong>declaración</strong>.</p>
                         <p>El <em>namespace</em> de XSLT es <strong>xsl</strong>.</p>
                         <pre>
                         <code>
@@ -1111,7 +1112,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.1 ¿Qué es XSLT?</h3>
                         <p>Las instrucciones se declaran mediante el elemento <strong>xsl:template</strong>.</p>
-                        <p>Este elemento contiene un <strong>atributo</strong> <em>@match</em> que indica qué parte del documento XML <em>input</em> debe procesarse con el contenido de la instrucción.</p>
+                        <p>Este elemento contiene un <strong>atributo</strong>
+                            <em>@match</em> que indica qué parte del documento XML <em>input</em> debe procesarse con el contenido de la instrucción.</p>
                     </section>
                     <section>
                         <p>¿Preguntas? ¿Dudas?</p>
@@ -1126,7 +1128,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.2 Anatomía de un documento HTML</h3>
                         <p>Para transformar XML en formato <strong>HTML</strong> necesitamos crear un archivo HTML que contenga un elemento <strong>html</strong>.</p>
-                        <p>Como un documento XML, nuestro documento HTML debe contener un <strong>encabezado</strong> (<strong>head</strong>) con metadatos y el <strong>texto</strong> en sí (<strong>body</strong>).</p>
+                        <p>Como un documento XML, nuestro documento HTML debe contener un <strong>encabezado</strong> (<strong>head</strong>) con metadatos y el <strong>texto</strong> en sí
+                                (<strong>body</strong>).</p>
                     </section>
                     <section>
                         <h3>3.2 Anatomía de un documento HTML</h3>
@@ -1146,7 +1149,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.3 La instrucción <strong>xsl:value-of</strong></h3>
                         <p>La instrucción <strong>xsl:value-of</strong> se utiliza para <strong>recuperar el contenido o valor</strong> de un elemento específico.</p>
-                        <p>Para ello, es necesario utilizar el <strong>atributo</strong> <em>@select</em>.</p>
+                        <p>Para ello, es necesario utilizar el <strong>atributo</strong>
+                            <em>@select</em>.</p>
                         <p>El procesador incluye en el documento HTML la información contenida en el elemento seleccionado.</p>
                         <p>El contenido del atributo <em>@select</em> debe ser una expresión XPath.</p>
                     </section>
@@ -1211,7 +1215,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.4 La instrucción <strong>xsl:for-each</strong></h3>
                         <p>Para transformar un elemento de manera <strong>reiterativa y secuencial</strong>, hay que usar la instrucción <strong>xsl:for-each</strong>.</p>
-                        <p>Esta instrucción también tiene un <strong>atributo</strong> <em>@select</em> con el que se identifica el elemento que se debe procesar más de una vez.</p>
+                        <p>Esta instrucción también tiene un <strong>atributo</strong>
+                            <em>@select</em> con el que se identifica el elemento que se debe procesar más de una vez.</p>
                         <p>Dentro de la instrucción <strong>xsl:for-each</strong>, se pueden poner <strong>otras instrucciones</strong> que se ejecutarán en cada repetición.</p>
                     </section>
                     <section>
@@ -1225,8 +1230,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.4 La instrucción <strong>xsl:for-each</strong></h3>
                         <p>Se puede generar automáticamente el valor de los atributos utilizando el <em>attribute value template</em>.</p>
-                        <p>Simplemente, en un atributo introduce dos <strong>paréntesis curvos</strong> <strong>({ ... })</strong> una expresión XPath para seleccionar el valor del elemento o atributo contenido en el documento
-                            XML.</p><p>Por ejemplo:</p>
+                        <p>Simplemente, en un atributo introduce dos <strong>paréntesis curvos</strong>
+                            <strong>({ ... })</strong> una expresión XPath para seleccionar el valor del elemento o atributo contenido en el documento XML.</p><p>Por ejemplo:</p>
                         <pre><code><h1 class="{//tei:sourceDesc/@xml:id}"></h1></code></pre>
                     </section>
                     <section>
@@ -1274,14 +1279,16 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
-                        <p>Procesar un documento XML como si fuera un árbol es útil porque nos podemos <strong>concentrar</strong> en una parte del documento (o rama del árbol) de manera específica.</p>
+                        <p>Procesar un documento XML como si fuera un árbol es útil porque nos podemos <strong>concentrar</strong> en una parte del documento (o rama del árbol) de manera
+                            específica.</p>
                         <p>Para <strong>seleccionar</strong> un solo elemento utiliza tantos <strong>xsl:template</strong> como necesites.</p>
                         <p>Dentro puedes situar la instrucción <strong>xsl:apply-templates</strong> si quieres procesar todos los <em>templates</em> contenidos en la hoja XSLT.</p>
                         <p>O bien instrucciones como <strong>xsl:value-of</strong> o <strong>xsl:for-each</strong>.</p>
                     </section>
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
-                        <p>La instrucción <strong>xsl:apply-templates</strong> tiene un <strong>atributo</strong> <em>@select</em> que indica al procesador qué elemento hay que procesar.</p>
+                        <p>La instrucción <strong>xsl:apply-templates</strong> tiene un <strong>atributo</strong>
+                            <em>@select</em> que indica al procesador qué elemento hay que procesar.</p>
                         <p>Si bien el lugar en donde se sitúa la instrucción <strong>xsl:template</strong> es irrelevante, no ocurre lo mismo con <strong>xsl:apply-templates</strong> porque el
                                 <em>output</em> se situará allí mismo.</p>
                         <p>Si el procesador <strong>no</strong> encuentra un <strong>xsl:template</strong> para un determinado elemento, simplemente recupera el valor y lo pasa al <em>output</em>.</p>
@@ -1326,7 +1333,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
                         <h4>¿Cuándo utilizar <strong>xsl:template</strong>, <strong>xsl:value-of</strong> o <strong>xsl:for-each</strong>?</h4>
-                        <p>Utiliza <strong>xsl:value-of</strong> si sabes que el elemento seleccionado <strong>no contiene</strong> otros elementos y solo quieres "pasar" el valor al <em>output</em>.</p>
+                        <p>Utiliza <strong>xsl:value-of</strong> si sabes que el elemento seleccionado <strong>no contiene</strong> otros elementos y solo quieres "pasar" el valor al
+                            <em>output</em>.</p>
                         <p>Utiliza <strong>xsl:value-of</strong> si tienes muchos elementos que procesar y necesitas <strong>optimizar</strong> la transformación.</p>
                         <p>Utiliza <strong>xsl:value-of</strong> si quieres <strong>cambiar la estructura</strong> de un documento.</p>
                     </section>
@@ -1414,6 +1422,7 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
                         <p>Debido a la tecnología digital, <strong>el corpus utilizado en un proyecto puede ser (casi) tan grande como el archivo</strong> y el tamaño de éste –al menos en época
                             contemporánea– se acerca al de toda la literatura publicada.</p>
+                        <p>De ahí la necesidad de técnicas y métodos de <em>distant reading</em>.</p>
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
@@ -1429,7 +1438,9 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <ul>
                             <li><strong>Partes del discurso (POS)</strong>: análisis de <strong>categorías gramaticales</strong> y sintácticas (por ejemplo, con TXM).</li>
                             <li><strong>Topic modeling</strong>: identificación de <strong>temas</strong> y motivos (por ejemplo, con Mallet).</li>
-                            <li><strong>Stilometría</strong>: <strong>atribución</strong> de autoría y <strong>clasificación</strong> de textos a partir de las palabras más frecuentes (por ejemplo, con Voyant, AntConc o Stylo).</li>
+                            <li><strong>Stilometría</strong>: <strong>atribución</strong> de autoría y <strong>clasificación</strong> de textos a partir de las palabras más frecuentes (por ejemplo,
+                                con Voyant, AntConc o Stylo).</li>
+                            <li><strong>Concordancias</strong>: listas de palabras en contexto (Voyant o AntConc).</li>
                         </ul>
                     </section>
                     <section>
@@ -1491,10 +1502,10 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
-                        <h4>Objetivos:</h4>
+                        <h4>Objetivos</h4>
                         <ul>
                             <li>Confirmar o refutar la <strong>clasificación tradicional</strong> entre poetas "claros" y "oscuros" (y situar la fábula de Jaúregui en uno de los dos polos).</li>
-                            <li>Confirmar o refutar <strong>la afiliación (o bien semejanza)</strong> entre <em>El Orfeo</em> de Montalbán y Lope de Vega.</li>
+                            <li>Confirmar o refutar <strong>la afiliación (o bien semejanza)</strong> entre <em>El Orfeo</em> de Montalbán y las fábulas de Lope de Vega.</li>
                             <li>Descubrir <strong>nuevas agrupaciones</strong> que han pasado inadvertidas a la crítica literaria tradicional.</li>
                         </ul>
                     </section>
@@ -1506,12 +1517,15 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     <section>
                         <h3>4.4 La función <strong>stylo()</strong></h3>
                         <p>Sirve para evaluar y visualizar la similitud existente entre los textos del corpus.</p>
+                    </section>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
                         <ul>
-                            <li>1. Crea una lista de palabras más frecuentes de todo el corpus</li>
-                            <li>2. Crea una lista de palabras más frecuentes de los textos individuales</li>
-                            <li>3. Selecciona un rango de frecuencias para llevar a cabo el análisis</li>
-                            <li>4. Compara los resultados de cada texto aplicando métodos estadísticos</li>
-                            <li>5. Produce una representación gráfica de la similitud en forma de diagrama</li>
+                            <li>1. Crea una lista de palabras más frecuentes de todo el corpus.</li>
+                            <li>2. Crea una lista de palabras más frecuentes de los textos individuales.</li>
+                            <li>3. Selecciona un rango de frecuencias para llevar a cabo el análisis.</li>
+                            <li>4. Compara los resultados de cada texto aplicando métodos estadísticos.</li>
+                            <li>5. Produce una representación gráfica de la similitud en forma de diagrama.</li>
                         </ul>
                     </section>
                     <section>
@@ -1583,7 +1597,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.6 La función <strong>oppose()</strong></h3>
-                        <p>Útil para comparar "épocas" (obras de juventud Vs. obras de madureza), "estilos" o "escuelas" (poesía "clara" u "oscura"), textos escritos por hombres o por mujeres, etc.</p>
+                        <p>Útil para comparar "épocas" (obras de juventud Vs. obras de madureza), "estilos" o "escuelas" (poesía "clara" u "oscura"), textos escritos por hombres o por mujeres,
+                            etc.</p>
                     </section>
                     <section>
                         <h3>4.6 La función <strong>oppose()</strong></h3>
