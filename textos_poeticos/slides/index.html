@@ -1271,10 +1271,11 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <h3>3.5 La instrucción <strong>xsl:template</strong></h3>
                         <p>La relación entre los elementos de un documento XML se describe en <strong>términos familares</strong>:</p>
                         <ul>
-                            <li><em>Hijos</em>: son elementos directos contenidos por un elemento.</li>
+                            <li><em>Hi@js</em>: son elementos directos contenidos por un elemento.</li>
                             <li><em>Descendientes</em>: son todos los elementos contenidos por un elemento.</li>
-                            <li><em>Padre</em>: es el elemento directo que contiene otros elementos.</li>
+                            <li><em>Padre/Madre</em>: es el elemento directo que contiene otros elementos.</li>
                             <li><em>Ancestros</em>: son todos los elementos que contienen otros elementos.</li>
+                            <li><em>Herman@s</em>: son todos los elementos contenidos por un mismo elemento <em>Padre/Madre</em>.</li>
                         </ul>
                     </section>
                     <section>
@@ -1411,10 +1412,10 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
-                        <p>La digitalización de textos ha incrementado la <strong>escala</strong> del objeto de estudio literario.</p>
+                        <p>La digitalización de textos ha incrementado la <strong>escala</strong> del objeto de estudio de los filológos.</p>
                         <ul>
-                            <li><strong>La literatura</strong>: la totalida de textos publicados</li>
-                            <li><strong>Archivo</strong>: el segmento de textos literarios publicados que se conservan</li>
+                            <li><strong>La literatura</strong>: la totalidad de textos publicados</li>
+                            <li><strong>Archivo</strong>: el segmento de textos literarios publicados que se conserva en bibliotecas</li>
                             <li><strong>Corpus</strong>: el segmento del archivo seleccionado con fines de investigación</li>
                         </ul>
                     </section>
@@ -1430,7 +1431,7 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <ul>
                             <li>Transcripción de textos anteriores al siglo XIX</li>
                             <li>Derechos de autor (70-90 años después de la muerte del autor)</li>
-                            <li>Variación ortográfica</li>
+                            <li>Variación ortográfica / modernización / normalización</li>
                         </ul>
                     </section>
                     <section>
@@ -1438,15 +1439,14 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <ul>
                             <li><strong>Partes del discurso (POS)</strong>: análisis de <strong>categorías gramaticales</strong> y sintácticas (por ejemplo, con TXM).</li>
                             <li><strong>Topic modeling</strong>: identificación de <strong>temas</strong> y motivos (por ejemplo, con Mallet).</li>
-                            <li><strong>Stilometría</strong>: <strong>atribución</strong> de autoría y <strong>clasificación</strong> de textos a partir de las palabras más frecuentes (por ejemplo,
-                                con Voyant, AntConc o Stylo).</li>
+                            <li><strong>Stilometría</strong>: <strong>atribución</strong> de autoría y <strong>clasificación</strong> de textos a partir de las palabras más frecuentes (por ejemplo, Stylo).</li>
                             <li><strong>Concordancias</strong>: listas de palabras en contexto (Voyant o AntConc).</li>
                         </ul>
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
                         <p>La gran innovación que trae consigo la crítica computacional es <strong>una redefinición de la literatura fundamentada en los rasgos susceptibles de ser abstraídos</strong>
-                            con facilidad como las categorías gramaticales o la frecuencia de palabras, y por tanto, de ser procesados por el ordenador.</p>
+                            con facilidad como las categorías gramaticales o la frecuencia de palabras.</p>
                     </section>
                     <section>
                         <h3>4.1 Introducción al análisis textual con métodos informáticos</h3>
@@ -1504,8 +1504,8 @@ al cóncavo ajustando de los cielos<note type="editorial">
                         <h3>4.3 Descripción del corpus de fábulas mitológicas</h3>
                         <h4>Objetivos</h4>
                         <ul>
-                            <li>Confirmar o refutar la <strong>clasificación tradicional</strong> entre poetas "claros" y "oscuros" (y situar la fábula de Jaúregui en uno de los dos polos).</li>
-                            <li>Confirmar o refutar <strong>la afiliación (o bien semejanza)</strong> entre <em>El Orfeo</em> de Montalbán y las fábulas de Lope de Vega.</li>
+                            <li>Confirmar o refutar la <strong>clasificación tradicional</strong> entre poetas "claros" y "oscuros" (y situar la fábula de Jauregui en uno de los dos polos).</li>
+                            <li>Confirmar o refutar <strong>la afiliación (o, mejor dicho, la semejanza)</strong> entre <em>El Orfeo</em> de Montalbán y las fábulas de Lope de Vega.</li>
                             <li>Descubrir <strong>nuevas agrupaciones</strong> que han pasado inadvertidas a la crítica literaria tradicional.</li>
                         </ul>
                     </section>
@@ -1536,6 +1536,11 @@ al cóncavo ajustando de los cielos<note type="editorial">
                                 dendrograma.</li>
                             <li><strong>Árbol consensuado</strong> (<em>consensus tree</em>): produce un diagrama resultado de la "combinación" de múltiples análisis de grupos.</li>
                         </ul>
+                    </section>
+                    <section>
+                        <h3>4.4 La función <strong>stylo()</strong></h3>
+                        <p>Todos los textos se deben situar una sola carpeta llamada <em>corpus</em>.</p>
+                        <p>El formato utilizado es texto plano (TXT), es decir, los textos no están etiquetados.</p>
                     </section>
                     <section>
                         <h3>4.4 La función <strong>stylo()</strong></h3>
@@ -1591,14 +1596,20 @@ al cóncavo ajustando de los cielos<note type="editorial">
                     </section>
                     <section>
                         <h3>4.6 La función <strong>oppose()</strong></h3>
-                        <p>Divide los archivos en trozos y obtiene frecuencias de palabras para cada trozo; luego compara las frecuencias de los dos sub-corpus.</p>
+                        <p>A diferencia de la fucnión <strong>stylo()</strong>, para realizar este análisis es necesario crear dos carpetas distintas; en una carpeta (<em>primary_set</em>) hay que situar el sub-corpus que se quiere analizar (<em>sub-corpus C</em>) y en la otra carpeta (<em>secondary_set</em>, los sub-corpus de referencia (<em>sub-corpus A y B)</em>.</p>
+                        <p>El formato utilizado es texto plano (TXT), es decir, los textos no están etiquetados.</p>
+                    </section>
+                    <section>
+                        <h3>4.6 La función <strong>oppose()</strong></h3>
+                        <p>Divide los archivos en trozos y obtiene frecuencias de palabras para cada trozo; luego compara las frecuencias de los textos contenidos en las dos carpetas.</p>
                         <p>Para obtener las palabras "características" no se tiene en cuenta las palabras <strong>más frecuentes</strong> ni las <strong>menos frecuentes</strong>, sino que las que
                             tienen una <strong>frecuencia mediana y regular</strong> en todos los trozos analizados.</p>
                     </section>
                     <section>
                         <h3>4.6 La función <strong>oppose()</strong></h3>
-                        <p>Útil para comparar "épocas" (obras de juventud Vs. obras de madureza), "estilos" o "escuelas" (poesía "clara" u "oscura"), textos escritos por hombres o por mujeres,
+                        <p>Útil para comparar "épocas" (obras de juventud Vs. obras de madureza), "estilos" (poesía "clara" u "oscura"), textos escritos por hombres o por mujeres (autores u autoras),
                             etc.</p>
+                            <p>Sin embargo, el ordenador no comprende estas distinciones: todo depende de la carpeta (<em>primary_set</em> o bien <em>secondary_set</em>) en que pongas los textos.</p>
                     </section>
                     <section>
                         <h3>4.6 La función <strong>oppose()</strong></h3>
