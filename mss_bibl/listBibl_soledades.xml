@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Fuentes para una edición crítica digital de las "Soledades" de Luis de Góngora</title>
+            <editor xml:id="ARC"><surname>Rojas Castro</surname>, <name>Antonio</name></editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Cologne Center for eHumanities (CCeH)</distributor>
+            <pubPlace>Köln</pubPlace>
+            <date when="2017-06">2017</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.es">Publicado bajo una licencia Creative Commons Atribución-NoComercial 3.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><author><surname>Rojo Alique</surname>, <name>Pedro C.</name></author>, <title>Catálogo bibliográfico de manuscritos e impresos del siglo XVII con poesía de Góngora</title>, <pubPlace>Barcelona</pubPlace>, <editor>Todo Góngora</editor>, <date when="2015">2015</date>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <listBibl type="manuscripts">
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/4075</idno>
+                  <msName>Varias poesías de Luis de Góngora</msName>
+                  <msName>Manuscrito Alba</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="235r" to="275v">235r-275v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/17719</idno>
+                  <msName>Libro de diversas poesías y curiosidades recopilado por Héctor Méndez de Brito</msName>
+                  <msName>Manuscrito Méndez de Brito</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="76r" to="99r">76r-99r y 100r-118r</locus>
+                     <locus from="100r" to="99r">100r-188r</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/3906</idno>
+                  <msName>Papeles varios gongorinos</msName>
+                  <msName>Manuscrito Cuesta Saavedra</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="147r" to="182r">147r-182r</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo reservado</collection>
+                  <idno type="cataloguenumber">Res/45, 1</idno>
+                  <msName>Obras de don Luis de Góngora reconocidas y comunicadas con él por don Antonio Chacón Ponce de León, señor de Polvoranca</msName>
+                  <msName>Manuscrito Chacón</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="193" to="260">193-260 páginas</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/3726</idno>
+                  <msName>Obras de Góngora y referentes a él</msName>
+                  <msName>Manuscrito Díaz de Rivas</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="32r" to="71v">32r-71v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Fundación Lázaro Galdiano</repository>
+                  <idno type="cataloguenumber">M 23-17</idno>
+                  <altIdentifier>
+                     <idno>15339</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Ms. 404</idno>
+                  </altIdentifier>
+                  <msName>Contiene este volumen las obras que se han podido adquirir del gran don Luis de Góngora y Argote, príncipe y Homero de la poesía de España. Corregidas de los vicios que hasta ahora padecen las impresiones todas, que de ellas han salido, por las noticias, que dejó su mismo autor.</msName>
+                  <msName>Manuscrito Estrada</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="407" to="476">407-476</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>Estados Unidos</country>
+                  <settlement>Nueva York</settlement>
+                  <repository>Biblioteca de The Hispanic Society of America</repository>
+                  <idno type="cataloguenumber">B 2362</idno>
+                  <msName>Cuaderno de varias poesías de don Luis de Góngora</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="373r" to="418v">373r-418v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Fundación Lázaro Galdiano</repository>
+                  <idno type="cataloguenumber">M 23-16</idno>
+                  <altIdentifier>
+                     <idno>15231</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Ms. 330</idno>
+                  </altIdentifier>
+                  <msName>Obras de Luis de Góngora</msName>
+                  <msName>Manuscrito Iriarte</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="373r" to="417v">373r-417v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/4118</idno>
+                  <msName>Obras varias poéticas de Luis de Góngora</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="334r" to="378v">334r-378v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/22217</idno>
+                  <msName>Obras de don Luis de Góngora</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="17r" to="71v">17r-71v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/19003</idno>
+                  <msName>Poesías de don Luis de Góngora en todo género de versos castellanos</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="280r" to="32v">280r-321v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>Reino Unido</country>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <collection>Richard Heber</collection>
+                  <idno type="cataloguenumber">Arch. Seld. A. II 13</idno>
+                  <msName>Papeles varios</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="1r" to="28r">1r-28r</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Barcelona</settlement>
+                  <repository>Biblioteca Nacional de Catalunya</repository>
+                  <collection>Fons Artur Sedó i Guichard</collection>
+                  <idno type="cataloguenumber">Ms. 2056</idno>
+                  <msName>Manuscrito Pérez de Ribas</msName>
+                  <msName>Obra poética, con algunas correcciones autógrafas</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="6r" to="35r">6r-35r</locus>
+                     <locus from="36r" to="56r">36r-56r</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Real Biblioteca del Palacio Real</repository>
+                  <idno>II/2801</idno>
+                  <altIdentifier>
+                     <idno>2-C-10</idno>
+                  </altIdentifier>
+                  <msName>Cuaderno de varias poesías de don Luis de Góngora</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="262r" to="306v">262r-306v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+
+            <msDesc>
+               <msIdentifier>
+                  <country>Portugal</country>
+                  <settlement>Lisboa</settlement>
+                  <repository>Biblioteca Nacional de Portugal</repository>
+                  <collection>Colección de códices</collection>
+                  <idno type="cataloguenumber">COD. 3266</idno>
+                  <msName>[Miscelánea]</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="49r" to="72v">49r-72v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca de la Real Academia Española de la Lengua</repository>
+                  <collection>Legado Rodríguez-Moñino / María Brey</collection>
+                  <idno type="cataloguenumber">Rm-6709</idno>
+                  <altIdentifier>
+                     <idno>E-39-6709</idno>
+                  </altIdentifier>
+                  <msName>Poesías de autores andaluces</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="859r" to="864v">859r-864v</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+            <msDesc>
+               <msIdentifier>
+                  <country>España</country>
+                  <settlement>Madrid</settlement>
+                  <repository>Biblioteca Nacional de España</repository>
+                  <collection>Fondo antiguo</collection>
+                  <idno type="cataloguenumber">Mss/8645</idno>
+                  <msName>Obras poéticas del insigne don Luis de Góngora, natural de Córdoba</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="325r" to="384r">325r-384r</locus>
+                     <title level="m">Soledades</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+
+         </listBibl>
+
+         <listBibl type="print">
+
+            <biblStruct>
+               <monogr>
+                  <author><name>Luis</name>
+                     <nameLink>de</nameLink>
+                     <surname>Góngora</surname>
+                  </author>
+                  <editor><name>Juan</name>
+                     <nameLink>de</nameLink>
+                     <surname>Vicuña</surname></editor>
+                  <title type="short" level="m">Obras en verso del Homero español</title>
+                  <imprint>
+                     <pubPlace>
+                        <placeName>Madrid</placeName>
+                     </pubPlace>
+                     <respStmt>
+                        <resp>Impreso por</resp>
+                        <persName ref="http://viaf.org/viaf/34398749" role="printer"><name>Ana</name>
+                           <nameLink>de</nameLink>
+                           <surname>Carasa</surname></persName>
+                     </respStmt>
+                     <respStmt>
+                        <resp>A costa de</resp>
+                        <persName role="bookseller"><name>Alonso</name>
+                           <surname>Pérez</surname></persName>
+                     </respStmt>
+                     <date when="1627">1627</date>
+                  </imprint>
+               </monogr>
+               <relatedItem type="isExemplifiedBy">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>España</country>
+                        <settlement>Madrid</settlement>
+                        <repository>Biblioteca Nacional de España</repository>
+                        <collection>Fondo antiguo</collection>
+                        <idno type="cataloguenumber">R/8641</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="122" to="152">122-152</locus>
+                           <title level="m">Soledades</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </relatedItem>
+            </biblStruct>
+
+            <biblStruct>
+               <monogr>
+                  <author><name>José </name>
+                     <nameLink>de</nameLink>
+                     <surname>Pellicer</surname></author>
+                  <author><name>Luis</name>
+                     <nameLink>de</nameLink>
+                     <surname>Góngora</surname>
+                  </author>
+                  <editor>Sin datos</editor>
+                  <title type="short" level="m">Lecciones solemnes a las obras de don Luis de Góngora y Argote</title>
+                  <imprint>
+                     <pubPlace>
+                        <placeName>Madrid</placeName>
+                     </pubPlace>
+                     <respStmt>
+                        <resp>Impreso por</resp>
+                        <orgName ref="http://viaf.org/viaf/170937379" role="printer">Imprenta del Reino</orgName>
+                     </respStmt>
+                     <respStmt>
+                        <resp>A costa de</resp>
+                        <persName role="bookseller"><name>Pedro</name>
+                           <surname>Coello</surname></persName>
+                     </respStmt>
+                     <date when="1630">1630</date>
+                  </imprint>
+               </monogr>
+               <relatedItem type="isExemplifiedBy">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>España</country>
+                        <settlement>Madrid</settlement>
+                        <repository>Biblioteca Nacional de España</repository>
+                        <collection>Fondo antiguo</collection>
+                        <idno type="cataloguenumber">2/14877</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="351" to="612">351-612</locus>
+                           <title level="m">Soledades</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </relatedItem>
+            </biblStruct>
+
+            <biblStruct>
+               <monogr>
+                  <author><name>Luis</name>
+                     <nameLink>de</nameLink>
+                     <surname>Góngora</surname>
+                  </author>
+                  <editor>
+                     <name>Gonzalo</name>
+                     <nameLink>de</nameLink>
+                     <surname>Hoces</surname>
+                  </editor>
+                  <title type="short" level="m">Todas las obras de don Luis de Góngora en varios poemas</title>
+                  <imprint>
+                     <pubPlace>
+                        <placeName>Madrid</placeName>
+                     </pubPlace>
+                     <respStmt>
+                        <resp>Impreso por</resp>
+                        <orgName role="printer">Imprenta del Reino</orgName>
+                     </respStmt>
+                     <respStmt>
+                        <resp>A costa de</resp>
+                        <persName role="bookseller"><name>Alonso</name>
+                           <surname>Pérez</surname></persName>
+                     </respStmt>
+                     <date when="1633">1633</date>
+                  </imprint>
+               </monogr>
+               <relatedItem type="isExemplifiedBy">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>España</country>
+                        <settlement>Madrid</settlement>
+                        <repository>Biblioteca Nacional de España</repository>
+                        <collection>Fondo antiguo</collection>
+                        <idno type="cataloguenumber">R/25192</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="154r" to="180v">154r-180v</locus>
+                           <title level="m">Soledades</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </relatedItem>
+            </biblStruct>
+
+            <biblStruct>
+               <monogr>
+                  <author><name>García</name>
+                     <nameLink>de</nameLink>
+                     <surname>Salcedo Coronel</surname></author>
+                  <author><name>Luis</name>
+                     <nameLink>de</nameLink>
+                     <surname>Góngora</surname>
+                  </author>
+                  <editor><name>García</name><nameLink>de</nameLink><surname>Salcedo Coronel</surname></editor>
+                  <title type="short" level="m">Soledades de don Luis de Góngora comentadas</title>
+                  <imprint>
+                     <pubPlace>
+                        <placeName>Madrid</placeName>
+                     </pubPlace>
+                     <respStmt>
+                        <resp>Impreso por</resp>
+                        <orgName role="printer">Imprenta Real</orgName>
+                     </respStmt>
+                     <respStmt>
+                        <resp>A costa de</resp>
+                        <persName role="bookseller"><name>Domingo</name>
+                           <surname>González</surname></persName>
+                     </respStmt>
+                     <date when="1636">1636</date>
+                  </imprint>
+               </monogr>
+               <relatedItem type="isExemplifiedBy">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>España</country>
+                        <settlement>Madrid</settlement>
+                        <repository>Biblioteca Nacional de España</repository>
+                        <collection>Fondo antiguo</collection>
+                        <idno type="cataloguenumber">R/15222</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="1" to="313">1-313</locus>
+                           <title level="m">Soledades</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </relatedItem>
+            </biblStruct>
+
+            <biblStruct>
+               <monogr>
+                  <author><name>Luis</name>
+                     <nameLink>de</nameLink>
+                     <surname>Góngora</surname>
+                  </author>
+                  <respStmt>
+                     <resp>Obras recogidas por</resp>
+                     <persName><name>Gonzalo</name>
+                        <nameLink>de</nameLink>
+                        <surname>Hoces</surname></persName>
+                  </respStmt>
+                  <title level="m">Todas las obras de don Luis de Góngora en varios poemas</title>
+                  <imprint>
+                     <pubPlace>
+                        <placeName>Madrid</placeName>
+                     </pubPlace>
+                     <respStmt>
+                        <resp>Impreso por</resp>
+                        <orgName role="printer">Imprenta Real</orgName>
+                     </respStmt>
+                     <respStmt>
+                        <resp>A costa de</resp>
+                        <orgName role="bookseller">Hermandad de los Mercaderes de libros de Madrid</orgName>
+                     </respStmt>
+                     <date when="1654">1654</date>
+                  </imprint>
+               </monogr>
+               <relatedItem type="isExemplifiedBy">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>España</country>
+                        <settlement>Madrid</settlement>
+                        <repository>Biblioteca Nacional de España</repository>
+                        <collection>Fondo antiguo</collection>
+                        <idno type="cataloguenumber">R/20635</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="154" to="180">154-180</locus>
+                           <title level="m">Soledades</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </relatedItem>
+            </biblStruct>
+
+         </listBibl>
+      </body>
+   </text>
+</TEI>

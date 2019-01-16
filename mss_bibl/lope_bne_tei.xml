@@ -1,0 +1,3013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"??>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista de manuscritos preservados por la Biblioteca Nacional de España</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Cologne Center for eHumanities</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Catálogo de la BNE</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl n="1" xml:id="a4650890">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los acreedores del hombre</title>
+               <title>Los acreedores [Manuscrito] </title>
+               <date>1620</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Al final: En Madrid, a 20 de mayo de 1620</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224593&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-372-acreedores-los">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="2" xml:id="a4768124">
+               <author>Vega, Lope de</author>
+               <title type="heading">La adúltera perdonada</title>
+               <title>La adúltera perdonada [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Al final: Sacado de su original</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239620&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-262-adultera-la-perdonada">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="3" xml:id="a4771445">
+               <author>Vega, Lope de</author>
+               <title type="heading">Las albricias de Nuestra Señora</title>
+               <title>Las albricias de Nuestra Señora [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239622&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-265-albricias-las-de-nuestra-senora">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="4" xml:id="a4752668">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El alcaide de Madrid [Manuscrito] </title>
+               <date>[ca. 1599]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication">Fecha tomada de Morley-Bruerton</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216861&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-893-alcaide-el-de-madrid">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="5" xml:id="a4749547">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La Aldehuela [Manuscrito] </title>
+               <date>1623</date>
+               <note type="publication">Copia de Martín Navarro en Toledo, el 6 de mayo de 1623</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216850&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-910-aldeguela-la">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="6" xml:id="a4684467">
+               <author>Vega, Lope de</author>
+               <title type="heading">Alejandro el segundo</title>
+               <title>Alejandro el segundo, César el primer traidor [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Incompleto; falta final de la tercera jornada</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215973&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-071-alejandro-el-segundo-cesar-el-primer-traidor">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="7" xml:id="a4678161">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Las almenas de Toro [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224763&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-766-almenas-las-de-toro">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="8" xml:id="a4731948">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Amar como se ha de amar [Manuscrito] </title>
+               <date>[ca. 1643]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication">Licencia eclesiástica, el 7 de septiembre de 1643, por fray Juan Bautista Palacio</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225949&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="9" xml:id="a4751724">
+               <author>Vega, Lope de</author>
+               <title type="heading">Amar por burla</title>
+               <title>Amar por burla [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216897&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-905-amar-por-burla">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="10" xml:id="a4748382">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Amar, servir y esperar [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000218456&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-815-amar-servir-y-esperar">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="11" xml:id="a4369291">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Amar sin saber a quién </title>
+               <date>[ca. 1861]</date>
+               <note type="publication">En h. 74: Obras dramáticas, noviembre de 1861 Aprobada</note>
+            </bibl>
+            <bibl n="12" xml:id="a4743958">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El amigo hasta la muerte [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238597&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-820-amigo-el-hasta-la-muerte">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="13" xml:id="a4636663">
+               <author>Vega, Lope de</author>
+               <title type="heading">La amistad y obligación</title>
+               <title>Amistad y obligación [Manuscrito] </title>
+               <date>S. XIX</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215959&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="14" xml:id="a4633690">
+               <author>Vega, Lope de</author>
+               <title type="heading">Amor con vista</title>
+               <title>Amor con vista [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">V.a. Res/85 y Mss/16789</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copia del Res/85, fechado en 1626</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214926&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="15" xml:id="Miam0000010177">
+               <author>Vega, Lope de</author>
+               <title type="heading">Amor con vista</title>
+               <title>Amor con vista </title>
+               <date>1626</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15114 y Mss/16789</note>
+               <note type="publication">Al final: En Madrid a 10 de diciembre de 1626. Licencias de representación en Madrid y Zaragoza, 1627; y en Lisboa, 1630</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100641&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-85-amor-con-vista">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="16" xml:id="a4749460">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Amor con vista [Manuscrito] </title>
+               <date>1626-1627</date>
+               <note type="general">V.a. Res/85 y Mss/15114</note>
+               <note type="publication">En portada: 1626 Copia del Res/85, fechado en 1626</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217295&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="17" xml:id="a4740969">
+               <author>Vega, Lope de</author>
+               <title type="heading">La Araucana</title>
+               <title>La Araucana [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto concorrecciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000187279&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-738-araucana-la-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="18" xml:id="a4632961">
+               <author>Vega, Lope de</author>
+               <title type="heading">Arminda celosa</title>
+               <title>Arminda celosa [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223476&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-113-arminda-celosa">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="19" xml:id="a4740923">
+               <author>Vega, Lope de</author>
+               <title type="heading">Audiencias del rey don Pedro</title>
+               <title>Audiencias del rey don Pedro [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217256&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-762-audiencias-del-rey-don-pedro">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="20" xml:id="a4712780">
+               <author>Calderón de la Barca, Pedro</author>
+               <title type="heading"/>
+               <title>Autos sacramentales. </title>
+               <date>[S. XVIII]</date>
+               <note type="general">En h. 224: Año de 1700</note>
+               <note type="publication">En h. 224: Año de 1700</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216663&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-autos-sacramentales-de-pedro-calderon-de-la-barca-iv-coleccion-manuscritos">Manos teatrales. Autos sacramentales de Pedro Calderón de la Barca, IV</ref>
+               </relatedItem>
+               <relatedItem n="3">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-divino-el-jason-auto-sacramental">Manos teatrales. El Divino Jasón</ref>
+               </relatedItem>
+               <relatedItem n="4">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-primer-la-flor-del-carmelo-auto-sacramental">Manos teatrales. La primer flor del Carmelo</ref>
+               </relatedItem>
+               <relatedItem n="5">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-misterios-los-de-la-misa-auto-sacramental">Manos teatrales. Los misterios de la misa</ref>
+               </relatedItem>
+               <relatedItem n="6">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-nuevo-el-palacio-de-buen-retiro-auto-sacramental">Manos teatrales. El nuevo Palacio de buen Retiro</ref>
+               </relatedItem>
+               <relatedItem n="7">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-piel-la-de-gedeon-auto-sacramental">Manos teatrales. La piel de Gedeón</ref>
+               </relatedItem>
+               <relatedItem n="8">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-dia-el-mayor-de-los-dias-auto-sacramental">Manos teatrales. El día mayor de los días</ref>
+               </relatedItem>
+               <relatedItem n="9">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-segundo-el-david-auto-sacramental">Manos teatrales. El segundo David</ref>
+               </relatedItem>
+               <relatedItem n="10">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-psiquis-y-cupido-fiesta-en-madrid-auto-sacramental">Manos teatrales. Psiquis y Cupido, fiesta en Madrid</ref>
+               </relatedItem>
+               <relatedItem n="11">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-cruz-la-donde-murio-cristo-auto-sacramental">Manos teatrales. La Cruz donde murió Cristo</ref>
+               </relatedItem>
+               <relatedItem n="12">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-pintor-el-de-su-deshonra-auto-sacramental">Manos teatrales. El pintor de su deshonra</ref>
+               </relatedItem>
+               <relatedItem n="13">
+                  <ref target="http://manos.net/manuscripts/bne/16-279-9-escuela-la-divina">Manos teatrales. La escuela divina</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="21" xml:id="a4614309">
+               <author>Vega, Lope de</author>
+               <title type="heading">El Ave María y Rosario de Nuestra Señora</title>
+               <title>El Ave María y Rosario de Nuestra Señora [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223459&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="22" xml:id="a4744497">
+               <author>Vega, Lope de</author>
+               <title type="heading">Las aventuras del hombre</title>
+               <title>Las aventuras del hombre [Manuscrito] </title>
+               <date>[c.a. 1638]</date>
+               <note type="publication">Licencia de representación en Alcalá, el 20 de mayo de 1638, por Diego de Narbona</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238624&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-801-aventuras-las-del-hombre">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="23" xml:id="a4755667">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Barlaán y Josafat, los dos soldados de Cristo [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216789&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-979-barlaan-y-josafat-los-dos-soldados-de-cristo">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="24" xml:id="a4610181">
+               <author>Vega, Lope de</author>
+               <title type="heading">El bastardo Mudarra</title>
+               <title>El bastardo Mudarra </title>
+               <date>[ca. 1862]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Es copia del Res/39, autógrafo fechado en Madrid el 27 de abril de 1612</note>
+               <note type="publication">El tercer acto, escrito en papel sellado en el año 1862</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000213393&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="25" xml:id="Miam0000010041">
+               <author>Vega, Lope de</author>
+               <title type="heading">El bastardo Mudarra</title>
+               <title>El bastardo Mudarra </title>
+               <date>S.XIX</date>
+               <note type="general">Reproducción fotolitográfica del manuscrito conservado en la Real Academia Española, que en 1864 pertenecía a Salustiano de Olózaga</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000188260&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="26" xml:id="Miam0000010433">
+               <author>Vega, Lope de</author>
+               <title type="heading">La batalla del honor</title>
+               <title>La batalla del honor </title>
+               <date>1608</date>
+               <note type="general">Según Paz, autógrafa. Firmada en h. 54v</note>
+               <note type="publication">En h. 54v: En Madrid a 18 de abril de 1608. Lope de Vega Carpio Aprobaciones: Madrid 1608, Lisboa y Sevilla 1610, y Jaen 1612</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099818&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-154-batalla-la-del-honor">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="27" xml:id="a5735787">
+               <author>Vega, Lope de</author>
+               <title type="heading">Las batuecas del Duque de Alba</title>
+               <title>Las batuecas del Duque de Alva : </title>
+               <date>S.XIX</date>
+               <note type="general">Al final: M.H.P.</note>
+               <note type="publication"/>
+            </bibl>
+            <bibl n="28" xml:id="a4703632">
+               <author>Vega, Lope de</author>
+               <title type="heading">El bautismo de Cristo</title>
+               <title>El bautismo de Cristo [Manuscrito] </title>
+               <date>1609</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copia del original, con fecha de 1609</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225117&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-342-bautismo-de-cristo-coloquio">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="29" xml:id="a4606710">
+               <author>García de Arrieta, Agustín</author>
+               <title type="heading"/>
+               <title>La bella malmaridada o La escuela de las casadas [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Borrador autógrafo con correcciones</note>
+               <note type="general">V.a. Mss/17071, El mayorazgo dudoso</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223729&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="30" xml:id="a4628031">
+               <author>Vega, Lope de</author>
+               <title type="heading">La boba fingida</title>
+               <title>La boba fingida o Engañar para reinar [Manuscrito] </title>
+               <date>1806</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication">En portada: 1806</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223519&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="31" xml:id="a4760285">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La boba para los otros y discreta para sí [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000050955&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-079-boba-para-los-otros-y-discreta-para-si">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="32" xml:id="a4629963">
+               <author>Vega, Lope de</author>
+               <title type="heading">El Brasil restituido</title>
+               <title>El Brasil restituido [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">V.a. R/33775, facsímil del original autógrafo</note>
+               <note type="publication">Nota en portada: Copiada del manuscrito autógrafo que poseyó Don Carlos O. Rich, cónsul de los Estados Unidos, quien lo compró de la biblioteca del difunto don Fernando de la Serna Licencias de representación en Madrid, a 29 de octubre de 1625, por Pedro de Vargas Machuca</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223530&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="33" xml:id="a4653268">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La burgalesa de Lerma [Manuscrito] </title>
+               <date>1613</date>
+               <note type="publication">Al final: En Madrid, 30 de enero de 1613</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215303&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-441-burgalesa-la-de-lerma">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="34" xml:id="a4647554">
+               <author>Vega, Lope de</author>
+               <title type="heading">Las burlas y enredos de Benito</title>
+               <title>Las burlas de Benitico [Manuscrito] </title>
+               <date>S. XVI</date>
+               <note type="general">En las guardas hay recibos de alquileres de vestidos a Benavides en 1586</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186920&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="35" xml:id="a4677817">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El caballero de Olmedo o La viuda por casar [Manuscrito] </title>
+               <date>1606</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication">Licencia de representación, con supresiones, en Madrid, el 13 de octubre de 1607, por Tomás Gracián Dantisco</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215643&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-777-caballero-el-de-olmedo-o-la-viuda-por-casar">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="36" xml:id="a4642154">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los cantares</title>
+               <title>Los cantares [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000199763&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-228-cantares-los-auto">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="37" xml:id="a4784806">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La carbonera </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Incompleto; sólo la tercera jornada</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000236991&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="38" xml:id="a4684553">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El cardenal de Belén, San Gerónimo [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000187275&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="39" xml:id="Miam0000011331">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Carta de Lope de Vega a don Antonio Hurtado de Mendoza, sobre asuntos literarios </title>
+               <date>[ca. 1613-1635]</date>
+               <note type="general">Autógrafa</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202179&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="40" xml:id="a5529247">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Cartas de Lope de Vega </title>
+               <date>S. XIX</date>
+               <note type="general">Texto con correcciones autógrafas de Juan Eugenio Hartzenbusch</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202042&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1= a5524983{CKEY}">Descripción general del fondo Papeles de Juan Eugenio de Hartzenbusch</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="41" xml:id="a4982349">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Cartas y billetes de Belardo a Lucilo sobre diversas materias. </title>
+               <date>S.XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000082945&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss04x1x.pdf#page=89">Inventario General de Manuscritos</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="42" xml:id="a4982379">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Cartas y billetes de Belardo a Lucilo sobre diversas materias.  </title>
+               <date>S.XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000082946&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss04x1x.pdf#page=89">Inventario General de Manuscritos</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="43" xml:id="a4982380">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Cartas y billetes de Belardo a Lucilo sobre diversas materias.  </title>
+               <date>S.XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000082947&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss04x1x.pdf#page=90">Inventario General de Manuscritos</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="44" xml:id="a6079064">
+               <author>Vega, Lope de</author>
+               <title type="heading">Cartas y billetes de Belardo a Lucilo sobre diversas materias</title>
+               <title>Carttas [y bi]llettes de Belardo a Lucilo sobre diverssas matterias.  </title>
+               <date>Toledo, [etc.] 1604-1614</date>
+               <note type="general">Principalmente autógrafas, algunas firmadas y otras solo rubricadas</note>
+               <note type="general">Las cartas n. 101-118 son copias y aparecen intercaladas entre las cartas n. 86 y 87</note>
+               <note type="general">V.a. Mss/1200 (copia de este manuscrito cuando pertenecía al Conde de Altamira, realizada por Isidoro Rosell en torno a 1865)</note>
+               <note type="publication">Numerosas cartas sin data; el resto fechadas en Toledo, Madrid, Lerma y Segovia entre el 4 de agosto de 1604 y el 23 de marzo de 1614</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000226206&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="45" xml:id="a4752619">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Los celos de Rodamonte [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208361&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-907-celos-los-de-rodamonte">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="46" xml:id="a4633146">
+               <author>Vega, Lope de</author>
+               <title type="heading">La circuncisión y sangría de Cristo, nuestro bien</title>
+               <title>La circuncisión y sangría de Cristo, nuestro bien [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Texto con correcciones de mano de Francisco de Rojas, según Alenda</note>
+               <note type="publication">Copia de Diego Martínez de Mora</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224576&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-210-circuncision-la-y-sangria-de-cristo-nuestro-bien-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="47" xml:id="Miam0000010346">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Comedias de Lope de Vega </title>
+               <date>S.XVI-XVII</date>
+               <note type="general">Según Paz, la nº 1 y 2 son autógrafas. La 3 lleva la firma autógrafa en la primera y última h. En la 4, algunas h. son autógrafas</note>
+               <note type="publication">En h. II y 59 (Amor, pleito i desafio): En Madrid a 23 de noviembre de 1621. En h. 59, además, censura de Pedro Vargas Machuca, en Madrid 14 de enero de 1622 En h. 123 (El favor agradecido): en Alba 19 de diciembre de 1593</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000013986&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-134-mas-pueden-celos-que-amor">Manos teatrales. Mas pueden celos que amor</ref>
+               </relatedItem>
+               <relatedItem n="3">
+                  <ref target="http://manos.net/manuscripts/bne/res-134-amor-pleito-y-desafio">Manos teatrales. Amor, pleito y desafío</ref>
+               </relatedItem>
+               <relatedItem n="4">
+                  <ref target="http://manos.net/manuscripts/bne/res-134-doncella-la-teodor">Manos teatrales. La doncela Teodor</ref>
+               </relatedItem>
+               <relatedItem n="5">
+                  <ref target="http://manos.net/manuscripts/bne/res-134-favor-el-agradecido">Manos teatrales. El favor agracedido</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="48" xml:id="a4824920">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Comedias de Lope de Vega </title>
+               <date>1762</date>
+               <note type="general">Ex libris de la Casa de Oñate-Monte Alegre-Los Arcos</note>
+               <note type="general">V.a. Mss/14612 para El bastardo Mudarra y Res/166 para El valeroso cordobés, Pedro Carbonero</note>
+               <note type="publication">Es copia de Ignacio deGálvez, archivero del duque de Sessa, 1762</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202599&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="49" xml:id="a4822471">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Comedias de Lope de Vega </title>
+               <date>1762</date>
+               <note type="general">V.a. Mss/14708 para La bella malmaridada y Res/134 para El favor agradecido</note>
+               <note type="general">Ex libris de la Casa de Oñate-Monte Alegre-Los Arcos</note>
+               <note type="publication">Es copia de Ignacio de Gálvez, archivero del duque de Sessa, en 1762</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000201959&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="50" xml:id="a4821264">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Comedias de Lope de Vega </title>
+               <date>1762</date>
+               <note type="general">V.a. Res/168 y Mss/15111 para La prueba de los amigos</note>
+               <note type="general">Ex libris de la Casa de Oñate-Monte Alegre-Los Arcos</note>
+               <note type="publication">Es copia de Ignacio de Gálvez, archivero del duque de Sessa, 1762</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202597&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="51" xml:id="a4616157">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Comedias varias </title>
+               <date>S.XIX</date>
+               <note type="general">V.a. Mss/16048,Mss/16037 y Mss/16024</note>
+               <note type="publication">Escrita en 1853, según La Barrera</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214248&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="52" xml:id="a4634556">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La competencia en los nobles [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Incompleto; solo las jornadas primera y segunda</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223395&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-146-competencia-la-en-los-nobles">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="53" xml:id="a4684256">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La contienda de García de Paredes y el capitán Juan de Urbina [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Incompleta, falta la tercera jornada</note>
+               <note type="general">V.a. Mss/14833</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208358&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-061-contienda-la-de-garcia-de-paredes-y-el-capitan-juan-de-urbina">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="54" xml:id="Miam0000010437">
+               <author>Vega, Lope de</author>
+               <title type="heading">El cordobés valeroso, Pedro Carbonero</title>
+               <title>El cordobés valeroso, Pedro Carbonero </title>
+               <date>1603</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="publication">Al final: En Ocaña, a 26 de agosto de 1603 Licencias de representación en 1603; Valladolid, 1604 y 1610; Lisboa, 1617; otras licencias incompletas pordeterioro</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099776&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-166-pedro-carbonero-el-cordobes-valeroso">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="55" xml:id="a4635331">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La corona de Hungría y la injusta venganza </title>
+               <date>[ca. 1830]</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copia del autógrafo de Lope de Vega fechado en Madrid, el 23 de diciembre de 1633, dedicada a Agustín Durán por Salustiano de Olózaga, en dicha ciudad, el 20 de diciembre de 1830 Copia de la licencia de representación por Pedro de Vargas Machuca. Madrid, 1 de enero 1634</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214914&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="56" xml:id="Miam0000010411">
+               <author>Vega, Lope de</author>
+               <title type="heading">La corona merecida</title>
+               <title>La corona merecida </title>
+               <date>S.XVII</date>
+               <note type="general">Autógrafo con correcciones</note>
+               <note type="publication">En h. 1-3 licencias de representación de "El príncipe despechado", que pertenecen al ejemplar de la Real Academia Española; fechadas en distintas ciudades españolas, entre 1607-1611</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100336&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-156-corona-la-merecida">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="57" xml:id="Miam0000009656">
+               <author>Vega, Lope de</author>
+               <title type="heading">La dama boba</title>
+               <title>La dama boba </title>
+               <date>1613</date>
+               <note type="general">Autógrafo con firma</note>
+               <note type="publication">En la portada: Comedia de este año de 1613. Al final: En Madrid a 28 de abril de 1613</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000051826&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/vitr-7-5-dama-la-boba">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="58" xml:id="a4623494">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La dama boba. </title>
+               <date>S.XVII</date>
+               <note type="general">Firma de Luis Ramírez de Arellano</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. VITR/7/5</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000050958&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-956-dama-la-boba">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="59" xml:id="Miam0000010196">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Del monte sale quien el monte quema </title>
+               <date>1627</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/16786</note>
+               <note type="publication">Al final: En Madrid a 20 de octubre de 1627. Licencias de representación de Pedro de Vargas Machuca. Madrid, 17 mayo 1628; de Garcés. Valencia, 28 sept. 1628; y Dr. Vela. Granada, 1 octubre 1636</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100645&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-94-del-monte-sale-quien-el-monte-quema">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="60" xml:id="a4747166">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Del monte sale quien el monte quema [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">V.a. Res/94</note>
+               <note type="publication">Copia del original fechado en Madrid, el 20 de octubre de 1627</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217288&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="61" xml:id="a4522828">
+               <author>Vega, Lope de</author>
+               <title type="heading">De cosario a cosario</title>
+               <title>De corsario a corsario [Manuscrito] </title>
+               <date>[ca. 1821]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">En portada: Propia de Juan Carretero</note>
+               <note type="publication">Las correcciones en la h. 89, escritas en papel sellado de 1821</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000199991&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="62" xml:id="Miam0000010209">
+               <author>Vega, Lope de</author>
+               <title type="heading">De cuándo acá nos vino</title>
+               <title>De cuándo acá nos vino </title>
+               <date>S.XVII</date>
+               <note type="general">Autógrafas de Lope de Vega la primera y tercera jornada; la segunda, de Fr. Alonso Remón. Con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099820&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-110-de-cuando-aca-nos-vino">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="63" xml:id="a4675444">
+               <author>Vega, Lope de</author>
+               <title type="heading">El premio del bien hablar</title>
+               <title>El defensor de las mujeres o El premio del bien hablar [Manuscrito] </title>
+               <date>[ca. 1806]</date>
+               <note type="general">Texto con correciones</note>
+               <note type="publication">En portada: 1806</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224718&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="64" xml:id="Miam0000010208">
+               <author>Vega, Lope de</author>
+               <title type="heading">El desdén vengado</title>
+               <title>El desdén vengado : </title>
+               <date>1617</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="publication">Al final: En Madrid a 4 de agosto de 1617. Licencias de representación de Tomás Gracián Dantisco, Madrid, 5 septiembre 1617; y otras dos en Madrid, 9 sept. 1617, y Lisboa, 21 marzo 1622</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099805&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-109-desden-el-vengado">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="65" xml:id="a4670468">
+               <author>Vega, Lope de</author>
+               <title type="heading">El desdén vengado</title>
+               <title>El desdén vengado [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">V.a. Res/109</note>
+               <note type="publication">Copia de las licencias de representación originales de 1617 En portada: Copia del original que existe en esta biblioteca</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215396&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="66" xml:id="a4751299">
+               <author>Vega, Lope de</author>
+               <title type="heading">El desengaño del mundo</title>
+               <title>El desengaño del mundo [Manuscrito] </title>
+               <date>[c.a. 1612]</date>
+               <note type="general">V.a. Mss/15315, con el título Los dos genios y esclavos del Santísimo Sacramento</note>
+               <note type="publication">En h. 13v: 1612</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238628&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-852-el-desengano-del-mundo-auto-los-dos-genios-y-esclavos-del-santisimo-sacramento">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="67" xml:id="a4648949">
+               <author>Vega, Lope de</author>
+               <title type="heading">La devoción del rosario</title>
+               <title>La devoción del Rosario [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215047&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-326-devocion-la-del-rosario">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="68" xml:id="a4753137">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Dineros son calidad [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238948&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-924-dineros-son-calidad">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="69" xml:id="Miam0000010161">
+               <author>Vega, Lope de</author>
+               <title type="heading">La discordia en los casados</title>
+               <title>La discordia en los casados </title>
+               <date>1611</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15008</note>
+               <note type="publication">Fechada en Madrid, 2 de agosto de 1611 Censuras de Fr. Alonso Remón; de P. de San Martín Escudero. Madrid, 31 diciembre 1615. Licencias de representación, por Francisco Martínez Rueda, Granada, 2 enero 1615; y en Lisboa, 6 abril 1618</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099992&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-77-discordia-la-en-los-casados">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="70" xml:id="a4627584">
+               <author>Vega, Lope de</author>
+               <title type="heading">La discordia en los casados</title>
+               <title>La discordia en los casados [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Res/77</note>
+               <note type="publication">Copia del citado Mss., autógrafo y firmado en Madrid, el 4 de agosto de 1611</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214663&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="71" xml:id="a4640684">
+               <author>Vega, Lope de</author>
+               <title type="heading">La discreta enamorada</title>
+               <title>La discreta enamorada [Manuscrito] </title>
+               <date>S. XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000050968&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="72" xml:id="a4687591">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La divina vencedora [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Incompleto; sólo la tercera jornada</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225327&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-084-divina-la-vencedora">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="73" xml:id="a4649995">
+               <author>Vega, Lope de</author>
+               <title type="heading">El niño pastor</title>
+               <title>El divino pastor [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/15357, con el título El pastor ingrato</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224499&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-577-divino-el-pastor-o-el-nino-pastor-auto">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="74" xml:id="a4777410">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Don Lope de Cardona [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208357&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-417-don-lope-de-cardona">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="75" xml:id="a4710390">
+               <author>Vega, Lope de</author>
+               <title type="heading">El milagro por los celos</title>
+               <title>Doña Beatriz de Silva [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/16435 con el título El milagro por los celos</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">En portada: La muy noble</note>
+               <note type="general">Firma de Cortés</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186932&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-402-dona-beatriz-de-silva">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="76" xml:id="a4644174">
+               <author>Vega, Lope de</author>
+               <title type="heading">El desengaño del mundo</title>
+               <title>Los dos ingenios y esclavos del Santísimo Sacramento [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/16862, con el título El desengaño del mundo</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224496&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-315-dos-los-genios-y-esclavos-del-santisimo-sacramento">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="77" xml:id="Miam0000010218">
+               <author>Mira de Amescua, Antonio</author>
+               <title type="heading">El ejemplo mayor de la desdicha</title>
+               <title>El ejemplo mayor de la desdicha y capitán Belisario </title>
+               <date>1625</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/16906</note>
+               <note type="publication">Censura autógrafa de Lope de Vega. Madrid, julio 1625; Licencias de representación de Pedro de Vargas Machuca. Madrid, 19 diciembre 1625; del Dr. Garcés. Valencia. Valencia, 2 octubre 1627; y de Lisboa, 1629?</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100643&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-112-ejemplo-el-mayor-de-la-desdicha-y-capitan-belisario">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="78" xml:id="a4653788">
+               <author>Pérez de Herrera, Cristóbal</author>
+               <title type="heading"/>
+               <title>Elogio breve y compendioso de las heroicas y preclarísimas virtudes de la Católica Real Magestad del Rey Don Phelippe II y de su exemplar y cristianísima muerte y carta oratoria al poderosísimo Rey de las Españas y Nuevo Mu ndo Don Phelippe III </title>
+               <date>S.XVI-S.XVII</date>
+               <note type="general">Censura de Miguel de Ondarea Cavala</note>
+               <note type="general">Texto enmarcado</note>
+               <note type="publication">En portada: Año 1598</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000173339&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="79" xml:id="Miam0000009683">
+               <author>Vega, Lope de</author>
+               <title type="heading">La buena guarda</title>
+               <title>La encomienda bien guardada </title>
+               <date>1610</date>
+               <note type="general">Autógrafa, con correcciones y firmada</note>
+               <note type="general">Ex libris del Marqués de Pidal</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">En h. 59v.: En Madrid a 27 de abril de 1610 años Licencias para representarla en Madrid, 1610; en Sevilla, 1611; y en Madrid, 1614</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099767&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/vitr-7-16-la-encomienda-bien-guardada-o-la-buena-guarda">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="80" xml:id="a4775367">
+               <author>Vega, Lope de</author>
+               <title type="heading">El enemigo engañado</title>
+               <title>El enemigo engañado [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copia de Agustín Durán de la impresa en la colección de Manuel Casal</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000236968&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="81" xml:id="a4671248">
+               <author>Vega, Lope de</author>
+               <title type="heading">El engaño en la verdad (ca. 1614)</title>
+               <title>El engaño en la verdad [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Firma de Jacinto López</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215446&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-637-engano-el-en-la-verdad">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="82" xml:id="Miam0000010188">
+               <author>Vega, Lope de</author>
+               <title type="heading">El rescate de Melisendra</title>
+               <title>Entremés de Melisendra </title>
+               <date>S.XX</date>
+               <note type="general">Ed. facsímil</note>
+               <note type="publication"/>
+            </bibl>
+            <bibl n="83" xml:id="Miam0000010187">
+               <author>Vega, Lope de</author>
+               <title type="heading">El rescate de Melisendra</title>
+               <title>Entremés de Melisendra </title>
+               <date>[ca. 1622]</date>
+               <note type="general">¿Autógrafa? El examen de la letra suscita dudas sobre su autenticidad</note>
+               <note type="publication">Licencias de representación de Pedro de Vargas Machuca. Madrid, 3 agosto 1622; y de Tomás Gracián Dantisco, en la misma ciudad, 14 diciembre 1623</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099810&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://www.bne.es/es/Actividades/Exposiciones/Exposiciones/Exposiciones2009/dibujos/visitavirtual/pdf/Dib_015_024_009.pdf">Estudio de la obra</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="84" xml:id="a4639287">
+               <author>García de Arrieta, Agustín</author>
+               <title type="heading">La esclava por amor</title>
+               <title>La esclava por amor o La esclava de su galán [Manuscrito] </title>
+               <date>S. XIX</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">En h. 1: Teatro español antiguo y moderno. Tomo 1. Lope de Vega</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215967&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="85" xml:id="a4635319">
+               <author>Vega, Lope de</author>
+               <title type="heading">El esclavo fingido</title>
+               <title>El esclavo fingido [Manuscrito] </title>
+               <date>S. XVII</date>
+               <note type="general">Nota de Cayetano Alberto de la Barrera sobre la autoría de la obra (h. 1)</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225278&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-024-esclavo-el-fingido">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="86" xml:id="a4765054">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La escolástica celosa [Manuscrito] </title>
+               <date>S.XVII-XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239567&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="87" xml:id="a4805802">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La estrella de Sevilla : </title>
+               <date>S.XIX</date>
+               <note type="general">Autógrafo del refundidor, con correcciones</note>
+               <note type="general">Incompleto; sólo las escenas primera y segunda del primer acto</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000237498&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1= a5524983{CKEY}">Descripción general del fondo Papeles de Juan Eugenio de Hartzenbusch</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="88" xml:id="a4747293">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La fianza satisfecha [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Nota manuscrita de Ramón Paz sobre las ediciones del Mss. (h. Iv y IIv)</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238614&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="89" xml:id="a4754675">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Las flores de don Juan, rico y pobre trocados [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216922&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-974-flores-las-de-don-juan-y-rico-y-pobre-trocado">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="90" xml:id="a4685449">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La fortuna merecida [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225248&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-066-fortuna-la-merecida">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="91" xml:id="a4633259">
+               <author>Vega, Lope de</author>
+               <title type="heading">Fray Diablo</title>
+               <title>Fray Diablo y El Diablo predicador [Manuscrito] </title>
+               <date>1630</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copiada en Madrid, el 1 de octubre de 1630, por Diego de Anunzibay</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214701&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-084-diablo-el-predicador">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="92" xml:id="a4771543">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La fuerza lastimosa [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217310&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-300-fuerza-la-lastimosa">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="93" xml:id="a4780920">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El gallardo Jacimín y hidalgo Abencerraje [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217329&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-343-gallardo-el-jacimin-y-el-hidalgo-abencerraje">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="94" xml:id="a4687621">
+               <author>Vega, Lope de</author>
+               <title type="heading">El jardín de Vargas</title>
+               <title>La gata de Marirramos </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Incompleto; falta la tercera jornada</note>
+               <note type="general">En portada: Es idéntica a la del Jardín de Vargas, de Lope</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225334&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-085-gata-la-de-mari-ramos-el-jardin-de-vargas">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="95" xml:id="a4619453">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La gran columna fogosa, San Basilio Magno </title>
+               <date>[ca. 1629]</date>
+               <note type="publication">Licencias de representación, en Plasencia, 2 de octubre de 1629</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214472&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-874-gran-columna-fogosa-san-basilio-el-magno">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="96" xml:id="a4784763">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El guante de doña Blanca [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Luis de Usoz</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000236978&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="97" xml:id="a4736778">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Guardar y guardarse [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Al final: Joseph Oviedo</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216547&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-627-guardar-y-guardarse">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="98" xml:id="a4636924">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los hechos de Garcilaso de la Vega y moro Tarfe</title>
+               <title>Los hechos de Garcilaso de la Vega y moro Tarfe [Manuscrito] </title>
+               <date>S. XVII</date>
+               <note type="general">Nota de Cayetano Alberto de la Barrera en h. 1</note>
+               <note type="general">V. a. Mss/14836</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208360&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-037-hechos-los-de-garcilaso-de-la-vega-y-moro-tarfe">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="99" xml:id="a4630386">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La hermosura aborrecida </title>
+               <date>S. XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223531&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-038-hermosura-la-aborrecida-y-desdichada-firme">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="100" xml:id="a4733298">
+               <author>Vega, Lope de</author>
+               <title type="heading">El hijo de la Iglesia</title>
+               <title>El hijo de la Iglesia [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225581&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-564-hijo-el-de-la-iglesia-auto">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="101" xml:id="a4645301">
+               <author>Vega, Lope de</author>
+               <title type="heading">El hijo por engaño y toma de Toledo</title>
+               <title>El hijo por engaño, cerco de Toledo y Rey don Alfonso de la mano horadada [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215038&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-339-hijo-el-por-engano-cerco-de-toledo-y-rey-d-alfonso-de-la-mano-horadada">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="102" xml:id="a4734684">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los hijos de María</title>
+               <title>Los hijos de María [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225041&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-629-hijos-los-de-maria-auto-del-rosario">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="103" xml:id="a4625479">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El hijo sin padre [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Texto con correcciones, y adiciones en la p. 33</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223543&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="104" xml:id="a4699200">
+               <author>Vega, Lope de</author>
+               <title type="heading">La honra por la mujer</title>
+               <title>La honra por la mujer [Manuscrito] </title>
+               <date>1622</date>
+               <note type="general">V.a. Mss/14979</note>
+               <note type="publication">Copia de Luis Gómez en Ciempozuelos, el 9 de noviembre de 1622</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000007609&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-109-honra-la-por-la-mujer">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="105" xml:id="a4628394">
+               <author>Vega, Lope de</author>
+               <title type="heading">La honra por la mujer</title>
+               <title>La honra por la mujer [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Mss/17109</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214802&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-979-honra-la-por-la-mujer">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="106" xml:id="a5141214">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Isagoge a los reales estudios de la Compañía de Jesús </title>
+               <date>1866</date>
+               <note type="general">Ex libris de de Cayetano Alberto de la Barrera</note>
+               <note type="general">Autógrafo de Cayetano Alberto de la Barrera, con correcciones y notas</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000071059&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss12x1x.pdf#page=162">Inventario General de Manuscritos</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="107" xml:id="a4416742">
+               <author>Vega, Lope de</author>
+               <title type="heading">La isla del Sol</title>
+               <title>La isla del Sol </title>
+               <date>1616</date>
+               <note type="general">Las p. 39-41 autógrafas con firma</note>
+               <note type="publication">Al final: En Madrid, 6 de abril de 1616, sub corret. S.M.E., Pº. Alonso Riquelme Licencias de Valencia, 1617, por Gaspar Escolano; Valladolid, 1616, por Francisco de Valdés. Y para otros dos Autos que debía representar la compañía de Alonso de Riquelme en las fiestas del Corpus de Valladolid en 1616</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099809&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-809-isla-la-del-sol-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="108" xml:id="a4664817">
+               <author>Vega, Lope de</author>
+               <title type="heading">La juventud de San Isidro</title>
+               <title>La juventud de San Isidro de Madrid [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/17380, con el título La juventud de San Isidro Labrador</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224696&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-592-juventud-la-de-san-isidro-labrador-auto-sacramental-la-juventud-de-san-isidro">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="109" xml:id="a4773596">
+               <author>Vega, Lope de</author>
+               <title type="heading">La juventud de San Isidro</title>
+               <title>La juventud de S. Isidro Labrador [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/15592, con el título La juventud de san Isidro de Madrid</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239976&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-380-juventud-la-de-san-isidro-labrador-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="110" xml:id="a4680029">
+               <author>Vega, Lope de</author>
+               <title type="heading">El labrador de La Mancha</title>
+               <title>El labrador de La Mancha [Manuscrito] </title>
+               <date>1615</date>
+               <note type="publication">En portada: 1615</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224802&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-810-labrador-el-de-la-mancha-villano-de-la-mancha-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="111" xml:id="a5844949">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>[La Dragontea] </title>
+               <date>[S. XVII]</date>
+               <note type="publication">Sánchez Mariana lo data en la 2ª mital del S. XVII</note>
+            </bibl>
+            <bibl n="112" xml:id="a4755118">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La noche toledana [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/14456/6</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238952&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-928-noche-la-toledana">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="113" xml:id="a4777557">
+               <author>Vega, Lope de</author>
+               <title type="heading">La lealtad en la traición</title>
+               <title>La lealtad en la traición [Manuscrito] </title>
+               <date>1828</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">En portada: Representola Prado</note>
+               <note type="publication">Copia de Agustín Durán en Madrid, el 23 de octubre de 1828, de la impresa en la colección de Manuel Casal</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000236976&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="114" xml:id="a4639777">
+               <author>Vega, Lope de</author>
+               <title type="heading">El letrado</title>
+               <title>El letrado [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">V.a. Mss/16753</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224515&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="115" xml:id="a4730086">
+               <author>Vega, Lope de</author>
+               <title type="heading">El letrado</title>
+               <title>El letrado [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">V.a. Mss/15199</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238303&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="116" xml:id="a4615369">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Libro de comedias antiguas, no impresas </title>
+               <date>1781</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/15443, con el título El blasón de los Chaves de Villalba, para la primera obra</note>
+               <note type="publication">Copiado de los originales del archivo del Duque de Sesa, por Miguel Sanz de Pliegos, en Madrid, el 20 de noviembre de 1781</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000201961&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="117" xml:id="a4616662">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Libro de comedias antiguas no impresas </title>
+               <date>1781</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/16061</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000190331&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="118" xml:id="a4782257">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Loa a la segunda parte de Las fortunas de Ruy Lope Dávalos, que escribió Damián Salustio Poyo con título de La adversa fortuna de Ruy Lope de Ávalos </title>
+               <date>S.XIX</date>
+               <note type="general">Nota sobre las comedias para las que está escrita la loa, en h. 1</note>
+               <note type="publication">Copia de Agustín Durán</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000237279&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="119" xml:id="a4633650">
+               <author>Vega, Lope de</author>
+               <title type="heading">El loco por fuerza</title>
+               <title>El loco por fuerza [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214694&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-029-loco-el-por-fuerza">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="120" xml:id="a4652255">
+               <author>Vega, Lope de</author>
+               <title type="heading">La locura por la honra (auto)</title>
+               <title>La locura por el alma [Manuscrito] </title>
+               <date/>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Mss/17315</note>
+               <note type="general">Firma de Lázaro Pérez al final</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000064439&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-302-locura-la-por-la-honra-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="121" xml:id="a4652464">
+               <author>Vega, Lope de</author>
+               <title type="heading">La locura por la honra (auto)</title>
+               <title>La locura por la honra [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Incompleto, falta la última página.</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/15302, con el título La locura por el alma</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239732&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-315-locura-la-por-la-honra-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="122" xml:id="a5727145">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La locura por la honra </title>
+               <date>S. XVII</date>
+               <note type="general">V.a. Mss/17315, y Mss/15302, con el título La locura por el alma</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1= a5524983{CKEY}">Descripción general del fondo Papeles de Juan Eugenio de Hartzenbusch</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="123" xml:id="a4632112">
+               <author>Vega, Lope de</author>
+               <title type="heading">Lo que pasa en una tarde</title>
+               <title>Lo que pasa en una tarde [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">V.a. Res/92</note>
+               <note type="publication">Copia del citado Mss. por Agustín Durán</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223456&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="124" xml:id="Miam0000010194">
+               <author>Vega, Lope de</author>
+               <title type="heading">Lo que pasa en una tarde</title>
+               <title>Lo que pasa en una tarde : </title>
+               <date>1617</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15110</note>
+               <note type="publication">Al final: En Madrid a 22 de noviembre de 1617. Licencia de representación de Tomás Gracián Dantisco. Madrid,10 diciembre 1617</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099808&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-92-lo-que-pasa-en-una-tarde">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="125" xml:id="a4741460">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Llegar en ocasión [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">En portada: Falta la primera h. de la tercera jornada</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224947&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-656-llegar-en-ocasion">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="126" xml:id="a4417822">
+               <author>Vega, Lope de</author>
+               <title type="heading">La madre Teresa de Jesús</title>
+               <title>La Madre Teresa de Jesús, fundadora del Carmen </title>
+               <date>S.XVII</date>
+               <note type="general">Autógrafas las hojas 20-23v de la segunda jornada</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099803&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-579-madre-la-teresa-de-jesus-fundadora-del-carmen">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="127" xml:id="a4639939">
+               <author>Vega, Lope de</author>
+               <title type="heading">El maestro de danzar</title>
+               <title>El maestro de danzar [Manuscrito] </title>
+               <date>S. XVII</date>
+               <note type="general">Nota de La Barrera sobre el manuscrito</note>
+               <note type="general">En h. 22: Hice esta comedia en Alva para Melchor de Villalba, y porque es verdad firmélo el mes que es mayor el hielo y el año que Dios nos salva. 1594</note>
+               <note type="general">V. a. Mss/14836</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225321&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-048-maestro-el-de-danzar">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="128" xml:id="a4647187">
+               <author>Vega, Lope de</author>
+               <title type="heading">La margarita preciosa</title>
+               <title>La margarita preciosa [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186926&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-276-margarita-la-preciosa-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="129" xml:id="a4772688">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El mármol de Felisardo [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217422&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-339-marmol-el-de-felisardo">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="130" xml:id="a4625640">
+               <author>Vega, Lope de</author>
+               <title type="heading">Más valéis vos, Antona, que la corte toda</title>
+               <title>Más valéis vos, Antona, que la corte toda [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copiada de la impresa que posee Manuel Casal</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223339&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="131" xml:id="a4758183">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El mayorazgo dudoso [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217061&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-071-mayorazgo-el-dudoso">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="132" xml:id="a4755166">
+               <author>Vega, Lope de</author>
+               <title type="heading">La mayor corona</title>
+               <title>La mayor corona [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216911&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-969-mayor-la-corona">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="133" xml:id="a4741937">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Lamayor dicha en el monte [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217282&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-772-mayor-la-dicha-en-el-monte-y-la-gloria-en-el-martirio">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="134" xml:id="a4664491">
+               <author>Vega, Lope de</author>
+               <title type="heading">La mayor hazaña de Alejandro Magno</title>
+               <title>La mayor hazaña de Alejandro Magno [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215748&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="135" xml:id="a4517231">
+               <author>Vega, Lope de</author>
+               <title type="heading">El mejor alcalde el rey</title>
+               <title>El mejor alcalde, el Rey [Manuscrito] </title>
+               <date>1818-1827</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Adiciones y notas (h. 81-82)</note>
+               <note type="publication">Aprobada, en Oviedo, el 16 de noviembre de 1818; en Bilbao, el 16 de mayo de 1819; en Pamplona, año de 1827</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000209387&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="136" xml:id="a4759057">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La mejor enamorada la Magdalena [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/18079</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186917&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-112-mejor-la-enamorada-la-magdalena">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="137" xml:id="a4725275">
+               <author>Vega, Lope de</author>
+               <title type="heading">El milagro por los celos</title>
+               <title>El milagro por los celos [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/16402, con el título Doña Beatriz de Silva</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186919&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-435-milagro-el-por-los-celos-y-excelente-portuguesa-dona-beatriz-de-silva">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="138" xml:id="Miam0000010300">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Mojiganga de Roxillas </title>
+               <date>1613</date>
+               <note type="general">Firma autógrafa en h. 4v</note>
+               <note type="publication">En h. 4v: En Madrid a 28 de abril de 1613 Licencia para la representación de Tomás Gracián Dantisco, en Madrid a 29 de octubre de 1613</note>
+               <relatedItem n="1">
+                  <ref target="http://manos.net/manuscripts/bne/res-130-rojillas-mojiganga">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="139" xml:id="a4773600">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La montañesa famosa [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239813&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-366-montanesa-la-famosa-la-amistad-pagada">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="140" xml:id="a4665493">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Las mudanzas de fortuna y sucesos de don Beltrán de Aragón [Manuscrito] </title>
+               <date>1610</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication">En portada: 1610</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000187202&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-553-mudanzas-las-de-fortuna-sucesos-de-d-beltran-de-aragon">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="141" xml:id="a4625131">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los muertos vivos</title>
+               <title>Los muertos vivos </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223482&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-971-muertos-los-vivos">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="142" xml:id="a4655835">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Mujeres y criados : </title>
+               <date>1631</date>
+               <note type="publication">Al final: Acabóse de trasladar en Barcelona a 8 de diciembre día de Nuestra Señora de la Concepción deste año de 1631 Copista: Pedro de Valdés</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000131052&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-915-mujeres-y-criados">Manos teatrales</ref>
+               </relatedItem>
+               <relatedItem n="3">
+                  <ref target="http://online.fliphtml5.com/tbai/hyew/">Libro virtual (Grupo PROLOPE)</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="143" xml:id="a4764707">
+               <author>Vega, Lope de</author>
+               <title type="heading">La necedad del discreto</title>
+               <title>La necedad en el discreto [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Al final, de Pedro Calderón de la Barca</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239141&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-039-necedad-la-en-el-discreto">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="144" xml:id="Miam0000010637">
+               <author>Vega, Lope de</author>
+               <title type="heading">La niñez del Padre Rojas</title>
+               <title>La niñez del Padre Roxas </title>
+               <date>1625</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15030</note>
+               <note type="publication">Al final: En Madrid, a 4 de enero de 1625. Licencia de representación de Pedro de Vargas Machuca. Madrid, 2 de febrero 1625</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100639&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-248-ninez-la-del-padre-rojas-primera-parte-de-su-vida">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="145" xml:id="a4628661">
+               <author>Vega, Lope de</author>
+               <title type="heading">La niñez del Padre Rojas</title>
+               <title>La niñez del padre Rojas, primera parte de su vida [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Res/248</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223491&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="146" xml:id="a4777941">
+               <author>Vélez de Guevara, Luis</author>
+               <title type="heading">El niño diablo</title>
+               <title>El niño diablo [Manuscrito] </title>
+               <date>S. XVII</date>
+               <note type="general">V.a. Mss/17390</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239739&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-325-nino-el-diablo-primera-parte">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="147" xml:id="a4774483">
+               <author>Vélez de Guevara, Luis</author>
+               <title type="heading">El niño diablo</title>
+               <title>El niño diablo [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Incompleto; solo los actos primero y segundo</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Mss/17325</note>
+               <note type="publication">Copia de Agustín Durán</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000187215&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="148" xml:id="a4626798">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los nobles como han de ser</title>
+               <title>Los nobles como han de ser [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Incompleto al final</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223405&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="149" xml:id="a4539613">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Noche toledana [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/16928</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208356&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="150" xml:id="Miam0000010176">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La nueva victoria de D. Gonzalo de Córdova </title>
+               <date>1622</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">Dos adiciones autógrafas en p. 120-121</note>
+               <note type="publication">En Madrid a 8 de octubre de 1622, en p. 119. Licencia para la representación de Pedro de Vargas Machuca, Madrid, 21 octubre 1622, p. 121. Vista en .... a 1 de febrero del [16]27. D. de Mello [firma y rúbrica], y otra firma ileg ible, en p. 2</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099813&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://www.bne.es/es/Actividades/Exposiciones/Exposiciones/Exposiciones2009/dibujos/visitavirtual/pdf/Dib_018_001_2347.pdf">Estudio de la obra</ref>
+               </relatedItem>
+               <relatedItem n="3">
+                  <ref target="http://manos.net/manuscripts/bne/res-84-nueva-la-victoria-de-don-gonzalo-de-cordoba">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="151" xml:id="a4690249">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Los nuevos sucesos del gran Duque de Moscovia [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Al final: Esta comedia es de Antonio Noguera, mercader de libros, tiene su tienda a la torre de SantaCruz en Madrid</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000014040&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-673-nuevos-los-sucesos-del-gran-duque-de-moscovia">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="152" xml:id="a4663782">
+               <author>Vega, Lope de</author>
+               <title type="heading">Nunca mucho costó poco</title>
+               <title>Nunca mucho costó poco [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/16665</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215772&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-542-nunca-mucho-costo-poco">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="153" xml:id="a4665010">
+               <author>Vega, Lope de</author>
+               <title type="heading">Nunca mucho costó poco</title>
+               <title>Nunca mucho costó poco [Manuscrito] </title>
+               <date>[ca. 1643]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/15542</note>
+               <note type="publication">Licencias de representación en Córdoba, el 4 de enero de 1643, por Francisco Bravo de Mendoza</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217957&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-665-nunca-mucho-costo-poco">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="154" xml:id="a4749149">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La obediencia laureada y primer Carlos de Hungría [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216874&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-871-obediencia-la-laureada-y-primer-carlos-de-hungria">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="155" xml:id="a4672954">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Obras de Lope de Vega </title>
+               <date>1631-1634</date>
+               <note type="general">Borrador autógrafo con abundantes correcciones</note>
+               <note type="general">En la cubierta: "Aquí están los Eglogas", de letra posterior</note>
+               <note type="general">Anotaciones autógrafas del Duque de Sessa en las guardas</note>
+               <note type="general">En el lomo: nº 302 y 36</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000140452&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="156" xml:id="Miam0000010378">
+               <author>Vega, Lope de</author>
+               <title type="heading">Obras son amores (auto)</title>
+               <title>Obras son amores </title>
+               <date>1618</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15246</note>
+               <note type="publication">Al final: En Madrid, a 31 de mayo de 1615; enmendado después, "1628"</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099804&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-143-obras-son-amores-auto-sacramental-de-este-ano-1620-original-de">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="157" xml:id="a4645397">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Obras son amores [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Res/143</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224556&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-246-obras-son-amores-auto-sacramental-de-este-ano-1620-original-de">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="158" xml:id="Miam0000000740">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Obras varias de Lope de Vega Carpio, sacadas de varios autores a quienes él elogió </title>
+               <date>S.XVIII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000141430&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="159" xml:id="a4765810">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La ocasión perdida [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217444&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-230-ocasion-la-perdida">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="160" xml:id="a4646125">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Comedias </title>
+               <date>S.XVIII-XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208552&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/mss-15-443-porfia-la-hasta-el-temor">Manos teatrales. La porfia hasta el temor</ref>
+               </relatedItem>
+               <relatedItem n="3">
+                  <ref target="http://manos.net/manuscripts/bne/mss-15443-labrador-el-de-tormes">Manos teatrales. El labrador de Tormes</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="161" xml:id="a4666471">
+               <author>Vega, Lope de</author>
+               <title type="heading">La oveja perdida</title>
+               <title>La oveja perdida [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224520&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-579-oveja-perdida-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="162" xml:id="a4730108">
+               <author>Vega, Lope de</author>
+               <title type="heading">La paloma de Toledo</title>
+               <title>La paloma de Toledo [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Notas sobre el año 1658, en h. 13</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216736&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-460-paloma-la-de-toledo">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="163" xml:id="a4690306">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La Pastoral de Jacinto </title>
+               <date>S.XIX</date>
+               <note type="general">Incompleto; solo las jornadas primera y tercera</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216135&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="164" xml:id="a4648526">
+               <author>Vega, Lope de</author>
+               <title type="heading">El niño pastor</title>
+               <title>El pastor ingrato [Manuscrito] </title>
+               <date>1628</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Mss/15577, con el título El divino pastor</note>
+               <note type="publication">En portada: Año de 1628</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000200022&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-357-divino-el-pastor-el-pastor-ingrato">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="165" xml:id="a4835831">
+               <author>Vega, Lope de</author>
+               <title type="heading">Pedro de Urdemalas</title>
+               <title>Pedro de Urdemalas [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">En portada, nota en italiano: Palatina-parmense, colección de diferentes autores, tomo LXXX; esta es la última comedia del tomo</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238040&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="166" xml:id="a4638170">
+               <author>Vega, Lope de</author>
+               <title type="heading">La pérdida honrosa </title>
+               <title>La pérdida honrosa y Los caballeros de San Juan [Manuscrito] </title>
+               <date>S. XIX</date>
+               <note type="general">En h. I: Copiada de un manuscrito antiguo que tiene el S. Quiroga, librero de Madrid</note>
+               <note type="general">Sello de la Librería del Excm. S. D. Ag. Durán. Adquirida por el gobierno en 1863</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215953&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="167" xml:id="a4670167">
+               <author>Vega, Lope de</author>
+               <title type="heading">Las pérdidas del que juega</title>
+               <title>Las pérdidas del que juega [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Incompleto, solo las jornadas primera y segunda</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224722&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-627-perdidas-la-del-que-juega">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="168" xml:id="a4799254">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El perro del hortelano : </title>
+               <date>[ca. 1862]</date>
+               <note type="general">V.a. Mss/14242/13 y Mss/14271/1</note>
+               <note type="general">Nota y firma de Eugenio Hartzenbusch en h. 188</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication">En portada: Para la apertura del Teatro de Lope de Vega, el 1 de octubre de 1862</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000218064&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1= a5524983{CKEY}">Descripción general del fondo Papeles de Juan Eugenio de Hartzenbusch</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="169" xml:id="a4404350">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El perro del hortelano </title>
+               <date>[ca. 1862]</date>
+               <note type="general">Firma autógrafa</note>
+               <note type="general">V.a. Mss/14271/1</note>
+               <note type="publication">En portada: Para la apertura del Teatro de Lope de Vega, el 1 de octubre de 1862</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000205634&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="170" xml:id="a4410751">
+               <author>Vega, Lope de</author>
+               <title type="heading">El perro del hortelano</title>
+               <title>El perro del hortelano </title>
+               <date>[ca. 1862]</date>
+               <note type="general">V.a. Mss/14242/13</note>
+               <note type="general">En portada: Teatro Lope de Vega</note>
+               <note type="general">Texto con correcciones autógrafas de Hartzenbusch</note>
+               <note type="publication">Aprobada</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000206349&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="171" xml:id="a4635722">
+               <author>Vega, Lope de</author>
+               <title type="heading">El piadoso aragonés</title>
+               <title>El piadoso aragonés [Manuscrito] </title>
+               <date>1732</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Res/106</note>
+               <note type="publication">Copiada de la parte XX de las Obras de Lope, en Madrid, el 15 de julio de 1732, por Isidro Rodríguez</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223343&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="172" xml:id="Miam0000010205">
+               <author>Vega, Lope de</author>
+               <title type="heading">El piadoso aragonés</title>
+               <title>El piadoso aragonés </title>
+               <date>1626</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15086</note>
+               <note type="publication">Al final: En Madrid a 17 de agosto de 1626. Licencias de representación de Pedro de Vargas Machuca. Madrid 15 septiembre 1626; y otras dos de firma ilegible en Zaragoza 1 febrero 1627, y Lisboa, 10 abril 1631</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100646&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-106-piadoso-el-aragones-tragicomedia">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="173" xml:id="a4294523">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Poder de Lope de Vega Carpio, en favor de Pedro Duque de Velasco, tesorero del Duque de Sessa, otorgado ante el escribano Juan de Piña. Madrid, 30 de agosto de 1614 </title>
+               <date>S.XIX</date>
+               <note type="publication"/>
+            </bibl>
+            <bibl n="174" xml:id="Miam0000010192">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El poder en el discreto </title>
+               <date>1623</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="publication">Al Final: En Madrid, a 8 de mayo de 1623. Censura de Pedro de Vargas Machuca. Madrid, 18 enero 1624. Licencias de representación del Dr. Garcés. Valencia, 11 sept. 1624; y del Dr. Navarro? Cordero. Zaragoza, 2 enero 1626</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000100642&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-90-poder-el-en-el-discreto">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="175" xml:id="a5135895">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Poems not dramatic </title>
+               <date>S. XIX</date>
+               <note type="general">Sello de Pascual de Gayangos</note>
+               <note type="general">Ex libris de Frederick Williams Cosens con la leyenda "Sub robore virtus"</note>
+               <note type="publication"/>
+            </bibl>
+            <bibl n="176" xml:id="Miam0000006034">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Poesías de Lope de Vega </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+            </bibl>
+            <bibl n="177" xml:id="a4609443">
+               <author>Vega, Ventura de la</author>
+               <title type="heading">El premio del bien hablar</title>
+               <title>El premio del bien hablar [Manuscrito] </title>
+               <date>[ca. 1859]</date>
+               <note type="general">Borrador autógrafo, con correcciones e incompleto, de Ventura de la Vega</note>
+               <note type="general">V.a. Mss/14612/12</note>
+               <note type="publication">Representada el 25 de noviembre de 1859, según la ed. de Obras escogidas de Ventura de la Vega, Barcelona, 1894</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225714&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="178" xml:id="a4645334">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El príncipe perfecto [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/15181; y para la segunda parte el Mss/15692</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186923&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-697-principe-el-perfecto-primera-parte">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="179" xml:id="a4637030">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El príncipe perfecto [Manuscrito] </title>
+               <date>1614</date>
+               <note type="general">Firmas de Philipe Conte de Montoya y Luis Ramírez de Arellano</note>
+               <note type="general">V.a. Mss/15697; y Mss/15692, segunda parte de la comedia</note>
+               <note type="publication">Licencia de representación en Zaragoza, el 28 de noviembre de 1616, por Juan de Oquendo</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000014085&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-181-principe-el-perfecto-primera-parte">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="180" xml:id="a4675651">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El príncipe perfecto [Manuscrito] </title>
+               <date>[ca. 1621]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Firma de Francisco López Carvajal</note>
+               <note type="general">Firma del autor</note>
+               <note type="general">V.a. Mss/15181 y Mss/15697, para la primera parte de la comedia</note>
+               <note type="publication">Licencias de 1621, por Francisco de Vergara y por Montenegro</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000014078&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-692-principe-el-perfecto-segunda-parte-como-ha-de-ser-un-buen-rey">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="181" xml:id="a4757844">
+               <author>Vega, Lope de</author>
+               <title type="heading">La privanza del hombre</title>
+               <title>La privanza del hombre [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Incompleto</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000199725&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-017-privanza-la-del-hombre-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="182" xml:id="Miam0000010440">
+               <author>Vega, Lope de</author>
+               <title type="heading">La prueba de los amigos</title>
+               <title>La prueba de los amigos </title>
+               <date>1604</date>
+               <note type="general">Autógrafo con correcciones y firma</note>
+               <note type="general">V.a. Mss/15111</note>
+               <note type="publication">Al final: En Toledo, a 12 de setiembre de 1604. Censuras y licencias de representación en Madrid y Zaragoza, 1608; Burgos, 1609; Zaragoza, 1612; y Murcia, 1609</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000099772&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/res-168-prueba-la-de-los-amigos">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="183" xml:id="a4632279">
+               <author>Vega, Lope de</author>
+               <title type="heading">La prueba de los amigos</title>
+               <title>La prueba de los amigos [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Res/168</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202589&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="184" xml:id="a4645158">
+               <author>Vega, Lope de</author>
+               <title type="heading">La puente del mundo</title>
+               <title>La puente del mundo [Manuscrito] </title>
+               <date>1616</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">En portada: 1616</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224447&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-256-puente-la-del-mundo-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="185" xml:id="a4679369">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Quien ama no haga fieros [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000175965&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-609-quien-ama-no-haga-fieros">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="186" xml:id="a4672348">
+               <author>Vega, Lope de</author>
+               <title type="heading">Quien bien ama tarde olvida</title>
+               <title>Quien bien ama, tarde olvida [Manuscrito] </title>
+               <date>1624</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000215438&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-702-quien-bien-ama-tarde-olvida">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="187" xml:id="a4745106">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Quien todo lo quiere [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238621&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-798-quien-todo-lo-quiere">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="188" xml:id="a4557703">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los ramilletes de Madrid</title>
+               <title>Los ramilletes de Madrid [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000130523&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="189" xml:id="a4638108">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Los Ramírez de Arellano [Manuscrito] </title>
+               <date>S. XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225317&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="190" xml:id="a4619952">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El robo deDina [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223508&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="191" xml:id="a4625146">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El ruiseñor de Sevilla [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214834&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-972-ruisenor-el-de-sevilla">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="192" xml:id="a4624280">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El saber por no saber y Vida de San Julián de Alcalá de Henares [Manuscrito] </title>
+               <date>S.XIX</date>
+               <note type="general">V.a. Mss/17058</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223337&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="193" xml:id="a4623544">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>San Agustín [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Firma de Diego Martínez de Mora</note>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202862&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-970-san-agustin-el-divino-africano">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="194" xml:id="a4771484">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>San Isidro Labrador de Madrid [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239623&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="195" xml:id="a4759328">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>San Julián [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000216812&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-058-san-julian-de-alcala-de-henares-o-el-saber-por-no-saber">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="196" xml:id="a4777860">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Santa Casilda [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239738&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-324-santa-casilda">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="197" xml:id="a4756105">
+               <author>Mira de Amescua, Antonio</author>
+               <title type="heading">La Inquisición</title>
+               <title>La Santa Inquisición [Manuscrito] </title>
+               <date>1629</date>
+               <note type="general">V.a. Res/68, con variaciones, y Mss/14785</note>
+               <note type="publication">En h. 4: Representóse en esta Corte en el año de 1624</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000053715&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-989-santa-la-inquisicion-auto-sacramental">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="198" xml:id="a4667518">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Santiago el verde [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/14808</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202591&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-657-santiago-el-verde">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="199" xml:id="a4612754">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Santiago el Verde [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">V.a. Mss/15657</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000202587&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-808-santiago-el-verde">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="200" xml:id="a4628373">
+               <author>Vega, Lope de</author>
+               <title type="heading">El niño inocente de la Guardia</title>
+               <title>El Santo Niño de la Guardia, segundo Cristo </title>
+               <date>[ca. 1638]</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copia de Diego Tornero Azpetia Licencia de representación en Málaga, el 7 de enero de 1638 Licencia eclesiástica en Valencia, el 1 de octubre de 1640</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214869&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-978-santo-el-nino-de-la-guardia-segundo-cristo">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="201" xml:id="a4778137">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El secretario de sí mismo [Manuscrito] </title>
+               <date>S. XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239740&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-326-secretario-el-de-si-mismo">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="202" xml:id="a4652624">
+               <author>Vega, Lope de</author>
+               <title type="heading">Las hazañas del segundo David</title>
+               <title>El segundo David [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Mss/14773 (421-443) y Mss/16279 (195-224)</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000204767&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="203" xml:id="a4612065">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Seis comedias </title>
+               <date>S.XIX</date>
+               <note type="publication">Copia incompleta de la ed. de Lisboa, 1603 La destrucción de Constantinopla, de Gabriel Laso de la Vega,es copia de su Romancero, ed. en Alcalá, 1587, según consta en nota de las h. 1-2</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214030&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="204" xml:id="a4738887">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Sembrar en buena tierra [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208359&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-664-sembrar-en-buena-tierra">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="205" xml:id="a4763256">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Si no vieran las mujeres [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239589&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="206" xml:id="a4626532">
+               <author>Vega, Lope de</author>
+               <title type="heading">Sin secreto no hay amor</title>
+               <title>Sin secreto no hay amor </title>
+               <date>S.XIX</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Copia de la firma del autor, y de las licencias de representaci��n en 1626 y 1630, en h. 79</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214856&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="207" xml:id="a4603863">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los sordos</title>
+               <title>Los sordos [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Al final: José Fernández Gutiérrez, vecino de Toledo y Juan García Quirós, natural de Valladolid. Firma de Pedro Francisco Helguera de León</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000223249&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="208" xml:id="a4684488">
+               <author>Vega, Lope de</author>
+               <title type="heading">La suerte de los reyes</title>
+               <title>La suerte de los reyes o Los carboneros [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Incompleto; falta la jornada primera</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225285&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-072-suerte-la-de-los-reyes-los-carboneros">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="209" xml:id="a4622548">
+               <author>Vega, Lope de</author>
+               <title type="heading">Los Terceros de San Francisco</title>
+               <title>Los terceros de San Francisco [Manuscrito]b</title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238023&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-919-terceros-los-de-san-francisco-la-tercera-orden-de-san-francisco">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="210" xml:id="a4749372">
+               <author>Vega, Lope de</author>
+               <title type="heading">El toledano vengado</title>
+               <title>El toledano vengado [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238942&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-901-toledano-el-y-celoso-vengado">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="211" xml:id="a4780828">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>Los trabajos de Jacob o Sueños hay que verdad son [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="general">Según Paz, la corrección de la h. 16 así como la última hoja, autógrafas del licenciado Félix Ortiz, cuya firma aparece al final de la comedia</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000198698&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-342-trabajos-los-de-jacob-suenos-hay-que-verdad-son">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="212" xml:id="a4679353">
+               <author>Vega, Lope de</author>
+               <title type="heading">El triunfo de la Iglesia</title>
+               <title>El triunfo de la Iglesia [Manuscrito] </title>
+               <date/>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224751&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-605-triunfo-el-de-la-iglesia">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="213" xml:id="a4773524">
+               <author>Vega, Lope de</author>
+               <title type="heading">El tusón del Rey del cielo</title>
+               <title>El tusón del Rey del cielo [Manuscrito] </title>
+               <date>[ca. 1623]</date>
+               <note type="publication">Al final: Sacóle Bernardo de Gumiel, en Aranda el 17 de mayo de 1623... de un segundo original trasladado en Madrid</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239815&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-370-tuson-el-del-rey-del-cielo-auto">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="214" xml:id="a4771546">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>El valiente Juan de Heredia [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">V.a. Mss/14994</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000217434&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-323-valiente-el-juan-de-heredia">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="215" xml:id="a4771097">
+               <author>Vega, Lope de</author>
+               <title type="heading">El pleito por la honra</title>
+               <title>El valor de Fernandito [Manuscrito] </title>
+               <date>1627</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000186942&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/17-316-pleito-el-por-la-honra-o-el-valor-de-fernandito">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="216" xml:id="a4640667">
+               <author>Vega, Lope de</author>
+               <title type="heading">La venta de la Zarzuela</title>
+               <title>La venta de la Zarzuela [Manuscrito] </title>
+               <date>1615</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication">Al final: En Galves, 16 de marzo de 1615</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000224484&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-231-venta-la-de-la-zarzuela">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="217" xml:id="a4626813">
+               <author>Vega, Lope de</author>
+               <title type="heading">Ver y no creer</title>
+               <title>Ver y no creer [Manuscrito] </title>
+               <date>S.XVIII</date>
+               <note type="general">Mención de actores en h. 1</note>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="general">V.a. Mss/14895</note>
+               <note type="publication">Copia de mano de Agustín Durán Copia de las licencias de representación en Zaragoza, el 25 de agosto de 1619, por Luis Navarro y en Madrid, el 16 de octubre del mismo año, por Tomás Gracián Dantisco</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214648&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="218" xml:id="a4618991">
+               <author>Vega, Lope de</author>
+               <title type="heading">Ver y no creer</title>
+               <title>Ver y no creer [Manuscrito] </title>
+               <date>[ca. 1619]</date>
+               <note type="general">Mención de actores en h. IV</note>
+               <note type="general">V.a. Mss/15007</note>
+               <note type="publication">Licencias de representación en Zaragoza, el 25 de agosto de 1619, por Luis Navarro; y en Madrid, el 16 de octubre del mismo año, por Tomás Gracián Dantisco</note>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000214455&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/14-895-ver-y-no-creer">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="219" xml:id="a4665531">
+               <author>Vega, Lope de</author>
+               <title type="heading">Vida y muerte de Santa Teresa de Jesús</title>
+               <title>Vida y muerte de Santa Teresa de Jesús [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000208832&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-555-vida-y-muerte-de-santa-teresa-de-jesus">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="220" xml:id="a4703650">
+               <author>Vega, Lope de</author>
+               <title type="heading">El villano despojado</title>
+               <title>El villano despojado [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Sello de Agustín Durán</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000225120&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-343-villano-el-despojado">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="221" xml:id="a4628919">
+               <author>Vega, Lope de</author>
+               <title type="heading"/>
+               <title>La viuda valenciana [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto con correcciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000014195&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/15-032-viuda-la-valenciana">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+            <bibl n="222" xml:id="a4752585">
+               <author>Vega, Lope de</author>
+               <title type="heading">La vuelta de Egipto</title>
+               <title>La vuelta de Egipto al Santo Nacimiento [Manuscrito] </title>
+               <date>S.XVII</date>
+               <note type="general">Texto concorrecciones</note>
+               <note type="publication"/>
+               <relatedItem n="1">
+                  <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000238630&amp;page=1">Biblioteca Digital Hispánica</ref>
+               </relatedItem>
+               <relatedItem n="2">
+                  <ref target="http://manos.net/manuscripts/bne/16-853-vuelta-la-de-egipto-al-santo-nacimiento">Manos teatrales</ref>
+               </relatedItem>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
