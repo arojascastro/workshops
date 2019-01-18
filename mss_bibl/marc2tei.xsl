@@ -70,6 +70,7 @@
       </xsl:element>
 
       <xsl:element name="title" namespace="http://www.tei-c.org/ns/1.0">
+        <xsl:attribute name="type">full</xsl:attribute>
         <xsl:value-of select="datafield[@tag = '245']/subfield[@code = 'a']"/>
         <xsl:text> </xsl:text>
         <xsl:value-of select="substring-before(datafield[@tag = '245']/subfield[@code = 'h'], ':')"/>
