@@ -36,7 +36,7 @@
           
           /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
           .row.content{
-            height: 1550px;
+            height: 100%;
           }
           
           /* Set gray background color and 100% height */
@@ -57,7 +57,11 @@
             padding-top: 20px;
             padding-left: 50px;
           }
-          
+
+          .verso{
+          padding-left: 10px;
+          }
+
           .n{
             left: -0.1em;
             position: absolute;
@@ -224,26 +228,24 @@
   </xsl:template>
 
   <xsl:template match="tei:lg">
-    <p class="estrofa" xmlns="http://www.w3.org/1999/xhtml">
+    <div class="estrofa" xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
-    </p>
+    </div>
   </xsl:template>
 
   <xsl:template match="tei:l[not(@n)]">
-    <span class="verso" xmlns="http://www.w3.org/1999/xhtml">
+    <p class="verso" xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
-    </span>
-    <br xmlns="http://www.w3.org/1999/xhtml"/>
+    </p>
   </xsl:template>
 
   <xsl:template match="tei:l[@n]">
     <span xmlns="http://www.w3.org/1999/xhtml" class="n">
       <xsl:value-of select="@n"/>
     </span>
-    <span class="verso" xmlns="http://www.w3.org/1999/xhtml">
+    <p class="verso" xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
-    </span>
-    <br xmlns="http://www.w3.org/1999/xhtml"/>
+    </p>
   </xsl:template>
 
   <xsl:template match="tei:app">
