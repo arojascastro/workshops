@@ -3,6 +3,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <!-- teiHeader -->
+
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,7 +25,9 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+
    <text>
+
       <body>
 
          <listBibl type="manuscripts">
@@ -347,13 +352,16 @@
 
             <biblStruct>
                <monogr>
-                  <author><name>Luis</name>
+                  <author>
+                     <name>Luis</name>
                      <nameLink>de</nameLink>
                      <surname>Góngora</surname>
                   </author>
-                  <editor><name>Juan</name>
+                  <editor>
+                     <name>Juan</name>
                      <nameLink>de</nameLink>
-                     <surname>Vicuña</surname></editor>
+                     <surname>Vicuña</surname>
+                  </editor>
                   <title type="short" level="m">Obras en verso del Homero español</title>
                   <imprint>
                      <pubPlace>
@@ -361,14 +369,18 @@
                      </pubPlace>
                      <respStmt>
                         <resp>Impreso por</resp>
-                        <persName ref="http://viaf.org/viaf/34398749" role="printer"><name>Ana</name>
+                        <persName ref="http://viaf.org/viaf/34398749" role="printer">
+                           <name>Ana</name>
                            <nameLink>de</nameLink>
-                           <surname>Carasa</surname></persName>
+                           <surname>Carasa</surname>
+                        </persName>
                      </respStmt>
                      <respStmt>
                         <resp>A costa de</resp>
-                        <persName role="bookseller"><name>Alonso</name>
-                           <surname>Pérez</surname></persName>
+                        <persName role="bookseller">
+                           <name>Alonso</name>
+                           <surname>Pérez</surname>
+                        </persName>
                      </respStmt>
                      <date when="1627">1627</date>
                   </imprint>
@@ -394,10 +406,13 @@
 
             <biblStruct>
                <monogr>
-                  <author><name>José </name>
+                  <author>
+                     <name>José </name>
                      <nameLink>de</nameLink>
-                     <surname>Pellicer</surname></author>
-                  <author><name>Luis</name>
+                     <surname>Pellicer</surname>
+                  </author>
+                  <author>
+                     <name>Luis</name>
                      <nameLink>de</nameLink>
                      <surname>Góngora</surname>
                   </author>
@@ -413,8 +428,10 @@
                      </respStmt>
                      <respStmt>
                         <resp>A costa de</resp>
-                        <persName role="bookseller"><name>Pedro</name>
-                           <surname>Coello</surname></persName>
+                        <persName role="bookseller">
+                           <name>Pedro</name>
+                           <surname>Coello</surname>
+                        </persName>
                      </respStmt>
                      <date when="1630">1630</date>
                   </imprint>
@@ -440,7 +457,8 @@
 
             <biblStruct>
                <monogr>
-                  <author><name>Luis</name>
+                  <author>
+                     <name>Luis</name>
                      <nameLink>de</nameLink>
                      <surname>Góngora</surname>
                   </author>
@@ -460,8 +478,10 @@
                      </respStmt>
                      <respStmt>
                         <resp>A costa de</resp>
-                        <persName role="bookseller"><name>Alonso</name>
-                           <surname>Pérez</surname></persName>
+                        <persName role="bookseller">
+                           <name>Alonso</name>
+                           <surname>Pérez</surname>
+                        </persName>
                      </respStmt>
                      <date when="1633">1633</date>
                   </imprint>
@@ -487,14 +507,21 @@
 
             <biblStruct>
                <monogr>
-                  <author><name>García</name>
+                  <author>
+                     <name>García</name>
                      <nameLink>de</nameLink>
-                     <surname>Salcedo Coronel</surname></author>
-                  <author><name>Luis</name>
+                     <surname>Salcedo Coronel</surname>
+                  </author>
+                  <author>
+                     <name>Luis</name>
                      <nameLink>de</nameLink>
                      <surname>Góngora</surname>
                   </author>
-                  <editor><name>García</name><nameLink>de</nameLink><surname>Salcedo Coronel</surname></editor>
+                  <editor>
+                     <name>García</name>
+                     <nameLink>de</nameLink>
+                     <surname>Salcedo Coronel</surname>
+                  </editor>
                   <title type="short" level="m">Soledades de don Luis de Góngora comentadas</title>
                   <imprint>
                      <pubPlace>
@@ -506,8 +533,10 @@
                      </respStmt>
                      <respStmt>
                         <resp>A costa de</resp>
-                        <persName role="bookseller"><name>Domingo</name>
-                           <surname>González</surname></persName>
+                        <persName role="bookseller">
+                           <name>Domingo</name>
+                           <surname>González</surname>
+                        </persName>
                      </respStmt>
                      <date when="1636">1636</date>
                   </imprint>
@@ -533,16 +562,16 @@
 
             <biblStruct>
                <monogr>
-                  <author><name>Luis</name>
+                  <author>
+                     <name>Luis</name>
                      <nameLink>de</nameLink>
                      <surname>Góngora</surname>
                   </author>
-                  <respStmt>
-                     <resp>Obras recogidas por</resp>
-                     <persName><name>Gonzalo</name>
-                        <nameLink>de</nameLink>
-                        <surname>Hoces</surname></persName>
-                  </respStmt>
+                  <editor>
+                     <name>Gonzalo</name>
+                     <nameLink>de</nameLink>
+                     <surname>Hoces</surname>
+                  </editor>
                   <title level="m">Todas las obras de don Luis de Góngora en varios poemas</title>
                   <imprint>
                      <pubPlace>
@@ -580,5 +609,7 @@
 
          </listBibl>
       </body>
+
    </text>
+
 </TEI>
