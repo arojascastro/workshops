@@ -1,0 +1,2806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:iudl="http://www.dlib.indiana.edu" xmlns:imhrepo="edu.indiana.dlib.xubmit.repository.IMHFedoraRepositoryAdmin" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ds="http://schemas.dlib.indiana.edu/derivedSections/" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:mix="http://www.loc.gov/mix/" OBJID="http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1">
+  <mets:metsHdr CREATEDATE="2009-02-12T08:35:13.561-05:00">
+    <mets:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+      <mets:name>Indiana University. Digital Library Program</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="VAA4025-102-1-a01-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>A Young Hoosier's Adventures on the Mississippi River</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Dawn E. Bakken</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Article</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>1</mods:start>
+                <mods:end>7</mods:end>
+                <mods:list>1-7</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a01</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a01</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a01</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a02-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>"The Journals of the Davy Crockett commencing December 20th 1834</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Asbury C Jaquess</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Article</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>8</mods:start>
+                <mods:end>24</mods:end>
+                <mods:list>8-24</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a02</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a02</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a02</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a03-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Race and (In)justice on the Mississippi An Episode from "The Journals of the Davy Crockett"</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Thomas C. Buchanan</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Article</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>25</mods:start>
+                <mods:end>28</mods:end>
+                <mods:list>25-28</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a03</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a03</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a03</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a04-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>The "Slows" The Torment of Milk Sickness on the Midwest Frontier</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Walter J. Daly</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Article</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>29</mods:start>
+                <mods:end>40</mods:end>
+                <mods:list>29-40</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a04</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a04</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a04</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a05-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Daniel W. Stowell</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>41</mods:start>
+                <mods:end>45</mods:end>
+                <mods:list>41-45</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Lincoln's Quest for Equality: The Road to Gettysburg</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Carl F. Wieck</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Abraham Lincoln's Political Faith</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Joseph R. Fornieri</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Freedom, Union, and Power: Lincoln and His Part in the Civil War</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Michael Green</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a05</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a05</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a05</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a06-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Edward O. Frantz</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>45</mods:start>
+                <mods:end>46</mods:end>
+                <mods:list>45-46</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Benjamin Harrison</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Charles W. Calhoun</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a06</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a06</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a06</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a07-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Lawrence E. Hussman</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>47</mods:start>
+                <mods:end>48</mods:end>
+                <mods:list>47-48</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Theodore Dreiser: Interviews</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Frederic E. Rusch</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+            <mods:name>
+              <mods:namePart>Donald Pizer</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a07</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a07</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a07</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a08-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Christopher Peebles</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>48</mods:start>
+                <mods:end>50</mods:end>
+                <mods:list>48-50</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>The Ohio Hopewell Episode: Paradigm Lost and Paradigm Gained</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>A. Martin Byers</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a08</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a08</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a08</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a09-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Colin G. Calloway</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>50</mods:start>
+                <mods:end>51</mods:end>
+                <mods:list>50-51</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Ohio's First Peoples</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>James H. O'Donnell, III</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a09</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a09</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a09</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a10-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Amanda I. Seligman</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>51</mods:start>
+                <mods:end>53</mods:end>
+                <mods:list>51-53</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Kings: The True Story of Chicago's Policy Kings and Numbers Racketeers An Informal History</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Nathan Thompson</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a10</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a10</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a10</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a11-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>John R. McKivigan</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>53</mods:start>
+                <mods:end>54</mods:end>
+                <mods:list>53-54</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>When Slavery Was Called Freedom: Evangelicalism, Proslavery, and the Causes of the Civil War</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>John Patrick Daly</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a11</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a11</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a11</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a12-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Mark Edward Lender</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>54</mods:start>
+                <mods:end>56</mods:end>
+                <mods:list>54-56</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>The Spirits of America: A Social History of Alcohol</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Eric Burns</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a12</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a12</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a12</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a13-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Angela Lahr</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>56</mods:start>
+                <mods:end>57</mods:end>
+                <mods:list>56-57</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Preaching Eugenics: Religious Leaders and the American Eugenics Movement</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Christine Rosen</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a13</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a13</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a13</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a14-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Chris Stone</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>58</mods:start>
+                <mods:end>59</mods:end>
+                <mods:list>58-59</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Country Music Goes to War</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Charles K. Wolfe</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+            <mods:name>
+              <mods:namePart>James E. Akenson</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a14</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a14</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a14</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a15-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Paul Salstrom</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>59</mods:start>
+                <mods:end>60</mods:end>
+                <mods:list>59-60</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>The Fate of Family Farming: Variations on an American Idea</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Ronald Jager</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a15</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a15</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a15</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="VAA4025-102-1-a16-dmd">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+          <mods:titleInfo>
+            <mods:title>Book Review</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Maury Klein</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+              <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="local">Book review</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+          </mods:originInfo>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>Indiana Magazine of History</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Bloomington, IN</mods:placeTerm>
+              </mods:place>
+              <mods:publisher>Indiana University Department of History in cooperation with the Indiana Historical Society</mods:publisher>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>102</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+              <mods:extent unit="pages">
+                <mods:start>61</mods:start>
+                <mods:end>62</mods:end>
+                <mods:list>61-62</mods:list>
+              </mods:extent>
+              <mods:date>2006</mods:date>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem displayLabel="Title reviewed">
+            <mods:titleInfo>
+              <mods:title>Main Lines: Rebirth of the North American Railroads, 1970–2002</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+              <mods:namePart>Richard Saunders, Jr.</mods:namePart>
+              <mods:role>
+                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                <mods:roleTerm authority="marcrelator" type="text">Author</mods:roleTerm>
+              </mods:role>
+            </mods:name>
+          </mods:relatedItem>
+          <mods:identifier type="local">VAA4025-102-1-a16</mods:identifier>
+          <mods:location>
+            <mods:url access="object in context" usage="primary display">http://purl.dlib.indiana.edu/iudl/imh/VAA4025-102-1-a16</mods:url>
+          </mods:location>
+          <mods:accessCondition type="useAndReproduction">Indiana University provides the information contained in this file for non-commercial, personal, or research use only. All other use, including but not limited to commercial or scholarly reproductions, redistribution, publication or transmission, whether by electronic means or otherwise, without prior written permission of the copyright holder is strictly prohibited.</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordContentSource>Indiana University Digital Library Program</mods:recordContentSource>
+            <mods:recordCreationDate encoding="w3cdtf">2009-02-12</mods:recordCreationDate>
+            <mods:recordIdentifier>/imh/VAA4025-102-1-a16</mods:recordIdentifier>
+            <mods:recordOrigin>MODS record derived from TEI Independent Header describing this article.</mods:recordOrigin>
+            <mods:languageOfCataloging>
+              <mods:languageTerm type="text">English</mods:languageTerm>
+              <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="screen">
+      <mets:file ID="VAA4025-102-1-001-screen" GROUPID="VAA4025-102-1-001" MIMETYPE="image/jpeg" SEQ="1" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-001"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-002-screen" GROUPID="VAA4025-102-1-002" MIMETYPE="image/jpeg" SEQ="2" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-002"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-003-screen" GROUPID="VAA4025-102-1-003" MIMETYPE="image/jpeg" SEQ="3" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-003"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-004-screen" GROUPID="VAA4025-102-1-004" MIMETYPE="image/jpeg" SEQ="4" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-004"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-005-screen" GROUPID="VAA4025-102-1-005" MIMETYPE="image/jpeg" SEQ="5" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-005"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-006-screen" GROUPID="VAA4025-102-1-006" MIMETYPE="image/jpeg" SEQ="6" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-006"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-007-screen" GROUPID="VAA4025-102-1-007" MIMETYPE="image/jpeg" SEQ="7" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-007"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-008-screen" GROUPID="VAA4025-102-1-008" MIMETYPE="image/jpeg" SEQ="8" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-008"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-009-screen" GROUPID="VAA4025-102-1-009" MIMETYPE="image/jpeg" SEQ="9" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-009"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-010-screen" GROUPID="VAA4025-102-1-010" MIMETYPE="image/jpeg" SEQ="10" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-010"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-011-screen" GROUPID="VAA4025-102-1-011" MIMETYPE="image/jpeg" SEQ="11" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-011"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-012-screen" GROUPID="VAA4025-102-1-012" MIMETYPE="image/jpeg" SEQ="12" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-012"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-013-screen" GROUPID="VAA4025-102-1-013" MIMETYPE="image/jpeg" SEQ="13" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-013"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-014-screen" GROUPID="VAA4025-102-1-014" MIMETYPE="image/jpeg" SEQ="14" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-014"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-015-screen" GROUPID="VAA4025-102-1-015" MIMETYPE="image/jpeg" SEQ="15" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-015"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-016-screen" GROUPID="VAA4025-102-1-016" MIMETYPE="image/jpeg" SEQ="16" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-016"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-017-screen" GROUPID="VAA4025-102-1-017" MIMETYPE="image/jpeg" SEQ="17" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-017"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-018-screen" GROUPID="VAA4025-102-1-018" MIMETYPE="image/jpeg" SEQ="18" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-018"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-019-screen" GROUPID="VAA4025-102-1-019" MIMETYPE="image/jpeg" SEQ="19" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-019"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-020-screen" GROUPID="VAA4025-102-1-020" MIMETYPE="image/jpeg" SEQ="20" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-020"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-021-screen" GROUPID="VAA4025-102-1-021" MIMETYPE="image/jpeg" SEQ="21" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-021"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-022-screen" GROUPID="VAA4025-102-1-022" MIMETYPE="image/jpeg" SEQ="22" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-022"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-023-screen" GROUPID="VAA4025-102-1-023" MIMETYPE="image/jpeg" SEQ="23" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-023"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-024-screen" GROUPID="VAA4025-102-1-024" MIMETYPE="image/jpeg" SEQ="24" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-024"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-025-screen" GROUPID="VAA4025-102-1-025" MIMETYPE="image/jpeg" SEQ="25" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-025"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-026-screen" GROUPID="VAA4025-102-1-026" MIMETYPE="image/jpeg" SEQ="26" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-026"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-027-screen" GROUPID="VAA4025-102-1-027" MIMETYPE="image/jpeg" SEQ="27" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-027"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-028-screen" GROUPID="VAA4025-102-1-028" MIMETYPE="image/jpeg" SEQ="28" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-028"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-029-screen" GROUPID="VAA4025-102-1-029" MIMETYPE="image/jpeg" SEQ="29" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-029"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-030-screen" GROUPID="VAA4025-102-1-030" MIMETYPE="image/jpeg" SEQ="30" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-030"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-031-screen" GROUPID="VAA4025-102-1-031" MIMETYPE="image/jpeg" SEQ="31" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-031"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-032-screen" GROUPID="VAA4025-102-1-032" MIMETYPE="image/jpeg" SEQ="32" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-032"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-033-screen" GROUPID="VAA4025-102-1-033" MIMETYPE="image/jpeg" SEQ="33" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-033"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-034-screen" GROUPID="VAA4025-102-1-034" MIMETYPE="image/jpeg" SEQ="34" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-034"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-035-screen" GROUPID="VAA4025-102-1-035" MIMETYPE="image/jpeg" SEQ="35" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-035"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-036-screen" GROUPID="VAA4025-102-1-036" MIMETYPE="image/jpeg" SEQ="36" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-036"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-037-screen" GROUPID="VAA4025-102-1-037" MIMETYPE="image/jpeg" SEQ="37" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-037"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-038-screen" GROUPID="VAA4025-102-1-038" MIMETYPE="image/jpeg" SEQ="38" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-038"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-039-screen" GROUPID="VAA4025-102-1-039" MIMETYPE="image/jpeg" SEQ="39" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-039"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-040-screen" GROUPID="VAA4025-102-1-040" MIMETYPE="image/jpeg" SEQ="40" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-040"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-041-screen" GROUPID="VAA4025-102-1-041" MIMETYPE="image/jpeg" SEQ="41" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-041"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-042-screen" GROUPID="VAA4025-102-1-042" MIMETYPE="image/jpeg" SEQ="42" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-042"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-043-screen" GROUPID="VAA4025-102-1-043" MIMETYPE="image/jpeg" SEQ="43" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-043"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-044-screen" GROUPID="VAA4025-102-1-044" MIMETYPE="image/jpeg" SEQ="44" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-044"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-045-screen" GROUPID="VAA4025-102-1-045" MIMETYPE="image/jpeg" SEQ="45" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-045"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-046-screen" GROUPID="VAA4025-102-1-046" MIMETYPE="image/jpeg" SEQ="46" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-046"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-047-screen" GROUPID="VAA4025-102-1-047" MIMETYPE="image/jpeg" SEQ="47" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-047"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-048-screen" GROUPID="VAA4025-102-1-048" MIMETYPE="image/jpeg" SEQ="48" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-048"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-049-screen" GROUPID="VAA4025-102-1-049" MIMETYPE="image/jpeg" SEQ="49" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-049"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-050-screen" GROUPID="VAA4025-102-1-050" MIMETYPE="image/jpeg" SEQ="50" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-050"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-051-screen" GROUPID="VAA4025-102-1-051" MIMETYPE="image/jpeg" SEQ="51" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-051"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-052-screen" GROUPID="VAA4025-102-1-052" MIMETYPE="image/jpeg" SEQ="52" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-052"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-053-screen" GROUPID="VAA4025-102-1-053" MIMETYPE="image/jpeg" SEQ="53" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-053"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-054-screen" GROUPID="VAA4025-102-1-054" MIMETYPE="image/jpeg" SEQ="54" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-054"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-055-screen" GROUPID="VAA4025-102-1-055" MIMETYPE="image/jpeg" SEQ="55" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-055"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-056-screen" GROUPID="VAA4025-102-1-056" MIMETYPE="image/jpeg" SEQ="56" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-056"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-057-screen" GROUPID="VAA4025-102-1-057" MIMETYPE="image/jpeg" SEQ="57" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-057"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-058-screen" GROUPID="VAA4025-102-1-058" MIMETYPE="image/jpeg" SEQ="58" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-058"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-059-screen" GROUPID="VAA4025-102-1-059" MIMETYPE="image/jpeg" SEQ="59" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-059"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-060-screen" GROUPID="VAA4025-102-1-060" MIMETYPE="image/jpeg" SEQ="60" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-060"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-061-screen" GROUPID="VAA4025-102-1-061" MIMETYPE="image/jpeg" SEQ="61" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-061"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-062-screen" GROUPID="VAA4025-102-1-062" MIMETYPE="image/jpeg" SEQ="62" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-062"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-063-screen" GROUPID="VAA4025-102-1-063" MIMETYPE="image/jpeg" SEQ="63" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-063"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-064-screen" GROUPID="VAA4025-102-1-064" MIMETYPE="image/jpeg" SEQ="64" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-064"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-065-screen" GROUPID="VAA4025-102-1-065" MIMETYPE="image/jpeg" SEQ="65" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-065"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-066-screen" GROUPID="VAA4025-102-1-066" MIMETYPE="image/jpeg" SEQ="66" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-066"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-067-screen" GROUPID="VAA4025-102-1-067" MIMETYPE="image/jpeg" SEQ="67" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-067"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-068-screen" GROUPID="VAA4025-102-1-068" MIMETYPE="image/jpeg" SEQ="68" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-068"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-069-screen" GROUPID="VAA4025-102-1-069" MIMETYPE="image/jpeg" SEQ="69" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-069"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-070-screen" GROUPID="VAA4025-102-1-070" MIMETYPE="image/jpeg" SEQ="70" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-070"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-071-screen" GROUPID="VAA4025-102-1-071" MIMETYPE="image/jpeg" SEQ="71" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-071"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-072-screen" GROUPID="VAA4025-102-1-072" MIMETYPE="image/jpeg" SEQ="72" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-072"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-073-screen" GROUPID="VAA4025-102-1-073" MIMETYPE="image/jpeg" SEQ="73" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-073"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-074-screen" GROUPID="VAA4025-102-1-074" MIMETYPE="image/jpeg" SEQ="74" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-074"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-075-screen" GROUPID="VAA4025-102-1-075" MIMETYPE="image/jpeg" SEQ="75" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-075"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-076-screen" GROUPID="VAA4025-102-1-076" MIMETYPE="image/jpeg" SEQ="76" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-076"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-077-screen" GROUPID="VAA4025-102-1-077" MIMETYPE="image/jpeg" SEQ="77" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-077"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-078-screen" GROUPID="VAA4025-102-1-078" MIMETYPE="image/jpeg" SEQ="78" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-078"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-079-screen" GROUPID="VAA4025-102-1-079" MIMETYPE="image/jpeg" SEQ="79" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-079"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-080-screen" GROUPID="VAA4025-102-1-080" MIMETYPE="image/jpeg" SEQ="80" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-080"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-081-screen" GROUPID="VAA4025-102-1-081" MIMETYPE="image/jpeg" SEQ="81" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-081"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-082-screen" GROUPID="VAA4025-102-1-082" MIMETYPE="image/jpeg" SEQ="82" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-082"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-083-screen" GROUPID="VAA4025-102-1-083" MIMETYPE="image/jpeg" SEQ="83" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-083"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-084-screen" GROUPID="VAA4025-102-1-084" MIMETYPE="image/jpeg" SEQ="84" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-084"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-085-screen" GROUPID="VAA4025-102-1-085" MIMETYPE="image/jpeg" SEQ="85" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-085"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-086-screen" GROUPID="VAA4025-102-1-086" MIMETYPE="image/jpeg" SEQ="86" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-086"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-087-screen" GROUPID="VAA4025-102-1-087" MIMETYPE="image/jpeg" SEQ="87" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-087"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-088-screen" GROUPID="VAA4025-102-1-088" MIMETYPE="image/jpeg" SEQ="88" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-088"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-089-screen" GROUPID="VAA4025-102-1-089" MIMETYPE="image/jpeg" SEQ="89" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-089"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-090-screen" GROUPID="VAA4025-102-1-090" MIMETYPE="image/jpeg" SEQ="90" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-090"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-091-screen" GROUPID="VAA4025-102-1-091" MIMETYPE="image/jpeg" SEQ="91" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-091"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-092-screen" GROUPID="VAA4025-102-1-092" MIMETYPE="image/jpeg" SEQ="92" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-092"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-093-screen" GROUPID="VAA4025-102-1-093" MIMETYPE="image/jpeg" SEQ="93" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-093"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-094-screen" GROUPID="VAA4025-102-1-094" MIMETYPE="image/jpeg" SEQ="94" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-094"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-095-screen" GROUPID="VAA4025-102-1-095" MIMETYPE="image/jpeg" SEQ="95" USE="screen">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/screen/VAA4025-102-1-095"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="large">
+      <mets:file ID="VAA4025-102-1-001-large" GROUPID="VAA4025-102-1-001" MIMETYPE="image/jpeg" SEQ="1" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-001"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-002-large" GROUPID="VAA4025-102-1-002" MIMETYPE="image/jpeg" SEQ="2" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-002"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-003-large" GROUPID="VAA4025-102-1-003" MIMETYPE="image/jpeg" SEQ="3" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-003"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-004-large" GROUPID="VAA4025-102-1-004" MIMETYPE="image/jpeg" SEQ="4" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-004"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-005-large" GROUPID="VAA4025-102-1-005" MIMETYPE="image/jpeg" SEQ="5" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-005"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-006-large" GROUPID="VAA4025-102-1-006" MIMETYPE="image/jpeg" SEQ="6" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-006"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-007-large" GROUPID="VAA4025-102-1-007" MIMETYPE="image/jpeg" SEQ="7" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-007"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-008-large" GROUPID="VAA4025-102-1-008" MIMETYPE="image/jpeg" SEQ="8" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-008"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-009-large" GROUPID="VAA4025-102-1-009" MIMETYPE="image/jpeg" SEQ="9" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-009"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-010-large" GROUPID="VAA4025-102-1-010" MIMETYPE="image/jpeg" SEQ="10" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-010"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-011-large" GROUPID="VAA4025-102-1-011" MIMETYPE="image/jpeg" SEQ="11" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-011"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-012-large" GROUPID="VAA4025-102-1-012" MIMETYPE="image/jpeg" SEQ="12" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-012"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-013-large" GROUPID="VAA4025-102-1-013" MIMETYPE="image/jpeg" SEQ="13" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-013"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-014-large" GROUPID="VAA4025-102-1-014" MIMETYPE="image/jpeg" SEQ="14" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-014"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-015-large" GROUPID="VAA4025-102-1-015" MIMETYPE="image/jpeg" SEQ="15" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-015"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-016-large" GROUPID="VAA4025-102-1-016" MIMETYPE="image/jpeg" SEQ="16" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-016"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-017-large" GROUPID="VAA4025-102-1-017" MIMETYPE="image/jpeg" SEQ="17" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-017"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-018-large" GROUPID="VAA4025-102-1-018" MIMETYPE="image/jpeg" SEQ="18" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-018"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-019-large" GROUPID="VAA4025-102-1-019" MIMETYPE="image/jpeg" SEQ="19" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-019"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-020-large" GROUPID="VAA4025-102-1-020" MIMETYPE="image/jpeg" SEQ="20" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-020"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-021-large" GROUPID="VAA4025-102-1-021" MIMETYPE="image/jpeg" SEQ="21" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-021"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-022-large" GROUPID="VAA4025-102-1-022" MIMETYPE="image/jpeg" SEQ="22" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-022"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-023-large" GROUPID="VAA4025-102-1-023" MIMETYPE="image/jpeg" SEQ="23" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-023"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-024-large" GROUPID="VAA4025-102-1-024" MIMETYPE="image/jpeg" SEQ="24" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-024"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-025-large" GROUPID="VAA4025-102-1-025" MIMETYPE="image/jpeg" SEQ="25" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-025"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-026-large" GROUPID="VAA4025-102-1-026" MIMETYPE="image/jpeg" SEQ="26" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-026"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-027-large" GROUPID="VAA4025-102-1-027" MIMETYPE="image/jpeg" SEQ="27" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-027"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-028-large" GROUPID="VAA4025-102-1-028" MIMETYPE="image/jpeg" SEQ="28" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-028"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-029-large" GROUPID="VAA4025-102-1-029" MIMETYPE="image/jpeg" SEQ="29" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-029"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-030-large" GROUPID="VAA4025-102-1-030" MIMETYPE="image/jpeg" SEQ="30" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-030"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-031-large" GROUPID="VAA4025-102-1-031" MIMETYPE="image/jpeg" SEQ="31" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-031"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-032-large" GROUPID="VAA4025-102-1-032" MIMETYPE="image/jpeg" SEQ="32" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-032"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-033-large" GROUPID="VAA4025-102-1-033" MIMETYPE="image/jpeg" SEQ="33" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-033"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-034-large" GROUPID="VAA4025-102-1-034" MIMETYPE="image/jpeg" SEQ="34" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-034"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-035-large" GROUPID="VAA4025-102-1-035" MIMETYPE="image/jpeg" SEQ="35" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-035"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-036-large" GROUPID="VAA4025-102-1-036" MIMETYPE="image/jpeg" SEQ="36" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-036"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-037-large" GROUPID="VAA4025-102-1-037" MIMETYPE="image/jpeg" SEQ="37" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-037"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-038-large" GROUPID="VAA4025-102-1-038" MIMETYPE="image/jpeg" SEQ="38" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-038"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-039-large" GROUPID="VAA4025-102-1-039" MIMETYPE="image/jpeg" SEQ="39" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-039"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-040-large" GROUPID="VAA4025-102-1-040" MIMETYPE="image/jpeg" SEQ="40" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-040"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-041-large" GROUPID="VAA4025-102-1-041" MIMETYPE="image/jpeg" SEQ="41" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-041"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-042-large" GROUPID="VAA4025-102-1-042" MIMETYPE="image/jpeg" SEQ="42" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-042"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-043-large" GROUPID="VAA4025-102-1-043" MIMETYPE="image/jpeg" SEQ="43" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-043"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-044-large" GROUPID="VAA4025-102-1-044" MIMETYPE="image/jpeg" SEQ="44" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-044"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-045-large" GROUPID="VAA4025-102-1-045" MIMETYPE="image/jpeg" SEQ="45" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-045"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-046-large" GROUPID="VAA4025-102-1-046" MIMETYPE="image/jpeg" SEQ="46" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-046"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-047-large" GROUPID="VAA4025-102-1-047" MIMETYPE="image/jpeg" SEQ="47" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-047"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-048-large" GROUPID="VAA4025-102-1-048" MIMETYPE="image/jpeg" SEQ="48" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-048"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-049-large" GROUPID="VAA4025-102-1-049" MIMETYPE="image/jpeg" SEQ="49" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-049"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-050-large" GROUPID="VAA4025-102-1-050" MIMETYPE="image/jpeg" SEQ="50" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-050"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-051-large" GROUPID="VAA4025-102-1-051" MIMETYPE="image/jpeg" SEQ="51" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-051"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-052-large" GROUPID="VAA4025-102-1-052" MIMETYPE="image/jpeg" SEQ="52" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-052"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-053-large" GROUPID="VAA4025-102-1-053" MIMETYPE="image/jpeg" SEQ="53" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-053"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-054-large" GROUPID="VAA4025-102-1-054" MIMETYPE="image/jpeg" SEQ="54" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-054"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-055-large" GROUPID="VAA4025-102-1-055" MIMETYPE="image/jpeg" SEQ="55" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-055"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-056-large" GROUPID="VAA4025-102-1-056" MIMETYPE="image/jpeg" SEQ="56" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-056"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-057-large" GROUPID="VAA4025-102-1-057" MIMETYPE="image/jpeg" SEQ="57" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-057"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-058-large" GROUPID="VAA4025-102-1-058" MIMETYPE="image/jpeg" SEQ="58" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-058"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-059-large" GROUPID="VAA4025-102-1-059" MIMETYPE="image/jpeg" SEQ="59" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-059"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-060-large" GROUPID="VAA4025-102-1-060" MIMETYPE="image/jpeg" SEQ="60" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-060"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-061-large" GROUPID="VAA4025-102-1-061" MIMETYPE="image/jpeg" SEQ="61" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-061"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-062-large" GROUPID="VAA4025-102-1-062" MIMETYPE="image/jpeg" SEQ="62" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-062"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-063-large" GROUPID="VAA4025-102-1-063" MIMETYPE="image/jpeg" SEQ="63" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-063"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-064-large" GROUPID="VAA4025-102-1-064" MIMETYPE="image/jpeg" SEQ="64" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-064"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-065-large" GROUPID="VAA4025-102-1-065" MIMETYPE="image/jpeg" SEQ="65" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-065"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-066-large" GROUPID="VAA4025-102-1-066" MIMETYPE="image/jpeg" SEQ="66" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-066"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-067-large" GROUPID="VAA4025-102-1-067" MIMETYPE="image/jpeg" SEQ="67" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-067"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-068-large" GROUPID="VAA4025-102-1-068" MIMETYPE="image/jpeg" SEQ="68" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-068"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-069-large" GROUPID="VAA4025-102-1-069" MIMETYPE="image/jpeg" SEQ="69" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-069"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-070-large" GROUPID="VAA4025-102-1-070" MIMETYPE="image/jpeg" SEQ="70" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-070"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-071-large" GROUPID="VAA4025-102-1-071" MIMETYPE="image/jpeg" SEQ="71" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-071"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-072-large" GROUPID="VAA4025-102-1-072" MIMETYPE="image/jpeg" SEQ="72" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-072"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-073-large" GROUPID="VAA4025-102-1-073" MIMETYPE="image/jpeg" SEQ="73" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-073"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-074-large" GROUPID="VAA4025-102-1-074" MIMETYPE="image/jpeg" SEQ="74" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-074"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-075-large" GROUPID="VAA4025-102-1-075" MIMETYPE="image/jpeg" SEQ="75" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-075"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-076-large" GROUPID="VAA4025-102-1-076" MIMETYPE="image/jpeg" SEQ="76" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-076"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-077-large" GROUPID="VAA4025-102-1-077" MIMETYPE="image/jpeg" SEQ="77" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-077"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-078-large" GROUPID="VAA4025-102-1-078" MIMETYPE="image/jpeg" SEQ="78" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-078"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-079-large" GROUPID="VAA4025-102-1-079" MIMETYPE="image/jpeg" SEQ="79" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-079"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-080-large" GROUPID="VAA4025-102-1-080" MIMETYPE="image/jpeg" SEQ="80" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-080"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-081-large" GROUPID="VAA4025-102-1-081" MIMETYPE="image/jpeg" SEQ="81" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-081"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-082-large" GROUPID="VAA4025-102-1-082" MIMETYPE="image/jpeg" SEQ="82" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-082"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-083-large" GROUPID="VAA4025-102-1-083" MIMETYPE="image/jpeg" SEQ="83" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-083"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-084-large" GROUPID="VAA4025-102-1-084" MIMETYPE="image/jpeg" SEQ="84" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-084"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-085-large" GROUPID="VAA4025-102-1-085" MIMETYPE="image/jpeg" SEQ="85" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-085"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-086-large" GROUPID="VAA4025-102-1-086" MIMETYPE="image/jpeg" SEQ="86" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-086"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-087-large" GROUPID="VAA4025-102-1-087" MIMETYPE="image/jpeg" SEQ="87" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-087"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-088-large" GROUPID="VAA4025-102-1-088" MIMETYPE="image/jpeg" SEQ="88" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-088"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-089-large" GROUPID="VAA4025-102-1-089" MIMETYPE="image/jpeg" SEQ="89" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-089"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-090-large" GROUPID="VAA4025-102-1-090" MIMETYPE="image/jpeg" SEQ="90" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-090"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-091-large" GROUPID="VAA4025-102-1-091" MIMETYPE="image/jpeg" SEQ="91" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-091"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-092-large" GROUPID="VAA4025-102-1-092" MIMETYPE="image/jpeg" SEQ="92" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-092"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-093-large" GROUPID="VAA4025-102-1-093" MIMETYPE="image/jpeg" SEQ="93" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-093"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-094-large" GROUPID="VAA4025-102-1-094" MIMETYPE="image/jpeg" SEQ="94" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-094"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-095-large" GROUPID="VAA4025-102-1-095" MIMETYPE="image/jpeg" SEQ="95" USE="large">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/large/VAA4025-102-1-095"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="printable">
+      <mets:file ID="VAA4025-102-1-a01-printable" GROUPID="VAA4025-102-1-a01" MIMETYPE="application/pdf" SEQ="1" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a01"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a02-printable" GROUPID="VAA4025-102-1-a02" MIMETYPE="application/pdf" SEQ="2" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a02"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a03-printable" GROUPID="VAA4025-102-1-a03" MIMETYPE="application/pdf" SEQ="3" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a03"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a04-printable" GROUPID="VAA4025-102-1-a04" MIMETYPE="application/pdf" SEQ="4" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a04"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a05-printable" GROUPID="VAA4025-102-1-a05" MIMETYPE="application/pdf" SEQ="5" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a05"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a06-printable" GROUPID="VAA4025-102-1-a06" MIMETYPE="application/pdf" SEQ="6" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a06"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a07-printable" GROUPID="VAA4025-102-1-a07" MIMETYPE="application/pdf" SEQ="7" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a07"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a08-printable" GROUPID="VAA4025-102-1-a08" MIMETYPE="application/pdf" SEQ="8" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a08"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a09-printable" GROUPID="VAA4025-102-1-a09" MIMETYPE="application/pdf" SEQ="9" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a09"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a10-printable" GROUPID="VAA4025-102-1-a10" MIMETYPE="application/pdf" SEQ="10" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a10"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a11-printable" GROUPID="VAA4025-102-1-a11" MIMETYPE="application/pdf" SEQ="11" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a11"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a12-printable" GROUPID="VAA4025-102-1-a12" MIMETYPE="application/pdf" SEQ="12" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a12"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a13-printable" GROUPID="VAA4025-102-1-a13" MIMETYPE="application/pdf" SEQ="13" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a13"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a14-printable" GROUPID="VAA4025-102-1-a14" MIMETYPE="application/pdf" SEQ="14" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a14"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a15-printable" GROUPID="VAA4025-102-1-a15" MIMETYPE="application/pdf" SEQ="15" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a15"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a16-printable" GROUPID="VAA4025-102-1-a16" MIMETYPE="application/pdf" SEQ="16" USE="printable">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/printable/VAA4025-102-1-a16"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="encodedtext">
+      <mets:file ID="VAA4025-102-1-a01-encodedtext" GROUPID="VAA4025-102-1-a01" MIMETYPE="application/xml" SEQ="1" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a01"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a02-encodedtext" GROUPID="VAA4025-102-1-a02" MIMETYPE="application/xml" SEQ="2" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a02"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a03-encodedtext" GROUPID="VAA4025-102-1-a03" MIMETYPE="application/xml" SEQ="3" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a03"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a04-encodedtext" GROUPID="VAA4025-102-1-a04" MIMETYPE="application/xml" SEQ="4" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a04"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a05-encodedtext" GROUPID="VAA4025-102-1-a05" MIMETYPE="application/xml" SEQ="5" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a05"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a06-encodedtext" GROUPID="VAA4025-102-1-a06" MIMETYPE="application/xml" SEQ="6" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a06"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a07-encodedtext" GROUPID="VAA4025-102-1-a07" MIMETYPE="application/xml" SEQ="7" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a07"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a08-encodedtext" GROUPID="VAA4025-102-1-a08" MIMETYPE="application/xml" SEQ="8" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a08"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a09-encodedtext" GROUPID="VAA4025-102-1-a09" MIMETYPE="application/xml" SEQ="9" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a09"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a10-encodedtext" GROUPID="VAA4025-102-1-a10" MIMETYPE="application/xml" SEQ="10" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a10"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a11-encodedtext" GROUPID="VAA4025-102-1-a11" MIMETYPE="application/xml" SEQ="11" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a11"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a12-encodedtext" GROUPID="VAA4025-102-1-a12" MIMETYPE="application/xml" SEQ="12" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a12"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a13-encodedtext" GROUPID="VAA4025-102-1-a13" MIMETYPE="application/xml" SEQ="13" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a13"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a14-encodedtext" GROUPID="VAA4025-102-1-a14" MIMETYPE="application/xml" SEQ="14" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a14"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a15-encodedtext" GROUPID="VAA4025-102-1-a15" MIMETYPE="application/xml" SEQ="15" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a15"/>
+      </mets:file>
+      <mets:file ID="VAA4025-102-1-a16-encodedtext" GROUPID="VAA4025-102-1-a16" MIMETYPE="application/xml" SEQ="16" USE="encodedtext">
+        <mets:FLocat LOCTYPE="PURL" xlink:href="http://purl.dlib.indiana.edu/iudl/imh/encodedtext/VAA4025-102-1-a16"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="physical">
+    <mets:div ORDER="1" LABEL="Indiana Magazine of History, Vol. 102, No. 1">
+      <mets:div TYPE="page" ORDER="1" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-001-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-001-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="2" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-002-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-002-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="3" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-003-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-003-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="4" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-004-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-004-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="5" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-005-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-005-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="6" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-006-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-006-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="7" ORDERLABEL="[1]">
+        <mets:fptr FILEID="VAA4025-102-1-007-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-007-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="8" ORDERLABEL="2">
+        <mets:fptr FILEID="VAA4025-102-1-008-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-008-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="9" ORDERLABEL="3">
+        <mets:fptr FILEID="VAA4025-102-1-009-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-009-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="10" ORDERLABEL="4">
+        <mets:fptr FILEID="VAA4025-102-1-010-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-010-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="11" ORDERLABEL="5">
+        <mets:fptr FILEID="VAA4025-102-1-011-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-011-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="12" ORDERLABEL="6">
+        <mets:fptr FILEID="VAA4025-102-1-012-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-012-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="13" ORDERLABEL="7">
+        <mets:fptr FILEID="VAA4025-102-1-013-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-013-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="14" ORDERLABEL="[8]">
+        <mets:fptr FILEID="VAA4025-102-1-014-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-014-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="15" ORDERLABEL="9">
+        <mets:fptr FILEID="VAA4025-102-1-015-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-015-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="16" ORDERLABEL="10">
+        <mets:fptr FILEID="VAA4025-102-1-016-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-016-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="17" ORDERLABEL="11">
+        <mets:fptr FILEID="VAA4025-102-1-017-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-017-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="18" ORDERLABEL="12">
+        <mets:fptr FILEID="VAA4025-102-1-018-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-018-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="19" ORDERLABEL="13">
+        <mets:fptr FILEID="VAA4025-102-1-019-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-019-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="20" ORDERLABEL="14">
+        <mets:fptr FILEID="VAA4025-102-1-020-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-020-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="21" ORDERLABEL="15">
+        <mets:fptr FILEID="VAA4025-102-1-021-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-021-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="22" ORDERLABEL="16">
+        <mets:fptr FILEID="VAA4025-102-1-022-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-022-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="23" ORDERLABEL="17">
+        <mets:fptr FILEID="VAA4025-102-1-023-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-023-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="24" ORDERLABEL="18">
+        <mets:fptr FILEID="VAA4025-102-1-024-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-024-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="25" ORDERLABEL="19">
+        <mets:fptr FILEID="VAA4025-102-1-025-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-025-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="26" ORDERLABEL="20">
+        <mets:fptr FILEID="VAA4025-102-1-026-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-026-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="27" ORDERLABEL="21">
+        <mets:fptr FILEID="VAA4025-102-1-027-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-027-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="28" ORDERLABEL="22">
+        <mets:fptr FILEID="VAA4025-102-1-028-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-028-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="29" ORDERLABEL="23">
+        <mets:fptr FILEID="VAA4025-102-1-029-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-029-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="30" ORDERLABEL="24">
+        <mets:fptr FILEID="VAA4025-102-1-030-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-030-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="31" ORDERLABEL="[25]">
+        <mets:fptr FILEID="VAA4025-102-1-031-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-031-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="32" ORDERLABEL="26">
+        <mets:fptr FILEID="VAA4025-102-1-032-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-032-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="33" ORDERLABEL="27">
+        <mets:fptr FILEID="VAA4025-102-1-033-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-033-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="34" ORDERLABEL="28">
+        <mets:fptr FILEID="VAA4025-102-1-034-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-034-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="35" ORDERLABEL="[29]">
+        <mets:fptr FILEID="VAA4025-102-1-035-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-035-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="36" ORDERLABEL="30">
+        <mets:fptr FILEID="VAA4025-102-1-036-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-036-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="37" ORDERLABEL="31">
+        <mets:fptr FILEID="VAA4025-102-1-037-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-037-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="38" ORDERLABEL="32">
+        <mets:fptr FILEID="VAA4025-102-1-038-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-038-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="39" ORDERLABEL="33">
+        <mets:fptr FILEID="VAA4025-102-1-039-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-039-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="40" ORDERLABEL="34">
+        <mets:fptr FILEID="VAA4025-102-1-040-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-040-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="41" ORDERLABEL="35">
+        <mets:fptr FILEID="VAA4025-102-1-041-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-041-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="42" ORDERLABEL="36">
+        <mets:fptr FILEID="VAA4025-102-1-042-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-042-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="43" ORDERLABEL="37">
+        <mets:fptr FILEID="VAA4025-102-1-043-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-043-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="44" ORDERLABEL="38">
+        <mets:fptr FILEID="VAA4025-102-1-044-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-044-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="45" ORDERLABEL="39">
+        <mets:fptr FILEID="VAA4025-102-1-045-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-045-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="46" ORDERLABEL="40">
+        <mets:fptr FILEID="VAA4025-102-1-046-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-046-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="47" ORDERLABEL="[41]">
+        <mets:fptr FILEID="VAA4025-102-1-047-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-047-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="48" ORDERLABEL="42">
+        <mets:fptr FILEID="VAA4025-102-1-048-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-048-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="49" ORDERLABEL="43">
+        <mets:fptr FILEID="VAA4025-102-1-049-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-049-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="50" ORDERLABEL="44">
+        <mets:fptr FILEID="VAA4025-102-1-050-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-050-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="51" ORDERLABEL="45">
+        <mets:fptr FILEID="VAA4025-102-1-051-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-051-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="52" ORDERLABEL="46">
+        <mets:fptr FILEID="VAA4025-102-1-052-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-052-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="53" ORDERLABEL="47">
+        <mets:fptr FILEID="VAA4025-102-1-053-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-053-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="54" ORDERLABEL="48">
+        <mets:fptr FILEID="VAA4025-102-1-054-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-054-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="55" ORDERLABEL="49">
+        <mets:fptr FILEID="VAA4025-102-1-055-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-055-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="56" ORDERLABEL="50">
+        <mets:fptr FILEID="VAA4025-102-1-056-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-056-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="57" ORDERLABEL="51">
+        <mets:fptr FILEID="VAA4025-102-1-057-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-057-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="58" ORDERLABEL="52">
+        <mets:fptr FILEID="VAA4025-102-1-058-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-058-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="59" ORDERLABEL="53">
+        <mets:fptr FILEID="VAA4025-102-1-059-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-059-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="60" ORDERLABEL="54">
+        <mets:fptr FILEID="VAA4025-102-1-060-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-060-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="61" ORDERLABEL="55">
+        <mets:fptr FILEID="VAA4025-102-1-061-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-061-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="62" ORDERLABEL="56">
+        <mets:fptr FILEID="VAA4025-102-1-062-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-062-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="63" ORDERLABEL="57">
+        <mets:fptr FILEID="VAA4025-102-1-063-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-063-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="64" ORDERLABEL="58">
+        <mets:fptr FILEID="VAA4025-102-1-064-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-064-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="65" ORDERLABEL="59">
+        <mets:fptr FILEID="VAA4025-102-1-065-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-065-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="66" ORDERLABEL="60">
+        <mets:fptr FILEID="VAA4025-102-1-066-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-066-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="67" ORDERLABEL="61">
+        <mets:fptr FILEID="VAA4025-102-1-067-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-067-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="68" ORDERLABEL="62">
+        <mets:fptr FILEID="VAA4025-102-1-068-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-068-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="69" ORDERLABEL="[63]">
+        <mets:fptr FILEID="VAA4025-102-1-069-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-069-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="70" ORDERLABEL="64">
+        <mets:fptr FILEID="VAA4025-102-1-070-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-070-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="71" ORDERLABEL="65">
+        <mets:fptr FILEID="VAA4025-102-1-071-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-071-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="72" ORDERLABEL="66">
+        <mets:fptr FILEID="VAA4025-102-1-072-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-072-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="73" ORDERLABEL="67">
+        <mets:fptr FILEID="VAA4025-102-1-073-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-073-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="74" ORDERLABEL="68">
+        <mets:fptr FILEID="VAA4025-102-1-074-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-074-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="75" ORDERLABEL="69">
+        <mets:fptr FILEID="VAA4025-102-1-075-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-075-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="76" ORDERLABEL="70">
+        <mets:fptr FILEID="VAA4025-102-1-076-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-076-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="77" ORDERLABEL="71">
+        <mets:fptr FILEID="VAA4025-102-1-077-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-077-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="78" ORDERLABEL="72">
+        <mets:fptr FILEID="VAA4025-102-1-078-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-078-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="79" ORDERLABEL="73">
+        <mets:fptr FILEID="VAA4025-102-1-079-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-079-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="80" ORDERLABEL="74">
+        <mets:fptr FILEID="VAA4025-102-1-080-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-080-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="81" ORDERLABEL="75">
+        <mets:fptr FILEID="VAA4025-102-1-081-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-081-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="82" ORDERLABEL="76">
+        <mets:fptr FILEID="VAA4025-102-1-082-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-082-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="83" ORDERLABEL="77">
+        <mets:fptr FILEID="VAA4025-102-1-083-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-083-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="84" ORDERLABEL="78">
+        <mets:fptr FILEID="VAA4025-102-1-084-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-084-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="85" ORDERLABEL="79">
+        <mets:fptr FILEID="VAA4025-102-1-085-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-085-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="86" ORDERLABEL="80">
+        <mets:fptr FILEID="VAA4025-102-1-086-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-086-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="87" ORDERLABEL="81">
+        <mets:fptr FILEID="VAA4025-102-1-087-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-087-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="88" ORDERLABEL="82">
+        <mets:fptr FILEID="VAA4025-102-1-088-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-088-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="89" ORDERLABEL="83">
+        <mets:fptr FILEID="VAA4025-102-1-089-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-089-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="90" ORDERLABEL="84">
+        <mets:fptr FILEID="VAA4025-102-1-090-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-090-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="91" ORDERLABEL="85">
+        <mets:fptr FILEID="VAA4025-102-1-091-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-091-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="92" ORDERLABEL="86">
+        <mets:fptr FILEID="VAA4025-102-1-092-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-092-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="93" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-093-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-093-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="94" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-094-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-094-large"/>
+      </mets:div>
+      <mets:div TYPE="page" ORDER="95" ORDERLABEL="[]">
+        <mets:fptr FILEID="VAA4025-102-1-095-screen"/>
+        <mets:fptr FILEID="VAA4025-102-1-095-large"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="logical">
+    <mets:div ORDER="1" LABEL="Indiana Magazine of History, Vol. 102, No. 1">
+      <mets:div ORDER="1" TYPE="frontmatter" LABEL="Front Matter">
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-001-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-001-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-002-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-002-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-003-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-003-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-004-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-004-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="5" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-005-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-005-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="6" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-006-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-006-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="2" TYPE="scholarlyArticle" LABEL="Dawn E. Bakken, A Young Hoosier's Adventures on the Mississippi River" ID="VAA4025-102-1-a01" DMDID="VAA4025-102-1-a01-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a01-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a01-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[1]">
+          <mets:fptr FILEID="VAA4025-102-1-007-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-007-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="2">
+          <mets:fptr FILEID="VAA4025-102-1-008-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-008-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="3">
+          <mets:fptr FILEID="VAA4025-102-1-009-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-009-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="4">
+          <mets:fptr FILEID="VAA4025-102-1-010-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-010-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="5" ORDERLABEL="5">
+          <mets:fptr FILEID="VAA4025-102-1-011-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-011-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="6" ORDERLABEL="6">
+          <mets:fptr FILEID="VAA4025-102-1-012-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-012-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="7" ORDERLABEL="7">
+          <mets:fptr FILEID="VAA4025-102-1-013-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-013-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="3" TYPE="scholarlyArticle" LABEL="Asbury C Jaquess, &#34;The Journals of the Davy Crockett commencing December 20th 1834" ID="VAA4025-102-1-a02" DMDID="VAA4025-102-1-a02-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a02-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a02-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[8]">
+          <mets:fptr FILEID="VAA4025-102-1-014-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-014-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="9">
+          <mets:fptr FILEID="VAA4025-102-1-015-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-015-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="10">
+          <mets:fptr FILEID="VAA4025-102-1-016-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-016-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="11">
+          <mets:fptr FILEID="VAA4025-102-1-017-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-017-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="5" ORDERLABEL="12">
+          <mets:fptr FILEID="VAA4025-102-1-018-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-018-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="6" ORDERLABEL="13">
+          <mets:fptr FILEID="VAA4025-102-1-019-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-019-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="7" ORDERLABEL="14">
+          <mets:fptr FILEID="VAA4025-102-1-020-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-020-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="8" ORDERLABEL="15">
+          <mets:fptr FILEID="VAA4025-102-1-021-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-021-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="9" ORDERLABEL="16">
+          <mets:fptr FILEID="VAA4025-102-1-022-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-022-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="10" ORDERLABEL="17">
+          <mets:fptr FILEID="VAA4025-102-1-023-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-023-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="11" ORDERLABEL="18">
+          <mets:fptr FILEID="VAA4025-102-1-024-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-024-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="12" ORDERLABEL="19">
+          <mets:fptr FILEID="VAA4025-102-1-025-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-025-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="13" ORDERLABEL="20">
+          <mets:fptr FILEID="VAA4025-102-1-026-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-026-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="14" ORDERLABEL="21">
+          <mets:fptr FILEID="VAA4025-102-1-027-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-027-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="15" ORDERLABEL="22">
+          <mets:fptr FILEID="VAA4025-102-1-028-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-028-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="16" ORDERLABEL="23">
+          <mets:fptr FILEID="VAA4025-102-1-029-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-029-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="17" ORDERLABEL="24">
+          <mets:fptr FILEID="VAA4025-102-1-030-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-030-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="4" TYPE="scholarlyArticle" LABEL="Thomas C. Buchanan, Race and (In)justice on the Mississippi An Episode from &#34;The Journals of the Davy Crockett&#34;" ID="VAA4025-102-1-a03" DMDID="VAA4025-102-1-a03-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a03-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a03-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[25]">
+          <mets:fptr FILEID="VAA4025-102-1-031-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-031-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="26">
+          <mets:fptr FILEID="VAA4025-102-1-032-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-032-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="27">
+          <mets:fptr FILEID="VAA4025-102-1-033-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-033-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="28">
+          <mets:fptr FILEID="VAA4025-102-1-034-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-034-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="5" TYPE="scholarlyArticle" LABEL="Walter J. Daly, The &#34;Slows&#34; The Torment of Milk Sickness on the Midwest Frontier" ID="VAA4025-102-1-a04" DMDID="VAA4025-102-1-a04-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a04-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a04-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[29]">
+          <mets:fptr FILEID="VAA4025-102-1-035-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-035-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="30">
+          <mets:fptr FILEID="VAA4025-102-1-036-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-036-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="31">
+          <mets:fptr FILEID="VAA4025-102-1-037-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-037-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="32">
+          <mets:fptr FILEID="VAA4025-102-1-038-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-038-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="5" ORDERLABEL="33">
+          <mets:fptr FILEID="VAA4025-102-1-039-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-039-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="6" ORDERLABEL="34">
+          <mets:fptr FILEID="VAA4025-102-1-040-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-040-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="7" ORDERLABEL="35">
+          <mets:fptr FILEID="VAA4025-102-1-041-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-041-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="8" ORDERLABEL="36">
+          <mets:fptr FILEID="VAA4025-102-1-042-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-042-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="9" ORDERLABEL="37">
+          <mets:fptr FILEID="VAA4025-102-1-043-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-043-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="10" ORDERLABEL="38">
+          <mets:fptr FILEID="VAA4025-102-1-044-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-044-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="11" ORDERLABEL="39">
+          <mets:fptr FILEID="VAA4025-102-1-045-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-045-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="12" ORDERLABEL="40">
+          <mets:fptr FILEID="VAA4025-102-1-046-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-046-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="6" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a05" DMDID="VAA4025-102-1-a05-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a05-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a05-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[41]">
+          <mets:fptr FILEID="VAA4025-102-1-047-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-047-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="42">
+          <mets:fptr FILEID="VAA4025-102-1-048-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-048-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="43">
+          <mets:fptr FILEID="VAA4025-102-1-049-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-049-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="44">
+          <mets:fptr FILEID="VAA4025-102-1-050-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-050-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="5" ORDERLABEL="45">
+          <mets:fptr FILEID="VAA4025-102-1-051-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-051-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="7" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a06" DMDID="VAA4025-102-1-a06-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a06-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a06-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="45">
+          <mets:fptr FILEID="VAA4025-102-1-051-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-051-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="46">
+          <mets:fptr FILEID="VAA4025-102-1-052-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-052-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="8" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a07" DMDID="VAA4025-102-1-a07-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a07-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a07-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="47">
+          <mets:fptr FILEID="VAA4025-102-1-053-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-053-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="48">
+          <mets:fptr FILEID="VAA4025-102-1-054-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-054-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="9" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a08" DMDID="VAA4025-102-1-a08-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a08-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a08-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="48">
+          <mets:fptr FILEID="VAA4025-102-1-054-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-054-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="49">
+          <mets:fptr FILEID="VAA4025-102-1-055-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-055-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="50">
+          <mets:fptr FILEID="VAA4025-102-1-056-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-056-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="10" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a09" DMDID="VAA4025-102-1-a09-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a09-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a09-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="50">
+          <mets:fptr FILEID="VAA4025-102-1-056-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-056-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="51">
+          <mets:fptr FILEID="VAA4025-102-1-057-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-057-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="11" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a10" DMDID="VAA4025-102-1-a10-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a10-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a10-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="51">
+          <mets:fptr FILEID="VAA4025-102-1-057-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-057-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="52">
+          <mets:fptr FILEID="VAA4025-102-1-058-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-058-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="53">
+          <mets:fptr FILEID="VAA4025-102-1-059-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-059-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="12" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a11" DMDID="VAA4025-102-1-a11-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a11-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a11-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="53">
+          <mets:fptr FILEID="VAA4025-102-1-059-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-059-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="54">
+          <mets:fptr FILEID="VAA4025-102-1-060-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-060-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="13" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a12" DMDID="VAA4025-102-1-a12-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a12-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a12-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="54">
+          <mets:fptr FILEID="VAA4025-102-1-060-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-060-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="55">
+          <mets:fptr FILEID="VAA4025-102-1-061-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-061-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="56">
+          <mets:fptr FILEID="VAA4025-102-1-062-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-062-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="14" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a13" DMDID="VAA4025-102-1-a13-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a13-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a13-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="56">
+          <mets:fptr FILEID="VAA4025-102-1-062-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-062-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="57">
+          <mets:fptr FILEID="VAA4025-102-1-063-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-063-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="15" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a14" DMDID="VAA4025-102-1-a14-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a14-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a14-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="58">
+          <mets:fptr FILEID="VAA4025-102-1-064-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-064-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="59">
+          <mets:fptr FILEID="VAA4025-102-1-065-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-065-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="16" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a15" DMDID="VAA4025-102-1-a15-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a15-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a15-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="59">
+          <mets:fptr FILEID="VAA4025-102-1-065-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-065-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="60">
+          <mets:fptr FILEID="VAA4025-102-1-066-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-066-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="17" TYPE="bookReview" LABEL="" ID="VAA4025-102-1-a16" DMDID="VAA4025-102-1-a16-dmd">
+        <mets:fptr FILEID="VAA4025-102-1-a16-printable"/>
+        <mets:fptr FILEID="VAA4025-102-1-a16-encodedtext"/>
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="61">
+          <mets:fptr FILEID="VAA4025-102-1-067-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-067-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="62">
+          <mets:fptr FILEID="VAA4025-102-1-068-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-068-large"/>
+        </mets:div>
+      </mets:div>
+      <mets:div ORDER="17" TYPE="backmatter" LABEL="Back Matter">
+        <mets:div TYPE="page" ORDER="1" ORDERLABEL="[63]">
+          <mets:fptr FILEID="VAA4025-102-1-069-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-069-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="2" ORDERLABEL="64">
+          <mets:fptr FILEID="VAA4025-102-1-070-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-070-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="3" ORDERLABEL="65">
+          <mets:fptr FILEID="VAA4025-102-1-071-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-071-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="4" ORDERLABEL="66">
+          <mets:fptr FILEID="VAA4025-102-1-072-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-072-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="5" ORDERLABEL="67">
+          <mets:fptr FILEID="VAA4025-102-1-073-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-073-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="6" ORDERLABEL="68">
+          <mets:fptr FILEID="VAA4025-102-1-074-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-074-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="7" ORDERLABEL="69">
+          <mets:fptr FILEID="VAA4025-102-1-075-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-075-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="8" ORDERLABEL="70">
+          <mets:fptr FILEID="VAA4025-102-1-076-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-076-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="9" ORDERLABEL="71">
+          <mets:fptr FILEID="VAA4025-102-1-077-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-077-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="10" ORDERLABEL="72">
+          <mets:fptr FILEID="VAA4025-102-1-078-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-078-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="11" ORDERLABEL="73">
+          <mets:fptr FILEID="VAA4025-102-1-079-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-079-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="12" ORDERLABEL="74">
+          <mets:fptr FILEID="VAA4025-102-1-080-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-080-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="13" ORDERLABEL="75">
+          <mets:fptr FILEID="VAA4025-102-1-081-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-081-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="14" ORDERLABEL="76">
+          <mets:fptr FILEID="VAA4025-102-1-082-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-082-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="15" ORDERLABEL="77">
+          <mets:fptr FILEID="VAA4025-102-1-083-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-083-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="16" ORDERLABEL="78">
+          <mets:fptr FILEID="VAA4025-102-1-084-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-084-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="17" ORDERLABEL="79">
+          <mets:fptr FILEID="VAA4025-102-1-085-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-085-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="18" ORDERLABEL="80">
+          <mets:fptr FILEID="VAA4025-102-1-086-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-086-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="19" ORDERLABEL="81">
+          <mets:fptr FILEID="VAA4025-102-1-087-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-087-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="20" ORDERLABEL="82">
+          <mets:fptr FILEID="VAA4025-102-1-088-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-088-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="21" ORDERLABEL="83">
+          <mets:fptr FILEID="VAA4025-102-1-089-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-089-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="22" ORDERLABEL="84">
+          <mets:fptr FILEID="VAA4025-102-1-090-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-090-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="23" ORDERLABEL="85">
+          <mets:fptr FILEID="VAA4025-102-1-091-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-091-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="24" ORDERLABEL="86">
+          <mets:fptr FILEID="VAA4025-102-1-092-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-092-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="25" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-093-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-093-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="26" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-094-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-094-large"/>
+        </mets:div>
+        <mets:div TYPE="page" ORDER="27" ORDERLABEL="[]">
+          <mets:fptr FILEID="VAA4025-102-1-095-screen"/>
+          <mets:fptr FILEID="VAA4025-102-1-095-large"/>
+        </mets:div>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
