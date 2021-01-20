@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../esquemas/edicion_variantes.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
    <!-- ENCABEZADO TEI  -->
@@ -25,7 +26,9 @@
 
          <!-- INFORMACIÓN SOBRE LA EDICIÓN-->
          <editionStmt>
-            <edition n="1"><date when="2017-11">Noviembre de 2017</date></edition>
+            <edition n="1">
+               <date when="2017-11">Noviembre de 2017</date>
+            </edition>
          </editionStmt>
 
          <!-- INFORMACIÓN SOBRE LA PUBLICACIÓN -->
@@ -342,8 +345,10 @@
       </fileDesc>
 
       <profileDesc>
-         <creation when="1600"/>
+         <creation when="1600">1600</creation>
       </profileDesc>
+
+
 
    </teiHeader>
 
