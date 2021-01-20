@@ -11,6 +11,9 @@
 
             <assert test="tei:fileDesc">A &lt;teiHeader&gt; element must contain a &lt;fileDesc&gt; element.</assert>
 
+            <assert test="tei:profileDesc">A &lt;teiHeader&gt; element must contain a &lt;profileDesc&gt; element.</assert>
+            
+
         </rule>
 
         <!-- elements allowed in the fileDesc -->
