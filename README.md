@@ -6,7 +6,7 @@ El propósito de este taller es ofrecer una introducción a la edición digital 
 1.	Codificar con TEI textos poéticos del Siglo de Oro español en doble presentación, con notas y aparato de variantes.
 2.	Realizar transformaciones sencillas de documentos XML/TEI en formato HTML con hojas de estilo XSLT.
 3.	Utilizar las principales funcionalidades de la herramienta Stylo con el objetivo de analizar textos literarios.
-Sesiones
+
 
 ## Programa
 
